@@ -1,0 +1,334 @@
+WEBVTT
+
+00:00.420 --> 00:04.580
+We'll come back in this video we are going to prepare our BMI calculator.
+
+00:04.590 --> 00:11.150
+So you are supposed to build a BMI calculator and of course you can go ahead and tried by yourself already
+
+00:11.400 --> 00:14.370
+but you will actually get the exercise in the next video.
+
+00:14.370 --> 00:17.580
+But for now let's create the UI for it first.
+
+00:17.700 --> 00:22.630
+What we want need is we need this input any more and neither does button.
+
+00:22.650 --> 00:30.570
+I'm going to pretty much create a form so I'm going to use a form lay out and let me direct that in
+
+00:30.810 --> 00:36.450
+as you can see down the form layout takes up the whole space already and that's because my central widget
+
+00:36.960 --> 00:41.480
+is here is selected as a lay out in a grid.
+
+00:41.530 --> 00:46.620
+So if I break the law out you can see now suddenly this small little area here.
+
+00:46.780 --> 00:53.230
+But I actually wanted to be the whole screen so I just take the lay out in a grid so I press this button
+
+00:53.230 --> 00:53.670
+here.
+
+00:53.920 --> 00:54.190
+OK.
+
+00:54.190 --> 01:03.990
+Now in here I would like to use several elements and one of them is going to be a spin box but it's
+
+01:03.990 --> 01:12.760
+double spin box so the user can actually select to enter something but his size in meters.
+
+01:12.790 --> 01:15.560
+So it's like one point something.
+
+01:15.790 --> 01:19.300
+And what he needs of course is a label here as well.
+
+01:19.300 --> 01:28.480
+So let me add the label to the left and I'm just going to call the label body size and or a scale with
+
+01:28.810 --> 01:32.000
+height 10 meters.
+
+01:32.890 --> 01:33.400
+OK.
+
+01:33.430 --> 01:35.110
+So that's number one.
+
+01:35.230 --> 01:42.760
+Then another spin box but this time in normal one and this bin box should be the weight in kilograms
+
+01:42.820 --> 01:45.750
+and it's just full numbers or whole numbers.
+
+01:45.990 --> 01:46.590
+OK.
+
+01:46.750 --> 01:49.150
+So I need the label here as well.
+
+01:49.360 --> 01:55.980
+And let me add the label and this one will be weight in kilograms.
+
+01:56.830 --> 02:00.770
+Then I will need the button to calculate it.
+
+02:00.940 --> 02:04.270
+So that me Dragon a push button.
+
+02:04.690 --> 02:14.190
+And then when you eat another label below the push button which will indicate the actual body mass index.
+
+02:14.680 --> 02:21.550
+So I'm just going to add a number in here and then another label which will actually say that this is
+
+02:21.550 --> 02:25.260
+the Body Mass Index so your BMI is.
+
+02:25.720 --> 02:29.180
+And then the actual value here.
+
+02:29.210 --> 02:29.860
+All right.
+
+02:29.860 --> 02:33.160
+So that's pretty much our why for it.
+
+02:33.160 --> 02:34.910
+I would like to make some changes though.
+
+02:34.930 --> 02:43.540
+So for example pushbuttons shouldn't say push button but it should say something like calculate BMI.
+
+02:44.230 --> 02:49.510
+Then here this weight in kilograms while we're at it I would like to show you something.
+
+02:49.570 --> 02:54.430
+So let's say you would like to make this in a capital letter.
+
+02:54.760 --> 03:07.180
+So if you look at this label you'll find that it has a property here for its CULE label for a text format
+
+03:07.540 --> 03:09.280
+which says all the text.
+
+03:09.610 --> 03:17.110
+Now plain text is just very basic text rich text however is going to be something that we can adjust
+
+03:17.140 --> 03:18.520
+in a very nice way.
+
+03:18.730 --> 03:25.740
+So instead of just saying height in AM I can make this in bold.
+
+03:25.780 --> 03:29.300
+And how do I do that well with HDMI paging code.
+
+03:29.470 --> 03:36.250
+So I'm using the strong tag here and it's a little difficult to read.
+
+03:36.490 --> 03:39.690
+But let me click on it.
+
+03:39.700 --> 03:43.340
+You can see height in it.
+
+03:43.430 --> 03:48.910
+You can double click the label in order to see that it takes a little better so you see height in M
+
+03:48.940 --> 03:50.920
+and N is now bold.
+
+03:51.040 --> 03:53.310
+You can see the source that's the source that I created.
+
+03:53.350 --> 03:57.890
+So I just said strong in so strong is only this in.
+
+03:58.020 --> 03:58.570
+OK.
+
+03:58.720 --> 04:06.400
+But you can now change the source any time so you could change generally the font size to let's say
+
+04:06.400 --> 04:07.200
+14.
+
+04:07.270 --> 04:11.440
+It's a lot more readable the same with this weight in kilograms.
+
+04:11.440 --> 04:16.030
+You could change it from autotext to rich text.
+
+04:16.030 --> 04:19.020
+Now you can right click on it and change to rich text.
+
+04:19.030 --> 04:27.190
+As you can see now it could also change to font size here and make this in Bold and the same with your
+
+04:27.190 --> 04:30.280
+B-M I so it's changed a rich text of that.
+
+04:30.670 --> 04:33.200
+Let's make it 14 as well.
+
+04:33.670 --> 04:34.230
+All right.
+
+04:34.420 --> 04:36.960
+So that's generally how you can adjust it.
+
+04:36.970 --> 04:39.140
+And that's a pretty good way of.
+
+04:39.190 --> 04:43.850
+I'd say even though it doesn't fit with the size of this element anymore.
+
+04:43.930 --> 04:55.750
+So we could change for example it's font size so let me go to the font size of it.
+
+04:56.000 --> 04:57.620
+Here is the font.
+
+04:58.160 --> 04:59.570
+And here to point size.
+
+04:59.570 --> 05:02.830
+Let's go to 14 as well.
+
+05:02.840 --> 05:06.020
+Same for this one point size 14.
+
+05:06.200 --> 05:08.700
+Same for this one point size 14.
+
+05:09.140 --> 05:11.920
+And for that one as well font size 14.
+
+05:11.990 --> 05:15.430
+So now everything is a little bigger and a little more readable.
+
+05:15.770 --> 05:17.420
+OK good.
+
+05:17.630 --> 05:19.840
+So how do we actually get those values.
+
+05:19.910 --> 05:21.890
+Let me save this wife for now.
+
+05:21.950 --> 05:23.300
+Let me quickly save it.
+
+05:23.330 --> 05:29.060
+And by the way we will need the names right so we will need the name of this double box double spin
+
+05:29.060 --> 05:29.480
+box.
+
+05:29.480 --> 05:32.930
+We will need the spin box here and so forth.
+
+05:32.930 --> 05:34.720
+So let's change those names.
+
+05:34.880 --> 05:38.620
+And this one I'm going to change the name of the weight.
+
+05:38.660 --> 05:42.800
+So this one here is going to be the weight I'm going to change it to weight.
+
+05:43.380 --> 05:50.560
+I'm going to change that one to height and I'm going to change this one here.
+
+05:51.560 --> 05:54.870
+So the label three should get a name as well.
+
+05:54.870 --> 05:56.420
+That will be the result.
+
+05:56.720 --> 06:02.960
+And now finally we only need to give the bottle a name and I'm going to call the button calculate.
+
+06:02.960 --> 06:05.850
+So call Q late.
+
+06:05.990 --> 06:09.170
+Ok so now they are a little more descriptive those names.
+
+06:09.170 --> 06:11.440
+And now you can save it again.
+
+06:11.690 --> 06:14.080
+And let's go back to our pide charm.
+
+06:14.120 --> 06:15.010
+Let's build it.
+
+06:15.050 --> 06:23.180
+So run the build Why file and I would like to quickly show you how you actually get those values so
+
+06:23.180 --> 06:25.880
+we don't have this button my button anymore.
+
+06:25.910 --> 06:31.370
+Now the button is called differently and I will just get rid of this whole code here.
+
+06:31.580 --> 06:42.070
+The only thing that I will create is I'm going to just print new or sell thought why not wait.
+
+06:42.560 --> 06:45.160
+And there is something that is called value.
+
+06:45.320 --> 06:48.820
+So you can get the value of the spin box by just saying value.
+
+06:49.070 --> 06:58.850
+And I'm going to do the same thing with the height and I can set the text of my label in the same way
+
+06:58.850 --> 07:04.220
+that we have done it before same you are self-taught UI result thought a set text.
+
+07:04.400 --> 07:07.470
+And here it can just set the text to something that one two three four.
+
+07:07.820 --> 07:14.190
+OK so let me save this and run my main real quick just to see what you get here.
+
+07:14.360 --> 07:19.410
+So you see 0 and 0 0 are given and that's the weight and the height value.
+
+07:19.580 --> 07:24.590
+So I have entered where I used them in a other order.
+
+07:24.590 --> 07:28.070
+So you could of course change the order here as well.
+
+07:28.100 --> 07:30.620
+So to me stop it and run it again.
+
+07:30.620 --> 07:33.330
+Now it has zero point zero and zero.
+
+07:33.540 --> 07:38.330
+And now this is one two three four so the BMI said two one two three four.
+
+07:38.330 --> 07:44.590
+OK so now you see already quite something but we could of course finished this BMI calculator but I'd
+
+07:44.600 --> 07:50.570
+say this is a little challenge for you which is pretty good where you can apply the knowledge that you
+
+07:50.570 --> 07:52.310
+have gained from the last videos.
+
+07:52.340 --> 07:59.570
+So I'd say See you in the next video where I will explain you watched the actual exercises so see you
+
+07:59.570 --> 08:00.040
+there.

@@ -1,0 +1,397 @@
+WEBVTT
+
+00:00.170 --> 00:02.210
+We'll come back in Python.
+
+00:02.220 --> 00:06.600
+You also have the possibility to do fine modules with the help of a folder.
+
+00:06.600 --> 00:09.320
+So we have seen how we can create a module which is a file.
+
+00:09.330 --> 00:14.640
+But in this lesson you will learn how to define modules with the help of a folder and then structure
+
+00:14.640 --> 00:16.410
+your modules better.
+
+00:16.620 --> 00:19.690
+And also what's up with the in it.
+
+00:19.800 --> 00:25.160
+That's why so on a score on the score and on the score on the score file.
+
+00:25.440 --> 00:30.770
+So let's check it out and let's go to our folder with the manuals.
+
+00:30.780 --> 00:35.660
+So the modules folder and here you can go ahead and create a new folder.
+
+00:35.670 --> 00:43.120
+So let's go ahead and press new folder and I'm going to call this folder and rename it actually.
+
+00:43.680 --> 00:53.340
+And then we go back here rename and now I would like to call this one for example Hello hem so on.
+
+00:53.370 --> 00:55.200
+It says but it's just a hello.
+
+00:55.300 --> 01:02.720
+For now this folder here is a very basic folder for now because it doesn't have any content.
+
+01:02.880 --> 01:10.710
+But if we add something in here then we can make this whole folder a module so we can use it as a module
+
+01:10.770 --> 01:13.320
+in Python so we could say something like.
+
+01:13.320 --> 01:15.790
+Import Hello.
+
+01:15.880 --> 01:16.480
+Hmm.
+
+01:16.740 --> 01:21.270
+And then we could use all the hello end functionality but now it doesn't work.
+
+01:21.270 --> 01:22.730
+So for now it doesn't work.
+
+01:22.740 --> 01:26.910
+So what we need to do is we need to add a file here.
+
+01:27.060 --> 01:38.310
+So let me create a new text file and you'll need to rename that file to underscore underscore it underscore
+
+01:38.310 --> 01:40.560
+underscore that y.
+
+01:41.130 --> 01:50.220
+And now this file will be telling our Python that this whole folder does Hellam folder is usable as
+
+01:50.340 --> 01:51.250
+a module.
+
+01:51.540 --> 01:54.510
+So let me show you that.
+
+01:55.110 --> 01:59.400
+So I'm going to restart my kernel just to be sure.
+
+01:59.460 --> 02:06.010
+And now I'm going to import hellum so no arrow came up and all is fine and that is because this in and
+
+02:06.340 --> 02:14.880
+y told him that this whole folder is a monitor and there could be a situation where a folder is not
+
+02:14.910 --> 02:20.370
+a module because Python could treat that folder also as just a source of information so there could
+
+02:20.370 --> 02:24.740
+just be some data in there multiple files which contain data for example.
+
+02:24.900 --> 02:27.260
+But as soon as this file is in there it knows.
+
+02:27.270 --> 02:27.810
+All right.
+
+02:27.810 --> 02:33.020
+We're talking about a module folder and now we can create modules in here.
+
+02:33.240 --> 02:39.060
+So for example we could go ahead and create a new file in here so I'm going to create a new text file
+
+02:40.550 --> 02:44.900
+and I'm just going to call it file or a simple file that way.
+
+02:44.940 --> 02:46.320
+And it's important that it has this.
+
+02:46.410 --> 02:49.580
+Why because now it can use it as a module.
+
+02:49.770 --> 02:54.210
+So in here I'm just going to keep it simple I'm going to have this very basic function which is called
+
+02:54.270 --> 03:07.950
+F and it's just going to say something like find out why and method have a function function f something
+
+03:07.950 --> 03:08.940
+like that.
+
+03:08.940 --> 03:12.120
+So now I'm going to save this file as you can see there's this stigma.
+
+03:12.210 --> 03:12.990
+It's saved.
+
+03:13.140 --> 03:14.960
+This file is also saved.
+
+03:15.120 --> 03:19.130
+And now I would like to use this specific file.
+
+03:19.170 --> 03:32.580
+So how can I access that now in order to use this file I can just say from Belhomme import file and
+
+03:32.610 --> 03:35.610
+I can go ahead and say something like file that f..
+
+03:35.860 --> 03:40.710
+And as you can see now it's printing me out file a Y and function f.
+
+03:41.010 --> 03:47.350
+OK so it's simply called this function here that we created this def function or a function.
+
+03:47.680 --> 03:55.850
+So we just said OK from this Hellam module or folder import the file and use it.
+
+03:56.140 --> 04:02.740
+Now you could of course think about using this approach say from hello.
+
+04:03.700 --> 04:08.310
+Import star so I don't just want to import the file.
+
+04:08.410 --> 04:10.390
+I want to import everything.
+
+04:10.420 --> 04:11.670
+Well you can do that.
+
+04:11.890 --> 04:14.480
+Now let me restart the kernel.
+
+04:14.480 --> 04:18.450
+Actually let's run this line of code but then restart the kernel.
+
+04:19.260 --> 04:27.240
+And now in here had filed that path and run it as you can see the named file is not defined.
+
+04:27.280 --> 04:28.500
+So Sunday doesn't work.
+
+04:28.510 --> 04:29.630
+Why doesn't it work.
+
+04:29.740 --> 04:30.590
+Because here.
+
+04:30.610 --> 04:33.160
+Understood OK we're wanted would use this file.
+
+04:33.430 --> 04:36.210
+And now here we just say from Hellam import everything.
+
+04:36.210 --> 04:37.610
+So file should be included.
+
+04:37.610 --> 04:38.210
+No.
+
+04:38.470 --> 04:44.100
+Well the problem here is that it's not defined in our in a file.
+
+04:44.140 --> 04:51.160
+So we need to define it in here in order for our module alone to understand what everything means.
+
+04:51.160 --> 04:57.380
+So it will only take everything that is defined in here or has been defined in here.
+
+04:57.580 --> 05:04.130
+If we specifically tell which name of a file we would like to use so we called this file file the UI
+
+05:04.540 --> 05:10.780
+if we had another file which was called module the wife for example we could import modules in here
+
+05:11.050 --> 05:17.560
+but if we want to import everything then we need to define it in here.
+
+05:17.560 --> 05:18.460
+So how do we do that.
+
+05:18.460 --> 05:21.020
+How do we define something in this way.
+
+05:21.250 --> 05:28.330
+What we need to do is to underscore underscore all underscore underscore equals and then we need to
+
+05:28.330 --> 05:32.200
+add the name or the names of the father who would like to use.
+
+05:32.320 --> 05:38.950
+So in my case I just want to use file in here so I'm going to use this line here I'm going to save that
+
+05:38.950 --> 05:41.050
+file as it is.
+
+05:41.050 --> 05:43.090
+As you can see checkmark is there.
+
+05:43.510 --> 05:45.110
+So let's test it once again.
+
+05:45.190 --> 05:46.070
+Let's run the code.
+
+05:46.120 --> 05:47.110
+We're still getting the error.
+
+05:47.140 --> 05:49.260
+Let's restart the kernel.
+
+05:50.350 --> 05:53.010
+And once it's ready we run the code again.
+
+05:53.020 --> 05:55.060
+And as you can see now suddenly it's working.
+
+05:55.330 --> 06:03.730
+And that is because if we used star it checks for this why file this in a file and then it checks this
+
+06:03.880 --> 06:05.620
+all variable.
+
+06:05.620 --> 06:08.000
+It checks what is within it.
+
+06:08.140 --> 06:09.490
+What do you want to have.
+
+06:09.490 --> 06:15.800
+If you want to have all of them and for now we only have one entry in this list and that's our file.
+
+06:15.970 --> 06:21.310
+So now knows OK if somebody says all that he will get the file for now if there were other files would
+
+06:21.310 --> 06:24.900
+have some like come on text file and so forth.
+
+06:25.900 --> 06:34.620
+Now we have seen this other approach of importing where we just let imports help.
+
+06:36.070 --> 06:38.380
+And there we would do something like.
+
+06:38.530 --> 06:44.700
+Hello I'm dot file dot F and so we will try to call it like that.
+
+06:44.830 --> 06:51.730
+Well now currently it's working but if I restart the kernel and do the real quick and run it as you
+
+06:51.730 --> 06:54.920
+can see module Hellam has no attribute file.
+
+06:55.120 --> 06:56.670
+So now suddenly doesn't work again.
+
+06:56.710 --> 07:02.770
+So even though we have this this approach here where we say OK import Hello I'm in total and then give
+
+07:02.770 --> 07:04.230
+me that file.
+
+07:04.260 --> 07:04.850
+But.
+
+07:05.050 --> 07:09.600
+Well we need to add something to our in a wife file for this to work.
+
+07:10.030 --> 07:12.070
+And the line we need to add is the following.
+
+07:12.070 --> 07:17.530
+So we say from datt import file.
+
+07:18.340 --> 07:21.510
+So from this folder import the file.
+
+07:21.640 --> 07:23.380
+That's what we're saying here with this line.
+
+07:23.380 --> 07:24.980
+So let me save that again.
+
+07:25.210 --> 07:28.340
+Let's go back here restart the kernel.
+
+07:29.110 --> 07:32.270
+And now let's see this error this appears and there we are.
+
+07:32.290 --> 07:34.310
+Suddenly you see this error disappeared.
+
+07:34.510 --> 07:37.470
+So as you can see there are different types of imports.
+
+07:37.480 --> 07:44.650
+But if you want to use a folder with multiple files in there which are pretty much modules themselves
+
+07:44.680 --> 07:49.820
+and the folder itself is also a module you need to take some things into consideration.
+
+07:49.840 --> 07:53.530
+And one of them is to create this in it thought Why file.
+
+07:53.620 --> 08:00.340
+Then to add all of the files that you want to be part of this module in this list and then for the other
+
+08:00.340 --> 08:07.720
+approach for the last one you need to import every single file inside of this file or this in it.
+
+08:07.720 --> 08:10.750
+Why file.
+
+08:11.020 --> 08:12.520
+So once again real quick.
+
+08:12.520 --> 08:14.020
+This one was the easiest one.
+
+08:14.020 --> 08:20.320
+The only thing we needed for that was in its W-why file to exist it didn't need any access or any entries
+
+08:20.320 --> 08:21.370
+in there.
+
+08:21.490 --> 08:25.340
+Then we simply could use it as you can see here.
+
+08:25.510 --> 08:30.970
+Then for the next one where we said OK from Hello import everything in order to use that we need to
+
+08:30.970 --> 08:32.480
+add this line here.
+
+08:32.710 --> 08:38.470
+And then in order to use these import loan and then use that approach as you can see here we needed
+
+08:38.470 --> 08:40.800
+to add this line of code.
+
+08:41.140 --> 08:41.430
+All right.
+
+08:41.440 --> 08:48.320
+So now you've seen how many different ways of using folders with modules there are.
+
+08:48.340 --> 08:54.040
+It is a bit tricky but with some setting up everything is fine and you can use whatever approach you
+
+08:54.040 --> 08:54.520
+like.
+
+08:54.640 --> 08:57.100
+And also your users can use whatever approach to life.
+
+08:57.100 --> 09:03.400
+So if you create a big folder with multiple files and you want people to use it in the way they like
+
+09:03.400 --> 09:08.470
+then you have to use all of the three approaches or you need to use the in why file you need to have
+
+09:08.470 --> 09:09.840
+this list.
+
+09:09.850 --> 09:16.850
+And you also need to add all of the different files that you have inside of you or in a W-why file.

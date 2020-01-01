@@ -1,0 +1,313 @@
+WEBVTT
+
+00:00.180 --> 00:05.580
+Come back and this video we're going to look at dictionaries and Python and in this lesson I will introduce
+
+00:05.580 --> 00:07.200
+you to dictionaries.
+
+00:07.200 --> 00:08.440
+Why do you need this.
+
+00:08.460 --> 00:15.060
+Well you can save value assignments e.g. phonebook a last name has a phone number so you could create
+
+00:15.060 --> 00:16.690
+a phone book with a dictionary.
+
+00:16.890 --> 00:19.580
+You can change move or add elements later.
+
+00:19.710 --> 00:21.220
+So it's mutable.
+
+00:21.480 --> 00:26.140
+You really are going to need dictionaries again and again and generally when programming with Python
+
+00:26.490 --> 00:30.320
+and we'll also look at a few examples later on in this course.
+
+00:30.360 --> 00:32.440
+So let's get into it.
+
+00:32.730 --> 00:34.320
+Let's create a dictionary first.
+
+00:34.310 --> 00:42.180
+So in order to create a dictionary you have to use the curly brackets and then you have a key and a
+
+00:42.180 --> 00:42.970
+value.
+
+00:43.140 --> 00:48.780
+So this is generally how you have the values within a dictionary.
+
+00:49.080 --> 00:52.610
+And then you separate them the comma.
+
+00:52.680 --> 00:59.470
+So you have key one with another value then key to with another value.
+
+00:59.490 --> 01:02.680
+Now those keys they have to be unique.
+
+01:02.790 --> 01:09.510
+So it's important that they are unique but then they also have to be of a immutable data type such as
+
+01:09.510 --> 01:11.990
+a string a number or a tuple.
+
+01:12.240 --> 01:17.760
+So you can have only strings strings numbers or tuples as the key.
+
+01:18.240 --> 01:26.040
+So for example I can have something like Dennis and then the value would be the telephone number so
+
+01:26.040 --> 01:28.680
+something like 1 2 3 4 whatever.
+
+01:28.680 --> 01:32.630
+So this could be my telephone number which is assigned to Dennis.
+
+01:32.640 --> 01:35.960
+Now there can only be one dentist within this dictionary.
+
+01:35.970 --> 01:37.140
+All right.
+
+01:37.140 --> 01:43.380
+Then after the comma I would have the next entry within the dictionary so that would be something like
+
+01:43.380 --> 01:49.110
+Frank and Frank would have a different telephone number and so forth.
+
+01:49.110 --> 01:49.700
+All right.
+
+01:49.920 --> 01:52.400
+So this is how you can create a dictionary.
+
+01:52.500 --> 02:02.370
+So let's say we want to have a dictionary which contains the city name and the name of the associated
+
+02:02.430 --> 02:03.380
+airport.
+
+02:03.570 --> 02:12.720
+So when I say something like Berlin as me are associated to it by the way the value doesn't have to
+
+02:12.720 --> 02:13.200
+be unique.
+
+02:13.200 --> 02:13.520
+Right.
+
+02:13.560 --> 02:18.030
+Your value doesn't have to be unique and it can be mutable.
+
+02:18.030 --> 02:19.830
+So that's pretty cool.
+
+02:19.950 --> 02:29.060
+Then the next city would be something like Helsinki and their name is hell not double l.
+
+02:29.400 --> 02:36.210
+Then maybe Saigon will have as a g n sampler that and so forth.
+
+02:36.210 --> 02:40.540
+So you could fill up your dictionary with a lot of well use.
+
+02:40.540 --> 02:41.710
+So now let's check it out.
+
+02:41.760 --> 02:47.310
+Let's print the dictionary and do doesn't exist.
+
+02:47.310 --> 02:50.610
+It has to be low kept the once again and there we are.
+
+02:50.610 --> 02:55.280
+So you can see the dictionary can easily be printed with the print function.
+
+02:55.710 --> 03:00.680
+And let's say we want to print one of those values.
+
+03:00.690 --> 03:08.570
+So if I want to have the value help from Helsinki Well then I need to print D.
+
+03:08.760 --> 03:13.600
+And then in square brackets I need to enter the name of the key.
+
+03:13.800 --> 03:18.920
+So Helsinki is the key name for that entry here.
+
+03:18.930 --> 03:20.350
+So for this entry.
+
+03:20.790 --> 03:28.910
+So if I print that as you can see I get hell here if you want to add a new value to your dictionary
+
+03:29.130 --> 03:32.030
+then you can simply use the following.
+
+03:32.070 --> 03:38.950
+You can use the name of the dictionary then in square brackets you enter the key name.
+
+03:38.970 --> 03:46.670
+For example Budapest and you assign it's value which is but a or b u d.
+
+03:46.860 --> 03:52.510
+And if we now print D once again so it's pasted down there as you can see.
+
+03:52.650 --> 04:00.930
+Now my dictionary has Budapest at that point as well.
+
+04:00.930 --> 04:03.680
+All right so how do you remove an element from the list.
+
+04:03.810 --> 04:11.940
+Well you can simply use the Del key word and then tell which key you would like to use so which key
+
+04:11.940 --> 04:14.140
+value pair you would like to delete.
+
+04:14.460 --> 04:16.800
+And that would be Budapest for example.
+
+04:16.850 --> 04:23.240
+Final print D once again as you can see Budapest is not in it anymore.
+
+04:25.810 --> 04:27.520
+So how do worry.
+
+04:27.520 --> 04:34.570
+Is there an element in the dictionary so let's say you want to check if there is a specific city name
+
+04:34.600 --> 04:44.270
+in the dictionary and then just print something simple like if Budapest's is in is in D.
+
+04:44.380 --> 04:49.160
+So we are just using the in operator again or in key word.
+
+04:49.210 --> 04:50.440
+And then we want to print.
+
+04:50.460 --> 04:56.860
+Budapest is included in the the Chuen there.
+
+04:57.050 --> 04:58.530
+Great stuff like that.
+
+04:58.600 --> 05:01.080
+And as you can see if I execute that it doesn't work.
+
+05:01.090 --> 05:02.540
+So nothing happens pretty much.
+
+05:02.710 --> 05:07.830
+That's because Budapest is not part of our list or dictionary here to be precise.
+
+05:08.050 --> 05:21.730
+So if I for example check for Saigon in D and Prince Saigon is included in the dictionary and now execute
+
+05:21.730 --> 05:26.540
+the code as you can see Saigon is included in the dictionaries print out.
+
+05:26.560 --> 05:32.470
+So as you can see you can easily Querrey through dictionaries so they're super useful and powerful.
+
+05:32.830 --> 05:38.610
+So you always have this key value pair and there are very many situations where it really makes sense.
+
+05:38.620 --> 05:43.140
+I mean the word dictionary is already very explanitory for what this is.
+
+05:43.150 --> 05:50.950
+You have one value for example the word in one language and then you have the other value which is the
+
+05:50.950 --> 05:52.090
+word in another language.
+
+05:52.090 --> 06:05.380
+So let's say Berlin although it's a bad example but let's create a D2 which has values such as car and
+
+06:05.380 --> 06:14.830
+in German It's called out or then you have bike and in German is called fiat and so forth you know so
+
+06:14.830 --> 06:16.010
+that's how you could use it.
+
+06:16.120 --> 06:22.680
+Of course dictionaries as I said you're only assign one value to another and the key is unique.
+
+06:22.680 --> 06:25.300
+So that's how you are limited.
+
+06:25.720 --> 06:27.950
+All right so how do we access elements.
+
+06:28.000 --> 06:32.460
+Well pretty simple print D.
+
+06:33.190 --> 06:36.910
+And then we just simply say which key we are looking at.
+
+06:36.940 --> 06:42.700
+And if I look at Saigon and I can get g in here.
+
+06:42.800 --> 06:51.670
+Another way to access an element is print the DOT get Saigon as you can see.
+
+06:51.760 --> 06:54.890
+I get as g here as well.
+
+06:54.970 --> 07:00.720
+Now if I try to access an element that does not exist let's say I tried to access Hong Kong.
+
+07:01.360 --> 07:09.400
+So de Hong Kong then I get this error here saying key error.
+
+07:09.400 --> 07:10.130
+Hong Kong.
+
+07:10.270 --> 07:11.840
+So you have to be super careful.
+
+07:11.950 --> 07:17.830
+But the key is you're trying to XS is actually within the dictionary that you're looking at.
+
+07:18.190 --> 07:20.380
+But if you use the other approach.
+
+07:20.380 --> 07:23.860
+So let me copy this code here.
+
+07:23.920 --> 07:27.720
+Does the that get function or method there.
+
+07:27.790 --> 07:34.180
+I can use something like Hong Kong that will simply return if there is no value it will simply return
+
+07:34.180 --> 07:35.120
+None.
+
+07:35.170 --> 07:39.300
+So that's the cleaner way let's say so you don't run into an error.
+
+07:39.310 --> 07:44.460
+If the element doesn't exist you simply get knon as a return.
+
+07:45.070 --> 07:48.080
+All right so that was a little introduction to dictionaries.
+
+07:48.100 --> 07:50.500
+And as I said we're going to use dictionaries a lot.
+
+07:50.500 --> 07:57.940
+So check out this video once again if you feel like you need to see stuff once again or just play around
+
+07:57.940 --> 08:03.190
+with the values and create your own dictionaries and play around with them.
+
+08:03.210 --> 08:05.550
+All right so see you in the next video.

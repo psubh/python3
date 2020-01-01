@@ -1,0 +1,217 @@
+WEBVTT
+
+00:00.400 --> 00:06.210
+Come back in this video we are going to check out if conditions and they are super super useful and
+
+00:06.360 --> 00:09.970
+a very important basic concept of any programming language.
+
+00:10.170 --> 00:12.050
+So let's go ahead and start with it.
+
+00:12.240 --> 00:18.960
+I'm going to create a variable that I'm going to set to 15 and then I'm going to use an IF statement
+
+00:19.010 --> 00:21.270
+in an order you create an if statement.
+
+00:21.360 --> 00:27.650
+You can go ahead and use the F term and then afterwards you can write the condition.
+
+00:27.660 --> 00:37.950
+So in my case I'm going to check if an is a lower than 18 and if it's lower than 18 then I want to execute
+
+00:37.950 --> 00:38.340
+some code.
+
+00:38.340 --> 00:45.360
+So you see I'm using a colon and I'm writing something now so I'm going to write the code in here that
+
+00:45.360 --> 00:46.400
+I want to execute.
+
+00:46.410 --> 00:48.980
+If this condition here is met.
+
+00:49.140 --> 00:56.280
+So if end is lower than 18 then please print something and it's important that this print statement
+
+00:56.310 --> 01:01.940
+is indented by a tap because if it is not then Python will not understand what's going on.
+
+01:02.130 --> 01:09.480
+So whenever you use or you want to run some code within an if statement if the condition is met you
+
+01:09.480 --> 01:12.380
+need to indented or writes on this guys.
+
+01:12.420 --> 01:19.950
+I'm going to say something like you may not vote because if somebody is younger than 18 he's not allowed
+
+01:19.950 --> 01:20.460
+to vote.
+
+01:20.520 --> 01:22.090
+So let's execute that code.
+
+01:22.170 --> 01:26.860
+And as you can see this statement is written onto the console.
+
+01:26.910 --> 01:30.710
+So this condition here is met because and is just 15.
+
+01:30.750 --> 01:34.260
+That's why the statement is executed here.
+
+01:34.320 --> 01:39.760
+So if somebody let's say is 19 years old now let's execute the code again.
+
+01:39.960 --> 01:43.480
+And as you can see nothing is printed onto the console.
+
+01:43.710 --> 01:48.110
+And that is because and is higher than 18.
+
+01:48.330 --> 01:50.390
+And that's why this condition is not met.
+
+01:50.430 --> 01:54.220
+So this code is never executed.
+
+01:54.220 --> 01:57.800
+Now let's add another code in here another line.
+
+01:58.110 --> 02:04.790
+I am not indented So as you can see I'm not indented.
+
+02:04.890 --> 02:06.260
+It's printed on two.
+
+02:06.270 --> 02:06.950
+Why is that.
+
+02:07.080 --> 02:09.910
+Well because this line of code is not indented.
+
+02:09.930 --> 02:13.990
+That's why it's not considered part of this if statement.
+
+02:14.160 --> 02:20.040
+So it's not considered as the body of this if statement which means that it's not execute while it's
+
+02:20.190 --> 02:20.790
+executed.
+
+02:20.790 --> 02:23.740
+In this case because while this condition is not met right.
+
+02:23.940 --> 02:26.720
+So if I do like that I can execute it.
+
+02:26.730 --> 02:33.420
+As you can see it's still executed but if I indent that print statement and execute it now it's not
+
+02:34.170 --> 02:41.060
+printed onto the console because it thinks or in this case it is part of that statement.
+
+02:41.280 --> 02:48.680
+So I'm going to get the indention lost or I'm going to delete indention so I'm going to do and then
+
+02:48.720 --> 02:50.590
+only this print statement here.
+
+02:50.730 --> 02:51.770
+You may not vote.
+
+02:52.080 --> 02:52.440
+All right.
+
+02:52.440 --> 02:59.330
+So what if I wanted to have a statement for all the other cases.
+
+02:59.340 --> 03:05.370
+So if somebody doesn't meet this condition then I want to write some other code.
+
+03:05.580 --> 03:08.660
+And that's why you have this if else.
+
+03:08.790 --> 03:12.260
+So if and else if is the first request.
+
+03:12.270 --> 03:16.580
+And if that's something that you can simply execute the code which comes off or else.
+
+03:16.620 --> 03:20.210
+So let's check out how this looks going to create another variable.
+
+03:20.220 --> 03:31.120
+I'm just going to set that to 10 and then I'm going to check if am is lower than five then print is
+
+03:31.120 --> 03:35.940
+simple and is lower than 5.
+
+03:36.870 --> 03:49.110
+But then on the other hand else just print something like in case higher than fourth or you could even
+
+03:49.110 --> 03:58.060
+write something like can or if condition is not met.
+
+03:58.200 --> 03:59.570
+So let's run that code.
+
+03:59.840 --> 04:03.720
+And as you can see I get the statement here if condition is not met.
+
+04:03.810 --> 04:08.670
+And that's because M is 10 so am lower 5 is not true.
+
+04:08.670 --> 04:11.900
+So this condition here that we have is not true.
+
+04:12.270 --> 04:20.370
+That means it just skips this line of code and directly jumps to the else part of this if else statement.
+
+04:20.550 --> 04:24.050
+So it executes the code within the else statement.
+
+04:24.360 --> 04:33.630
+If we add a line here to our IF and below 18 you may not vote if you want to extent that we simply add
+
+04:33.720 --> 04:40.060
+else colon and then in the next line indented we write whatever we want to write.
+
+04:40.320 --> 04:44.070
+Please go and vote.
+
+04:44.070 --> 04:50.580
+So now let's execute that code again and as you can see it says Please go and vote here on my console.
+
+04:52.920 --> 04:55.390
+And that is pretty much if and else.
+
+04:55.530 --> 05:02.370
+So we will use if and L statements quite a lot and you will also see how to use LLF which can cover
+
+05:02.370 --> 05:04.830
+multiple other cases in between.
+
+05:04.830 --> 05:06.520
+But that's something for later.
+
+05:06.600 --> 05:12.060
+For now we're good to go for next video where we'll check out comparison operators.
+
+05:12.060 --> 05:14.160
+And this is a comparison operator right here.
+
+05:14.160 --> 05:15.160
+This sign here.
+
+05:15.390 --> 05:22.890
+So lower than is a comparison operator and we need to check out all the comparison operators in order
+
+05:22.890 --> 05:28.370
+to understand if statements even better and use it accordingly in the future.
+
+05:28.380 --> 05:30.180
+So see you in the next video.

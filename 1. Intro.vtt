@@ -1,0 +1,178 @@
+WEBVTT
+
+00:00.530 --> 00:07.460
+Come back in this chapter we are going to build a crawler and a crawler allows us to go through Web
+
+00:07.510 --> 00:14.120
+sites or a specific Web site and just check out the information and give it back in a specific format
+
+00:14.160 --> 00:15.590
+that we would like to have it.
+
+00:15.780 --> 00:20.460
+And we are going to look at this Web site which is created by us.
+
+00:20.490 --> 00:21.890
+And you can check it out.
+
+00:21.930 --> 00:28.770
+It's really just having some very generic data which isn't pretty much useless in the sense of the content
+
+00:28.800 --> 00:34.090
+but here it's really about the structure and how you approach such things.
+
+00:34.110 --> 00:37.410
+So what you can see here is you have an A little smiley.
+
+00:37.410 --> 00:43.050
+Then you have some text or the headline you have an image and then you have some detailed information
+
+00:43.050 --> 00:49.530
+about something so this could be some way readed Fred for example or this could be just a Web site where
+
+00:49.530 --> 00:54.690
+you get some information from in order to know what the current exchange rates are or whatever.
+
+00:54.690 --> 01:01.530
+But here you have just this specific example of what the data will be displayed or is displayed like
+
+01:01.590 --> 01:03.950
+in this web site or on this Web site.
+
+01:03.960 --> 01:09.370
+So we're going to create a crawler which extracts data from a Web site.
+
+01:09.660 --> 01:16.560
+And in order to do that we write a little program in Python which retrieves that Web site and then extracts
+
+01:16.590 --> 01:18.450
+the data from it.
+
+01:18.450 --> 01:25.760
+Now we want to extract the data from a web site and we can use that by calling the Web site.
+
+01:25.800 --> 01:28.220
+So we're calling it's HDMI out.
+
+01:28.620 --> 01:34.970
+And then we extract the relevant data from it in a specific form and for us that we can use.
+
+01:35.070 --> 01:37.440
+And what happens in the background for that.
+
+01:37.590 --> 01:44.610
+Well we have Python or our Python program on one hand and we have the server where the Web site is on
+
+01:44.820 --> 01:45.880
+on the other hand.
+
+01:46.110 --> 01:53.820
+And now we can use Python in order to make a request to that server and the server then sends back the
+
+01:53.820 --> 01:59.970
+HQ mail and Python can then read the response and extract the relevant data from it.
+
+01:59.970 --> 02:06.120
+So we can display the data in a different format or calculate something out of it or whatever we would
+
+02:06.120 --> 02:07.370
+like to do with it.
+
+02:07.890 --> 02:10.310
+And we will use the following tools.
+
+02:10.320 --> 02:12.870
+First of all we create the requests.
+
+02:12.960 --> 02:20.220
+This allows us to easily access the G-mail code of a page and then we will use beautiful soob which
+
+02:20.220 --> 02:27.670
+is a tool and you'll see later on what it does in order to conveniently extract the data from the HVM
+
+02:27.710 --> 02:28.790
+l code.
+
+02:28.860 --> 02:34.780
+So we get HVM Alco back which is not Python code is slightly different code and if you know it came
+
+02:34.780 --> 02:39.240
+out then this will be a piece of cake for you but we will also look at AGM.
+
+02:39.270 --> 02:46.530
+So no worries if you don't know extremal at all then we could use a crawler not just for reading from
+
+02:46.530 --> 02:53.490
+this Web site that I gave you as an example of but you can get the current share prices reading message
+
+02:53.490 --> 02:59.850
+page and write all the headlines into a V file and then display it on your phone or whatever.
+
+02:59.850 --> 03:06.120
+Extract information from an extensive product catalog and then adjusted accordingly.
+
+03:06.450 --> 03:09.530
+Well yeah and these are just some examples.
+
+03:09.560 --> 03:13.800
+There is a little information or a little side note that I would like to give you as well.
+
+03:13.830 --> 03:21.000
+You can use those or do those approaches where you crawl through Web sites but just really for personal
+
+03:21.000 --> 03:27.530
+use and you're not allowed to cross the Web site in a way that it all breaks pretty much to Web site.
+
+03:27.540 --> 03:31.910
+So that breaks the connection of the Web site to the server or something like that.
+
+03:31.910 --> 03:38.190
+So you have to stay in the legal areas and among the lawyers so I don't I can't tell you explicitly
+
+03:38.190 --> 03:40.410
+what exactly is allowed and what not.
+
+03:40.440 --> 03:46.680
+I can just tell you or explain you how you can use this and that's why we're going to use this at a
+
+03:46.680 --> 03:52.720
+specific website that we created and that well we allow you to use for these purposes.
+
+03:52.950 --> 03:59.370
+So you will see how to use that and also when you crawl from a web site you have to make sure whether
+
+03:59.370 --> 04:04.980
+you are allowed to use the information if you ever want to use it publicly or something.
+
+04:04.980 --> 04:11.490
+So you may need to make sure with the provider for example if that is allowed often such an information
+
+04:11.790 --> 04:18.000
+are done via API so you get the information via an API and then you have to pay for that API and then
+
+04:18.000 --> 04:20.610
+you may do whatever you want with this information.
+
+04:20.850 --> 04:23.770
+But that really depends on a case by case.
+
+04:23.940 --> 04:29.850
+So I'd say let's dive right into it because this is going to be our first bigger program and it will
+
+04:29.850 --> 04:30.600
+be pretty cool.
+
+04:30.600 --> 04:36.060
+So you will learn some really good stuff and it all is based upon what you have learned so far.
+
+04:36.060 --> 04:43.150
+So you will see that with this little time Inv. that you had so far you can already realize some really
+
+04:43.300 --> 04:45.390
+pretty good programs.
+
+04:45.390 --> 04:46.180
+All right.
+
+04:46.270 --> 04:49.540
+So we're excited and see you in the next video.

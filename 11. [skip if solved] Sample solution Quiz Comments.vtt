@@ -1,0 +1,88 @@
+WEBVTT
+
+00:00.510 --> 00:06.320
+Come back I hope you manage to go for quiz for comments and easily answer the questions correctly and
+
+00:06.340 --> 00:08.070
+then you of course can skip this for you.
+
+00:08.190 --> 00:10.860
+Otherwise let's have a look at the questions.
+
+00:10.890 --> 00:17.010
+So first of all we have this question which characters do start a comment in Python which should not
+
+00:17.010 --> 00:18.820
+be executed as code.
+
+00:19.110 --> 00:25.710
+And if we check that out we can see a is a hash then B is double star.
+
+00:25.710 --> 00:32.790
+C is a percentage sign and D is a dollar sign and the correct answer here is a.
+
+00:32.940 --> 00:34.210
+So the mantra.
+
+00:34.500 --> 00:41.460
+So if you want to create a line of code which is common to doubt then you can simply use to hash sign
+
+00:41.820 --> 00:43.800
+or hash key.
+
+00:43.800 --> 00:49.690
+Now question number two which numbers are output when the following program executes.
+
+00:49.710 --> 00:54.000
+So print 1 print 2 but with a hash at the beginning.
+
+00:54.000 --> 00:57.360
+Print 3 and print four with a hash at the beginning.
+
+00:57.630 --> 01:03.200
+So what that does is print does it print out A B C or D.
+
+01:03.400 --> 01:04.860
+Well a is one two three four.
+
+01:04.860 --> 01:06.780
+So all of them would be print out.
+
+01:06.960 --> 01:07.860
+B is non.
+
+01:07.860 --> 01:09.830
+So none of the four would be printed out.
+
+01:09.870 --> 01:11.270
+C is 2 and 4.
+
+01:11.280 --> 01:18.900
+So this line and that line so two and four will be executed or D where only 1 and 3 would be printed
+
+01:18.900 --> 01:20.100
+onto the console.
+
+01:20.250 --> 01:26.010
+And you can of course test it any time if you really want to make sure you understood it.
+
+01:26.010 --> 01:28.410
+But here it's very basic.
+
+01:28.410 --> 01:33.460
+We are just saying OK this line of code is executed because there is no hash.
+
+01:33.480 --> 01:38.700
+This line of code is not going to be executed because there is a hash at the start of the line and this
+
+01:38.700 --> 01:39.690
+line neither.
+
+01:39.690 --> 01:43.010
+So print 1 and print 3 will be executed.
+
+01:43.010 --> 01:46.380
+So we only get 1 and 3 on to the console.
+
+01:46.410 --> 01:49.380
+And that's why D is the correct answer.

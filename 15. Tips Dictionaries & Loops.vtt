@@ -1,0 +1,187 @@
+WEBVTT
+
+00:00.210 --> 00:06.150
+All right in this way you would like to give you some additional preparation advice on how to solve
+
+00:06.150 --> 00:07.620
+the challenge.
+
+00:07.650 --> 00:11.000
+The exercise that you have gotten for in the last video.
+
+00:11.190 --> 00:18.690
+So your task is to use dictionaries in order to find out which name is the one that was given most in
+
+00:18.690 --> 00:22.610
+the U.S. and therefore you need to check something.
+
+00:22.800 --> 00:29.540
+And I will show you something with this list one where we have hello hello world.
+
+00:29.550 --> 00:34.800
+Hello and Marcy in there and now I would like to know how often hello is in there.
+
+00:35.100 --> 00:40.830
+And I also would like to know which word it is that is that often so the word hello is three times the
+
+00:40.840 --> 00:46.490
+word word world is on the ones in there and the word is ones in there as well.
+
+00:46.500 --> 00:50.500
+So if we create a dictionary Let's go ahead and do that.
+
+00:50.550 --> 00:52.770
+Let's create an empty dictionary.
+
+00:53.070 --> 00:58.790
+And now I would like to go through my list one.
+
+00:59.190 --> 01:06.630
+And if the element that I'm looking at so with this for loop would go through every single element within
+
+01:06.630 --> 01:10.170
+my list every single item pretty much in the list.
+
+01:10.320 --> 01:19.120
+And if the element in my dictionary was at the beginning is empty is existent.
+
+01:19.170 --> 01:24.480
+So which means that this word is already in my dictionary.
+
+01:24.480 --> 01:31.260
+Then please go ahead and add the elements.
+
+01:31.320 --> 01:38.880
+Position the value that you had before plus 1.
+
+01:39.510 --> 01:45.620
+So we always have a dictionary as you know it consists of a key and a value key value.
+
+01:45.930 --> 01:52.890
+So we are going through the list and then we're going through or checking it comparing it pretty much
+
+01:52.890 --> 01:53.960
+with a dictionary.
+
+01:54.150 --> 02:00.720
+So if it already exists so halo already exists in the dictionary as you know a key can only be unique
+
+02:00.750 --> 02:06.100
+within a dictionary so hello will only be in there once so it will not be in there twice or something
+
+02:06.100 --> 02:09.540
+not that world will only be in there once and that's the same for name.
+
+02:09.540 --> 02:14.710
+So Frank will only be there once and Michael will only be there once and so forth.
+
+02:14.790 --> 02:16.640
+So we check.
+
+02:16.720 --> 02:18.500
+Is this name already in the list.
+
+02:18.510 --> 02:27.650
+Yes if it is OK then please go ahead and as the name and its position get at the value that it had before
+
+02:27.950 --> 02:30.480
+and had won.
+
+02:30.540 --> 02:43.830
+So now this name will be there an additional time and else just say that element is there once because
+
+02:44.190 --> 02:50.190
+if it was not in the dictionary for as it is at the beginning Can we just add or we just assign the
+
+02:50.190 --> 02:51.510
+value one.
+
+02:51.630 --> 02:56.100
+Now let's print the after this for you and you will see what I mean.
+
+02:56.280 --> 03:02.050
+So we have this dictionary the dictionary which had the key.
+
+03:02.080 --> 03:04.710
+Hello Has the value 3 Add world.
+
+03:04.710 --> 03:07.620
+It has one and Amar's it has one as well.
+
+03:07.620 --> 03:15.130
+And that's because the value Hello ordered text Hello is there three times in this list.
+
+03:15.240 --> 03:22.590
+So that's how you can simply use a dictionary and for loop in order to figure out how many occurrences
+
+03:22.950 --> 03:25.170
+a specific name has.
+
+03:25.190 --> 03:25.730
+Right.
+
+03:26.040 --> 03:33.270
+But that's not enough because you don't only want to know how many occurrences a specific name has you
+
+03:33.270 --> 03:36.750
+want to know which name is the one with the maximum occurrence.
+
+03:36.750 --> 03:45.220
+So the one that has most namings makes all Karoon since there's going to be zero.
+
+03:45.570 --> 03:49.160
+And now we need to use tuple unpacking.
+
+03:49.170 --> 03:54.100
+So we say QI come of value in Deedat items.
+
+03:54.120 --> 04:01.680
+So now we go through all the items in our dictionary and we check if Max occurrences
+
+04:04.290 --> 04:13.030
+is greater than the value of our specific entry of our item within the dictionary.
+
+04:13.200 --> 04:23.700
+And if that's the case then let's say Max occurrences is going to be the value and then print the max
+
+04:23.700 --> 04:26.750
+occurrences just to see what they are.
+
+04:26.810 --> 04:29.140
+And as you can see we get the value three.
+
+04:29.220 --> 04:37.010
+So now we will know which is the highest value in terms of namings.
+
+04:37.230 --> 04:44.430
+And of course you can also just print out the key in order to find out what the name is with the maximum
+
+04:44.430 --> 04:45.170
+occurences.
+
+04:45.210 --> 04:46.760
+So this is just a hint right.
+
+04:46.800 --> 04:49.750
+I'm not giving you the full answer already.
+
+04:50.190 --> 04:55.770
+But generally speaking that's how you can approach to this whole challenge.
+
+04:55.770 --> 05:00.160
+So this for loop is really just there to figure out what is the highest number.
+
+05:00.410 --> 05:04.090
+And also to figure out what the name is.
+
+05:04.190 --> 05:12.950
+This one here is to accumulate all the namings in order to create a list of all the names with their
+
+05:12.950 --> 05:13.640
+values.
+
+05:13.640 --> 05:18.710
+So with how many people were named with this name in the U.S..
+
+05:18.710 --> 05:21.870
+All right so good luck and see you in the next video.

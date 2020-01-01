@@ -1,0 +1,115 @@
+WEBVTT
+
+00:00.370 --> 00:07.170
+Come back in this video I will introduce tuples and dictionaries and they are new types that we haven't
+
+00:07.170 --> 00:07.610
+touched yet.
+
+00:07.620 --> 00:12.900
+So we have seen lists and dictionaries and tuples they are similar to lists or they are also collections
+
+00:12.930 --> 00:16.300
+but they work differently and they behave differently.
+
+00:16.500 --> 00:18.320
+So let's assume we have this problem.
+
+00:18.420 --> 00:22.150
+We just want to quickly group Group two values together.
+
+00:22.260 --> 00:29.280
+So we want to group the first name and last name of a person and we don't want to do a specific variable
+
+00:29.280 --> 00:32.020
+for that in terms of a string variable.
+
+00:32.040 --> 00:41.400
+So we don't want to store it in a string but we really want to have the capability to have access to
+
+00:41.400 --> 00:45.470
+them separately so have access to those values separately.
+
+00:45.470 --> 00:51.810
+Now the solution to that problem is we use tuples So we need to use tuples if we want a function to
+
+00:51.810 --> 00:53.730
+return multiple values.
+
+00:53.730 --> 01:00.390
+And imagine you have a function get student which should return both the first name and the last name.
+
+01:00.660 --> 01:05.880
+And this is not possible without a tuple or at least it's not possible in a clean way.
+
+01:05.880 --> 01:10.110
+You could of course use lists where you have one list where the first names on one list with the last
+
+01:10.110 --> 01:12.860
+names but that would not be a great way of doing it.
+
+01:12.990 --> 01:19.140
+And you would always have to be super careful that you whenever you fill up a list with a new first
+
+01:19.140 --> 01:24.030
+name you always have to fill up the other list with last names or with the correct amount of last names
+
+01:24.030 --> 01:24.920
+and so forth.
+
+01:24.930 --> 01:28.520
+So that's pretty tricky and it's not a good practice.
+
+01:28.560 --> 01:34.620
+And then there is another thing called dictionaries and they have quite an advantage as well because
+
+01:34.890 --> 01:36.330
+for example we have this problem.
+
+01:36.360 --> 01:39.350
+We would also like to be able to save an assignment.
+
+01:39.540 --> 01:44.330
+So for example assign the phone number to the family.
+
+01:44.550 --> 01:50.310
+So we have the family name let's say must amount and we want to assigned the telephone number is 1 2
+
+01:50.310 --> 01:58.110
+3 4 5 6 7 whatever to that family name and we want to store multiple families meet with their telephone
+
+01:58.110 --> 02:01.530
+number in a specific kind of list.
+
+02:01.530 --> 02:07.680
+Of course we could have two lists here one list with the family name and one list with a telephone number
+
+02:07.890 --> 02:10.710
+and they are always connected through their index.
+
+02:10.710 --> 02:17.580
+But then again if you want to delete one family then you also have to delete the same list and they're
+
+02:17.580 --> 02:19.290
+meant for a telephone number.
+
+02:19.300 --> 02:20.780
+That's really not that great.
+
+02:20.880 --> 02:23.010
+So that's where dictionaries come into play.
+
+02:23.220 --> 02:29.130
+And we can answer the following question officially with that what telephone number does the most of
+
+02:29.130 --> 02:30.410
+my family have.
+
+02:30.750 --> 02:37.230
+And we are going to go ahead and use dictionaries and tuples in the next videos where all of what I've
+
+02:37.290 --> 02:42.960
+just said makes a lot more sense because it really makes sense as soon as you get into practice.
+
+02:42.960 --> 02:48.290
+And as soon as you see things in real life so see you in the next video.

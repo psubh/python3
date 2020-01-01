@@ -1,0 +1,253 @@
+WEBVTT
+
+00:00.520 --> 00:05.940
+Come back in this video we are going to look at slicing and specifically at least slicing and later
+
+00:05.940 --> 00:08.150
+on it's string slicing as well.
+
+00:08.190 --> 00:13.680
+That's something that we haven't touched yet which is a super cool feature and it allows us to do pretty
+
+00:13.680 --> 00:14.480
+cool stuff.
+
+00:14.490 --> 00:19.470
+So let's go ahead and start with slicing the students list before we do that.
+
+00:19.470 --> 00:21.590
+There is one thing that I would like to show you though.
+
+00:21.930 --> 00:27.600
+I have this list that we have seen multiple times and I'm just going to print students as is now so
+
+00:27.610 --> 00:29.980
+you can see Max Monica Eric and Francisca.
+
+00:30.210 --> 00:36.030
+And now what you can do is you can also of course exercise one of the entries so you can just say Okay
+
+00:36.030 --> 00:37.750
+one and one will be Monica.
+
+00:37.950 --> 00:40.860
+But what if you want to access the last element.
+
+00:40.890 --> 00:48.900
+So let's say Francisco or if you want to access the last element instead of calculating what the index
+
+00:48.900 --> 00:49.460
+would be.
+
+00:49.500 --> 00:58.650
+So 0 1 2 3 so you could of course get into three but you can also enter minus one.
+
+00:58.650 --> 01:01.780
+So instead of entering three I'm going to use minus one.
+
+01:01.780 --> 01:05.560
+And what that will do is it will give me the last element of the list.
+
+01:05.610 --> 01:11.280
+So let's see if that's true if I change the list element that I'm going to add ABC as you can see now
+
+01:11.280 --> 01:14.810
+it gives me a b c so it doesn't give me Francisco anymore.
+
+01:14.940 --> 01:20.190
+So if you want to have the last element you can simply use minus 1 which you want to have the second
+
+01:20.190 --> 01:21.290
+last element.
+
+01:21.510 --> 01:24.900
+Well probably you guessed it you can enter minus two.
+
+01:24.900 --> 01:27.650
+So now as you can see I'm getting Francisca.
+
+01:27.660 --> 01:31.640
+So now you simply calculate from the back but you don't start a zero.
+
+01:31.650 --> 01:39.030
+But you start at minus 1 so minus one minus two minus three minus 4 for Monica and so forth.
+
+01:39.690 --> 01:44.610
+So that is something that is important for the next point which is a list slicing.
+
+01:44.610 --> 01:46.800
+So let's say we look at a list slicing.
+
+01:47.220 --> 01:52.360
+I'm going to create in you marked down here who list Slye Singh.
+
+01:52.710 --> 01:57.030
+And I'm going to use code here of course.
+
+01:57.150 --> 02:04.830
+Now let's print students again but this time let's use this slicing and what is that.
+
+02:05.040 --> 02:12.510
+Well you can slice a list and create a different list for a short period of time for example like here
+
+02:12.760 --> 02:21.510
+I'm just creating it for this particular line of code where I would for example only print out the elements
+
+02:21.540 --> 02:25.770
+from the second or from index to to index for it.
+
+02:25.830 --> 02:27.370
+So let me just do that.
+
+02:27.450 --> 02:29.950
+So you can see I only get Eric and Francisco.
+
+02:30.210 --> 02:37.800
+That means I'm getting the index to entry and index three entry for is not included.
+
+02:37.800 --> 02:42.340
+So the second value here after the colon is not included.
+
+02:42.690 --> 02:50.820
+So if I'd say give me two up to three it will only give me Eric because three is exclusive.
+
+02:50.820 --> 02:53.260
+That's why Francisco would not be part of it anymore.
+
+02:53.520 --> 02:59.790
+So now I have this little list and I could of course create another list from it less on this course
+
+02:59.790 --> 03:10.920
+students could be my students from 1 to 3 for example and that's parentless students present less on
+
+03:10.920 --> 03:12.780
+the score students.
+
+03:12.780 --> 03:15.770
+And as you can see this would be Monica and Eric.
+
+03:15.770 --> 03:21.630
+So it start at the next one and gives me next to as well because three exclusive means two is still
+
+03:21.630 --> 03:22.380
+in there.
+
+03:22.680 --> 03:23.310
+OK.
+
+03:23.400 --> 03:25.820
+So that's called a list slicing.
+
+03:26.100 --> 03:30.320
+Now you can do what you have done here or what we have done here.
+
+03:30.420 --> 03:33.380
+You can do that with less slicing as well.
+
+03:33.600 --> 03:40.470
+So let's say I want to have students from zero to minus 1.
+
+03:40.470 --> 03:41.820
+What would that give me.
+
+03:41.820 --> 03:46.320
+Well give me everything except for the last element in the list.
+
+03:46.320 --> 03:53.340
+So you can easily slice a list by a worse slice away the last piece of list by using this approach here.
+
+03:53.640 --> 03:54.240
+OK.
+
+03:54.300 --> 04:00.900
+Or if you want to have everything and the rest but the last three then you could go ahead and say all
+
+04:00.900 --> 04:01.830
+right minus three.
+
+04:01.830 --> 04:03.990
+So it will only give me the.
+
+04:04.170 --> 04:10.740
+In this case the first two elements and the last three will not be printed out or not be executed or
+
+04:11.490 --> 04:11.910
+returned.
+
+04:11.910 --> 04:14.030
+Pretty much all right.
+
+04:14.160 --> 04:22.240
+And if you are using zero here you can also just skip to zero so you can just use empty.
+
+04:22.440 --> 04:26.280
+Then colon minus three or whatever the second value is.
+
+04:26.280 --> 04:29.470
+So if I do that it's the same result as I can see.
+
+04:29.470 --> 04:32.200
+All right so that's what you can do with slicing.
+
+04:32.340 --> 04:40.300
+Now a pretty cool thing that you also can do with slicing is use this approach with strings.
+
+04:40.680 --> 04:48.630
+So I'm going to call that slicing works with strings and let's check it out.
+
+04:48.990 --> 04:52.350
+So let's write something like.
+
+04:52.620 --> 04:53.400
+Hello world.
+
+04:53.550 --> 05:02.130
+So let's just print hello world on the console but now I'm going to slicing so I'm going to use the
+
+05:02.130 --> 05:07.420
+square brackets and I'm going to say give me zero to five.
+
+05:07.430 --> 05:14.480
+So give me the forced first five characters so this will just give me the first five characters and
+
+05:14.480 --> 05:16.410
+it just prints out Hello.
+
+05:16.910 --> 05:23.750
+Now if I only want to have the last four characters or maybe last 5 characters I can just enter minus
+
+05:23.750 --> 05:28.420
+five colon and that will give me world.
+
+05:28.430 --> 05:34.190
+So as you can see start at minus 5 and go towards the end so go towards the end of the string because
+
+05:34.220 --> 05:40.750
+if I add something else in here has it going to get the last 5 characters and then it just ends right
+
+05:40.760 --> 05:45.090
+because if I get the last five then there is no additional ending right.
+
+05:45.470 --> 05:56.240
+OK so that's what we can do with this slicing and with string slicing Moken of course also use the same
+
+05:56.240 --> 06:01.660
+approach which just OK from 1 to 3 and that will give me.
+
+06:01.950 --> 06:04.490
+And there will be hell from here.
+
+06:04.490 --> 06:06.640
+The age is skipped because we had to 1.
+
+06:06.650 --> 06:13.880
+So we start at the next one and then we end add index 3 so this second L is not included anymore.
+
+06:14.330 --> 06:16.830
+All right so that was List slicing in the next lecture.
+
+06:16.850 --> 06:21.070
+There will be a little quiz and afterwards of course the solution for the quiz as well.
+
+06:21.080 --> 06:22.190
+So see you there.

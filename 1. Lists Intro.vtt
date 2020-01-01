@@ -1,0 +1,37 @@
+WEBVTT
+
+00:00.370 --> 00:05.460
+Welcome to the lists chapter in this chapter we're going to talk about lists but also dictionaries and
+
+00:05.460 --> 00:05.970
+tuples.
+
+00:05.970 --> 00:10.470
+But first of all let's have a look at what we are still lacking with lists.
+
+00:10.470 --> 00:12.980
+So the problem is we already know this.
+
+00:13.050 --> 00:17.220
+At least that's what you could say because we have worked with this quite a bit.
+
+00:17.400 --> 00:25.290
+But for example how do we get the first 10 participants 10 entries off a list or the last 10 or how
+
+00:25.290 --> 00:32.060
+do we get the first character of each element in the list or whatever you can think of according lists.
+
+00:32.070 --> 00:39.270
+So we have done some things but there is still plenty to learn and we are going to use something called
+
+00:40.020 --> 00:42.540
+slicing lists slicing.
+
+00:42.540 --> 00:49.980
+And this is a functionality that will allow us to do this kind of thing so to slice a list into multiple
+
+00:49.980 --> 00:50.880
+pieces.
+
+00:50.880 --> 00:55.200
+And I'd say let's get started and look into this.

@@ -1,0 +1,262 @@
+WEBVTT
+
+00:00.590 --> 00:07.570
+Come back in this video we are going to clean up our code because what we have here is we have our window
+
+00:07.600 --> 00:15.700
+which is a humane window and we then set the title but then we set our YOU window as the main window
+
+00:15.700 --> 00:20.440
+which is pretty much our imported main window.
+
+00:20.740 --> 00:28.690
+So the one that we've created here which creates Y which has the set up UI function which pretty much
+
+00:28.690 --> 00:34.840
+defines the whole set up of the Y where you have the information about where things are positioned where
+
+00:34.840 --> 00:37.460
+the UI elements are positioned than those kind of things.
+
+00:37.510 --> 00:44.830
+And then after we have this main window we set up the UI window and then we show the UI window and so
+
+00:44.830 --> 00:51.580
+forth so that we have pretty much a lot of loose code in here we don't have a cost which we execute
+
+00:51.590 --> 00:54.110
+we just have very loose code now.
+
+00:55.130 --> 00:57.810
+We can make this a lot cleaner.
+
+00:57.860 --> 01:04.760
+So what we can do is we can pretty much say let's go ahead and create a main window class in that main
+
+01:04.760 --> 01:05.390
+window class.
+
+01:05.440 --> 01:11.130
+It's going to need a cute when it's not two main window.
+
+01:11.240 --> 01:18.500
+So we're just going to say OK it's going to inherit from cumen window and that's pretty much what we
+
+01:18.500 --> 01:18.980
+have here.
+
+01:18.980 --> 01:26.080
+So we inherit from cumen we know what we can go ahead and do not just pass because now code wouldn't
+
+01:26.130 --> 01:28.310
+do nothing and we don't have an error here.
+
+01:28.430 --> 01:32.780
+But what I actually want to do in here I don't want to pass I don't want to have a constructor here
+
+01:33.110 --> 01:40.610
+which will take care of initialization so it will pretty much take care of making my code or my UI look
+
+01:40.610 --> 01:47.960
+as I want it to because I want for example to set the window title I want to set a collect functionality
+
+01:47.960 --> 01:50.270
+here so I want to connect it with a toggle.
+
+01:50.270 --> 01:52.240
+So pretty much what we have done in this line.
+
+01:52.310 --> 01:55.850
+I want to set up the UI and all those kind of things.
+
+01:55.850 --> 02:04.670
+So what I can do in here is I can just say super dot underscore underscore in it and here I need to
+
+02:04.670 --> 02:06.660
+give it to the parent.
+
+02:06.720 --> 02:12.170
+So now the parent is going to be empty at that point or it's not known.
+
+02:12.170 --> 02:19.040
+So I need to create this parent in here and I will set it to none has a default value.
+
+02:19.220 --> 02:23.890
+Now you might say what is this parent thing and why do we need that and so forth.
+
+02:23.900 --> 02:32.460
+So if you remember how we created a UI just with Python without a huge creator we just said OK I have
+
+02:32.540 --> 02:38.480
+this checkbox I have this window and if I don't put them together I have this button with the the button
+
+02:38.480 --> 02:43.940
+example where the button and I have the window and if I don't tell the button that it's supposed to
+
+02:43.940 --> 02:50.440
+be inside of the window it's just going to be a specific button floating somewhere on our screen.
+
+02:50.660 --> 02:57.410
+So I needed to tell the BOTTEN who his parent was and his parent was the main window and that's pretty
+
+02:57.410 --> 02:58.850
+much the same thing that we say here.
+
+02:58.850 --> 03:06.470
+So we need to know who our parent is and in which we're what the main window pretty much is going to
+
+03:06.470 --> 03:07.200
+be.
+
+03:07.490 --> 03:14.720
+And now what we can do is we can set the title in here so instead of saying window that set window title
+
+03:14.750 --> 03:22.280
+we can say self that said window title because the window is going to be cumen windows which pretty
+
+03:22.280 --> 03:23.780
+much just the same thing right.
+
+03:23.990 --> 03:29.750
+So what we now can do is we can just say instead of setting window to qued window widgets queue main
+
+03:29.750 --> 03:36.040
+window you just say it's going to be an instance of main window.
+
+03:36.350 --> 03:43.470
+Now in order to set the UI we need to actually set the why of self.
+
+03:43.640 --> 03:46.590
+To you I underscore main window.
+
+03:46.700 --> 03:47.510
+Why is that.
+
+03:47.600 --> 03:50.610
+Well it's pretty much in order to get rid of this line here.
+
+03:50.750 --> 03:52.840
+So we don't need to do this anymore.
+
+03:52.970 --> 04:00.710
+We don't need to do the UI setup any more so we can just say taught you hide that set of UI.
+
+04:01.400 --> 04:03.650
+So we just set up the Y in here.
+
+04:03.650 --> 04:10.640
+And as you can see now it's expecting a window here and the window that we are passing here is going
+
+04:10.640 --> 04:15.830
+to be self because the window itself that we're talking about is the one that we want to pass and we
+
+04:15.830 --> 04:19.880
+want to use in general so I can get rid of those two lines now.
+
+04:20.270 --> 04:25.430
+And now we only have this one line left where it says clicked connect.
+
+04:25.430 --> 04:35.300
+So what I can pretty much do is I can just copy this code from here and say self that you I thought
+
+04:35.300 --> 04:44.500
+my button clicked connect and here now it needs to know which button it's talking about.
+
+04:44.500 --> 04:49.120
+So self-taught UI thought CB to toggle.
+
+04:49.120 --> 04:52.680
+So it's pretty much replacing the code that we had before.
+
+04:52.700 --> 05:01.630
+Now the only thing that we have is our very clean class and our main window that we just pass into the
+
+05:01.630 --> 05:04.340
+window and then we show the window.
+
+05:05.050 --> 05:07.160
+So that's everything we need to do now.
+
+05:07.330 --> 05:13.840
+So now what we can do is we can extend our constructor here any time if we want to make any more dustman's
+
+05:13.870 --> 05:16.920
+because we cannot do any adjustments in our main window.
+
+05:16.960 --> 05:23.890
+Why we can change this UI main window class because if we change it in here then we get a problem because
+
+05:24.270 --> 05:30.430
+as it says here warning all changes made in this file will be lost because any time that we change anything
+
+05:30.430 --> 05:36.430
+in here and we run our cute creator we save something or change something there and save it and then
+
+05:36.430 --> 05:43.480
+we run our build up to in order to compile the UI in order to change to get a main window UI and make
+
+05:43.480 --> 05:50.180
+it our main window why file then on changes will be gone.
+
+05:50.230 --> 05:57.680
+That's why we now can create our main window which will pretty much say okay I'm going to inherit from
+
+05:57.680 --> 05:59.110
+Q main window.
+
+05:59.110 --> 06:06.350
+I'm going to pretty much set the main window as my own UI.
+
+06:06.690 --> 06:15.430
+And now I can adjust the UI I can call this setup y method I can go ahead and add to Khaliq functionality
+
+06:15.700 --> 06:22.480
+and I can go ahead and pretty much do all of my things that I want to adjust and change my UI on my
+
+06:22.480 --> 06:25.850
+UI without having to adjust my main window why.
+
+06:25.990 --> 06:29.050
+So that's a pretty clean pattern that we have here.
+
+06:29.230 --> 06:37.420
+So now we can pretty much make adjustments without having to interfere with cute creator and yet things
+
+06:37.420 --> 06:38.740
+will be saved.
+
+06:38.740 --> 06:41.200
+Things will be exactly as we want them.
+
+06:41.710 --> 06:47.670
+And as you can see the only lines outside of this class is this what we have here is a window window.
+
+06:47.680 --> 06:51.100
+Now snowless just run it and see if it's still working.
+
+06:51.100 --> 06:55.590
+And as you can see we still get our push button with the check boxes and they still do what they are
+
+06:55.590 --> 06:56.760
+supposed to do.
+
+06:57.190 --> 07:03.820
+So you see what we had before wasn't working but it was not very extensible or at least was not extensible
+
+07:03.820 --> 07:04.820
+in a clean way.
+
+07:04.960 --> 07:10.360
+And now we have this very extensible class main window which we can adjust any time and we can even
+
+07:10.360 --> 07:11.500
+add functionality in here.
+
+07:11.500 --> 07:17.170
+So let's say we would like to add a function in here or a method which should do something we can do
+
+07:17.170 --> 07:23.150
+that now because we have this clean class and we're going to check that out in the next video.
+
+07:23.230 --> 07:24.370
+So see you there.

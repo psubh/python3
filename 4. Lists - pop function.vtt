@@ -1,0 +1,133 @@
+WEBVTT
+
+00:00.540 --> 00:06.750
+Welcome back in this video we are going to look into the pop function which allows us to remove the
+
+00:06.750 --> 00:08.730
+last item in a list.
+
+00:08.730 --> 00:14.910
+Therefore I have this list prepared here called planets and in there you have the nine planets that
+
+00:15.180 --> 00:21.900
+are within our solar system and Pluto is in there as well as I think it was decided that Pluto is a
+
+00:21.900 --> 00:22.580
+planet.
+
+00:22.620 --> 00:28.050
+In the end so they weren't sure for quite a while so they said it wasn't not but in the end it is a
+
+00:28.050 --> 00:28.530
+planet.
+
+00:28.620 --> 00:30.920
+At least that's the latest decision.
+
+00:30.930 --> 00:36.400
+So now if I want to get rid of the last element there is something called Pop and that's just used this
+
+00:36.410 --> 00:37.460
+pop function.
+
+00:37.560 --> 00:40.700
+And I'm going to just say planets that pop.
+
+00:40.980 --> 00:48.300
+And what that will do is it will delete Pluto from this list so let's just try it out.
+
+00:48.620 --> 00:49.360
+Let's run the code.
+
+00:49.380 --> 00:51.990
+And as you can see Pluto is not in the list anymore.
+
+00:52.020 --> 00:57.150
+So Mercury Venus Earth and so forth are all there but Pluto is not there.
+
+00:57.150 --> 00:59.050
+So where did you go.
+
+00:59.250 --> 01:01.760
+Well it got deleted from the list.
+
+01:01.770 --> 01:07.220
+But at the same time it is the output of this approach here.
+
+01:07.230 --> 01:13.260
+So this function or this code it gives us the output how do we test that.
+
+01:13.260 --> 01:14.680
+Well let me show you real quick.
+
+01:14.970 --> 01:19.690
+So we create a new cell where we have all of this code again.
+
+01:19.890 --> 01:28.410
+And now instead of just calling this pop function in this line I'm going to create a variable that will
+
+01:28.680 --> 01:30.630
+store the result of that.
+
+01:30.630 --> 01:39.570
+So the result of this or the output or the return of this approach shared list name that pop is going
+
+01:39.570 --> 01:41.100
+to be Pluto.
+
+01:41.460 --> 01:42.740
+And how do we check that.
+
+01:42.750 --> 01:43.930
+Well let's just do that.
+
+01:44.010 --> 01:48.500
+Let's add a line here which is going to print.
+
+01:48.660 --> 01:53.240
+So print P and let's run the code again.
+
+01:53.250 --> 02:01.020
+And as you can see now it says Pluto and that is because P contains Pluto now it contains the thing
+
+02:01.020 --> 02:03.130
+that was popped from the list.
+
+02:03.180 --> 02:10.140
+So let's say we create another line and we call that P2 it's going to be planets that pop once again
+
+02:11.430 --> 02:18.930
+and we print P2 onto the screen and you see Pluto and Neptune.
+
+02:18.930 --> 02:27.300
+So the list is going to get smaller and at the same time we store the output of that pop.
+
+02:27.540 --> 02:34.320
+And you could use that in plenty of approaches or situations where you have for example the last in
+
+02:34.380 --> 02:38.840
+first out approach where are you a pen something to the list.
+
+02:38.850 --> 02:46.980
+Then you take it out again because Mercury's way too far within our solar system are too close to the
+
+02:47.340 --> 02:54.690
+sun and we're always on we take the last one from the list so we could just use pop in order to do that
+
+02:55.020 --> 02:57.870
+and we could clean up the planets one by one.
+
+02:57.870 --> 03:02.730
+And of course plenty of other approaches as well and we will use that quite a bit as well.
+
+03:02.730 --> 03:03.220
+All right.
+
+03:03.360 --> 03:08.670
+So in the next lecture you will find a little sheet containing some information about the list and Piven
+
+03:09.030 --> 03:14.440
+and afterwards we're going to check how to convert data in Python.
+
+03:14.460 --> 03:15.670
+So see you there.

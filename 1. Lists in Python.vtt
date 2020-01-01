@@ -1,0 +1,382 @@
+WEBVTT
+
+00:00.090 --> 00:06.480
+We'll come back in this video we are going to look into lists and lists allow us to create a variable
+
+00:06.480 --> 00:11.290
+which contains multiple variables or values within itself.
+
+00:11.480 --> 00:17.040
+And that is a very important and handy tool that we're going to use quite a lot throughout the course
+
+00:17.100 --> 00:18.880
+and in general when programming.
+
+00:19.050 --> 00:27.060
+And imagine you work at a university and now your job is to create a program which contains all the
+
+00:27.060 --> 00:28.020
+students.
+
+00:28.020 --> 00:35.470
+Then you could go ahead and do something at that student one is going to be next 10 students.
+
+00:35.550 --> 00:38.760
+Two is going to be Monica.
+
+00:38.760 --> 00:48.810
+Then you have two then three which is Eric and STUDENT 4 which this friend says can and all of those
+
+00:48.810 --> 00:53.180
+are German writings so names and you can of course go ahead and do that.
+
+00:53.370 --> 00:58.200
+But as you can see there was plenty of typing and that's not a very efficient way.
+
+00:58.230 --> 01:04.110
+There is a more efficient way and that is to create a a list so you can go ahead and create a list called
+
+01:04.110 --> 01:12.140
+students and in there you can use square brackets in order to create the entries.
+
+01:12.180 --> 01:15.720
+So I can create Max in there.
+
+01:15.780 --> 01:23.100
+Then after the comma I have Monica again in quotation marks because they are strings.
+
+01:23.100 --> 01:25.620
+So we have Max has a string Monika's a string.
+
+01:25.620 --> 01:27.290
+Eric has a string and so forth.
+
+01:27.480 --> 01:29.060
+So now I do the same here.
+
+01:29.070 --> 01:37.290
+Eric and Francis Carr as you can see what I had done within four lines before I can now do within one
+
+01:37.290 --> 01:39.270
+line.
+
+01:39.270 --> 01:42.580
+Now you might wonder how do I access those people.
+
+01:42.660 --> 01:46.580
+So how do they access somebody within that list.
+
+01:46.830 --> 01:49.770
+Well first of all let's just print out that student.
+
+01:49.830 --> 01:55.620
+So let's print out students and for now we're just printing out all of them.
+
+01:55.680 --> 02:01.400
+As you can see we get this statement here telling us OK this is a list.
+
+02:01.470 --> 02:02.300
+Why do we know that.
+
+02:02.310 --> 02:08.850
+Well we know that because we have these square brackets starting and ending brackets and within we have
+
+02:09.240 --> 02:10.050
+strings.
+
+02:10.080 --> 02:10.960
+And how do you know that.
+
+02:10.980 --> 02:19.300
+Well this apostrophe So the apostrophe is telling us that these are strings within our list.
+
+02:19.590 --> 02:23.070
+Now can of course go ahead and create a list of numbers as well.
+
+02:23.070 --> 02:29.370
+So we can go ahead and say create a list with marks where we have the marks of our students for 3 to
+
+02:29.370 --> 02:36.630
+1 or we could also say these are general marks that are available within our grading system or something
+
+02:36.630 --> 02:37.970
+like that.
+
+02:38.910 --> 02:43.950
+So you might wonder how do I access Mock's how to access Monica and so forth.
+
+02:43.950 --> 02:50.090
+Because before that was easy I could just say print Student 1 and that would be Max.
+
+02:50.340 --> 02:55.740
+But now what if I want to have Max within the list of students.
+
+02:55.770 --> 02:57.460
+Then there is a different approach.
+
+02:57.570 --> 03:04.860
+You simply go ahead and state something like students and then you use square brackets and the index
+
+03:04.980 --> 03:07.560
+of the value that you want to have.
+
+03:07.560 --> 03:13.890
+So in our case I want to have Max and Max is at the first position and as programming languages start
+
+03:13.890 --> 03:17.930
+counting with zero Max is at the zeroth position.
+
+03:17.940 --> 03:21.680
+So we need to enter zero here in order to get max.
+
+03:21.690 --> 03:26.190
+So let me show you that that's true and you are students 0 is Max.
+
+03:26.220 --> 03:31.210
+Now go ahead and try to get Eric on your screen to be printed out.
+
+03:31.210 --> 03:31.720
+All right.
+
+03:31.740 --> 03:32.430
+I hope you try it.
+
+03:32.430 --> 03:40.640
+You could just say something like students square brackets and to y2 because Eric is at the third position
+
+03:41.070 --> 03:46.210
+but from a programming point of view that's the second order to position.
+
+03:46.220 --> 03:48.480
+So we enter two in here.
+
+03:48.480 --> 03:54.270
+So that's why we get Eric here and the same goes from Francisco she's going to be third or third the
+
+03:54.270 --> 03:56.850
+third index or three index pretty much.
+
+03:56.850 --> 04:02.880
+So that's something that you have to be very careful about because realist's always start counting with
+
+04:02.970 --> 04:03.660
+zero.
+
+04:03.750 --> 04:06.120
+In general programming languages do so.
+
+04:06.600 --> 04:15.090
+All right so now what if I want to write something like Max and Francisco that I can go ahead and do
+
+04:15.090 --> 04:15.980
+that.
+
+04:16.050 --> 04:27.150
+Students at the position zero or index 0 and or plus And and this and is going to be within quotation
+
+04:27.150 --> 04:30.130
+marks because we're working with a string here right.
+
+04:30.180 --> 04:37.440
+The student at the zero position is Max or zeros Max and Francisco is also a string.
+
+04:37.440 --> 04:40.010
+So Max and Francisco are strings in here.
+
+04:40.080 --> 04:42.470
+That's why I need to use strings.
+
+04:42.780 --> 04:50.530
+And then I use concatenation in order to print out in one bigger string.
+
+04:50.550 --> 04:53.290
+So this whole statement here is a string now.
+
+04:53.550 --> 04:57.300
+So they saying something like Max and Francisco.
+
+04:57.360 --> 04:58.920
+So now that's printed out.
+
+04:59.100 --> 05:06.600
+And there we are Max and Francisco if you want to know the length of the string or the list that you
+
+05:06.600 --> 05:14.600
+have if you want to know how many entries are within the list you can use the len method method or function.
+
+05:14.700 --> 05:21.110
+So we can go ahead and say something and then as we had with Esti are creating a string out of a value
+
+05:21.120 --> 05:25.350
+this line gives you the length of a list.
+
+05:25.380 --> 05:32.910
+So I can just say it's too dense and what we get here is for as we have four entries within our students
+
+05:33.030 --> 05:34.110
+list.
+
+05:34.530 --> 05:40.170
+Now you might say all right that's great and all but how do I add something to my students I don't want
+
+05:40.170 --> 05:47.070
+to always go back and add something at the declaration here in this line.
+
+05:47.130 --> 05:52.250
+I want to be able to add an entry at any point in my program.
+
+05:52.470 --> 05:53.740
+Well that's quite easy.
+
+05:53.760 --> 05:57.990
+You can go ahead and use the append function.
+
+05:58.170 --> 06:05.850
+The append function allows us to append or add somebody to OR SOMETHING TO A LIST.
+
+06:05.850 --> 06:11.520
+And in this case we're talking about strings so it makes sense to add a string in here as well.
+
+06:11.520 --> 06:18.860
+So let's say we have more it's also a German name again and we can add him to the list.
+
+06:18.870 --> 06:20.330
+Now let's check it out.
+
+06:20.340 --> 06:25.360
+We have added more ID's to the screen or to our program.
+
+06:25.380 --> 06:28.600
+Now let's go ahead and run this method again.
+
+06:28.620 --> 06:31.790
+This students learn method or function again.
+
+06:31.800 --> 06:32.360
+There we are.
+
+06:32.360 --> 06:34.530
+Now we have five people in there.
+
+06:34.740 --> 06:39.660
+So we know where I want to know who is in that student's list we can simply print it out.
+
+06:39.660 --> 06:48.390
+So print students and we see where Max Monica Eric Francisca and Moritz.
+
+06:48.650 --> 06:55.100
+Now let's go back to numbers quickly because we had this marks a list which contained four three two
+
+06:55.100 --> 06:55.710
+and one.
+
+06:55.880 --> 06:58.610
+And let's say these are the marks of our our group.
+
+06:58.730 --> 07:02.300
+And now let's add a number.
+
+07:02.310 --> 07:07.030
+We're on a mark to our Maurits.
+
+07:07.100 --> 07:15.200
+So let's just assume that the first entry year this index zero which contains the value for is associated
+
+07:15.200 --> 07:21.230
+with Max the 3s associated Monica two with Eric and one with Francisca.
+
+07:21.620 --> 07:26.850
+Then our Maurits will get a 2 let's say.
+
+07:26.990 --> 07:34.400
+So let's spend that now let's say we would like to get the average marks of our students and we can
+
+07:34.400 --> 07:36.020
+go ahead and do the following.
+
+07:36.020 --> 07:40.570
+We can just say print marks and here we need another bracket.
+
+07:40.790 --> 07:54.630
+Mark's position zero plus marks position 1 plus marks had position 2 marks and position three.
+
+07:54.700 --> 07:59.750
+And you might already say Amen that's boring entering all of that all the time manually and stuff like
+
+07:59.750 --> 08:00.400
+that.
+
+08:00.410 --> 08:01.010
+No worries.
+
+08:01.010 --> 08:09.210
+We're going to learn approaches which make this code here a lot shorter and a lot easier to type.
+
+08:09.470 --> 08:13.850
+That's going to happen as soon as we get to that one of the next chapters.
+
+08:13.910 --> 08:19.130
+So now I would like to divide that because I want to have the average and then need to divide divided
+
+08:19.130 --> 08:22.200
+by the amount of values that I have here.
+
+08:22.300 --> 08:26.570
+I could of course say all right I'm going to divide it by five because that's the amount of values I
+
+08:26.570 --> 08:27.110
+have.
+
+08:27.260 --> 08:33.240
+But I can also say I'm going to divide it by the amount of marks that we have within our list.
+
+08:33.440 --> 08:34.980
+And now you can try yourself.
+
+08:35.000 --> 08:37.060
+What would you need to enter here.
+
+08:37.580 --> 08:39.330
+All right I hope you've figured it out.
+
+08:39.360 --> 08:41.710
+It's Len it's the Lenn function.
+
+08:41.840 --> 08:45.860
+So I'm going to say Lenn marks what that's going to give me is five.
+
+08:45.860 --> 08:52.010
+Because within my marks I have 5 entries and in order to make sure that that is true I can go ahead
+
+08:52.430 --> 08:58.790
+and well I executed that I can add another cell in here so I'm going to press the plus button and I'm
+
+08:58.790 --> 09:07.330
+going to say something like learn or actually print learn marks and now you are it's five.
+
+09:07.490 --> 09:11.500
+So now you see we divided five values by five.
+
+09:11.540 --> 09:13.730
+And that gave us the value of two point four.
+
+09:13.880 --> 09:18.120
+So the average mark is two point four.
+
+09:18.120 --> 09:18.460
+All right.
+
+09:18.460 --> 09:23.890
+So I'd say that's a great start into lists and in the next video or actually in the next lecture there's
+
+09:23.900 --> 09:25.600
+a little quiz waiting for you.
+
+09:25.610 --> 09:32.240
+And if you've figured it out and managed to go through quiz easily then you can skip the following lecture
+
+09:32.630 --> 09:38.810
+and go to the pop function straightaway and otherwise of course check out the solution.
+
+09:38.990 --> 09:40.720
+All right so see you in the next video.

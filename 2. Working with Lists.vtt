@@ -1,0 +1,118 @@
+WEBVTT
+
+00:00.390 --> 00:05.670
+All right so let's check out some more functionalities of lists that we haven't touched yet and therefore
+
+00:05.670 --> 00:11.100
+I need to create a list and I'm going to create a students list that we were using quite a bit already
+
+00:11.460 --> 00:18.680
+and it contains Max than Monica and we had Eric in there.
+
+00:18.690 --> 00:21.580
+And finally Francisca.
+
+00:21.840 --> 00:23.980
+So until that point nothing you.
+
+00:24.100 --> 00:27.580
+But then let's say we want to get rid of the last student.
+
+00:27.660 --> 00:33.700
+Well we can just do that with the pop function and you have seen the pop function or pop method already
+
+00:34.530 --> 00:41.720
+so we can do something like students that pop that will get rid of Francisco in this case.
+
+00:41.730 --> 00:47.380
+But at the same time it will return Francisco to this variable called student.
+
+00:47.490 --> 00:58.780
+And now let's just print last student and let's print our students a list and you will see Francisca
+
+00:58.800 --> 01:03.280
+now is within law student but she's not within the list anymore.
+
+01:03.570 --> 01:05.550
+So that's something that we have seen already.
+
+01:05.670 --> 01:08.140
+I just wanted to quickly show you that again.
+
+01:08.310 --> 01:13.940
+Now there is another thing that we can do is in order to add an element to our list we could use append
+
+01:14.460 --> 01:20.700
+as you have seen before but we also can add a list to each other so I could just say.
+
+01:20.700 --> 01:21.080
+All right.
+
+01:21.090 --> 01:30.120
+Ed Frank or Ed the list containing one element called Frank to do list and knowledge's print students
+
+01:30.120 --> 01:31.480
+once again.
+
+01:32.010 --> 01:34.030
+And as you can see makes Monica.
+
+01:34.040 --> 01:38.120
+Eric Francisco and Frank are within the list now.
+
+01:38.130 --> 01:44.490
+Now in order to delete a student we saw how we can use pop in order to get rid of the last element in
+
+01:44.490 --> 01:45.190
+the list.
+
+01:45.250 --> 01:52.950
+But now what if we want to get rid of a specific element in the list based on its index then we can
+
+01:52.950 --> 02:00.960
+use to Dayle key word DTL in order to delete an element and then we just need to write the name of the
+
+02:00.960 --> 02:05.610
+list and then index that we want to get rid of let's say one to get rid of index three.
+
+02:05.910 --> 02:14.700
+And now it's print students once again as you can see Francisca which was at index three is not in the
+
+02:14.700 --> 02:15.530
+list anymore.
+
+02:15.750 --> 02:18.680
+So that's how easy it is to get rid of an element.
+
+02:18.840 --> 02:25.070
+But then what if you want to get rid of an element based on it's entry based on the name for example
+
+02:25.080 --> 02:27.170
+so let's say we want to get rid of Monica.
+
+02:27.420 --> 02:29.380
+Well then we can use to remove method.
+
+02:29.490 --> 02:31.860
+So students don't remove.
+
+02:32.250 --> 02:34.830
+And here we're just going to say Monica.
+
+02:35.100 --> 02:43.810
+And now if we print students once again we will see Monica is not on the list anymore so we simply got
+
+02:43.920 --> 02:48.060
+rid of Monica with the Remove method.
+
+02:48.060 --> 02:50.080
+All right so that was it for now.
+
+02:50.130 --> 02:56.850
+And in the next video we are going to look at slicing So practice around with this a little but some
+
+02:56.850 --> 03:02.470
+elements add some new elements create an additional list and add the list to another list and so forth.
+
+03:02.580 --> 03:07.620
+Just to get a little feeling for that and otherwise see you in the next video.

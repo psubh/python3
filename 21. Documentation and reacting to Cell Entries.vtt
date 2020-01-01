@@ -1,0 +1,481 @@
+WEBVTT
+
+00:00.660 --> 00:01.500
+Welcome back.
+
+00:01.500 --> 00:08.760
+In this video I would like to talk about documentation's and how you can pretty much extend your knowledge
+
+00:08.760 --> 00:11.610
+and understand in more depth what's going on.
+
+00:11.880 --> 00:16.350
+And therefore let's check out this table widget that we have.
+
+00:16.350 --> 00:21.480
+And it's called cue table widget so if you want to know more about your table widget we can of course
+
+00:21.480 --> 00:23.380
+check out the properties and all of that.
+
+00:23.460 --> 00:26.960
+But we can also google it because the documentation is always our friend.
+
+00:27.120 --> 00:35.780
+So cue table widget let's just search for that and we will find this documentation here.
+
+00:35.970 --> 00:41.760
+And it says class cue's documentation so 5 or 11 that's the version that I'm currently running.
+
+00:41.910 --> 00:47.000
+And it might be a different version for you but there is this class called queue table widget.
+
+00:47.220 --> 00:55.200
+Now the thing is this is a C++ documentation and you will see that there are public functions some avoid
+
+00:55.200 --> 00:56.850
+some are and so forth.
+
+00:56.960 --> 01:02.520
+All this pretty much means here on the left hand side is what they return so void means it doesn't return
+
+01:02.610 --> 01:03.260
+anything.
+
+01:03.270 --> 01:10.890
+It means it returns an entire current item will return a queue table widget item and so forth.
+
+01:10.890 --> 01:17.340
+So you see for example the row count which we have used returns an integer which returns in a number
+
+01:17.700 --> 01:21.660
+and Konst is pretty much just something from C++.
+
+01:21.660 --> 01:29.310
+So if I press on row count then I will find a more detailed information about this abro count Konst
+
+01:29.820 --> 01:36.660
+get a function for a property row count and you can also see how you can set the row counts so there
+
+01:36.660 --> 01:39.120
+is a method for that and so forth.
+
+01:39.360 --> 01:42.680
+So you can see that there is a documentation.
+
+01:42.690 --> 01:47.770
+And yeah pretty much helps us out if we are searching for something.
+
+01:47.970 --> 01:54.550
+But then if we have a full look at the code we have something here which is C plus plus code.
+
+01:54.690 --> 01:55.680
+And how do we know that.
+
+01:55.690 --> 02:00.800
+Well you can see that it's not Python because there is a semi-colon at the end.
+
+02:00.960 --> 02:05.500
+Then there's this new keyword which we have never used it's not used in Python.
+
+02:05.580 --> 02:13.920
+Then we have the star and we need to tell of which type of object is when we created it before we initialize
+
+02:13.920 --> 02:14.680
+it and so forth.
+
+02:14.670 --> 02:17.520
+So C++ is a very different programming language.
+
+02:17.520 --> 02:25.990
+It's just C which extended object orientation and it's pretty old so that it's from a time where the
+
+02:26.040 --> 02:29.680
+programming languages weren't as easy to use as they are today.
+
+02:29.700 --> 02:36.000
+So I'd say Python is a rather easy to use programming language because it has a lot of functionality
+
+02:36.000 --> 02:40.200
+which makes it so much easier to pretty much write your code.
+
+02:40.200 --> 02:46.770
+You don't need to have to have all of this overhead that for example C++ Yes you would also have this
+
+02:46.770 --> 02:52.200
+table which should said item where we would just use a dot in Python.
+
+02:52.200 --> 02:55.810
+But here you need to use mine is greater sign.
+
+02:55.860 --> 03:00.600
+So it's yeah if you see something like that then you know OK this is not Python.
+
+03:00.810 --> 03:02.430
+So how do we actually use that.
+
+03:02.430 --> 03:07.740
+So how can I now go ahead and use that same functionality in Python.
+
+03:08.010 --> 03:14.850
+Well you can of course go ahead and copy the C++ code and then try to break it down so that it looks
+
+03:14.850 --> 03:16.130
+like Python code.
+
+03:16.380 --> 03:21.860
+So that's something that is not easy especially as a beginner but that's something you could do.
+
+03:21.900 --> 03:31.000
+Of course you can also search for q table widget pie cute or piking will probably get a vessel like
+
+03:31.020 --> 03:36.760
+you and then you will find the documentation for pie cube.
+
+03:37.290 --> 03:40.890
+And as you can see this is the documentation it's not pretty.
+
+03:40.890 --> 03:42.750
+It's just very basic.
+
+03:42.780 --> 03:49.770
+And then if I scroll down you will see that even here in the pipe 1 which is the python one we still
+
+03:49.770 --> 03:53.140
+get some C++ code as examples.
+
+03:53.460 --> 04:00.050
+Ok so if I for example go to insert growth.
+
+04:00.120 --> 04:03.880
+So let's say we want to insert a row and we press it.
+
+04:03.900 --> 04:09.550
+You will find this method is also a cute slot with the C++ signature void in a row.
+
+04:09.600 --> 04:16.520
+It answers an empty row into the table add row so it row whatever we have entered here.
+
+04:16.560 --> 04:22.010
+So the documentation is not perfect and that's the case for many documentations.
+
+04:22.080 --> 04:30.820
+It's not just with cute or cute but generally I would always recommend to check out the documentation
+
+04:30.840 --> 04:36.200
+and if that doesn't help then search for what you specifically want to do.
+
+04:36.360 --> 04:39.930
+So let's say you want to insert a row.
+
+04:40.170 --> 04:48.630
+So I'm just going to add insert row and you will see it says here C++ how to add a new row to existing
+
+04:48.620 --> 04:52.480
+cue table widget and then they will show you OK.
+
+04:52.740 --> 04:58.560
+OK this is the C++ code not helping me again C++ code not helping me.
+
+04:58.740 --> 05:02.010
+Ok then you can of course add quite cute in here.
+
+05:02.130 --> 05:09.360
+Or Python you could add the python word and then you see Python how to add a row in a table widget cute
+
+05:09.870 --> 05:12.060
+and then you finally find Python code.
+
+05:12.060 --> 05:15.700
+So stack overflow is your friend and they can really help you out.
+
+05:15.750 --> 05:22.200
+You can find a lot of useful information here and say Yeah the problem pretty much all questions that
+
+05:22.200 --> 05:26.140
+you could think of were already asked and answered already.
+
+05:26.160 --> 05:32.220
+So this guy he has and so did Alexander and then you can see there's a check mark which pretty much
+
+05:32.220 --> 05:41.400
+means this was the question or the answer that was accepted by the question maker or by the moderator
+
+05:41.400 --> 05:48.420
+here and get 20 people uploaded this because it seems like it has helped them out as well.
+
+05:48.840 --> 05:51.400
+And that's pretty much how you can approach it.
+
+05:51.420 --> 05:56.010
+You can always just search for the specific thing that you want to do.
+
+05:56.030 --> 06:01.050
+You can see insert row I wrote it in one line you can also wrote it all in one word.
+
+06:01.050 --> 06:08.580
+You can write it in two words and you can check out the class reference which will bring us back to
+
+06:08.610 --> 06:14.130
+the documentation so you can see the documentation is powerful in Google of course and not always helpful.
+
+06:14.250 --> 06:18.940
+So you can always of course search on stage overflow specifically.
+
+06:19.380 --> 06:24.480
+So now let's quickly go back to the documentation because I would like to check something out and I'm
+
+06:24.480 --> 06:30.270
+not talking about the Piute documentation but I'm talking about the qued documentation the general on
+
+06:30.280 --> 06:36.420
+the C++ what they can find signal's So there is something called signals and you can see that there
+
+06:36.420 --> 06:41.290
+are plenty of signals for example cell activated cell change cell clicks or double click.
+
+06:41.430 --> 06:47.070
+So there are all of these signals which we can use in order to execute some code and that's powerful
+
+06:47.070 --> 06:50.780
+because we want to for example trigger some code.
+
+06:50.820 --> 06:58.830
+If a user and there's some new value and changes a cell again we can do that with cell changed if we
+
+06:58.830 --> 07:02.260
+wanted to trigger some code wants to use a click the cell.
+
+07:02.310 --> 07:07.590
+Well we could of course even use cell clicked or cell double clicked in order to execute some other
+
+07:07.590 --> 07:08.190
+code.
+
+07:08.190 --> 07:12.090
+So you see there is quite some cool stuff here.
+
+07:12.090 --> 07:16.370
+Great signals that we can use and I'd say Let's check that out real quick.
+
+07:16.410 --> 07:18.280
+Of course you can check it out here.
+
+07:18.280 --> 07:21.660
+We can press on it you see in row and column.
+
+07:21.660 --> 07:22.820
+All right that's good.
+
+07:23.250 --> 07:25.320
+Let's just check it out and queued.
+
+07:25.350 --> 07:30.230
+So here let me add a new signal.
+
+07:30.330 --> 07:36.780
+So here at the bottom go to signals and slots and go to add one and I'm going to say the sender should
+
+07:36.780 --> 07:40.220
+be my table widget and will be this one here.
+
+07:40.260 --> 07:42.650
+So the table widget is my sonder.
+
+07:42.660 --> 07:44.410
+Now what's the signal.
+
+07:44.460 --> 07:50.640
+As you can see there are plenty of signals that we can choose from so we can choose cell changed and
+
+07:51.360 --> 07:55.150
+let's make this a little wider so we can read better.
+
+07:55.170 --> 07:58.530
+So activators So click sell enter sell change.
+
+07:58.520 --> 08:05.460
+So let's say sell change somebody's changed to sell at in into which pretty much means that this particular
+
+08:05.460 --> 08:13.590
+cell so this one here that's all here which says 4 million that will be 1 1 which pretty much means
+
+08:14.220 --> 08:15.730
+roll one column one.
+
+08:15.990 --> 08:16.580
+OK.
+
+08:16.950 --> 08:20.470
+And of course we could select a receiver here but.
+
+08:20.740 --> 08:23.290
+Well there aren't very many interesting things.
+
+08:23.400 --> 08:30.020
+Of course we could say OK if somebody changes to sell then we want to hide our pushbuttons so we could
+
+08:30.030 --> 08:37.470
+say hide something like that but that doesn't make sense and we don't really have anything else in here
+
+08:37.470 --> 08:42.390
+that we would access directly via cute editor.
+
+08:42.390 --> 08:44.890
+I'd say we use Python code for that.
+
+08:45.240 --> 08:46.850
+So get rid of it.
+
+08:47.010 --> 08:51.960
+And now we're going to go back to Python because I would like to show you how it's done in Python because
+
+08:52.380 --> 08:53.490
+it's a little limited.
+
+08:53.520 --> 09:01.320
+And the cute creator as you know now in here I'm going to create a new method that I'm going to call
+
+09:01.380 --> 09:08.260
+on cell changed and it's going to take selve the role and to call them.
+
+09:08.820 --> 09:13.430
+And how do I know that there should be a row and a column.
+
+09:13.590 --> 09:21.780
+Well you can of course check out the documentation where you will see cell changed takes in row and
+
+09:21.810 --> 09:27.150
+column and I want to call this method on cell change which should do a very similar thing.
+
+09:27.180 --> 09:31.570
+So I'm just going to say OK Ansal changed take the wrong columns.
+
+09:31.600 --> 09:34.460
+I want to know which cell I would need to change.
+
+09:34.530 --> 09:39.420
+And now let's say the only thing that I will do in here is actually print something.
+
+09:39.420 --> 09:43.140
+So print roll and print cell.
+
+09:43.410 --> 09:46.840
+Now we are actually called.
+
+09:46.870 --> 09:49.350
+Right so print call.
+
+09:49.470 --> 09:52.010
+Now we need to connect that of course.
+
+09:52.020 --> 09:59.810
+Where do we connected to self-taught UI dot table widget that cell changed.
+
+09:59.820 --> 10:04.960
+So there is the cell changed and as you can see it has a row and a column.
+
+10:05.240 --> 10:12.740
+And now I'm not calling this method I'm connecting this method to self-taught on cell changed.
+
+10:12.930 --> 10:18.480
+So we need to have the same properties here as the cell changed and you saw it needed a row and a column
+
+10:18.480 --> 10:27.210
+so I entered those rows and columns in order to use them now and that me run this code so I may execute
+
+10:27.210 --> 10:35.460
+it and make a change here so I can see I cannot make a change because I edited it last time so I need
+
+10:35.460 --> 10:47.320
+to go back to huge creator and make sure that my widget allows the editing of triggers.
+
+10:47.430 --> 10:59.880
+So double clicked and everything and then save it and rebuild it real quick and then build and run main
+
+11:01.290 --> 11:02.340
+Can I can change it.
+
+11:02.370 --> 11:11.070
+Let's say I change it to New York and I press enter you can see I get 0 0 0 0 0 pretty much means row
+
+11:11.190 --> 11:12.010
+and column.
+
+11:12.130 --> 11:21.400
+So zero was the row and that was the column so I could say something like row coal on empty space plus.
+
+11:22.080 --> 11:27.320
+And of course call empty space loss.
+
+11:27.510 --> 11:29.680
+And now let's make strings from it.
+
+11:29.700 --> 11:32.300
+So I asked our.
+
+11:33.030 --> 11:44.570
+And as we are called now let's run it again and let's make a change here and then we roll zero call
+
+11:44.570 --> 11:45.780
+them 1 was changed.
+
+11:45.810 --> 11:47.710
+That's the one with inhabitants.
+
+11:47.820 --> 11:50.760
+Now let's go and make a change here.
+
+11:50.760 --> 11:53.280
+And you see row 1 column one was changed.
+
+11:53.280 --> 12:00.810
+Now let me add a new line each time I'll add a new line it also automatically made changes here because
+
+12:00.810 --> 12:06.690
+the word cells changed and that's why the displayed row to call them 1 was changed.
+
+12:06.720 --> 12:07.670
+This one here.
+
+12:07.680 --> 12:13.700
+So now let me change it again and you will see OK the item and row two and column one was changed.
+
+12:15.140 --> 12:16.910
+So why is this even useful.
+
+12:16.910 --> 12:17.840
+What do we even need.
+
+12:17.840 --> 12:20.610
+This whole own cell change thing for.
+
+12:20.780 --> 12:29.210
+Well imagine you want to save that you want to store the changes directly in a CV file or in a database
+
+12:29.240 --> 12:35.170
+or online somewhere and you want to make the changes or store them each time that they use or changed
+
+12:35.180 --> 12:42.320
+a role because you don't want him to actually always press a safe button in order to change to see as
+
+12:42.320 --> 12:43.510
+we file for example.
+
+12:43.640 --> 12:50.900
+But you actually want to save it straight after he changed one of those solar cells and that's exactly
+
+12:50.900 --> 12:51.490
+what we do here.
+
+12:51.500 --> 12:58.940
+So each time we could say OK each time the user changes a cell we will pretty much store that.
+
+12:58.940 --> 13:00.260
+And he says fire.
+
+13:00.770 --> 13:09.290
+OK so now was just a little inside on widgets and a little tip on how to use the documentation and how
+
+13:09.290 --> 13:14.850
+to search for more functionality and yes see you in the next video.

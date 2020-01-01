@@ -1,0 +1,376 @@
+WEBVTT
+
+00:00.450 --> 00:01.210
+Welcome back.
+
+00:01.230 --> 00:08.190
+Now that cutesie is installed we can go ahead and use pi charm in order to use cute and in order to
+
+00:08.220 --> 00:10.710
+go ahead and use that we are going to create a new project.
+
+00:10.710 --> 00:13.880
+So open up pie chart and create a new project.
+
+00:13.890 --> 00:19.760
+Now here we need to change a project interpreter because we don't want to create a virtual environment.
+
+00:19.770 --> 00:22.230
+What we want to use an existing interpreter
+
+00:25.230 --> 00:27.990
+and here we of course need to select a interpreter.
+
+00:27.990 --> 00:33.630
+So I'm going to press the three dots and I'm going to use the Conder and
+
+00:36.700 --> 00:44.330
+I'm going to go to Kondo environment and then select a interpreter and that will be my python file.
+
+00:44.340 --> 00:51.770
+So I need to go to users then to Anaconda where actually to my user than to Anaconda free and in there
+
+00:52.340 --> 00:57.240
+I have a python file which is called Python paksa.
+
+00:57.380 --> 00:59.720
+So that's the one that I want to use.
+
+01:00.050 --> 01:05.410
+So I select that one and press OK as you can see now pipe 3.6.
+
+01:05.420 --> 01:08.500
+In my case is the interpreter that is selected.
+
+01:08.540 --> 01:10.120
+Of course I need to give it a name.
+
+01:10.130 --> 01:20.600
+My application here and I'm going to call that student manager and press create once I'm here I'm going
+
+01:20.600 --> 01:24.350
+to wait a little bit until everything is ready.
+
+01:24.830 --> 01:30.680
+And once that is ready we can go ahead and create a new file so I'm going to create a new python file
+
+01:31.010 --> 01:32.630
+which I'm just going to call maned up.
+
+01:32.690 --> 01:33.670
+Why.
+
+01:34.160 --> 01:35.260
+And there we are.
+
+01:35.390 --> 01:38.680
+So in here I need to import Ciss first.
+
+01:38.730 --> 01:43.540
+A system library and then from Q-tip.
+
+01:43.610 --> 01:49.250
+Why I want to import cutesie widgets or qued would git.
+
+01:49.430 --> 01:56.780
+So here you see that it offers me these cute widgets to here which is on their library's side pages
+
+01:57.170 --> 01:57.950
+and then Q-tip.
+
+01:57.950 --> 01:58.640
+Why.
+
+01:58.970 --> 02:00.790
+And if it doesn't help you out.
+
+02:00.830 --> 02:08.600
+So if you enter something and this intelligence doesn't come up and you can press control space or command
+
+02:08.600 --> 02:10.910
+space and that will open up.
+
+02:10.910 --> 02:17.720
+So I'm just going to go for cutesie widgets because we want to use widgets now in order to create an
+
+02:17.720 --> 02:23.280
+app I need to say OK open up a web app and it should be a cutey widgets dot.
+
+02:23.330 --> 02:25.970
+Q app location.
+
+02:26.060 --> 02:31.580
+So queue application which pretty much creates a widget application.
+
+02:31.580 --> 02:37.550
+Now this application needs some information so it could take in an argument as soon as you can see here
+
+02:37.550 --> 02:39.980
+it says RGV list of string.
+
+02:39.980 --> 02:47.900
+So it requires a perimeter here and to permuted and I'm going to give it is says Dot RGV.
+
+02:47.900 --> 02:53.840
+Now this could be something like droite dragging a file onto our python file or stuff like that.
+
+02:53.840 --> 03:01.300
+And as we don't do that we still need to give it some sort of a paramita here which is of this type
+
+03:01.310 --> 03:08.060
+so needs to have this argument vees And once we have that we can create a window as you know a application
+
+03:08.060 --> 03:14.490
+can contain multiple windows and we can just go ahead and create one window by using cutesie widgets
+
+03:14.510 --> 03:16.610
+dot main window.
+
+03:16.610 --> 03:24.470
+So Q T or Q main window and here were pretty much already creating a window.
+
+03:24.470 --> 03:32.610
+So what we can do is show this window so window don't show and as you can see it's going to show self.
+
+03:32.690 --> 03:41.030
+So if we execute this code now and we save it and right click Run main that will open up and it will
+
+03:41.030 --> 03:42.520
+close straight away.
+
+03:42.620 --> 03:45.870
+So as you can see I close my application it opened up real quickly.
+
+03:46.040 --> 03:52.560
+Run main There is this little window and it's gone like in the South Park episode and it's gone.
+
+03:52.880 --> 03:59.360
+And in order to keep the application open we need to add the following line where we say exit and in
+
+03:59.360 --> 04:06.800
+here and Dot exec and there are two methods and the one that we want to use is the one with the underscore
+
+04:06.890 --> 04:07.800
+at the end.
+
+04:07.880 --> 04:11.140
+So exec on the score and brackets.
+
+04:11.160 --> 04:16.640
+So now let's save it again and run the application again and you will see that the application keeps
+
+04:16.700 --> 04:17.360
+open.
+
+04:17.510 --> 04:20.290
+So this is our beautiful window that we have just created.
+
+04:20.300 --> 04:25.610
+We haven't given it any paramita so we don't tell it how big it should be.
+
+04:25.610 --> 04:30.900
+There is no title here nothing any more none of this information is given.
+
+04:30.980 --> 04:32.680
+It says python here OK.
+
+04:32.720 --> 04:35.260
+So let's change the title of the window first.
+
+04:35.270 --> 04:40.240
+And in order to do so we can simply add something to the window.
+
+04:40.250 --> 04:47.090
+So we are showing it here already after having created it at the moment but we can add a lot of things
+
+04:47.090 --> 04:51.640
+to it such as buttons we can add a lot of settings here.
+
+04:51.800 --> 04:53.140
+And then we just show it.
+
+04:53.180 --> 04:53.750
+OK.
+
+04:53.750 --> 05:02.600
+So we're going to set the window title for example window type top that one here we're going to set
+
+05:02.600 --> 05:08.570
+it to something like a student manager.
+
+05:09.110 --> 05:12.360
+OK so let me save that again and run it.
+
+05:13.070 --> 05:18.240
+And now if I make it a little bigger you can see now it says student manager.
+
+05:18.260 --> 05:25.430
+All right so now let's say we want to have a button I can create a button which will be of cutesie widgets
+
+05:25.450 --> 05:27.890
+and that queue push button.
+
+05:27.890 --> 05:30.130
+So there's something called queue push button.
+
+05:30.670 --> 05:33.660
+And this shows show this button.
+
+05:33.680 --> 05:36.770
+So button show and you see a little problem here.
+
+05:36.780 --> 05:41.530
+So let's save it and display it or run it as you can see now.
+
+05:42.180 --> 05:45.230
+I have a very weird behavior.
+
+05:45.810 --> 05:50.690
+And that is that I have this one application let me make it a little bigger.
+
+05:50.930 --> 05:58.830
+I can drag it to the side and I have the button as it's own application I can press the button but nothing
+
+05:58.830 --> 06:01.970
+will happen and the button is not part of our main window.
+
+06:02.190 --> 06:04.650
+So how do we manage this.
+
+06:04.650 --> 06:11.050
+How do we get rid of this additional window that I don't need and put it into my main window.
+
+06:11.110 --> 06:18.680
+Well you just need to tell the BART and here the cue push button who has parents.
+
+06:18.930 --> 06:22.720
+And in this case I'm just going to say your parent is going to be the window.
+
+06:22.920 --> 06:26.150
+So this window here is the parent of this button.
+
+06:26.310 --> 06:32.430
+So if you run it again you will see that suddenly this button is inside of our window.
+
+06:32.430 --> 06:37.660
+Now we of course can give this button a title or a text.
+
+06:37.710 --> 06:46.830
+There is a set text method here where we can just entered text here my Or just click me click me and
+
+06:46.890 --> 06:48.370
+save and run.
+
+06:48.720 --> 06:51.500
+And as you can see there is this Click Me button.
+
+06:52.170 --> 06:57.000
+Now of course we can add other objects in here as well.
+
+06:57.000 --> 07:04.440
+For example if I want to add a checkbox I can just go ahead and use cutesy widgets as you can see these
+
+07:04.440 --> 07:10.290
+cutesy widgets or cute widgets contains all the different widgets that we want to use such as buttons
+
+07:10.710 --> 07:11.420
+and so forth.
+
+07:11.430 --> 07:19.950
+So combo box call you check box button group so you can see if all of those classes of the QAD widgets
+
+07:20.040 --> 07:20.820
+in here.
+
+07:20.820 --> 07:26.260
+So they all inherit from cutesie widgets are cute widgets and the one I want to use is checkbox.
+
+07:26.610 --> 07:31.710
+So I'm just going to say checkbox is going to be inside of the window because otherwise it's gone or
+
+07:32.070 --> 07:35.060
+it's going to be a separate window again.
+
+07:35.070 --> 07:41.220
+We don't want that and the checkbox can also have a text so there is also something called set text.
+
+07:41.220 --> 07:42.340
+So let's do that.
+
+07:42.510 --> 07:47.260
+Let's give it detects something like I am a check box.
+
+07:47.880 --> 07:53.730
+And now in order to display this checkbox we need to call this show method.
+
+07:53.760 --> 07:55.650
+So we just say show here again.
+
+07:55.920 --> 07:59.290
+And now let's run it and we will see them.
+
+07:59.460 --> 08:03.810
+There is this checkbox and there's this button and there on top of each other and I cannot even click
+
+08:03.810 --> 08:06.170
+the button because the check box is in its way.
+
+08:06.420 --> 08:09.750
+So how do I get that solved.
+
+08:09.930 --> 08:17.810
+Well I can position the check box at a specific area of my screen so I could say something like checkbox
+
+08:17.850 --> 08:20.210
+that said geometry.
+
+08:20.220 --> 08:22.000
+So there's something called Geometry.
+
+08:22.290 --> 08:31.790
+And here I can enter as you can see a x int which is the x position a Y and which is the y position
+
+08:32.130 --> 08:36.370
+a W which is to with and H which is the height.
+
+08:36.540 --> 08:40.470
+So I can just say OK put these 30 pixels to the right.
+
+08:40.500 --> 08:46.590
+One hundred pixels to the bottom and make it 200 pixels wide and 100 pixel height.
+
+08:47.130 --> 08:50.290
+So if I do that I save it and I run it.
+
+08:50.460 --> 08:51.730
+And now you see it is gone.
+
+08:51.750 --> 08:52.460
+Where is it.
+
+08:52.680 --> 08:54.870
+Well it is there.
+
+08:55.080 --> 09:00.280
+So we have to increase the size of our window in order to display it.
+
+09:00.360 --> 09:05.190
+And now as you can see the checkbox works and it has this beautiful text and it says I'm a checkbox
+
+09:05.190 --> 09:07.730
+and the button works and all is good.
+
+09:08.100 --> 09:14.390
+And now you might say Oh damn now I will have to do all of that manually I need to code everything I
+
+09:14.400 --> 09:16.510
+need to write so many lines of code.
+
+09:16.740 --> 09:24.480
+Well you could and that is definitely a way that works but you can also drag and drop UI elements and
+
+09:24.930 --> 09:31.540
+how to do that and what to do for that is is what you're going to learn in the next video.
+
+09:31.680 --> 09:33.520
+So see you there.

@@ -1,0 +1,298 @@
+WEBVTT
+
+00:00.150 --> 00:04.320
+Well come back in this video you are going to learn about comparison operators.
+
+00:04.350 --> 00:06.730
+Therefore let's go ahead and use one.
+
+00:06.750 --> 00:14.370
+So you can see what a comparison operator is let's say six is less than five.
+
+00:14.370 --> 00:19.080
+And if that's the case then just print Yes onto the console.
+
+00:19.080 --> 00:20.570
+So let's execute that code.
+
+00:20.640 --> 00:22.470
+And as you can see nothing happens.
+
+00:22.590 --> 00:25.410
+So it doesn't execute it and why is that.
+
+00:25.410 --> 00:30.860
+That is because six is not less than five six is in fact greater than five.
+
+00:31.020 --> 00:38.370
+So if we check that out once again with a print statement we would just say six less than five if we
+
+00:38.370 --> 00:43.800
+execute that we get false here which means that this statement is false.
+
+00:43.950 --> 00:51.790
+And as you already know from the last video the if statement needs to have a condition that is true.
+
+00:51.930 --> 00:54.480
+Otherwise it won't execute it's code.
+
+00:54.990 --> 01:00.930
+That's why this print statement here with the yes statement is never going to be printed because this
+
+01:00.930 --> 01:03.210
+condition here is not true.
+
+01:03.210 --> 01:05.400
+So let's check it out with a different one.
+
+01:05.400 --> 01:10.230
+Let's check it out with five lower or less than six.
+
+01:10.320 --> 01:11.050
+Let's print that.
+
+01:11.070 --> 01:14.350
+And as you can see this statement here now is true.
+
+01:14.610 --> 01:24.920
+So now if we would use that statement at the top here then we get this printed yes on to our console.
+
+01:25.050 --> 01:26.130
+So that's a good thing.
+
+01:26.160 --> 01:31.870
+Now we can also use variables in order to store a boolean with him.
+
+01:31.920 --> 01:35.130
+So let's say we have B equals false.
+
+01:35.130 --> 01:41.640
+So we have this variable and we said it's value to false and here it's important that we use the capital
+
+01:41.640 --> 01:46.720
+F as you can see now it's green which indicates that Python understands that this is a boolean.
+
+01:46.770 --> 01:54.540
+In this case and now let's print B onto the console just to check and see where B is simply false.
+
+01:54.540 --> 02:01.790
+Now what we also can do is we can store an actual comparison in our variable.
+
+02:01.800 --> 02:10.470
+So this result variable is going to be the result of five lower six or less than six.
+
+02:10.470 --> 02:20.990
+Now if we check results now and we print something on the console something like five is less than six.
+
+02:21.040 --> 02:21.990
+Let's do that.
+
+02:22.290 --> 02:25.420
+As you can see we get this printed onto the console.
+
+02:25.440 --> 02:26.890
+So let's check a different thing.
+
+02:26.940 --> 02:29.600
+Let's check result here.
+
+02:29.880 --> 02:31.840
+Let's just see what result is.
+
+02:31.890 --> 02:33.150
+So let's execute that again.
+
+02:33.150 --> 02:35.200
+And as you can see resoled is true.
+
+02:35.310 --> 02:42.750
+So result now is a boolean variable which contains a boolean and a boolean only has two values.
+
+02:42.780 --> 02:45.800
+It can either be true or it can be false.
+
+02:45.870 --> 02:51.160
+So this result here is true because 5 is less than six.
+
+02:51.180 --> 02:56.810
+That's why this statement is printing out that code here onto the console.
+
+02:56.950 --> 03:05.040
+So you can see the text now less than and greater then are not the only ones that there are there are
+
+03:05.490 --> 03:08.080
+equal comparisons as well.
+
+03:08.100 --> 03:16.740
+So let's check it out let's print out five double equal five.
+
+03:16.740 --> 03:19.640
+Now you might wonder why do we need double equal.
+
+03:19.740 --> 03:28.540
+There is because a simple equal one single equal is setting a value and two equal signs.
+
+03:28.590 --> 03:30.450
+They compare values.
+
+03:30.450 --> 03:34.550
+So when you see double equal that is always a comparison.
+
+03:34.980 --> 03:38.670
+And as you can see five equal equal five is true.
+
+03:38.670 --> 03:39.290
+Why is that.
+
+03:39.300 --> 03:41.580
+Well because five is five.
+
+03:41.850 --> 03:50.070
+But if we do something like print five equal equal four then we get false because this statement here
+
+03:50.070 --> 03:50.700
+is incorrect.
+
+03:50.700 --> 03:52.150
+Five is not four.
+
+03:52.440 --> 03:55.590
+It's as simple as that.
+
+03:55.620 --> 04:03.390
+Now you can do this also with strings so let's create a word which is just going to be hello very basic
+
+04:03.390 --> 04:08.540
+word and we are going to print a word equal equal.
+
+04:09.090 --> 04:10.730
+Hello.
+
+04:11.910 --> 04:14.310
+Now let's see what happens.
+
+04:14.370 --> 04:16.160
+As you can see we get the statement true.
+
+04:16.170 --> 04:20.280
+That's because word in fact has the value of hello.
+
+04:20.550 --> 04:22.840
+That's why this statement here is true.
+
+04:24.230 --> 04:32.390
+Then we can also check out if word is equal equal word.
+
+04:32.460 --> 04:34.380
+See if that's true.
+
+04:35.080 --> 04:41.130
+And as you can see that's false even if we would use a word with a small or uncapitalized letter.
+
+04:41.310 --> 04:47.330
+As you can see it's false that's why it's it's not comparing the name of the word variable.
+
+04:47.420 --> 04:49.060
+It's comparing its contents.
+
+04:49.070 --> 04:57.060
+So we're comparing the content which is Halo 2 this word content which is not true.
+
+04:57.080 --> 05:00.180
+That's why we get this false statement here.
+
+05:00.200 --> 05:06.100
+Now we can also do something which is an an equal comparison which means.
+
+05:06.210 --> 05:10.500
+So let's use word again which is going to be hello once again.
+
+05:10.520 --> 05:14.660
+Actually we didn't need to create that but I'm just going to create it in a different role here or a
+
+05:14.660 --> 05:15.640
+different cell.
+
+05:15.650 --> 05:24.290
+So what I'm going to do now is I'm going to print word an equal hello and this statement here is going
+
+05:24.290 --> 05:25.000
+to be false.
+
+05:25.010 --> 05:25.890
+Why is that.
+
+05:25.940 --> 05:31.130
+Because we are comparing the content of word and we are asking is it not equal.
+
+05:31.160 --> 05:31.710
+Hello.
+
+05:31.880 --> 05:39.890
+So an exclamation mark Plus the equal sign will result in a not equal.
+
+05:39.890 --> 05:45.070
+So this means not equal and there through we get false.
+
+05:45.110 --> 05:48.050
+Let's check it out and we see false.
+
+05:48.050 --> 05:52.730
+Now let's do the same with this word example that we had some going to copy and paste that real quick
+
+05:53.070 --> 05:57.070
+and I'm going to use an exclamation mark here as well and execute that.
+
+05:57.080 --> 06:04.370
+And as you can see this statement now is true because we are saying word is not equal the word word.
+
+06:04.640 --> 06:06.980
+And that's why the statement is true.
+
+06:09.230 --> 06:15.950
+Now of course you can do the same thing with numbers but how are you going to look at it is greater
+
+06:15.950 --> 06:18.410
+or equal or less than equal.
+
+06:18.440 --> 06:25.630
+So let's print five less than five on the console and that will give us false.
+
+06:25.880 --> 06:34.530
+But if we do something like print five less than equal five we get true.
+
+06:34.580 --> 06:35.500
+Why is that.
+
+06:35.600 --> 06:42.310
+Because we're checking is five lower or less than or equal five.
+
+06:42.410 --> 06:45.460
+It is not less than but it is equal five.
+
+06:45.680 --> 06:48.010
+That's why this statement here is true.
+
+06:48.020 --> 06:50.570
+So that that's why we get printed.
+
+06:50.570 --> 06:52.840
+True onto the con..
+
+06:52.850 --> 06:56.350
+Now we can do the same thing with greater then.
+
+06:56.510 --> 07:01.650
+So print five creator five that will of course be false.
+
+07:01.880 --> 07:09.550
+But then if we say print five creator equal five that will be true.
+
+07:10.010 --> 07:15.860
+So that's really important not just for statements but also for loops which we're going to cover later
+
+07:15.860 --> 07:16.400
+on.
+
+07:16.400 --> 07:21.890
+That's why I wanted to really put an emphasis on comparison operators.

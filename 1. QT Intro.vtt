@@ -1,0 +1,163 @@
+WEBVTT
+
+00:00.630 --> 00:06.320
+Welcome to the introduction of cute now you might wonder what is cute and why is that cute.
+
+00:06.360 --> 00:12.480
+Well it's cute because it's going to help us to create two girls very easily and use Python for that.
+
+00:12.630 --> 00:15.240
+So this is a little outlook.
+
+00:15.240 --> 00:20.460
+What we are going to develop in this chapter so what you're going to be able to do yourself within roughly
+
+00:20.460 --> 00:22.100
+two hours one and a half two hours.
+
+00:22.290 --> 00:27.270
+And this is a student manager where you can pretty much see or have a table here where we can easily
+
+00:27.270 --> 00:28.470
+create new entries.
+
+00:28.470 --> 00:34.380
+We can save the data in a file we can read the data for me sees the file.
+
+00:34.440 --> 00:40.530
+So it's pretty much a student manager and we're going to create Now cute is meanwhile released and version
+
+00:40.530 --> 00:41.120
+5.
+
+00:41.150 --> 00:45.090
+Oh it's an extensive GUI framework for C++.
+
+00:45.110 --> 00:50.740
+Now you might say another C++ developer I don't want to learn C++ I want to work with Python.
+
+00:50.910 --> 00:58.440
+Well you can develop real world applications with it and not just with C++ but also with Python and
+
+00:58.500 --> 01:03.960
+these applications and work on make Linux and Windows so they are cross-platform pretty cool.
+
+01:03.960 --> 01:08.160
+Pretty good thing you can pretty much create desktop applications with cute.
+
+01:08.430 --> 01:14.910
+And this is an example of what the UI looks like and of course we're going to see the UI very soon.
+
+01:14.910 --> 01:21.700
+So this is the tool cued creator which we're going to use in order to drag and drop our UI elements
+
+01:21.780 --> 01:26.820
+and in order to make some changes to the UI change of properties and those kind of things so it's going
+
+01:26.820 --> 01:33.760
+to be rather easy to do a lot of dragging and some changing not that much code required actually.
+
+01:34.200 --> 01:37.340
+And how does it work with Python.
+
+01:37.410 --> 01:44.050
+Well if we want to develop the program in Python wouldn't it be cool to access code from Python.
+
+01:44.070 --> 01:47.440
+Well yes it is cool or it would be cool and it is possible.
+
+01:47.610 --> 01:50.250
+So the framework cute itself is written C++.
+
+01:50.250 --> 01:55.950
+As I already told you but its functionality can be called from Python.
+
+01:55.950 --> 02:02.640
+Now you have Python and you have cute and there are two ways of using qued with Python and one is called
+
+02:02.670 --> 02:06.440
+Paiute which is under the GPL licensing.
+
+02:06.780 --> 02:15.400
+And the other one is pie side and on under LGPL in order to find out more about what GPL and LGPL is
+
+02:15.420 --> 02:22.290
+you can of course always read through that and Google is just pretty much two different ways of licensing
+
+02:22.290 --> 02:29.900
+your programs and code if you license something with Paiute and you don't own the paid version of Pi
+
+02:29.910 --> 02:32.010
+qued which is rather expensive.
+
+02:32.370 --> 02:38.580
+And then you have to open your code or then you have to make your code open source.
+
+02:38.580 --> 02:40.950
+If you use pi side you dont have to do that.
+
+02:41.130 --> 02:49.020
+But Paiute is a more extended or older version that allows us to use this approach where we can just
+
+02:49.020 --> 02:56.220
+use Python in order to work with cute and PI side is a little younger but its under LGPL so you a bit
+
+02:56.790 --> 03:03.960
+freer in the ways you use your software and in the ways that you publish your software and make it.
+
+03:04.340 --> 03:06.360
+I paid software for example.
+
+03:06.560 --> 03:07.290
+OK.
+
+03:07.400 --> 03:10.380
+Now there are two different ways to control.
+
+03:10.490 --> 03:11.100
+From pie.
+
+03:11.130 --> 03:13.870
+And those were the ones that we have just seen.
+
+03:13.980 --> 03:17.410
+And the solution to use both of them is cute pie.
+
+03:17.640 --> 03:24.470
+So you have pie cute and then you have cute pie and cube pie is allowing you to use both the solutions.
+
+03:24.510 --> 03:31.120
+So both those that you have seen heres this one pie qued and pie side.
+
+03:31.760 --> 03:37.620
+OK so the cool thing is no matter which way is installed on your system you can both use both of those
+
+03:37.620 --> 03:40.430
+ways and you will select one.
+
+03:40.590 --> 03:44.280
+And our application can be run very easily with this.
+
+03:45.060 --> 03:51.040
+Now in the next lesson we will install cute and all of the tools that we need for this.
+
+03:51.080 --> 03:57.180
+And then we will develop a small real desktop application with cute and Python.
+
+03:57.510 --> 03:59.350
+So I hope you enjoy this chapter.
+
+03:59.640 --> 04:05.610
+And yeah its pretty much Finally something where we can use the code that we have learned and developed
+
+04:05.610 --> 04:09.310
+so far and make graphical user interface solutions with it.
+
+04:09.330 --> 04:14.340
+So we actually have a desktop application where we can see something we have buttons that you can press
+
+04:14.610 --> 04:17.850
+and you have text that can be displayed in a nice way and so forth.
+
+04:17.850 --> 04:20.460
+So go ahead and see in the next video.

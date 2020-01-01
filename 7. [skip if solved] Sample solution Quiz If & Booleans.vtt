@@ -1,0 +1,166 @@
+WEBVTT
+
+00:00.420 --> 00:06.300
+Welcome to the answers for the quiz statement and billions and let's go ahead to the first question
+
+00:06.300 --> 00:10.830
+straight away we have this question Is Hello World printed.
+
+00:11.240 --> 00:17.070
+And that's the source code so if true and false then print will be executed.
+
+00:17.070 --> 00:25.830
+So as you can see we have this condition which says true and false and as and needs to have true on
+
+00:25.830 --> 00:31.000
+both sides in order to be true and total This statement is going to be false.
+
+00:31.110 --> 00:35.630
+So the statement here is going to be incorrect or it is going to be false.
+
+00:35.700 --> 00:41.740
+So the statement will not print this code here or execute this line here.
+
+00:41.760 --> 00:44.750
+So the answer to this question is No.
+
+00:45.420 --> 00:48.740
+So the correct answer will be B.
+
+00:48.750 --> 00:48.980
+All right.
+
+00:48.990 --> 00:50.640
+Now let's check out the second one is.
+
+00:50.640 --> 00:51.330
+Hello world.
+
+00:51.330 --> 00:52.340
+Printed in this case.
+
+00:52.380 --> 00:55.790
+If true or false then print Hello world.
+
+00:55.980 --> 00:57.540
+So in this case we have.
+
+00:57.540 --> 01:00.210
+True or false.
+
+01:00.300 --> 01:05.920
+And whenever we have or as a connector only one of the sides has to be true.
+
+01:06.030 --> 01:11.400
+So either the left hand side has to be true or the right hand side has to be true in order for the whole
+
+01:11.400 --> 01:13.350
+statement to return true.
+
+01:13.530 --> 01:19.980
+And as we have one true in here the whole statement is going to be true which means that this code will
+
+01:19.980 --> 01:24.540
+be executed which means that the answer is A.
+
+01:25.710 --> 01:26.160
+All right.
+
+01:26.190 --> 01:27.240
+Now let's check out.
+
+01:27.240 --> 01:33.890
+Question number three in order to sign contracts a person must usually be of legal age in most countries
+
+01:33.900 --> 01:35.150
+that's 18 years old.
+
+01:35.160 --> 01:38.850
+How would you formulate this condition with Python.
+
+01:38.850 --> 01:49.110
+Note the difference between less than and less or equal than or greater than and greater or equal than.
+
+01:49.320 --> 01:52.500
+Also check the incident where a person is 18 years old.
+
+01:52.500 --> 01:57.900
+Mentally in your head even though this might be difficult to put your hands in your head.
+
+01:58.200 --> 02:05.220
+All right so let's just check out the potential answers so we have a where age is greater.
+
+02:05.220 --> 02:05.880
+18.
+
+02:05.920 --> 02:06.910
+Well that means dead.
+
+02:06.930 --> 02:10.530
+Age is 19 and any higher number than that.
+
+02:10.590 --> 02:16.460
+So this statement is incorrect because a person must be 18 years old or older.
+
+02:16.470 --> 02:23.400
+Now let's check out the age is lower or less than 18 and that's of course incorrect because only the
+
+02:23.400 --> 02:25.530
+person is older than 18.
+
+02:25.980 --> 02:27.780
+Or he can sign a contract.
+
+02:27.880 --> 02:29.230
+Then we have C..
+
+02:29.310 --> 02:33.290
+Age is greater or equal 18.
+
+02:33.510 --> 02:35.550
+And this statement here is the correct answer.
+
+02:35.550 --> 02:36.390
+Why is that.
+
+02:36.450 --> 02:42.020
+Because here we include every higher number than 18 and 18.
+
+02:42.090 --> 02:45.760
+It itself as well so we have 18 and higher.
+
+02:45.810 --> 02:47.400
+Which is exactly what we wanted.
+
+02:47.400 --> 02:50.750
+So a person has to be 18 years old or older.
+
+02:51.090 --> 02:56.520
+And then we have this age less than equal 18.
+
+02:56.520 --> 03:01.250
+While it's correct for the 18 itself it's incorrect for less then.
+
+03:01.350 --> 03:07.770
+Now you could of course argue this statement here in order to sign contracts and must a person must
+
+03:07.770 --> 03:15.800
+usually be of legal age 18 years old that is already pretty tricky because this year would just say
+
+03:15.940 --> 03:19.200
+that is it that the person has to be exactly 18 years old.
+
+03:19.290 --> 03:24.810
+So none of the answers would be correct but a person has to be at least 18 years old.
+
+03:25.020 --> 03:28.420
+So the correct answer is going to be c..
+
+03:28.920 --> 03:34.170
+I hope you could answer those questions easily and if not I hope you understood what I just explained.
+
+03:34.170 --> 03:37.650
+And then in the next we we're going to check out the in operator.
+
+03:37.680 --> 03:39.320
+So see you there.

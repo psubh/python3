@@ -1,0 +1,121 @@
+WEBVTT
+
+00:00.290 --> 00:04.950
+All right you will come back and this way I would like to give you a little hint on how you can read
+
+00:05.010 --> 00:07.940
+data from your cells.
+
+00:08.100 --> 00:13.440
+So let's go to our main a Y and here we had on push button click.
+
+00:13.440 --> 00:15.300
+For now what we did in there.
+
+00:15.480 --> 00:23.670
+Well we pretty much populate the data and I'm going to come those lines out because I would like to
+
+00:24.150 --> 00:30.570
+show you how you can actually read the data from a table and especially especially from a cell.
+
+00:30.570 --> 00:38.280
+So I'm going to create a new cell variable which will check out the table widget and there is something
+
+00:38.280 --> 00:46.980
+called item so we can very easily just get the item at a particular row and column and that's so if
+
+00:47.220 --> 00:53.820
+we print that and just do that real quick stop our application and run it again and push the button
+
+00:55.050 --> 01:00.920
+which the action button and you can see I get this table which had item object at so and so.
+
+01:01.020 --> 01:08.790
+So what this gives me is of course give me the whole cell object but the cell object contains properties
+
+01:08.820 --> 01:10.240
+and functions as well.
+
+01:10.260 --> 01:12.200
+So were methods as well.
+
+01:12.330 --> 01:15.510
+And the one that we want to have is the text.
+
+01:16.110 --> 01:21.570
+So you can see there is a method called text and that will return the text of that particular cell.
+
+01:21.570 --> 01:23.580
+So this is how we get the cell.
+
+01:23.700 --> 01:26.270
+And this is how we get the text of the cell.
+
+01:26.280 --> 01:32.460
+So here we are pretty much saying OK give me the item at a particular position in your table widget
+
+01:32.820 --> 01:34.270
+and stored in a cell.
+
+01:34.380 --> 01:37.990
+And here we say OK give me the text of the cell and print it.
+
+01:38.010 --> 01:45.060
+Now let me run it again and you will see that suddenly we get Munich because the cell that we're currently
+
+01:45.060 --> 01:46.830
+looking at is zero zero.
+
+01:46.920 --> 01:53.340
+Now if we would look at 1 0 then we will get
+
+01:56.400 --> 01:57.150
+Berlant.
+
+01:57.230 --> 02:04.760
+You can see the next line Berlin because row and column row 1 column 0 city.
+
+02:04.800 --> 02:07.140
+So it's pretty much means we will get Berlin.
+
+02:07.320 --> 02:14.500
+And now you can of course read through all of the data and you need to do that in a particular way.
+
+02:14.520 --> 02:17.200
+So you will need to find out how to do that.
+
+02:17.220 --> 02:22.020
+I'm not going to show you this because this is a big part of the challenge pretty much.
+
+02:22.020 --> 02:25.760
+So you could of course use loops you could use.
+
+02:26.200 --> 02:29.380
+Yeah you could also check out the documentation if there is a better way.
+
+02:29.580 --> 02:31.550
+And I wish you good luck with this.
+
+02:31.590 --> 02:40.560
+If you get stuck then just leave it for today or leave it for an hour or so then try it again or just
+
+02:40.650 --> 02:46.170
+try to debug it yourself because this is really the point where you should be able to find solutions
+
+02:46.170 --> 02:50.240
+on your own without having to require additional help.
+
+02:50.310 --> 02:56.850
+So you should really be able to just check out the documentation check out Stack Overflow debug your
+
+02:56.850 --> 02:59.420
+application and then you should be fine.
+
+02:59.610 --> 03:06.930
+So good luck with this exercise and I hope to see you in the next video where we will go through the
+
+03:07.170 --> 03:08.350
+final solution.
+
+03:08.360 --> 03:12.150
+Were these a sample solution of course there are multiple possible solutions.

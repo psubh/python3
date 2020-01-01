@@ -1,0 +1,193 @@
+WEBVTT
+
+00:00.440 --> 00:01.880
+We'll come back in this video.
+
+00:01.890 --> 00:05.150
+I would like to give you some hints for the exercise.
+
+00:05.160 --> 00:11.380
+So the first one is that if you want to set a text it has to be of type string.
+
+00:11.640 --> 00:13.200
+And why is that a problem.
+
+00:13.200 --> 00:14.750
+I will show you in a second.
+
+00:14.760 --> 00:19.550
+So let's say you take the value from the height or the weight.
+
+00:19.740 --> 00:25.700
+And if you take those values you get a decimal number or and sometimes you get an integer.
+
+00:25.710 --> 00:29.310
+But in some cases you get a decent number or a floating point number.
+
+00:29.430 --> 00:32.160
+Then if you let's say have this number.
+
+00:32.400 --> 00:35.780
+I'm just going to use something like this here.
+
+00:36.240 --> 00:39.630
+And you said that D as the value.
+
+00:39.630 --> 00:41.250
+So let's say you said D.
+
+00:41.460 --> 00:43.020
+Then you get an error.
+
+00:43.330 --> 00:47.060
+That is because the argument has unexpected type float.
+
+00:47.100 --> 00:51.250
+So this is a float this D but it's expecting a string.
+
+00:51.390 --> 00:56.310
+So what you need to do here is to actually cast it into a string.
+
+00:56.310 --> 01:01.510
+So if I run that suddenly it's going to work so I can see the BMI is set.
+
+01:01.710 --> 01:06.700
+OK so that's number one that I wanted to tell you.
+
+01:06.720 --> 01:10.740
+So this is just a little hint for my calculator if you feel like you don't need any hints you can of
+
+01:10.740 --> 01:13.000
+course try the exercise already.
+
+01:13.080 --> 01:17.880
+Then another one that I would like to show you is how you can hide an element.
+
+01:17.880 --> 01:23.190
+So in case you want to hide an element and there are actual cases where it really makes sense so let
+
+01:23.190 --> 01:30.420
+me run the code real quick and actually let me run the code once again with a text because otherwise
+
+01:30.420 --> 01:31.370
+I get this error.
+
+01:31.560 --> 01:38.660
+So this one two three here or in general this whole resoled UI element should be hidden.
+
+01:38.730 --> 01:40.330
+How do I hide elements.
+
+01:40.590 --> 01:46.960
+Well you can hide elements that say I will hide my button.
+
+01:47.040 --> 01:54.250
+So it's called calculate and I'm just going to say hide.
+
+01:54.260 --> 01:59.240
+So let me run it and you will see that the Calculate button is hidden.
+
+01:59.240 --> 02:05.800
+Now if you want to show it again you can call this show method and it will show the button again.
+
+02:05.990 --> 02:07.970
+So that's how you can hide something.
+
+02:08.150 --> 02:13.280
+And of course you don't want to hide the button but you want to hide the actual text.
+
+02:13.280 --> 02:22.600
+For example the result text and another info is that if we go back to our example from before this the
+
+02:22.610 --> 02:27.010
+1 to 3 which we had to cast to a string.
+
+02:27.010 --> 02:34.220
+And that's because said text is expecting a string and it doesn't expect a floating point value or a
+
+02:34.220 --> 02:41.320
+float in general so it's a typed part of permuted that you have here and you need a argument which is
+
+02:41.420 --> 02:43.100
+exactly the same type.
+
+02:43.100 --> 02:47.450
+Now the value that we get here has plenty of decimal points and I don't like that.
+
+02:47.450 --> 02:55.130
+So what really would make sense is to show the BMI maybe up to 2 points or two floating points or decimal
+
+02:55.130 --> 02:55.880
+points.
+
+02:55.880 --> 02:56.850
+So how do we do that.
+
+02:56.870 --> 03:07.140
+Well we can simply round the value so we could say round D and that well round D.
+
+03:07.310 --> 03:13.070
+But if you want to Rongji to two decimal points we can just enter two here.
+
+03:13.220 --> 03:20.240
+So let me run it again and you can see now it's just displaying 1 2 3 2 3 instead of 1 2 3 2 3 4 0 and
+
+03:20.240 --> 03:21.260
+so forth.
+
+03:21.620 --> 03:23.380
+OK that's another little hint.
+
+03:23.390 --> 03:27.950
+In order to make your program look good.
+
+03:28.670 --> 03:33.410
+And the last one is the formula for the BMI.
+
+03:33.620 --> 03:40.610
+We had that already but I'm just going to give you the BMI formula again which is body
+
+03:43.430 --> 03:54.430
+weight in kilograms divided by size or height.
+
+03:54.470 --> 04:00.250
+It's pretty much height and meters square.
+
+04:00.990 --> 04:02.570
+OK so that's the formula.
+
+04:02.780 --> 04:05.390
+And you may not divide by zero.
+
+04:05.390 --> 04:07.120
+So that's my last hint.
+
+04:07.370 --> 04:10.130
+So you could get a value that is zero.
+
+04:10.130 --> 04:17.380
+So if somebody decides to enter zero here as it's weight or he didn't enter anything in there where
+
+04:17.390 --> 04:23.210
+actually it's the height that should be the problem so if you divide by zero in the height and you press
+
+04:23.210 --> 04:24.830
+calculate then you will get it correct.
+
+04:24.830 --> 04:27.370
+So you need to find a way to fix that.
+
+04:27.430 --> 04:28.160
+OK.
+
+04:28.550 --> 04:29.110
+Good.
+
+04:29.120 --> 04:34.780
+So now you know everything that you need to know in order to build this application now.
+
+04:34.790 --> 04:37.160
+Good luck with it and enjoy the ride.
+
+04:37.160 --> 04:42.260
+So see you in the next video where I hope you will have finished this application.

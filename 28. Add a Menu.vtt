@@ -1,0 +1,157 @@
+WEBVTT
+
+00:00.620 --> 00:06.420
+Come back in this video I would like to add a little menu bar to our application because so far we don't
+
+00:06.420 --> 00:07.030
+have one.
+
+00:07.170 --> 00:12.240
+And in order to add one you can simply press on type here and just going to call this menu.
+
+00:12.420 --> 00:19.230
+And then you see it pops up where you can add some more content So for example I could say do something
+
+00:19.230 --> 00:20.760
+like save file.
+
+00:21.450 --> 00:22.110
+And there we are.
+
+00:22.110 --> 00:29.600
+So now we have this safe file button you could add another possibility here a separator and so forth.
+
+00:29.690 --> 00:32.870
+But I'm just going to keep it with the save file for now.
+
+00:33.060 --> 00:38.970
+And if you want to know more about it you can check out what it has in terms of actions here checkable
+
+00:39.000 --> 00:41.280
+and able and so forth.
+
+00:41.400 --> 00:50.460
+And if you want to know what we can do with this object so I'm going to say action file action say file.
+
+00:50.460 --> 00:51.660
+That's exactly how it's called.
+
+00:51.660 --> 00:55.950
+Actually let me rename it action save file.
+
+00:55.950 --> 01:00.910
+I'm going to call this one action save.
+
+01:01.050 --> 01:04.790
+So let's rename it to action save like this.
+
+01:05.100 --> 01:07.110
+And then you can see the signals that it has.
+
+01:07.110 --> 01:14.190
+It has a signal triggered it has the signal changed destroyed so it doesn't have this clicked kind of
+
+01:14.190 --> 01:21.230
+thing as the button has but it has this triggered event and that's the one that we are going to use.
+
+01:21.240 --> 01:22.710
+So let me get rid of that again.
+
+01:22.740 --> 01:26.340
+I just use that in order to show you what the signal is that you can use.
+
+01:26.340 --> 01:34.870
+So I'm going to save this window maybe we'll know why I'm going to rerun my built and now let me go
+
+01:34.870 --> 01:39.440
+to Maine and just run this real quick and you can see now I have this menu here where I can press a
+
+01:39.440 --> 01:41.230
+file of course nothing happens.
+
+01:41.230 --> 01:45.360
+But as you can see it's super easy to add this menu to your UI.
+
+01:45.590 --> 01:52.630
+And now let me actually add functionality to it and it's super easy to do so we can just say you my
+
+01:52.780 --> 01:55.710
+thoughts actions save.
+
+01:55.720 --> 01:58.410
+And then we just say triggered it.
+
+01:58.840 --> 02:00.940
+So that was the event that we were talking about.
+
+02:00.940 --> 02:01.870
+Right.
+
+02:01.870 --> 02:08.130
+Triggered connect and here connected to self on safe.
+
+02:08.440 --> 02:12.020
+And here again not the call but the actual function name.
+
+02:12.280 --> 02:13.810
+Ok now I'm saving it.
+
+02:14.020 --> 02:16.770
+And let me run this application again.
+
+02:16.780 --> 02:18.180
+Now let me make a change.
+
+02:18.190 --> 02:19.020
+This one will be.
+
+02:19.030 --> 02:20.880
+Heidi Miller.
+
+02:21.280 --> 02:24.370
+And now let me go and save the file.
+
+02:24.400 --> 02:28.270
+Let me rerun it and there we are Heidi there.
+
+02:28.550 --> 02:28.790
+OK.
+
+02:28.790 --> 02:35.060
+Now you can see this ugly text that we get here which is showing me that there is a special character
+
+02:35.300 --> 02:38.370
+and that was the thing that I was talking about.
+
+02:38.520 --> 02:45.090
+Well with this encoding UTF I do that while I save it but I don't do that when I read the file.
+
+02:45.090 --> 02:50.680
+So let me go to read C S V file and add this in here as well.
+
+02:50.690 --> 02:53.740
+So the encoding there as well.
+
+02:53.780 --> 03:01.030
+Now let me say it again and run it and it's still well and this problem is at that point that it's stored
+
+03:01.030 --> 03:02.200
+like this.
+
+03:02.740 --> 03:10.720
+So let me start milah once again just to show you me save the file and run it again.
+
+03:10.730 --> 03:12.190
+And as you can see now it works.
+
+03:12.190 --> 03:14.480
+So now Millo is displayed correctly.
+
+03:14.650 --> 03:15.160
+OK.
+
+03:15.340 --> 03:22.180
+So you now you see how superpowerful cute creator and PI cube is and how easy it makes our life when
+
+03:22.180 --> 03:25.250
+it comes to creating UI and making them intractable.

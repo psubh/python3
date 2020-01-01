@@ -1,0 +1,181 @@
+WEBVTT
+
+00:00.410 --> 00:04.100
+Come back in this video we're going to check out the NOT operator.
+
+00:04.260 --> 00:07.070
+And we will see multiple versions of it.
+
+00:07.070 --> 00:13.790
+So let's create a not age creator equal 30.
+
+00:13.800 --> 00:15.770
+So you can go ahead and do it like that.
+
+00:15.780 --> 00:21.120
+You can just say OK executed and just run it.
+
+00:21.230 --> 00:26.140
+And as you can see it's executed because the age is not greater equal 30.
+
+00:26.700 --> 00:34.260
+But of course this is not very efficient because first Python checks this code here and then it negates
+
+00:34.260 --> 00:37.910
+it and then it checks whether that the whole statement is true.
+
+00:37.920 --> 00:46.530
+So you could of course do a lot a lot faster but just saying if age lower 30 or less than 30 and then
+
+00:46.530 --> 00:51.960
+just print the same thing here executed as you can see both are executed.
+
+00:51.960 --> 00:56.820
+So this if statement would be a lot more efficient than that one.
+
+00:56.820 --> 01:02.690
+Not just in tabs in terms of typing but also in terms of processing power and speed.
+
+01:02.760 --> 01:07.320
+So you can use the not operator it just negates the whole thing.
+
+01:07.320 --> 01:10.790
+And in this case it really doesn't make that much sense.
+
+01:10.800 --> 01:13.170
+But I wanted to show you that it's possible.
+
+01:13.500 --> 01:16.370
+Then there are cases where it actually makes a lot more sense.
+
+01:16.380 --> 01:27.990
+And that's if we say have a little list with Macs and Nadine and now I want to check if Maurits or let's
+
+01:27.990 --> 01:32.610
+say Moe is not in names.
+
+01:32.880 --> 01:38.030
+So what I'm checking now is Moe not part of the names list.
+
+01:38.130 --> 01:46.980
+And if that's true then let's just say something like Moe is not in the list so let's print that.
+
+01:46.980 --> 01:51.700
+And as you can see or executed you can see what was not in the list.
+
+01:51.700 --> 02:02.670
+Now we can of course do the same thing and a different approach where we can just say if not mo in names
+
+02:03.720 --> 02:05.930
+and we can print them again.
+
+02:06.420 --> 02:07.200
+Same thing.
+
+02:07.200 --> 02:09.450
+Moe is not in the list.
+
+02:09.450 --> 02:12.330
+And as you can see it's executed as well.
+
+02:12.390 --> 02:21.630
+So both versions are fine but not in this version here is nicer where is prettier to look at and also
+
+02:21.630 --> 02:27.530
+easier to to guess what's going on or to understand what's going on because here we see it is not.
+
+02:27.570 --> 02:29.430
+And then we see this in nature.
+
+02:29.430 --> 02:34.440
+So here we see both in one line and it's easier to read is more.
+
+02:34.470 --> 02:36.350
+Not in the list names.
+
+02:36.390 --> 02:39.320
+And if that is true then please print that statement.
+
+02:39.540 --> 02:49.320
+And here we say if not Mo is in names so everyone else but more in names pretty much then print the
+
+02:49.320 --> 02:50.070
+statement as well.
+
+02:50.070 --> 02:58.100
+It's the same thing as this one here but it's as I said not that easy to read and not that well written
+
+02:58.110 --> 03:03.810
+I'd say so highly preferred is this version here.
+
+03:04.230 --> 03:10.470
+So the only thing that you really need is NOT operator for is really true to just quickly negate whatever
+
+03:10.470 --> 03:11.480
+you're checking.
+
+03:11.490 --> 03:18.900
+So of course you could have gone ahead and done something like if Moe
+
+03:21.510 --> 03:25.030
+in names then print something.
+
+03:25.080 --> 03:30.330
+Moe is a name is always there and else
+
+03:32.620 --> 03:34.950
+print most.
+
+03:34.950 --> 03:36.430
+Not in the list.
+
+03:36.620 --> 03:38.690
+Of course he could have gone ahead like this.
+
+03:39.030 --> 03:44.850
+But if you just want to check if somebody is not in their job to just check the negated version first
+
+03:44.940 --> 03:47.860
+then this statement is going to be better.
+
+03:47.910 --> 03:54.360
+And by way that something that I haven't covered yet and I will look into even closer when we go to
+
+03:54.360 --> 03:55.090
+the live.
+
+03:55.260 --> 04:02.400
+But whenever you have this if statement and the if statement is true the whole else statement will never
+
+04:02.400 --> 04:05.760
+be checked so it won't even be thought about.
+
+04:05.760 --> 04:12.000
+So the code will just go order the cursor will go here if no names.
+
+04:12.030 --> 04:14.850
+If that statement is true then it will go here.
+
+04:15.120 --> 04:19.410
+And then it will straight away jump to the line here.
+
+04:19.410 --> 04:25.650
+So to this line where I'm out with my cursor right now with my mouse so I'll just skip the whole thing.
+
+04:25.650 --> 04:26.240
+All right.
+
+04:26.270 --> 04:28.930
+And that will make a lot more sense as soon as we get to live.
+
+04:29.040 --> 04:36.370
+So see you in the next video where we have a little quiz or actually a little sheet followed followed
+
+04:36.390 --> 04:38.890
+by a question of course the answers to the quiz.
+
+04:38.970 --> 04:40.580
+So have fun doing that.
+
+04:40.620 --> 04:41.920
+And see you there.

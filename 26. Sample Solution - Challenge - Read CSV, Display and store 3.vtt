@@ -1,0 +1,298 @@
+WEBVTT
+
+00:00.600 --> 00:06.600
+Already in the last week we managed to read the file in order to display the data.
+
+00:06.780 --> 00:12.390
+And as you can see making changes to mathematics or mathematics here doesn't really help.
+
+00:12.390 --> 00:17.760
+So from the last video each time I restart the program I get mathematics here because that's what I
+
+00:17.760 --> 00:22.310
+had stored in my cute editor.
+
+00:22.530 --> 00:27.720
+But what we're going to add in this video is the new entry functionality so this button should get some
+
+00:27.720 --> 00:34.730
+functionality so that we get a new entry here at the bottom where we then actually can enter a new value.
+
+00:34.740 --> 00:39.780
+So a new student of course it will not be stored won't be saved yet but that's something that we will
+
+00:40.080 --> 00:41.650
+look at in the next video.
+
+00:41.760 --> 00:46.720
+But for now let's just add this new entry button functionality in order to do so.
+
+00:46.770 --> 00:53.640
+It really makes sense to start by creating a new method for that so I'm going to say new or new entry.
+
+00:54.390 --> 01:02.300
+And what I want to write in here is actually I want to first of all create a new row.
+
+01:02.640 --> 01:08.280
+And in order to do so I need to know how many rows to work so I can pretty much use the same functionality
+
+01:08.280 --> 01:13.500
+that we had here where we said OK give me the row count and I'm going to save it or stored in this variable
+
+01:13.500 --> 01:15.090
+called row count.
+
+01:15.090 --> 01:21.760
+Now the next thing I can do here is I can insert a row or using the insert row functionality that we
+
+01:21.760 --> 01:27.730
+have used here as well so I can pretty much use the same functionality you can just copy and paste it
+
+01:28.110 --> 01:30.960
+as you can see we'll just create a new row for me.
+
+01:31.410 --> 01:38.430
+And now I need to connect that button functionality in my constructor here.
+
+01:38.490 --> 01:44.710
+So I need to say self-taught UI new entry button.
+
+01:44.790 --> 01:46.800
+So the Watts's button called new entry button.
+
+01:46.950 --> 01:52.090
+And if we check our cute editor we will see that this is the new entry button.
+
+01:52.320 --> 01:59.400
+While we're here I'm gonna save myrth more ticks in here.
+
+01:59.670 --> 02:05.330
+So let me save it and let me rerun the build real quick.
+
+02:06.150 --> 02:07.260
+OK.
+
+02:08.280 --> 02:12.890
+So this new entry button I want to connect it.
+
+02:13.140 --> 02:14.300
+And how do we do that.
+
+02:14.310 --> 02:21.960
+Well we said I want to connect the clicked event to a specific method.
+
+02:22.020 --> 02:29.070
+So to the method called on new entry and here we don't want to call the method but we just want to pass
+
+02:29.070 --> 02:32.070
+the method as a well as a whole method.
+
+02:32.070 --> 02:34.390
+So the name not the actual call.
+
+02:34.620 --> 02:40.830
+OK so now we have this click event we connected to it and now we should be able to create new entries.
+
+02:40.830 --> 02:47.700
+So let's run this and new entry and if we make this a little bigger you can see that it creates new
+
+02:47.700 --> 02:49.050
+entries for me.
+
+02:49.050 --> 02:50.870
+Now I can already click into it.
+
+02:50.880 --> 02:54.200
+I can make some changes but they will be empty.
+
+02:54.210 --> 02:56.290
+So this will be empty empty empty.
+
+02:56.460 --> 03:02.040
+But what I want to have in there is an empty string because they are pretty much empty.
+
+03:02.070 --> 03:06.000
+And I can fill them with empty strings and I can even set the focus to it.
+
+03:06.000 --> 03:14.340
+So let's say I start this app and I create a new entry I want to set the focus directly onto this row
+
+03:14.340 --> 03:20.050
+here onto the cell to be precise and I want to be able to enter something there straight away.
+
+03:20.100 --> 03:21.220
+How do I do that.
+
+03:21.360 --> 03:22.670
+Well let's check it out.
+
+03:22.680 --> 03:32.990
+First of all we want to set items elements to an empty string and we do that by using self-actualize
+
+03:33.030 --> 03:34.620
+Students table.
+
+03:34.860 --> 03:36.740
+And we set an item.
+
+03:36.780 --> 03:39.300
+Now we need to say at which row we want to do that.
+
+03:39.300 --> 03:43.950
+And I would like to do that at row count and add the column 0.
+
+03:43.950 --> 03:52.830
+I would like to add a value called or qued widgets that qued table items that you can see here qued
+
+03:53.400 --> 03:56.650
+table or queue table widget item.
+
+03:56.730 --> 03:59.950
+So queue table widget item that's the one I need.
+
+04:00.150 --> 04:05.610
+And in here I can just enter a string for example which I'm just going to say OK it's going to be an
+
+04:05.610 --> 04:06.290
+empty string.
+
+04:06.300 --> 04:08.120
+So I leave it like this.
+
+04:08.200 --> 04:14.760
+Now I'm going to do the same thing with two more rows because I need to do that with column one and
+
+04:14.760 --> 04:15.870
+column two.
+
+04:15.900 --> 04:17.930
+So I just copied and pasted the code.
+
+04:18.030 --> 04:24.960
+And now each time I do that let's see what the changes are be creating new entry and the thing is you
+
+04:24.960 --> 04:31.320
+don't see any changes but it already will have created an empty string in here which is more than it
+
+04:31.320 --> 04:32.310
+was before.
+
+04:32.790 --> 04:40.620
+And now what I want to do is I want to actually focus on a particular cell and I want to added an item
+
+04:40.620 --> 04:53.590
+straight away because if I for example directy want to added this particular cell here this one so so
+
+04:53.830 --> 04:55.520
+it should focus on this one.
+
+04:55.630 --> 04:56.530
+And how do we do that.
+
+04:56.530 --> 04:59.000
+Well there is something called added item.
+
+04:59.030 --> 05:05.920
+There's a method called added item which we pretty much want to call and in order to do so we need to
+
+05:05.920 --> 05:07.360
+create a cell variable.
+
+05:07.400 --> 05:09.580
+So going to show you in a second.
+
+05:09.640 --> 05:14.300
+First let's create this added item or call this added item you see self.
+
+05:14.410 --> 05:22.810
+And it requires an item and now that item that cries of type q table widget item so the same type that
+
+05:22.810 --> 05:24.000
+we had here.
+
+05:24.280 --> 05:30.910
+So what we can do now is we can simply say OK this cell that we're looking at should be self taught
+
+05:30.910 --> 05:40.900
+you find students table at the row that we're currently looking at and call them zero.
+
+05:41.700 --> 05:47.690
+So I can just pass this sell here and I can save it and run it again.
+
+05:48.580 --> 05:50.030
+Now you will see something.
+
+05:50.030 --> 05:56.520
+So that means creating your entry as you can see now the cursor straight away in sight of this cell
+
+05:56.860 --> 05:58.210
+and why is that.
+
+05:58.370 --> 06:05.120
+Because we created those two lines and 25 and 26 which say OK I created you cell and the cell should
+
+06:05.120 --> 06:08.090
+be the row count.
+
+06:08.150 --> 06:13.730
+So pretty much the cell that we've just created by pressing your entry as you can see rockhound is the
+
+06:13.730 --> 06:16.420
+amount of rows that we had.
+
+06:16.580 --> 06:24.490
+So if we had 10 rows for example and now we create an eleventh one it will have the index of 10.
+
+06:24.560 --> 06:27.830
+So it's pretty much just new Roder we have just created.
+
+06:27.830 --> 06:29.480
+So it's going to be this one.
+
+06:29.750 --> 06:36.520
+And now I say OK please added this item called cell and this item called cell.
+
+06:36.520 --> 06:40.780
+Is this item here which is in row count pretty much.
+
+06:40.820 --> 06:50.140
+In this case 0 1 2 3 4 5 and 6 so it's at rockhound 6 and in column 0 we have defined here.
+
+06:50.540 --> 06:50.890
+OK.
+
+06:50.900 --> 06:53.120
+So row count and zero.
+
+06:53.180 --> 06:56.300
+So just says OK I'm going to edit this item sell.
+
+06:56.330 --> 06:57.770
+So that's pretty cool.
+
+06:57.860 --> 07:03.830
+And that's already very convenient because now we can create a new entry and we can directly enter something
+
+07:03.830 --> 07:05.030
+in here.
+
+07:05.120 --> 07:08.150
+And so that's how easy it is to do that.
+
+07:09.230 --> 07:11.710
+OK now we don't have the save button yet.
+
+07:11.720 --> 07:13.540
+We don't store any changes.
+
+07:13.550 --> 07:21.320
+If my press save and I close the application I start the application once again you can see that the
+
+07:21.320 --> 07:24.100
+new entry is not there.
+
+07:24.650 --> 07:28.530
+So that's something that we're going to look at in the next video.
+
+07:28.550 --> 07:29.690
+So see you there.

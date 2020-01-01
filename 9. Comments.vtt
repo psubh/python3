@@ -1,0 +1,112 @@
+WEBVTT
+
+00:00.330 --> 00:03.480
+In this lecture you will learn how to use comments in Python.
+
+00:03.570 --> 00:09.370
+And that's something that I haven't covered yet but is super useful and helpful when programming.
+
+00:09.500 --> 00:15.150
+So comments are something that is not executed by our compiler.
+
+00:15.300 --> 00:23.220
+So it's not going to influence the speed of our code but it helps us as a programmer and other programmers
+
+00:23.280 --> 00:26.210
+to read code or to understand what's going on.
+
+00:26.430 --> 00:32.610
+And also we can comment things out where we are not sure whether we are going to use them later on or
+
+00:32.610 --> 00:33.390
+not.
+
+00:33.400 --> 00:40.740
+So in this case let's say we have this little piece of code where we simply say hi to every single planet
+
+00:41.070 --> 00:42.520
+in our solar system.
+
+00:42.600 --> 00:47.670
+So let's say at one point somebody decides hey Pluto's not a planet anymore which was already done in
+
+00:47.670 --> 00:48.450
+the past.
+
+00:48.480 --> 00:54.450
+So instead of deleting the code which we of course can do that we just delete it or copy or cut it out
+
+00:54.450 --> 00:56.670
+pretty much and let's run the code again.
+
+00:56.850 --> 01:02.860
+As you can see Pluto is not there anymore but there is another approach as well.
+
+01:03.060 --> 01:08.590
+You can go ahead and use a hash in front of it or just before it.
+
+01:08.700 --> 01:15.150
+That will do is it will ignore the whole line of code so it will not execute that line of code but it's
+
+01:15.150 --> 01:19.500
+perfect for us to see what whatever we want to write there.
+
+01:19.500 --> 01:26.040
+So let's say we want to have a little information about what is going on in our code so we can just
+
+01:26.040 --> 01:40.410
+go ahead and use a hash and say this coach says hi to all the planets in our solar system in this case
+
+01:40.410 --> 01:41.630
+it's super obvious right.
+
+01:41.640 --> 01:42.780
+And I'm going to execute that.
+
+01:42.780 --> 01:50.020
+And as you can see this code this line here does not influence our execution or our output at all.
+
+01:50.250 --> 01:52.330
+And that is because we're using a comment.
+
+01:52.500 --> 01:57.680
+So it's easy here right because we have only these simple lines of code.
+
+01:57.690 --> 02:03.540
+But what if your code is super complex and you have thousands of lines of code and all your code does
+
+02:03.540 --> 02:09.360
+different things and so forth and somebody else comes in and needs to understand your code super quickly.
+
+02:09.360 --> 02:16.170
+So you have to imagine you work on a project and then say you are ill or you stop working for the company
+
+02:16.200 --> 02:21.930
+or whatever then somebody else has to read your code and has to understand what's going on that he doesn't
+
+02:21.930 --> 02:27.480
+have weeks in order to understand your code he needs to start with it and check it out and understand
+
+02:27.480 --> 02:31.290
+directly which part of code of your code does what.
+
+02:31.290 --> 02:35.370
+And that's why comments are super useful and important to use.
+
+02:35.370 --> 02:44.070
+Of course you can make the code very readable by design in order to work by creating them based on specific
+
+02:44.160 --> 02:50.100
+guidelines and approaches of course by naming them correctly for example by naming your functions correctly
+
+02:50.100 --> 02:50.970
+and so forth.
+
+02:51.180 --> 02:56.430
+But of course you can also use code in order to make it more readable.
+
+02:56.430 --> 02:59.550
+So that's just a little insight for you.
+
+02:59.550 --> 03:03.650
+Go ahead and use code whenever you see a use for it.

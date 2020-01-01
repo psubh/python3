@@ -1,0 +1,490 @@
+WEBVTT
+
+00:00.420 --> 00:07.080
+All right now it's time to write and if you look at the seas of your writer you will see how we could
+
+00:07.080 --> 00:11.460
+write into a file into the file.
+
+00:11.880 --> 00:18.600
+And that's a little abstract So let's look at some examples because if we scroll down we can find examples.
+
+00:18.610 --> 00:24.360
+14:1 five reading infile examples of reading a file writing a file.
+
+00:24.360 --> 00:27.710
+So this one seems to be pretty simple where it says imports.
+
+00:27.720 --> 00:35.700
+V open it sees v file then moët is going to be W. which means I'm right and then right Christi's VIF
+
+00:35.730 --> 00:36.970
+rider and right.
+
+00:36.980 --> 00:42.370
+Row So this will pretty much write a amount of rows of multiple rows at once.
+
+00:42.450 --> 00:47.960
+But there is also this method called right row which will just write one row at a time.
+
+00:48.280 --> 00:55.710
+OK so we can actually copy this code here and go back to our example and we can create a new method
+
+00:55.710 --> 00:58.630
+because we want to have a method for saving right.
+
+00:58.800 --> 01:02.790
+So I'd say let's call this math on safe.
+
+01:03.060 --> 01:04.670
+So on save.
+
+01:04.920 --> 01:07.770
+And for now I'm going to pass or actually I'm going to pass.
+
+01:07.770 --> 01:10.650
+I'm going to write this straight away.
+
+01:10.650 --> 01:14.820
+So what is the name of the file that we want to write to.
+
+01:14.910 --> 01:17.690
+I'm going to say students C is v.
+
+01:18.000 --> 01:19.970
+Now it's going to be right out.
+
+01:20.070 --> 01:24.930
+New line we can leave that as is and everything else as well.
+
+01:24.930 --> 01:29.380
+So now instead of writing rows I just want to write one row.
+
+01:29.640 --> 01:31.970
+And how do I just write one row.
+
+01:32.130 --> 01:39.350
+Well I need to have the actual row that I want to store and if we look at the role that we have.
+
+01:39.450 --> 01:43.900
+So we had this in here read before.
+
+01:43.920 --> 01:45.760
+So let's check that out real quick.
+
+01:45.780 --> 01:51.600
+We had this print roll thing where it printed every single row and you look at it you can see that arrow
+
+01:51.600 --> 01:54.590
+is actually a list of items.
+
+01:54.740 --> 02:00.720
+And that's exactly what we could do so we could get the entry of every single item in a particular row
+
+02:00.920 --> 02:05.680
+store that in a list and then just save that list.
+
+02:05.790 --> 02:09.390
+So unsafe we could just write that particular list.
+
+02:09.390 --> 02:16.060
+So how about we just test that for a second and right into our students see B or C S V.
+
+02:16.110 --> 02:17.820
+Now in this case I'm going to do that.
+
+02:17.820 --> 02:21.560
+And that's something that you should not do if you run a big application.
+
+02:21.560 --> 02:28.530
+So at least you should not do that when you use a file that has plenty of data you could use a new file
+
+02:28.620 --> 02:33.660
+which is empty Would you create yourself in order to test that but I'm just going to test that for this
+
+02:33.660 --> 02:39.060
+video where I'm just going to have a couple of entries John.
+
+02:39.180 --> 02:46.520
+And actually let's say Dennis one you and math.
+
+02:46.710 --> 02:50.230
+So I'm just going to keep it simple and safe.
+
+02:50.250 --> 02:53.190
+I need to implement on safe so self-taught you.
+
+02:53.250 --> 03:02.970
+I thought safe button that clicked that connects on here I'm connecting the save button to this on Save
+
+03:03.000 --> 03:03.960
+method.
+
+03:04.080 --> 03:08.170
+And here again I don't need to call and I actually just need the name of the method.
+
+03:08.520 --> 03:17.470
+OK so let me save that and let's just see if it writes something into my file so just press save.
+
+03:17.620 --> 03:22.600
+And now let's check out the student CCV file and you can see Dennis Danuta math.
+
+03:22.660 --> 03:25.100
+So it created these entries.
+
+03:25.120 --> 03:30.460
+And now if I rerun my application I will see that there is only one new entry which is then is Pundita
+
+03:30.490 --> 03:31.330
+math.
+
+03:31.330 --> 03:36.460
+All the other entries that we had before was pretty much overwritten That's why I said never do that
+
+03:36.550 --> 03:40.100
+in an actual project just for this purpose here.
+
+03:40.120 --> 03:45.140
+In order to display it to you you could of course say I don't want to use it right mode.
+
+03:45.160 --> 03:49.910
+I just want to use append mode and that will pretty much just append a new entry.
+
+03:49.960 --> 03:56.070
+So if I say that and run it again and press the save button multiple times and I go into my students
+
+03:56.390 --> 03:59.470
+file you can see that I appended it multiple times here.
+
+03:59.590 --> 04:02.200
+So I didn't rewrite the whole file in here.
+
+04:04.090 --> 04:10.480
+Now there is something missing in my writer because I'm just saying OK right onto this F which is our
+
+04:10.480 --> 04:13.960
+file that we have opened so I can recall or rename it.
+
+04:13.960 --> 04:16.200
+Maybe it's a little more readable.
+
+04:16.290 --> 04:19.370
+If I do so I'm going to call this file.
+
+04:19.450 --> 04:24.790
+But then we can also add two more arguments in here which is the delimiter.
+
+04:25.180 --> 04:29.380
+And I'm going to say the delimiter should be a comma as we always had.
+
+04:29.530 --> 04:32.370
+And it was already as you can see here the delimiter was a comma.
+
+04:32.380 --> 04:35.370
+But just to really specify that I'm just going to do that.
+
+04:35.500 --> 04:40.300
+So for you to see that you could actually use a different delimiter for example a semi-colon or an empty
+
+04:40.300 --> 04:41.880
+space or something like that.
+
+04:42.160 --> 04:51.820
+And then the quote character so quote char will just be the quotation mark.
+
+04:51.820 --> 04:55.310
+So here I use a single quote and then I use quotation marks.
+
+04:55.540 --> 04:56.240
+OK.
+
+04:56.650 --> 05:02.670
+So now instead of writing my predefined row I want to get the actual data.
+
+05:02.680 --> 05:04.290
+So how do I do that.
+
+05:04.600 --> 05:11.180
+Well I can get that from the row content and I can do the following.
+
+05:11.230 --> 05:22.750
+So I can just say Rose is going to be self-taught UI that students table that row count and now called
+
+05:22.800 --> 05:23.460
+this rows.
+
+05:23.470 --> 05:26.300
+You can of course call that row count as well as we did in the past.
+
+05:26.290 --> 05:28.600
+Maybe it's better to call it row count.
+
+05:28.600 --> 05:37.260
+I'm just going to say row count and now I want to go through a range of 0 to row count.
+
+05:37.450 --> 05:45.220
+So I want to go through every single row and in every single row I want to create a new row constant
+
+05:46.660 --> 05:47.570
+entry.
+
+05:47.800 --> 05:49.380
+So there is this variable.
+
+05:49.390 --> 05:53.200
+It's a local variable just for this for loop which is row content.
+
+05:53.440 --> 06:00.120
+And what I want to do is I want to enter some values in here and the values that it should have is self-taught
+
+06:00.210 --> 06:02.100
+you dot table.
+
+06:02.350 --> 06:07.560
+So the students table item at position I come to zero.
+
+06:07.900 --> 06:11.860
+And from that I want to have the text.
+
+06:11.980 --> 06:17.410
+Ok so what this will give me is pretty much the actual text of this item.
+
+06:18.590 --> 06:22.770
+So let me just show you that real quick.
+
+06:23.340 --> 06:25.200
+In my own safe Methot
+
+06:28.140 --> 06:32.830
+So I'm just going to say 00.
+
+06:33.180 --> 06:40.450
+And for now I'm going to comment this code out here.
+
+06:41.090 --> 06:42.060
+So we've all run it.
+
+06:42.070 --> 06:46.720
+I want you printed actually so I want to print the text content.
+
+06:46.880 --> 06:55.070
+So now let me run it and I press a button and it gets it gives me John John John because John is this
+
+06:55.070 --> 06:58.540
+entry here so each time I press this button I get John.
+
+06:58.700 --> 07:00.640
+That's because John is at 00.
+
+07:00.890 --> 07:03.030
+What is it 0 1.
+
+07:03.050 --> 07:07.850
+Let's see that press it again we see we get those.
+
+07:08.090 --> 07:11.780
+Now what is a zero to guested.
+
+07:11.870 --> 07:13.090
+It's informatics.
+
+07:13.090 --> 07:20.460
+OK so now we know how to get the different entries of the particular road.
+
+07:20.470 --> 07:21.180
+We're looking at.
+
+07:21.180 --> 07:27.330
+So now let me go all the way back came.
+
+07:27.370 --> 07:30.580
+Now this line here will not be required anymore.
+
+07:30.680 --> 07:36.160
+So now I'm just saying OK give me the name.
+
+07:36.170 --> 07:42.020
+Come on then give me the last name and then give me the subject.
+
+07:42.070 --> 07:44.610
+So I'm just saying one and two.
+
+07:44.650 --> 07:52.480
+So this will be the first name last name subject and I is just going to be the role that we're currently
+
+07:52.480 --> 07:53.050
+looking at.
+
+07:53.050 --> 07:58.050
+So it goes through every single row and it's going to store every single row and row count.
+
+07:58.150 --> 08:05.410
+And now what we can of course do is go ahead and instead of writing this Dennis Paiute a math entry
+
+08:05.440 --> 08:08.440
+in there just right rockhound in it.
+
+08:08.450 --> 08:15.490
+So for this for loop we just say Okay write every single entry into our writer or use our writer to
+
+08:15.490 --> 08:18.830
+write it into our students Dotsie as we file.
+
+08:19.170 --> 08:25.220
+And yeah I still have a little problem here because I enter rope around here instead of row content.
+
+08:25.540 --> 08:28.900
+That's a problem with those two names being too similar to each other.
+
+08:29.200 --> 08:31.710
+But now let's test it again.
+
+08:32.230 --> 08:35.380
+And there we are so John Doe and so forth.
+
+08:35.380 --> 08:44.020
+Now let's replace that with months pomos and Frank and Styne Frankenstein.
+
+08:44.020 --> 08:45.130
+Now let's save it.
+
+08:46.330 --> 08:52.570
+And we won't see if the saves were or save was made but what we can check out is our students the file
+
+08:52.660 --> 08:53.470
+or C as we fall.
+
+08:53.470 --> 08:56.570
+And as you can see there we have all of those values.
+
+08:56.650 --> 09:04.060
+Now as we are using the append functionality it's always going to append a new.
+
+09:04.210 --> 09:11.770
+Well it's going to take the old data and save it again so that we have kids all the time.
+
+09:11.770 --> 09:18.820
+So now we're going to go back to double you to really make sure that we only have the ones that should
+
+09:18.820 --> 09:19.270
+be in there.
+
+09:19.270 --> 09:24.890
+So what I'm going to do is I'm going to get rid of a bunch of entries.
+
+09:24.910 --> 09:33.200
+I'm going to keep it this year so save this file and run our program again as you can see we have John
+
+09:33.200 --> 09:39.670
+Doe with Eric Fisher with John Doe and with Eric Fisher twice and that is because we still have something
+
+09:39.670 --> 09:43.000
+in qued Ed. So we still have those two entries.
+
+09:43.090 --> 09:49.430
+So what we could do is we could get rid of those items and we just get rid of the two rows so we created
+
+09:49.480 --> 09:51.380
+and then the items disappear as well.
+
+09:51.460 --> 09:53.550
+OK so let's save this.
+
+09:53.920 --> 09:56.340
+Let's go back to our program.
+
+09:56.620 --> 10:01.330
+Let's rerun the builds pipeline and then go to our main.
+
+10:01.360 --> 10:03.910
+So now we should only see those four entries and there we are.
+
+10:03.910 --> 10:05.550
+So we have Jondo informatics.
+
+10:05.560 --> 10:12.160
+Erica Fisher then is when you're done you can see now we could change the name to be written in capital
+
+10:12.160 --> 10:15.770
+letters and actually saved the file.
+
+10:16.290 --> 10:22.890
+And as you will see after I save it the students CBS we file has been changed as well.
+
+10:22.900 --> 10:24.960
+Now let's run the application again.
+
+10:25.510 --> 10:30.210
+OK now let's add a new entry Max.
+
+10:30.700 --> 10:33.780
+And here this one will be Miller.
+
+10:33.820 --> 10:40.770
+So Max Miller and he is the last of the two.
+
+10:40.960 --> 10:44.650
+So the student philosophy.
+
+10:44.650 --> 10:50.910
+Now let's save it close our app and as you can see our CCV file has been updated.
+
+10:51.400 --> 10:54.920
+OK so that's pretty much what we needed to do.
+
+10:54.970 --> 10:59.000
+And that's pretty much our whole exercise and the solution to our exercise.
+
+10:59.200 --> 11:02.520
+And as you can see it's not that much code actually.
+
+11:02.940 --> 11:10.990
+And we have pretty much created a whole tool with which we can take care of all of our students.
+
+11:10.990 --> 11:16.630
+Now there's one last thing that I would like to show you and that is when we open our students CCV file
+
+11:16.930 --> 11:20.120
+and we have something weird in there.
+
+11:20.200 --> 11:22.890
+So let's say we have special characters.
+
+11:22.900 --> 11:30.200
+I'm going to create another one max and I'm going to call him off.
+
+11:30.760 --> 11:35.860
+So with a special character and this could be a different special character it doesn't have to be a
+
+11:35.860 --> 11:36.720
+German one.
+
+11:36.820 --> 11:40.370
+So I'm going to save this again and then let me run the file.
+
+11:40.850 --> 11:42.750
+And yeah in my case it doesn't crash.
+
+11:42.760 --> 11:49.600
+But in your case it could crash and it has to do with us not using the encoding so we could add encoding
+
+11:50.080 --> 11:55.000
+UTF 8 or UGF minus.
+
+11:55.270 --> 11:58.910
+And this really makes sure that we can use special characters as well.
+
+11:59.000 --> 12:06.190
+But as it seems that the later versions get the more flexible they are and the more they have these
+
+12:06.190 --> 12:07.320
+things built in.
+
+12:07.360 --> 12:16.460
+But really to make sure add encoding UTF minus 8 in here in order to use special characters as well.
+
+12:16.480 --> 12:22.120
+All right I hope you enjoy this challenge and I hope you were successful building it yourself.
+
+12:22.360 --> 12:24.940
+And yeah that was pretty much it.

@@ -1,0 +1,328 @@
+WEBVTT
+
+00:00.170 --> 00:07.270
+Come back in this video we are going to bring over our crawler to Python.
+
+00:07.560 --> 00:14.850
+So so far we have only worked with our Jupiter notebooks but now we can use pi charm in order to use
+
+00:14.850 --> 00:17.830
+our whole program in a ID.
+
+00:17.850 --> 00:20.990
+And while PI charm is a great idea.
+
+00:21.330 --> 00:27.660
+We decided to use Jupiter notebook at the start because it's much easier to follow along.
+
+00:27.860 --> 00:33.750
+Mainly at the beginning but as soon as we go to more complex programs it's really helpful to use pi
+
+00:33.750 --> 00:34.470
+charm.
+
+00:34.470 --> 00:41.660
+So I'm going to create a new python file in here and I'm going to create it with the name crawler.
+
+00:41.670 --> 00:48.390
+So I'm just going to call this crawler and I'm going to use a capital C here.
+
+00:48.570 --> 00:50.310
+Now this crawler p y.
+
+00:50.640 --> 00:54.300
+That's my Python code that I can run.
+
+00:54.300 --> 00:56.250
+So in here I can just say something like.
+
+00:56.250 --> 00:58.290
+Print Hello world.
+
+00:58.290 --> 01:04.560
+And now in order to run the code I just go to run and press run of course you can also use a short code
+
+01:04.890 --> 01:13.440
+for short cuts and then can a press run and decide to do I'll use my crawler here and there we are.
+
+01:13.440 --> 01:16.810
+We have printed hello world onto our screen.
+
+01:17.010 --> 01:20.700
+So that's the very first basic statement that we have used.
+
+01:20.850 --> 01:27.110
+Now what we can do is we can bring over our whole code from here in order to execute it in PI charm
+
+01:27.120 --> 01:33.200
+in order to have it in a more structured way and more advanced way.
+
+01:33.240 --> 01:41.290
+And so in order to do that I'm going to create a new Python package and I'm going to call this Python
+
+01:41.290 --> 01:46.130
+package crawler crawl.
+
+01:46.870 --> 01:52.060
+All right so as you can see now there is a new folder in here which is my Python package and it has
+
+01:52.060 --> 01:53.740
+an image file.
+
+01:54.040 --> 01:58.080
+And in here I will need to add stuff as I go.
+
+01:58.300 --> 02:03.570
+As you might recall from the modules video where we used modules and wanted to import them.
+
+02:03.700 --> 02:07.380
+So in this crawler I'm going to create a new file.
+
+02:07.420 --> 02:14.330
+So I'm going to create a new python file and that will be called cruel article.
+
+02:14.770 --> 02:16.030
+So it should be a python file.
+
+02:16.030 --> 02:17.140
+I'm going to call it like that.
+
+02:17.140 --> 02:19.150
+And then I'm going to create a new one as well.
+
+02:19.150 --> 02:30.790
+A new python file that I'm going to call article fetcher and now we can copy the code from Jupiter notebook.
+
+02:30.790 --> 02:37.870
+So let's go here and corrupt the copy It is called Article and put it into our crawl.
+
+02:37.910 --> 02:40.830
+Article Why file so select across the article.
+
+02:40.870 --> 02:44.390
+Here at the top and put everything in there.
+
+02:44.440 --> 02:46.480
+So then you can save this.
+
+02:46.870 --> 02:50.640
+And now let's go ahead and do the same with the article fetcher.
+
+02:51.130 --> 02:57.250
+So let's take all this article fetcher stuff up to that point.
+
+02:57.250 --> 03:02.960
+So this is just part of the class only that is going to be required in the article fetcher.
+
+03:03.160 --> 03:06.900
+And now when we have that you can see that there are some errors here.
+
+03:06.970 --> 03:09.310
+So it says time is not known.
+
+03:09.370 --> 03:10.820
+Requests is not known.
+
+03:10.840 --> 03:16.530
+And the cool thing here is that this even this pie chart tells us where errors are.
+
+03:16.750 --> 03:23.950
+So what I can do here is to find solutions so I just press over it and then I can press command of one
+
+03:23.950 --> 03:30.040
+in order to get more information or I can just open it up here as you can see import this name create
+
+03:30.170 --> 03:31.850
+paramita and so forth.
+
+03:31.960 --> 03:34.830
+And what we want to import is actual time.
+
+03:34.840 --> 03:38.880
+So as you can see there is time there date time and so forth.
+
+03:38.890 --> 03:45.550
+So the one that we want to use is time and we can of course also just go ahead and copy the code from
+
+03:45.550 --> 03:46.040
+here.
+
+03:46.060 --> 03:48.580
+So import request and import time.
+
+03:48.640 --> 03:59.200
+So I'm going to add that in here and poured time and import requests and as you see when I enter something
+
+03:59.200 --> 04:01.150
+it already predicts what I would like to have.
+
+04:01.150 --> 04:03.460
+Or it gives me some choices.
+
+04:03.550 --> 04:06.990
+And in this case I can just go ahead and use requests.
+
+04:07.030 --> 04:13.390
+Now there is this cross article still missing and how do I import cross article because I have the article
+
+04:13.390 --> 04:17.790
+and it's my own program program or my own file here.
+
+04:18.100 --> 04:21.510
+And I would like to use it but I need to import it somehow.
+
+04:21.610 --> 04:28.330
+Well Therefore we need to use our in or top y file.
+
+04:28.360 --> 04:32.270
+So let's check out the in a file as you can see it's empty.
+
+04:32.290 --> 04:40.840
+So I can just say underscore underskirt all underscore underscore is equal to my list of Karole article
+
+04:42.910 --> 04:50.160
+article and article fetchers so article fetcher.
+
+04:50.560 --> 04:57.800
+Now let me say that as well with command s or file save all or save all.
+
+04:58.090 --> 05:02.570
+And now I can go ahead and use it in here so I can import it here.
+
+05:02.590 --> 05:09.860
+And how do I imported from and here daughter cross article import called Article.
+
+05:09.880 --> 05:15.850
+So what I'm saying here is from this quote article file which is within the same folder.
+
+05:15.850 --> 05:17.500
+That's why we have this dot here.
+
+05:17.500 --> 05:21.180
+So this quote article file is in the same folder as the article fetcher.
+
+05:21.250 --> 05:26.770
+That's why I can use a dot here then I'm saying which file I would like to import.
+
+05:26.890 --> 05:34.630
+And from that I would like to import the actual class called crawled out crawled article Why do I do
+
+05:34.630 --> 05:34.840
+that.
+
+05:34.840 --> 05:37.880
+Well because in Kroeber article there could be multiple classes.
+
+05:37.900 --> 05:45.040
+So some people they create multiple classes in one file and then you need to specify or you could specify
+
+05:45.040 --> 05:48.420
+which of those classes you would like to import.
+
+05:48.430 --> 05:52.540
+All right so I'm just going to say the article and as you can see here suddenly this era that we had
+
+05:52.540 --> 05:56.070
+before disappeared.
+
+05:56.080 --> 05:56.790
+All right.
+
+05:56.810 --> 06:05.530
+And now what we can do is we can pretty much use our article fetcher and fetch and all of this stuff
+
+06:05.620 --> 06:09.280
+so we can just go ahead and copy that code here.
+
+06:09.340 --> 06:12.650
+We're going to adjust it a little bit but we can copy it from here.
+
+06:12.820 --> 06:21.040
+So let's go back in our cruller the wife file and in here instead of printing hello world I would like
+
+06:21.040 --> 06:23.540
+to use my fetcher.
+
+06:23.750 --> 06:27.340
+Is going to be an article fetcher and as you can see I'm still getting this error because I need to
+
+06:27.370 --> 06:34.090
+import article fetcher then I have my calendar where I define how many entries I would like to be displayed
+
+06:34.120 --> 06:37.130
+and this print statement Well I can leave it there for now.
+
+06:37.230 --> 06:43.260
+But let's find a way to fix this error here and you might remember how to fix it while we can of course
+
+06:43.320 --> 06:50.790
+use those same imports that we did here where we say import or from crowd article import carolled article
+
+06:50.790 --> 06:51.930
+and so forth.
+
+06:51.930 --> 07:00.450
+Or we can change our cruller that way so that we can just say something like import crawler.
+
+07:01.320 --> 07:07.050
+So then we would import this whole Python package or this whole folder which is a module which contains
+
+07:07.050 --> 07:08.840
+all of the things that we need.
+
+07:08.960 --> 07:13.020
+Now that by itself is not going to do much and use the import statement.
+
+07:13.020 --> 07:14.300
+Well that's one point.
+
+07:14.400 --> 07:18.510
+But the other thing is we need to adjust this file a little bit.
+
+07:18.660 --> 07:27.270
+So in here now we can say from DOT crawled article import crawled article and from that article fetcher
+
+07:27.360 --> 07:29.740
+import article fetcher.
+
+07:29.880 --> 07:31.680
+And now let's save that file once again.
+
+07:31.710 --> 07:35.140
+Let's go back to our cruller Depue why.
+
+07:36.270 --> 07:38.430
+And my guess is it's still shown the error.
+
+07:38.430 --> 07:48.480
+So let me import the crawler once again and in case this error still appears you can of course from
+
+07:48.990 --> 07:53.320
+cruller start article fetcher import article feature.
+
+07:53.670 --> 07:55.890
+So you can of course still do that.
+
+07:55.890 --> 07:59.900
+All right so now let's run the code and I'm going to start it.
+
+07:59.910 --> 08:06.500
+And as you can see now it gives me the articles that I was searching for.
+
+08:06.510 --> 08:12.690
+So the emoji is and the title of the article of course you can get a lot more from it but that's it
+
+08:12.690 --> 08:16.850
+for now and more it's everything that I would like to have for now.
+
+08:17.100 --> 08:22.930
+So now you see how you can go ahead and pretty much use Python.
+
+08:23.100 --> 08:29.400
+And as you can see it's also very powerful and can help you a lot when writing code and you will find
+
+08:29.400 --> 08:36.300
+arrows much easier than we did before and that's why the next chapter is going to be all about exceptions.
+
+08:36.330 --> 08:37.460
+So see you there.

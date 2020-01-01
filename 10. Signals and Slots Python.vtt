@@ -1,0 +1,331 @@
+WEBVTT
+
+00:00.450 --> 00:01.480
+Welcome back.
+
+00:01.500 --> 00:09.630
+Now it's time to add another checkbox because I will show you how you can go ahead and add functionality
+
+00:09.630 --> 00:11.880
+to the button via Python code.
+
+00:11.910 --> 00:17.190
+So I created this additional checkbox here and now what I want to happen is when somebody presses this
+
+00:17.190 --> 00:23.730
+push button this checkbox should be activated by our signals and slots here at the bottom which we have
+
+00:23.730 --> 00:24.820
+already created.
+
+00:24.960 --> 00:32.610
+And the second checkbox this one here should be handled by our Python code and how we can do that is
+
+00:32.610 --> 00:33.270
+the following way.
+
+00:33.270 --> 00:39.480
+First of all we need to have an identifier for this checkbox and identifies this object name.
+
+00:39.600 --> 00:46.400
+So we can of course call a checkbox to or we could just call it Sibi which is short for check box.
+
+00:46.710 --> 00:53.610
+So now if I want to access this checkbox let me save this file real quick and go back to Python.
+
+00:53.970 --> 01:00.300
+And here I need to make sure that I run my build so that changes are applied.
+
+01:00.310 --> 01:06.390
+So now I can go back to my main window by and check if I can find something called sibi.
+
+01:06.600 --> 01:12.790
+And you can see there is something called self Sibi which is a cutey widget checkbox.
+
+01:12.810 --> 01:17.470
+So a queue check box which has the object name of c.b.
+
+01:17.800 --> 01:21.690
+All right so now we can go ahead and access that Sibi any time you want.
+
+01:21.690 --> 01:22.630
+How do we do that.
+
+01:22.800 --> 01:34.440
+Well in here we can pretty much just said the check box and call its toggle method but that's not exactly
+
+01:34.440 --> 01:37.780
+how it works because the C-B is within UI window.
+
+01:37.980 --> 01:42.340
+So we need to tell it OK I want to x as you window Dotsie B.
+
+01:42.480 --> 01:44.790
+And from that I want to apply all onto that.
+
+01:44.790 --> 01:46.400
+I want to apply to toggle method.
+
+01:46.680 --> 01:49.000
+But when do we actually want to apply that.
+
+01:49.170 --> 01:53.450
+Well we want to apply it once somebody presses on a button.
+
+01:53.640 --> 01:56.930
+So let's create a little method that should handle button clicks.
+
+01:56.940 --> 02:00.870
+So I'm just going to say on partan underscore click.
+
+02:00.870 --> 02:06.810
+So if somebody clicks the button I just want to print something like an button click was pressed or
+
+02:06.810 --> 02:14.990
+something like that on a button click and hearsay pressed or caught.
+
+02:15.180 --> 02:17.640
+So this method was called.
+
+02:17.820 --> 02:20.670
+Now how do I actually call it from a button.
+
+02:21.030 --> 02:24.180
+Well I need to go to the button itself.
+
+02:24.180 --> 02:32.330
+So the button is within my window which is my main window which pretty much contains all of my UI elements.
+
+02:32.370 --> 02:36.550
+So the checkboxes to button and so forth.
+
+02:36.600 --> 02:45.800
+So here I will check my button which I called my button and I can go to click it.
+
+02:45.870 --> 02:58.280
+So there is a method called clicked and I can connect that to my on button click.
+
+02:58.380 --> 03:04.530
+So that's pretty much the procedure you need to have the name of the UI main window which I called you
+
+03:04.530 --> 03:09.030
+my window do you need to have the name of the button which I called my button so let's go back real
+
+03:09.030 --> 03:10.190
+quick to check.
+
+03:10.620 --> 03:13.890
+And here this button is called My button.
+
+03:13.890 --> 03:17.670
+And that's really important because that's exactly the identifier of the button.
+
+03:17.670 --> 03:20.060
+And that's exactly the one that we need to use here.
+
+03:20.280 --> 03:22.260
+So I want to access my button.
+
+03:22.260 --> 03:29.040
+There is something called clicked and I want to connect that clicked with my function that I created
+
+03:29.040 --> 03:32.330
+myself which is does the on button click.
+
+03:32.640 --> 03:39.160
+So now once somebody clicks on the button it will pretty much print on button clicked kalt.
+
+03:39.420 --> 03:44.730
+And before we run that there is one LITTLE thing that I need to change because here it says on button
+
+03:44.730 --> 03:45.600
+click.
+
+03:45.810 --> 03:49.800
+But I don't want to call the on button click method in here.
+
+03:49.920 --> 03:53.340
+I just want to pass it as the argument here.
+
+03:53.340 --> 03:59.130
+So I'm just passing this method as an argument so it just kind of call it automatically OK.
+
+03:59.250 --> 04:01.130
+So don't call the method in here.
+
+04:01.170 --> 04:02.530
+Don't use the brackets here.
+
+04:02.640 --> 04:05.350
+Just pass the method name.
+
+04:05.550 --> 04:14.840
+And now we can run our main white and press the push button and as you can see on button click called.
+
+04:14.920 --> 04:16.900
+But then the other button is still disappearing.
+
+04:16.900 --> 04:18.490
+So how do we fix that.
+
+04:18.490 --> 04:20.030
+Well just a second.
+
+04:20.050 --> 04:25.240
+So just once again you see on button clicked was called and that's always good to check with a print
+
+04:25.240 --> 04:25.780
+statement.
+
+04:25.780 --> 04:31.120
+Whether your interactivity works so whether button clicks and those kind of things whether they work
+
+04:31.390 --> 04:35.710
+before you add functionality in here and then you're wondering why the functionality is not working.
+
+04:35.860 --> 04:40.520
+Because after you checked the print statement then you will see directly OK.
+
+04:40.720 --> 04:45.850
+The functionality works then we can add some other stuff in here so we could add whatever we wanted
+
+04:46.120 --> 04:49.040
+in this function and it would be called and executed.
+
+04:49.030 --> 04:50.670
+Once somebody presses a button.
+
+04:50.860 --> 04:53.360
+But now the checkbox disappeared how would we fix that.
+
+04:53.380 --> 04:57.780
+Well let's go to our cute creator and here instead of hiding.
+
+04:57.910 --> 05:02.550
+Let's change that to toggle because we don't want to hide it anymore we just want to toggle it.
+
+05:02.860 --> 05:09.820
+So let me say that again and I will stop the main and I will run build once again real quick because
+
+05:09.820 --> 05:12.350
+I made some changes in the cube Ed..
+
+05:12.730 --> 05:20.290
+Now we can go ahead and run main once again and you will see that this checkbox is active and active
+
+05:20.650 --> 05:22.600
+or it's toggled pretty much.
+
+05:22.630 --> 05:26.660
+So now I want to toggle the checkbox.
+
+05:26.710 --> 05:27.690
+How do we do that.
+
+05:27.790 --> 05:35.380
+Well as I told you earlier we need to access you I windowed CB So we access the checkbox itself and
+
+05:35.380 --> 05:38.410
+there we need to call the toggle method.
+
+05:38.470 --> 05:44.820
+So there is this toggle method that pretty much toggles to element and an toggle switch.
+
+05:44.830 --> 05:54.600
+So if I save that and run it again you will see that both my checkboxes now get toggled by my push button.
+
+05:54.740 --> 05:55.540
+All right.
+
+05:55.780 --> 05:59.530
+And now there is something that you can actually do as well.
+
+05:59.590 --> 06:08.710
+So instead of creating this method which really just does one thing and it toggles our checkbox I can
+
+06:08.710 --> 06:15.190
+just add the name of the method in here as well because this here is also a method name so I could just
+
+06:15.190 --> 06:18.100
+say OK just past the toggle method in here.
+
+06:18.100 --> 06:20.640
+So then we don't need this code here anymore.
+
+06:20.660 --> 06:24.040
+So I'm just going to comment it out.
+
+06:24.510 --> 06:25.020
+All right.
+
+06:25.030 --> 06:31.770
+Now let me run the code again just to see whether it's still working and you can see it's still working.
+
+06:31.780 --> 06:33.030
+Now there's one more thing.
+
+06:33.040 --> 06:40.520
+So we have this code here and we have a very similar code here which says self my button clicked connect.
+
+06:40.600 --> 06:42.370
+So checkbox toggle.
+
+06:42.460 --> 06:50.120
+So it's pretty much the same kind of code only that here we are accessing the checkbox and not the CB.
+
+06:50.170 --> 07:00.040
+So this main window Y contains this same kind of code and it's automatically created based on the signals
+
+07:00.100 --> 07:02.410
+and slots and tree that we have here.
+
+07:02.670 --> 07:03.360
+OK.
+
+07:03.490 --> 07:05.740
+So that's how everything is pretty much connected.
+
+07:05.740 --> 07:11.470
+And now you could go ahead and create the methods you like and you can put them in there so that may
+
+07:11.470 --> 07:14.980
+actually come in this line out as well.
+
+07:14.980 --> 07:20.630
+So you can see both versions out like that.
+
+07:20.840 --> 07:21.220
+OK.
+
+07:21.250 --> 07:23.510
+So these are the two versions that we could use either.
+
+07:23.580 --> 07:27.140
+We use the one with comment that we have commented out.
+
+07:27.280 --> 07:32.710
+Or the one that we have here which is just one line but this only makes sense if you really just do
+
+07:32.710 --> 07:37.990
+this one thing if we had more things that should happen for example we print something on the screen
+
+07:37.990 --> 07:40.170
+then we do some calculations and so forth.
+
+07:40.180 --> 07:47.200
+In this method then it would make sense to use this or pass this method instead of passing this very
+
+07:47.200 --> 07:49.070
+basic code.
+
+07:49.090 --> 07:51.450
+I just wanted to show you that this is also possible.
+
+07:51.720 --> 07:52.210
+OK.
+
+07:52.270 --> 07:56.730
+So in the next video we are going to check out how to structure.
+
+07:56.810 --> 07:59.800
+Well we're going to restructure our co-promote so see you there.

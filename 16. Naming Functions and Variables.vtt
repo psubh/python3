@@ -1,0 +1,124 @@
+WEBVTT
+
+00:00.270 --> 00:01.640
+We'll come back in this video.
+
+00:01.650 --> 00:07.920
+I would like to talk to you about something that you might have noticed yourself and that is the naming
+
+00:07.980 --> 00:09.630
+of methods.
+
+00:09.690 --> 00:16.960
+So in this case we are importing or using cute widgets or cute pie.
+
+00:17.040 --> 00:22.200
+And the problem with qued pie is at least when it comes to naming is that they are using different conventions
+
+00:22.440 --> 00:33.560
+because cube pie or cute is based on C++ and in C++ Pascal and Kemel case are used and in Python.
+
+00:33.570 --> 00:36.920
+On the other hand SNY case and Pascal case is used.
+
+00:36.990 --> 00:39.160
+So sneakers for variable names.
+
+00:39.150 --> 00:46.770
+Any case for method names as we have here calculate on a square BMI and Pasko case for class names for
+
+00:46.800 --> 00:47.630
+everything else.
+
+00:47.640 --> 00:52.560
+Well we never use camel case in Python at least that's not the convention.
+
+00:52.560 --> 00:53.920
+How you should do it.
+
+00:54.150 --> 00:59.970
+Now we have this little problem that and now we have this mixture of two styles we have on one hand
+
+01:00.030 --> 01:08.980
+the qued style which uses camel case quite a lot as you can see here where we have resoled label that
+
+01:09.040 --> 01:13.340
+hide then the part that's something that I call myself.
+
+01:13.530 --> 01:21.810
+But we have a set window title here or we have q main window or we have set text.
+
+01:21.820 --> 01:27.660
+Here there are some examples set text is also an example for camel case and all of those are methods
+
+01:27.870 --> 01:33.530
+that come from C++ and Python didn't change their names or were just calling the same method.
+
+01:33.540 --> 01:36.560
+So we don't go and change every single method of it.
+
+01:36.780 --> 01:46.920
+So if you create an application you would only use cute has a additional module or as an additional
+
+01:47.130 --> 01:53.910
+API then it makes sense to follow its naming conventions.
+
+01:53.910 --> 01:58.680
+So in that case it wouldn't make sense to go ahead and call this method here.
+
+01:58.680 --> 02:00.720
+Calculate B.
+
+02:00.760 --> 02:02.190
+Am I like this.
+
+02:02.580 --> 02:03.400
+OK.
+
+02:03.580 --> 02:11.510
+But as you go ahead and use multiple Moyal so that they would add the C S V module or other python modules.
+
+02:11.670 --> 02:17.080
+Then we go back to the sneak case because in those modules everything is using sneakers and Pascola
+
+02:17.150 --> 02:17.790
+case.
+
+02:17.850 --> 02:25.290
+So then we can just say okay we are just going to take a hit we're going to ignore the naming of more
+
+02:25.680 --> 02:31.350
+than naming convention Kemel in case of our cute and we're just going to say it's fine but the rest
+
+02:31.350 --> 02:36.410
+of the application should all be that Python naming convention style.
+
+02:36.450 --> 02:41.480
+So that's pretty much something that I just wanted to show you or talk to you about real quick.
+
+02:41.610 --> 02:48.270
+So you don't get confused about the different naming conventions that we're using here and you don't
+
+02:48.270 --> 02:53.910
+feel like OK now we're throwing everything on board and it doesn't really matter because it actually
+
+02:53.910 --> 02:59.430
+does matter at least when you work with others it really makes sense that things are named in a certain
+
+02:59.430 --> 03:08.450
+way such as your methods your functions your variables and those kind of things are named correctly.
+
+03:08.670 --> 03:09.260
+OK.
+
+03:09.360 --> 03:12.630
+So that was just something that I wanted to talk to you about real quick.
+
+03:12.680 --> 03:17.970
+Ant Yeah just so you know and you know how do you handle this now.
+
+03:18.030 --> 03:20.690
+And I'd say let's check out the next video.
+
+03:20.730 --> 03:21.860
+So see you there.

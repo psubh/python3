@@ -1,0 +1,256 @@
+WEBVTT
+
+00:00.120 --> 00:00.840
+Come back.
+
+00:00.840 --> 00:03.250
+In this video we are going to check out H-2 email.
+
+00:03.270 --> 00:08.910
+And if you know HDMI already then you can just get this video and we're just going to have a quick look
+
+00:08.910 --> 00:14.150
+at the very basics of aged him male and female as a script language.
+
+00:14.160 --> 00:21.040
+It's not a programming language and it really is therefore creating a structure of a website so a web
+
+00:21.040 --> 00:27.240
+site is structured in a certain way and how it is structured is defined with age to e-mail.
+
+00:27.270 --> 00:34.170
+So there is a folder HVM out in the right crawler folder and in here I'm going to create a new file
+
+00:34.170 --> 00:41.300
+so it's just going to be a text file and I'm going to call that one index that aged female index aged
+
+00:41.570 --> 00:48.120
+aged female is the starting age female files of and that's the one that usually comes up when you go
+
+00:48.120 --> 00:54.930
+to the front first page of the website so the main domain or front page like Google dot com.
+
+00:54.970 --> 00:57.890
+There you have it will be in this age e-mail.
+
+00:58.050 --> 01:04.800
+All right so how does age you may look like well an age HMO generally what you have is something called
+
+01:04.820 --> 01:05.530
+tags.
+
+01:05.700 --> 01:10.800
+So you structure your code in tags or your content in tags.
+
+01:10.800 --> 01:17.400
+So for example you have this tag which you open with a less than sign and you close it with a greater
+
+01:17.430 --> 01:17.960
+sign.
+
+01:18.090 --> 01:19.870
+And that's the case for all tags.
+
+01:19.890 --> 01:22.430
+So that's how you have this tag.
+
+01:22.590 --> 01:27.420
+And then you have this as an opening tag but then you also have a closing tag.
+
+01:27.570 --> 01:32.640
+So a tag is always consisting of two parts.
+
+01:32.640 --> 01:35.180
+So this is the opening one and this is the closing one.
+
+01:35.310 --> 01:42.930
+So the only difference here is that you use a slash here just before the word or the letter that indicates
+
+01:42.930 --> 01:44.490
+what kind of tag does this.
+
+01:44.490 --> 01:48.460
+So this here is a p tag which stands for paragraph.
+
+01:48.540 --> 01:57.800
+So I can create a paragraph here something like I am content as a paragraph just as an example.
+
+01:57.990 --> 02:04.980
+So if I say now save this file I can open it up and I will be able to open it up in a browser.
+
+02:05.220 --> 02:14.260
+So if I go into my finder and I go back to the course material and in here to the crawler one is here
+
+02:14.280 --> 02:20.310
+right a crawler and then in the HDD folder you will find this HDMI file and you can open it for example
+
+02:20.610 --> 02:22.170
+with Google Chrome.
+
+02:22.170 --> 02:27.510
+Now as you can see it just says I'm concerned as a paragraph and that's pretty much it.
+
+02:27.510 --> 02:29.960
+So that's the code we just developed here.
+
+02:30.120 --> 02:37.170
+So nothing too fancy but this is not just a text that doesn't display as you can see it doesn't display
+
+02:37.170 --> 02:37.990
+this.
+
+02:38.350 --> 02:43.700
+And if you want to see the source code you can always right click and then inspect it.
+
+02:43.710 --> 02:49.690
+So if you inspect then you see here on the elements you see what this code looks like.
+
+02:49.690 --> 02:58.920
+And even though I just had added this P-TECH in here as you can see there is an H M L tag a head take
+
+02:58.920 --> 03:06.190
+a body tag and then within the body tag we have this P-TECH which says I am content as a paragraph.
+
+03:06.430 --> 03:07.170
+Right.
+
+03:07.230 --> 03:10.340
+So that's pretty much generally the structure.
+
+03:10.340 --> 03:13.960
+So you have a P-TECH that's create another p tag.
+
+03:14.400 --> 03:17.450
+And then I'm going to put it at the bottom or just below it.
+
+03:17.550 --> 03:25.790
+And what that is it's just going to be another paragraph so I can add something like I am the.
+
+03:25.890 --> 03:28.080
+Or any other paragraph.
+
+03:28.080 --> 03:36.120
+So if I saved that file and I then refreshed this side as you can see I am another paragraph is displayed
+
+03:36.120 --> 03:39.430
+here and it's part of the body tag.
+
+03:39.660 --> 03:44.200
+So that is generally how you have the structure of an aged female file.
+
+03:44.340 --> 03:47.620
+Let's just reproduce that here so we have this team.
+
+03:47.640 --> 03:50.620
+I'll tag and at one point it has to close.
+
+03:50.640 --> 03:52.590
+So I'm closing the page to him.
+
+03:52.590 --> 03:57.360
+I'll take as I usually would close other text as well.
+
+03:57.360 --> 04:04.270
+And now all the age HTML code is within those two tags so this code here has to go right in here.
+
+04:04.630 --> 04:06.320
+Then there is something else missing.
+
+04:06.480 --> 04:17.310
+You usually also have a head tag where you add meta information for example or you have your C S S file
+
+04:17.310 --> 04:21.120
+which and which stores how stuff is displayed.
+
+04:21.120 --> 04:26.110
+So for example should this be colored in red or should it be colored and black or whatever.
+
+04:26.310 --> 04:35.340
+And then you have the body so the body contains all of the information that is displayed on the screen.
+
+04:35.340 --> 04:38.280
+So this is going to be where my betakes go.
+
+04:38.490 --> 04:46.020
+So now I'm going to cut them all right in here and it really makes sense to use indents here as well.
+
+04:46.020 --> 04:51.180
+It's not necessary in the sense that it won't work or it will still work even if you don't have the
+
+04:51.180 --> 04:51.710
+indents.
+
+04:51.840 --> 04:55.220
+But it's a lot easier to read if you have this structure.
+
+04:55.560 --> 05:02.480
+OK so I have this head tag I have this tag and within the body tag I have all of my content.
+
+05:02.660 --> 05:07.090
+So I'm going to save that file again and I'm going to refresh here.
+
+05:07.100 --> 05:12.140
+And as you see nothing has changed even though I have just added all of the structure but that's because
+
+05:12.830 --> 05:18.860
+our modern browsers they already know OK if you have a file which is an aged him file and there is a
+
+05:18.860 --> 05:20.010
+p tag in there.
+
+05:20.150 --> 05:26.660
+Well it doesn't need all of this additional stuff like aged female body and so forth in order to understand
+
+05:26.660 --> 05:30.280
+that this is the structure that is going to need.
+
+05:30.440 --> 05:32.430
+So does that automatically for us.
+
+05:32.450 --> 05:34.320
+Or did that automatically for us.
+
+05:34.370 --> 05:39.590
+But we of course need to understand that that's the structure of the Web site and if we want to build
+
+05:39.590 --> 05:44.570
+it correctly then of course we need to use these things here as well.
+
+05:44.810 --> 05:48.250
+So these tags like the shemale tag and so forth.
+
+05:49.520 --> 05:52.590
+All right so that was the general introduction.
+
+05:52.610 --> 05:55.360
+There is one more thing that I would like to show you real quick.
+
+05:55.370 --> 06:03.580
+You can even change some minor aspects of your pretax For example I could add a strong here.
+
+06:03.790 --> 06:13.940
+What that will do is it will make everything that is within its strong tag thick so it will make it
+
+06:13.940 --> 06:14.540
+strong.
+
+06:14.540 --> 06:17.490
+So let me really run it as you can see now.
+
+06:17.690 --> 06:22.010
+This is written as a bold character.
+
+06:22.100 --> 06:28.430
+So the whole sentence is boiled down all right and that's what the strong does.
+
+06:29.210 --> 06:34.490
+So there's another tag and we're going to look at multiple tags and go to check out how a web site is
+
+06:34.490 --> 06:40.610
+structured in order to understand better how to crawl it and how to get the data that we actually need.
+
+06:40.850 --> 06:46.320
+All right so I'd say See you in the next video where we will get HDMI code from a side.
+
+06:46.400 --> 06:47.510
+So see you there.

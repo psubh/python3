@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00.450 --> 00:01.220
+Welcome back.
+
+00:01.240 --> 00:08.190
+Now that you know how you can drag and drop all of your you eye elements onto your form or onto your
+
+00:08.190 --> 00:13.230
+window and you whine it's time to check out how we can interact with those UI in the months and that
+
+00:13.230 --> 00:16.830
+is done by signals and slots or with signals and slots.
+
+00:16.860 --> 00:19.050
+So let's check out what those signals and slots are.
+
+00:19.050 --> 00:24.250
+Well generally the problem is we want to be able to react to user input somehow.
+
+00:24.360 --> 00:29.690
+So if the user presses a button or if there's some text we want to be able to interact with it.
+
+00:29.730 --> 00:32.280
+We're at least react to that user input.
+
+00:32.640 --> 00:39.060
+And when a button is clicked show another item for example so somebody presses something then another
+
+00:39.060 --> 00:47.360
+screen pops up or a different tab or something like that and how we do that in cute is we do that with
+
+00:47.380 --> 00:49.130
+signals and slots.
+
+00:49.410 --> 00:50.730
+And what exactly does that mean.
+
+00:50.730 --> 00:54.040
+So what are those signals and slots that you're talking about a..
+
+00:54.090 --> 01:00.570
+All right so signals and slots are two different elements which pretty much allow us to interact.
+
+01:00.570 --> 01:04.230
+So the signals are sent out by each element.
+
+01:04.230 --> 01:09.320
+So for example a button can send its own signal can send a signal.
+
+01:09.570 --> 01:15.330
+I was pressed or I was clicked or I was hovered over or something like that.
+
+01:15.840 --> 01:21.530
+And in this example if somebody clicked the button then we could do something.
+
+01:21.840 --> 01:28.410
+But what we do and what we change let's say in another object is done with slots.
+
+01:28.470 --> 01:31.790
+So each element can receive signals via a slot.
+
+01:31.800 --> 01:36.320
+So it's pretty much like a receiver and it's waiting for this information.
+
+01:36.330 --> 01:38.900
+So you can imagine a button is pressed.
+
+01:38.910 --> 01:45.510
+So the signals send out and then somewhere is the receiver who waits for this particular signal and
+
+01:45.510 --> 01:49.270
+then it interacts with it or it activates some functionality.
+
+01:49.260 --> 01:51.180
+So it's done via a slot.
+
+01:51.180 --> 01:56.390
+In this case for example a label has the slot hide which we can hide it with.
+
+01:56.580 --> 02:02.310
+So for example if a button is pressed then we could hide a label or if a button is pressed we could
+
+02:02.310 --> 02:05.070
+hide a different object on our UI.
+
+02:05.070 --> 02:07.900
+So pretty much any UI element can be hidden.
+
+02:08.060 --> 02:09.290
+A word can be shown.
+
+02:09.300 --> 02:14.300
+So these are the two general methods that we can pretty much use.
+
+02:14.310 --> 02:22.020
+So these slots are also Methot so we can call them via Python code but we can also do that in our cute
+
+02:22.050 --> 02:22.780
+creator.
+
+02:22.920 --> 02:30.570
+So the button is for example the signal clicked preste or the other element is the slot and can be hidden
+
+02:30.660 --> 02:33.410
+or can be shown so it can hide or Sjoerd.
+
+02:33.480 --> 02:36.530
+So just for user another representation of this.
+
+02:36.660 --> 02:42.480
+And if a user clicks then we for example hide the other element as simple as that or we can even hide
+
+02:42.510 --> 02:46.140
+elements at the beginning of our UI creation.
+
+02:46.140 --> 02:51.360
+So whenever the UI is created we could say okay hide this particular element and then when we press
+
+02:51.390 --> 02:54.870
+a button or click a button that we will show this element.
+
+02:54.930 --> 03:01.320
+So now we took a look at the principle and let's take a look at this in practice where you can actually
+
+03:01.320 --> 03:03.980
+see how this is done in the cube creator.
+
+03:04.110 --> 03:06.890
+And later we will see how this is done in code.
+
+03:06.930 --> 03:08.240
+So enjoy this video.
+
+03:08.250 --> 03:10.500
+Finally some interaction with the UI.
+
+03:10.630 --> 03:16.450
+Ant Yeah thats pretty much the basis of any good graphical user interface program right.
+
+03:16.460 --> 03:17.390
+So see you there.

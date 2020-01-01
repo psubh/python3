@@ -1,0 +1,169 @@
+WEBVTT
+
+00:00.780 --> 00:03.690
+Come to the solution for the quiz lists.
+
+00:03.840 --> 00:09.180
+So let's start with the first question which letter outputs the following program and as it can see
+
+00:09.180 --> 00:17.340
+print hello world and then slicing minus two or in square brackets minus to what minus two does.
+
+00:17.460 --> 00:21.870
+It says I would like to only take it the second to last letter.
+
+00:21.870 --> 00:24.160
+So if there was minus one we would get D.
+
+00:24.450 --> 00:26.990
+If there is minus two we get L.
+
+00:27.060 --> 00:29.570
+So the correct answer here is B.
+
+00:29.970 --> 00:32.270
+So the right solution B.
+
+00:33.300 --> 00:40.140
+If you use the square brackets and then a number in here then you tell the string here that you only
+
+00:40.150 --> 00:44.400
+want to have a particular character because we're not using colon here.
+
+00:44.410 --> 00:47.240
+There's no colon so we're not slicing it in parts.
+
+00:47.240 --> 00:50.030
+We're just getting one particular character here.
+
+00:50.250 --> 00:53.210
+And the one we get is minus two.
+
+00:53.370 --> 00:58.440
+So we just have to look at the string from the back or from the end.
+
+00:58.530 --> 01:04.040
+So D minus 1 and L minus 2 are would be minus 3 and so forth.
+
+01:04.050 --> 01:08.200
+Then Question number two what does the following program output print.
+
+01:08.210 --> 01:11.560
+John Doe minus three colon nothing.
+
+01:11.820 --> 01:20.220
+So this minus three means that it starts at minus three and minus three is the third last character.
+
+01:20.220 --> 01:25.200
+So if we look at the string Jondo then it starts this D.
+
+01:25.590 --> 01:27.810
+And after the cold and there's nothing else left.
+
+01:27.810 --> 01:32.430
+So this means that we will get the rest of the string.
+
+01:32.430 --> 01:36.170
+So we start at minus three and we get the rest of the string.
+
+01:36.180 --> 01:38.060
+So what we get is though.
+
+01:38.250 --> 01:46.990
+So the correct answer here will be D as we get dough from Jondo so solution is D.
+
+01:47.070 --> 01:49.190
+Now let's look at question number three.
+
+01:49.470 --> 01:51.870
+What does the following program output.
+
+01:51.870 --> 01:53.600
+Now we have it the other way around.
+
+01:53.610 --> 01:56.420
+So before the colon there's nothing.
+
+01:56.430 --> 01:57.540
+So we start.
+
+01:57.660 --> 02:04.670
+Zero which means we start at the beginning and then it says up to the point of minus three.
+
+02:04.740 --> 02:06.160
+Not Included.
+
+02:06.420 --> 02:08.400
+So the minus 3 is not included.
+
+02:08.400 --> 02:12.050
+So we don't get the third last character in there.
+
+02:12.330 --> 02:15.740
+Which means though is not going to be or D is not going to be part.
+
+02:15.870 --> 02:19.030
+So we only get John.
+
+02:19.230 --> 02:22.150
+So the answer is C here.
+
+02:23.130 --> 02:26.870
+All right so correct solution is going to be c.
+
+02:27.390 --> 02:29.670
+Now let's have a look at question number four.
+
+02:29.850 --> 02:31.950
+What does the following program output.
+
+02:31.950 --> 02:32.400
+We have.
+
+02:32.400 --> 02:33.560
+Hello world.
+
+02:34.020 --> 02:40.870
+Starting at the sixth character and going until the last but not including.
+
+02:41.080 --> 02:48.520
+So colon minus 1 means take the last one but then exclude that.
+
+02:48.720 --> 02:52.550
+So it would give us WHY DO I SAY world here.
+
+02:52.560 --> 03:00.420
+Well the answer is world which is B and that is because if we look at the six or six we mean the sixth
+
+03:00.480 --> 03:04.740
+index which means the sixth character and starting to count a zero.
+
+03:04.740 --> 03:08.880
+So 0 1 2 3 4.
+
+03:09.030 --> 03:17.850
+The empty space is 5 and W6 So we start at W and then we go all the way to minus one excluded and minus
+
+03:17.850 --> 03:18.200
+1.
+
+03:18.210 --> 03:22.130
+Is this exclamation mark here.
+
+03:22.140 --> 03:28.800
+So the estimation markers excluded which means we have the whole world we're word that we're taking.
+
+03:28.800 --> 03:32.170
+So the answer is B world.
+
+03:33.310 --> 03:34.110
+All right.
+
+03:34.320 --> 03:40.830
+So I hope you could follow along and I hope you understand the concept of slicing and also of playing
+
+03:40.830 --> 03:46.690
+around with strings and in the next we we're going to check out a list comprehension.
+
+03:46.710 --> 03:47.730
+So see you there.

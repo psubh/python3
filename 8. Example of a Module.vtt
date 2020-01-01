@@ -1,0 +1,598 @@
+WEBVTT
+
+00:00.150 --> 00:05.280
+We'll come back and this video we are going to check out another module which is this year's Wii module
+
+00:05.550 --> 00:12.990
+and you learn how to use that and how to use the module index and which modules in even more
+
+00:17.280 --> 00:23.350
+and how you will see how it's even more comfortable to use these VI files with an example of the CS
+
+00:23.360 --> 00:24.550
+VI module.
+
+00:24.560 --> 00:30.710
+So now let's first of all check out the python module index and therefore you just click on the link
+
+00:30.740 --> 00:33.040
+and then you will find the module index.
+
+00:33.040 --> 00:36.180
+And here you can choose the version that you want to use.
+
+00:36.320 --> 00:43.910
+So based on the version that you want to check out the modules might be differently or might be different.
+
+00:43.910 --> 00:52.800
+So in order to find out which version you have you simply used import says and then you print this dot
+
+00:52.850 --> 00:53.570
+version.
+
+00:53.740 --> 00:58.820
+So that's how you find out which version you're currently using in my case and using Python three point
+
+00:58.820 --> 01:00.800
+six point five.
+
+01:00.890 --> 01:03.630
+And if I look at the module capabilities.
+
+01:03.650 --> 01:07.750
+Well of course I could check out version three point six or three point seven.
+
+01:07.800 --> 01:14.330
+I've something in between so I'll probably have most of the modules of 3.7 some might be missing but
+
+01:14.330 --> 01:18.860
+you can still check it out you can still check out which ones are available.
+
+01:18.860 --> 01:23.120
+And most of the time it will be the same except for maybe a couple of ones.
+
+01:23.150 --> 01:30.200
+So what we do here is we can check out all of the different modules so you can look at the calendar
+
+01:30.260 --> 01:36.800
+module functions for working with calendars including some emulation of the unix calendar program.
+
+01:36.800 --> 01:45.640
+Then you have to see as we write and read tabular data to and from the limited files then you have date
+
+01:45.640 --> 01:52.970
+time which is basic data and time types so you can very easily use stuff like dates and times and stuff
+
+01:52.970 --> 01:53.720
+like that.
+
+01:53.800 --> 01:59.630
+Then there is an email module and so forth so you see the raw Well maybe not hundreds but plenty of
+
+01:59.630 --> 02:01.020
+modules that you can use.
+
+02:01.220 --> 02:05.090
+And these are the ones that are standard from this python version.
+
+02:05.090 --> 02:07.390
+So within Python these are the standard ones.
+
+02:07.610 --> 02:14.180
+And you can of course import modules from other people who have developed some pretty cool stuff which
+
+02:14.180 --> 02:16.000
+will make your life a lot easier.
+
+02:16.220 --> 02:19.860
+So the idea behind those modules is to make your life easier.
+
+02:19.940 --> 02:24.640
+So it's not about complexity or something but those things.
+
+02:24.680 --> 02:30.900
+Those modules they have such capabilities that you use or need.
+
+02:30.920 --> 02:35.600
+So in your case if you have a situation where you know OK this is the end result but I want to have
+
+02:35.890 --> 02:41.310
+then you first of all check out which modules could help you to get that end result.
+
+02:41.450 --> 02:47.600
+And then you try to implement them step by step to see whether what you get is what you wanted to get.
+
+02:47.870 --> 02:53.570
+So you don't develop everything yourself especially when it comes to more complex programs but you really
+
+02:53.570 --> 02:58.750
+use modules from other people or from Python itself.
+
+02:58.760 --> 03:05.110
+So let's go back to our file here so now we know where 3.6 5 and now we know that we can use the c as
+
+03:05.180 --> 03:06.390
+V module.
+
+03:06.410 --> 03:12.920
+So now in order to import the c v module Let's check it out let's just enter import C as V.
+
+03:13.100 --> 03:15.870
+And now we can use all of the C S V stuff.
+
+03:16.070 --> 03:20.030
+So how do we know what kind of stuff is relevant for us.
+
+03:20.030 --> 03:24.430
+Well you can simply go here and check out this use vi module.
+
+03:24.470 --> 03:26.140
+So just press on it.
+
+03:26.210 --> 03:31.730
+So here you will find a lot of readable and useful information especially about before reading in this
+
+03:31.730 --> 03:32.210
+case.
+
+03:32.210 --> 03:37.460
+But of course that counts for all of the others as well so you can go into any of them and check out
+
+03:37.460 --> 03:38.060
+how they work.
+
+03:38.060 --> 03:44.060
+So for example day time if you want to check out how to use date time just read through this file and
+
+03:44.060 --> 03:45.730
+you will find how to use it.
+
+03:46.070 --> 03:51.010
+And the one that we would like to look at in this video is the reader.
+
+03:51.020 --> 03:56.240
+This is the reader and writer where we're pretty much just going to read for now.
+
+03:56.330 --> 04:00.800
+But as you can see module's contents and you can see how to use it.
+
+04:00.800 --> 04:08.030
+So first of all you need to import sees V and then you go ahead and use this with open and the name
+
+04:08.030 --> 04:12.140
+of the file new line as see as we follow.
+
+04:12.200 --> 04:19.640
+So what we can do is we can pretty much just copy this code here and actually we can even go ahead and
+
+04:19.820 --> 04:21.030
+copy some more.
+
+04:21.170 --> 04:24.900
+So let's understand what's going on in here a little better.
+
+04:25.040 --> 04:32.870
+So it says spam readers so that's a new variable which is a C is the reader who goes through the C S
+
+04:32.900 --> 04:38.410
+V file which we have just opened and it delimiters.
+
+04:38.720 --> 04:40.840
+So just as a kid delimiter.
+
+04:40.900 --> 04:44.140
+And what kind of separator pretty much is in there.
+
+04:44.150 --> 04:47.570
+So here it's an empty one or it's a pipe.
+
+04:47.570 --> 04:50.930
+So that's what this reader function says here.
+
+04:50.930 --> 04:54.790
+So there are multiple different ways of how to use this reader function.
+
+04:54.920 --> 04:58.740
+But as you can see here this reader function that's the one we're currently looking at.
+
+04:58.790 --> 05:06.220
+It needs to see as we file then it needs to know which dialects it's using and it has some further parameters.
+
+05:06.560 --> 05:13.700
+And the ones that we are looking at is that so let me just copy this code here so I'm going to copy
+
+05:13.700 --> 05:18.730
+everything to the point where I'm printing it out and we're going to adjust it a little bit.
+
+05:18.720 --> 05:22.080
+So let's go into our file and here.
+
+05:22.080 --> 05:25.070
+I don't need to start starts.
+
+05:26.610 --> 05:28.750
+And same goes for this one.
+
+05:28.800 --> 05:36.130
+So we need to have the right amount of indents or indentations to go like that.
+
+05:36.150 --> 05:42.390
+So the file that I would like to look at is for example I have this file called file that says Vee which
+
+05:42.390 --> 05:44.790
+is in my modules folder.
+
+05:44.790 --> 05:50.090
+So in my modules folder which is the same folder where this file is that's why that's important.
+
+05:50.280 --> 05:54.990
+I have this file called file but C is V and that's the one that I would like to check out.
+
+05:54.990 --> 05:57.840
+And as you can see this is the information that I have.
+
+05:57.900 --> 06:03.810
+Name Phone Number country and then we have Schmit a phone number where he's where he's at and he's in
+
+06:03.810 --> 06:04.760
+Germany.
+
+06:04.980 --> 06:07.490
+He's not in Germany but he's in Germany.
+
+06:07.770 --> 06:10.060
+And then we have Varga who is in Hungary.
+
+06:10.080 --> 06:11.810
+All right so let's check it out.
+
+06:11.850 --> 06:17.880
+We need to change the name first so we have filed Azziz of the then new line we're going to leave as
+
+06:17.880 --> 06:18.530
+is.
+
+06:18.720 --> 06:23.150
+And we call this not CCV fall this just call it file.
+
+06:23.520 --> 06:31.390
+And now what we can go ahead is call our variable as we like and I'm just going to call this file spem
+
+06:31.440 --> 06:39.210
+reader but I'm going to call it CCV file because I want to go through the v file and that's why instead
+
+06:39.210 --> 06:42.610
+of spam reader here I'm also going to change it to seize the file.
+
+06:42.930 --> 06:48.520
+So I want to go through every row or line I always call that line but you can also keep it as row.
+
+06:48.660 --> 06:53.610
+I would like to go to every single line and I want to print every single line so I'm just going to say
+
+06:53.610 --> 06:54.500
+print line.
+
+06:54.840 --> 07:03.330
+But now let's look at this CCV dot reader so we're calling this reader function from R C is v import.
+
+07:03.330 --> 07:08.660
+So from this module and we need the file that we're talking about and the file.
+
+07:08.760 --> 07:09.540
+How is it called.
+
+07:09.540 --> 07:10.930
+Well we call that file.
+
+07:10.950 --> 07:12.510
+We didn't call it C as you fall.
+
+07:12.510 --> 07:15.240
+I'm just going to rename it to file.
+
+07:15.360 --> 07:17.040
+And now the delimiter.
+
+07:17.040 --> 07:20.880
+In my case is going to be say a comma.
+
+07:20.880 --> 07:26.840
+So I look at my file and what is separating them as you see it's separated by a comma.
+
+07:27.150 --> 07:35.730
+So now what I can do is I can say OK instead of an empty space I want to delimited by common.
+
+07:35.730 --> 07:41.430
+Because if you have something like In this case this guy is just called Schmidt but if it's called something
+
+07:41.430 --> 07:47.370
+like Frank Schmidt and there's an empty space in between then this thing would or DIS-EASE reader would
+
+07:47.370 --> 07:53.880
+think that that's the delimiter that would like to use then I don't want to use a quote char.
+
+07:53.880 --> 08:00.080
+So I'm just going to get rid of this whole piece here and now I would like to run my code.
+
+08:00.090 --> 08:02.920
+So let's check it out let's see if it works.
+
+08:02.960 --> 08:04.230
+And as you can see it works.
+
+08:04.230 --> 08:09.900
+So what it did it created those lines from that CVS view reader and it now goes through every single
+
+08:09.900 --> 08:10.200
+line.
+
+08:10.190 --> 08:12.600
+So we have the name phone number in country.
+
+08:12.840 --> 08:14.340
+Then another one.
+
+08:14.340 --> 08:16.470
+Schmidt The phone number Germany.
+
+08:16.650 --> 08:19.670
+And then we have Varga and the number.
+
+08:19.680 --> 08:21.200
+He's from Hungary.
+
+08:21.720 --> 08:22.870
+So there we are.
+
+08:22.950 --> 08:25.950
+That's how we can use this CCV reader.
+
+08:25.950 --> 08:28.290
+Now you might say Hey why am i even doing that.
+
+08:28.290 --> 08:30.830
+Why don't I use the approach that we had last time.
+
+08:30.990 --> 08:39.270
+Well the thing is that this is a very basic and very simple example but in some cases things are a little
+
+08:39.360 --> 08:40.570
+more complicated.
+
+08:40.650 --> 08:46.060
+So let's have a look at something where we create our own file.
+
+08:46.170 --> 08:50.600
+So I have to get this to open up.
+
+08:50.640 --> 08:52.990
+And it's called numbers on Windows.
+
+08:52.990 --> 08:54.990
+You will usually use X-O.
+
+08:55.440 --> 09:09.450
+So I have values in here and I'm just going to add values such as Shumate hello world and then hello
+
+09:10.020 --> 09:12.020
+semi colon world.
+
+09:13.110 --> 09:21.310
+And the next one I'm going to say Varga also hello world and here hello minus world.
+
+09:21.420 --> 09:23.870
+So I'm going to save this file now.
+
+09:25.060 --> 09:29.790
+Aunt may actually save it as a Excel file.
+
+09:29.950 --> 09:34.360
+So as you can see you can save it as a C S V file Exel file and so forth.
+
+09:34.390 --> 09:36.790
+So I'm gonna save it as a C as we fall.
+
+09:36.800 --> 09:37.490
+Let's do that.
+
+09:38.690 --> 09:43.140
+And you can have advanced options here well I'm going to leave it as is.
+
+09:43.410 --> 09:51.190
+And now I'm going to call it from numbers for example I'm just going to call it from numbers.
+
+09:51.210 --> 09:54.520
+Now I need to of course put it into the correct folder.
+
+09:54.650 --> 09:55.990
+So I exported it.
+
+09:56.090 --> 10:00.690
+So I know I need to put it into the modules folder as well so I'm going to put it in here.
+
+10:00.710 --> 10:02.390
+As from numbers that's ESV
+
+10:05.160 --> 10:07.600
+and now I would like to access that.
+
+10:07.680 --> 10:12.540
+So I'm going to use the same approach I'm going to use in Portuguese V that I'm going to call it not
+
+10:12.540 --> 10:17.880
+file C S V but was called from numbers C is v.
+
+10:18.150 --> 10:24.600
+Then I'm going to call it file as well and then the read a delimiter is going to be a semi-colon because
+
+10:24.960 --> 10:33.250
+if I now look at the file at this number from numbers that sees the file is that from numbers that C
+
+10:33.250 --> 10:39.200
+has been has it can seen it separated with a semi-colon.
+
+10:39.420 --> 10:41.840
+And there are plenty of other semi-colon surrounding it.
+
+10:41.850 --> 10:44.460
+And these are just additional lines that were created.
+
+10:44.460 --> 10:46.300
+So I don't need any of those right.
+
+10:46.500 --> 10:52.110
+But then what this one does so that is Schmit has hello world and then it has Hello Semei call them
+
+10:52.110 --> 10:52.800
+world.
+
+10:52.800 --> 11:01.130
+So what were our usual code would do is it will just say OK this is one entry and this is the next entry.
+
+11:01.140 --> 11:03.800
+Even though this whole thing here is the entry.
+
+11:04.020 --> 11:08.250
+So that's where the CCV reader really comes into play.
+
+11:08.250 --> 11:10.790
+So this read the function.
+
+11:10.790 --> 11:19.160
+It has a delimiter but then we had this quote char this quote character as a separate paramita.
+
+11:19.560 --> 11:24.440
+So here we are quote char is an additional parameter and you can use it as a pipe.
+
+11:24.450 --> 11:31.980
+But in my case the one that I want to use if we look at the file once again is going to be the quotation
+
+11:31.980 --> 11:32.490
+mark.
+
+11:32.670 --> 11:44.500
+So I'm going to say something like quote char which means quote character is going to be my quotation.
+
+11:45.060 --> 11:51.600
+So here's the important that you are using the single apostrophe and then you have the quotation mark
+
+11:51.600 --> 11:52.980
+and another apostrophe.
+
+11:53.370 --> 11:56.720
+So now I'm going to read through the file in the same way.
+
+11:56.900 --> 11:58.500
+It's not created this list for me.
+
+11:58.500 --> 12:07.680
+And as you can see as there are no commerce in there only semi-colons it only has one line per or one
+
+12:07.800 --> 12:08.760
+entry per line.
+
+12:08.760 --> 12:11.790
+So in the list this is a list.
+
+12:12.000 --> 12:14.580
+This is a list and it always is one entry only.
+
+12:14.730 --> 12:15.560
+So what's the problem.
+
+12:15.570 --> 12:18.860
+Well because here my separator.
+
+12:18.960 --> 12:20.780
+Delimiter is just a comma.
+
+12:21.030 --> 12:25.770
+And what my file did it didn't create commerce as we had here.
+
+12:25.770 --> 12:33.190
+Here we separated them by come up with the C as we file but numbers it transferred into semi-colons.
+
+12:33.210 --> 12:38.930
+So numbers did it in a different way so instead of using it come on into the semi-colon.
+
+12:39.000 --> 12:40.340
+Let me run that again.
+
+12:40.410 --> 12:47.130
+And as you can see now it has empty space empty space empty space so this line contains plenty of empty
+
+12:47.130 --> 12:47.610
+spaces.
+
+12:47.610 --> 12:48.750
+Why is that.
+
+12:48.750 --> 12:52.760
+Well that's because if we look at it there are plenty of semi colons.
+
+12:52.770 --> 12:54.530
+Just one after another.
+
+12:54.540 --> 12:58.720
+There is nothing in between so that's why we have all of these empty spaces.
+
+12:58.860 --> 13:03.360
+And then for this Schmidt Hello World and hello world.
+
+13:03.570 --> 13:09.720
+That's where it's interesting for us and what you can see here is that this semi-colon in here is not
+
+13:09.810 --> 13:14.950
+separating and that's because we said that the quote chart is this quotation mark.
+
+13:15.300 --> 13:22.030
+And now new Ok this whole thing is one entry and it's not going to separate it at the same my colon.
+
+13:22.380 --> 13:27.370
+So as you can see this is not a very nice file that we have here but that's what numbers gave me.
+
+13:27.390 --> 13:32.940
+I have another file which is called from Aksel that C C is v and you have access to that one as well.
+
+13:32.940 --> 13:34.820
+So let's check out that file.
+
+13:34.890 --> 13:37.970
+And as you can see here it's done in a much cleaner way.
+
+13:38.160 --> 13:43.770
+So let's check out how we can read through this Excel file and we just need to change the name from
+
+13:43.830 --> 13:44.930
+Excel.
+
+13:45.390 --> 13:49.420
+And as you can see now it's displaying it also in a very nice way.
+
+13:49.590 --> 13:53.580
+And here we have this whole world being together.
+
+13:53.580 --> 13:55.200
+So it's one entry.
+
+13:55.200 --> 13:56.340
+Same goes here.
+
+13:56.340 --> 14:02.300
+So that's really where c this module here comes into play and really is useful.
+
+14:02.520 --> 14:06.530
+So if you want to know more about it of course you can read through the documentation.
+
+14:06.810 --> 14:09.210
+And yeah that's pretty much it.
+
+14:09.210 --> 14:16.010
+See you in the next chapter where we are going to build our own crawler which will go through a Web
+
+14:16.010 --> 14:20.850
+site and will display the information that is of interest to us.
+
+14:20.850 --> 14:22.910
+So see you in the next chapter.

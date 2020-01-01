@@ -1,0 +1,151 @@
+WEBVTT
+
+00:00.290 --> 00:01.230
+Work come back.
+
+00:01.290 --> 00:05.530
+Now in this video I would like to give you some hints for the next exercise.
+
+00:05.580 --> 00:08.460
+And that is to read d'Artois selection.
+
+00:08.490 --> 00:15.810
+See as we file and calculate which name was assigned most often in the whole USA or the whole country
+
+00:15.810 --> 00:16.650
+of the USA.
+
+00:16.830 --> 00:24.780
+So pretty much which name is the one that was given most of the time and first read the data into a
+
+00:24.780 --> 00:32.640
+dictionary and count how often each first name occurs then analyze the dictionary and find out the most
+
+00:32.640 --> 00:33.890
+common first name.
+
+00:34.080 --> 00:39.270
+And note that if you want to add two numbers you may have to convert a string to a number.
+
+00:39.570 --> 00:41.320
+Write all your code into one cell.
+
+00:41.340 --> 00:44.320
+So the one cell thing why would you do that.
+
+00:44.340 --> 00:50.730
+Well if we check this out here we open a file like that and we have done that in the past where we say
+
+00:50.730 --> 01:01.380
+data slash names start see as the and type of opening and it's going to be read and now in here for
+
+01:01.470 --> 01:07.420
+a line in a file I could print the line and then break.
+
+01:07.440 --> 01:14.160
+So if I do that and actually I'm having an error because file is not known so after execute.
+
+01:14.190 --> 01:15.590
+Now I can execute it.
+
+01:15.750 --> 01:18.510
+And you can see now I get ID name year and so forth.
+
+01:18.510 --> 01:19.980
+Now I executed again.
+
+01:19.980 --> 01:24.660
+I get the first entry I get the second entry the third entry and so forth.
+
+01:24.660 --> 01:28.760
+So as you can see this is not really what we would like to have.
+
+01:28.830 --> 01:31.920
+So use the same cell that will really help you.
+
+01:32.100 --> 01:40.260
+So instead of doing it in two different cells do it in one cell and by by cell I mean these blocks here
+
+01:40.260 --> 01:40.940
+that we have.
+
+01:41.070 --> 01:41.720
+OK.
+
+01:41.970 --> 01:50.160
+Then of course you can use with open here and there will be the cleaner version because then your file
+
+01:50.160 --> 01:55.360
+will be closed as soon as it's not required anymore or some as its work is done.
+
+01:56.130 --> 02:02.580
+And here we need to enter as a file and then we run the code and the code that we would like to run
+
+02:02.580 --> 02:10.530
+would be for example this for loop here and always be careful with the indents the indentation that
+
+02:10.530 --> 02:11.430
+it's always correct.
+
+02:11.430 --> 02:14.720
+Now if you run that and you can use it differently.
+
+02:14.970 --> 02:15.500
+OK.
+
+02:15.630 --> 02:21.260
+And then about this number thing that I was talking about where you should add two numbers together.
+
+02:21.390 --> 02:24.880
+Be careful because you get them in a string so something like.
+
+02:25.600 --> 02:26.140
+Yeah.
+
+02:26.160 --> 02:33.360
+Let's have a look here 15 plus 13.
+
+02:33.510 --> 02:37.770
+If you look at it you see it's 1513.
+
+02:37.920 --> 02:39.330
+And that's just a string right.
+
+02:39.330 --> 02:42.270
+It's just concatenated to each other.
+
+02:42.270 --> 02:45.140
+So be careful with that.
+
+02:45.150 --> 02:49.410
+Convert them into the right type which is number or string.
+
+02:49.440 --> 02:51.360
+And then you can work with it.
+
+02:51.600 --> 02:51.890
+All right.
+
+02:51.900 --> 02:53.520
+So these were just some tips.
+
+02:53.640 --> 02:57.480
+Now please go ahead and use this approach.
+
+02:57.510 --> 03:03.990
+And of course you need to use dictionaries right because otherwise it might become difficult to find
+
+03:03.990 --> 03:06.650
+out the real answer to your question.
+
+03:06.870 --> 03:13.020
+So good luck with that and see you in the next video where I'm going to give you some more advice on
+
+03:13.020 --> 03:15.020
+how to get it done.
+
+03:15.030 --> 03:20.910
+So here's generally the task then some tips and then the next video will gets even more tips if you
+
+03:20.910 --> 03:22.020
+feel like you need any.

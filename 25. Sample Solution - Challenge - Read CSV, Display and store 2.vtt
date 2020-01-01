@@ -1,0 +1,343 @@
+WEBVTT
+
+00:02.310 --> 00:02.950
+Welcome back.
+
+00:02.970 --> 00:06.240
+In this video we are going to read this as we file first.
+
+00:06.390 --> 00:11.270
+And before we do so I would like to do one little thing and I would like to get rid of the zero and
+
+00:11.260 --> 00:11.970
+one.
+
+00:12.120 --> 00:18.800
+And in order to do so I just need to get rid of this vertical head visible so I can uncheck this.
+
+00:18.990 --> 00:20.790
+And as you can see now it's gone.
+
+00:20.790 --> 00:21.230
+All right.
+
+00:21.240 --> 00:26.100
+Now it's not this not appearing anymore so I'm going to save this main window right UI.
+
+00:26.260 --> 00:33.900
+Then I go back to my pirate charm and I rebuild my build why I recompiled my build so that I can now
+
+00:33.900 --> 00:34.790
+work with it.
+
+00:35.070 --> 00:38.890
+And then I get rid of all of this code that I have added.
+
+00:39.270 --> 00:44.510
+So the only thing I have is my main window with its constructor why I set the titles to two student
+
+00:44.520 --> 00:45.510
+manager.
+
+00:45.690 --> 00:49.020
+Now the next thing I want to do is to read these v files.
+
+00:49.020 --> 00:56.670
+I'm just going to say self-taught read C as the file and then I tell it which file I want to read.
+
+00:56.670 --> 01:02.220
+And I called this file students Dotsie as Veep and now you might wonder where is this retaught or read
+
+01:02.220 --> 01:04.730
+C S V file method coming from.
+
+01:04.800 --> 01:06.650
+Well it's not coming from ourselves.
+
+01:06.660 --> 01:09.860
+We need to develop it of course we need to implement it.
+
+01:09.870 --> 01:18.150
+So I'm going to write C S V file and it requires one pair of Meecher in a declaration which I'm going
+
+01:18.150 --> 01:19.690
+to call file name.
+
+01:19.950 --> 01:25.920
+OK so I want to open up the file name and what I want to do is I want to read through the students use
+
+01:25.930 --> 01:30.960
+the file and read every single row in here into our program.
+
+01:31.200 --> 01:32.390
+And how would I do that.
+
+01:32.550 --> 01:36.840
+Well the best way is to actually use the c as we import.
+
+01:36.870 --> 01:44.130
+So we can just check out the documentation once again where we are this module called C as V and it
+
+01:44.130 --> 01:48.310
+contains this reader method which we can very easily use.
+
+01:48.310 --> 01:54.540
+I'm just going to copy this code from here as we have done in the past on getting the right reader because
+
+01:54.540 --> 01:56.180
+I want to read for now.
+
+01:56.340 --> 02:02.240
+And instead of passing I'm just going to say OK open a file and then read.
+
+02:02.490 --> 02:10.210
+And of course I need to be careful with the right indentation so I'm going to take care of that.
+
+02:10.440 --> 02:15.580
+Now it says here C's is missing so I need to import C S V.
+
+02:15.640 --> 02:16.660
+Let's do that.
+
+02:16.660 --> 02:18.790
+Import C as V.
+
+02:19.560 --> 02:22.850
+Now I don't want to open agues.
+
+02:23.000 --> 02:23.650
+C S V.
+
+02:23.660 --> 02:25.650
+I actually want to open my file name.
+
+02:25.680 --> 02:32.590
+So I'm going to say file name and the way I want to open it is I want to read it.
+
+02:32.590 --> 02:35.230
+So I'm just going to say are now.
+
+02:35.300 --> 02:37.020
+The rest can stay the same.
+
+02:37.020 --> 02:38.880
+This should be called file.
+
+02:38.890 --> 02:40.590
+At least that's my preference.
+
+02:40.590 --> 02:43.430
+You could of course leave it as file name.
+
+02:43.630 --> 02:47.640
+Then I will not going to call it spam reader because we're not reading spam.
+
+02:47.640 --> 02:49.650
+We're just calling in reader.
+
+02:49.740 --> 02:56.730
+So I renamed it and the delimiter as we can see here is not an empty space but it's actually a comma
+
+02:57.270 --> 03:03.750
+so we need to replace this empty space with a comma and the quote character.
+
+03:03.900 --> 03:09.720
+Well we don't have a quote character yet but if somebody would ever enter something like informatics
+
+03:09.720 --> 03:17.640
+like this then we could say OK we are going to use to quote Tayshaun mark as a core character.
+
+03:17.640 --> 03:21.950
+Now Forro in reader Prince John wrote.
+
+03:21.960 --> 03:27.910
+Well I'm just going to say print the roll because I just want to see the role for now.
+
+03:28.180 --> 03:36.360
+OK now if we run our main W-why file then we should see the file C as the file read already.
+
+03:36.360 --> 03:43.680
+So because you can see it's read and we can see here Jondo informatics is one list of strings.
+
+03:43.740 --> 03:46.550
+Then there's the next list of strings and so forth.
+
+03:46.560 --> 03:53.970
+So reading already works but now we also want to display that correctly in our table because if we look
+
+03:53.970 --> 03:57.310
+at our table nothing has changed we still have Jondo informatics.
+
+03:57.310 --> 04:00.230
+Erica Fisher mathematics but.
+
+04:00.270 --> 04:01.520
+Or mathematics.
+
+04:01.560 --> 04:02.660
+That's even better.
+
+04:02.670 --> 04:12.540
+So her name is as subject to mathematics and we need to pretty much take care of adding data in there.
+
+04:12.540 --> 04:17.270
+And as you recall probably we had this set item method.
+
+04:17.340 --> 04:24.120
+So what I'm going to do here is instead of just printing the row I'm going to say the line is equal
+
+04:24.120 --> 04:25.770
+to self aren't you.
+
+04:25.770 --> 04:39.330
+I teach students table third row count and at that point you might say OK line is not a good name for
+
+04:39.420 --> 04:40.690
+the row count.
+
+04:41.040 --> 04:43.720
+Maybe we should call this row count here.
+
+04:43.740 --> 04:49.010
+Row count is going to be self taught students table row count.
+
+04:49.110 --> 04:51.400
+Now why would we need that.
+
+04:51.450 --> 04:58.560
+Well we need that in order to be able to insert rows because as you know we had this insert row method
+
+04:58.890 --> 05:02.360
+which pretty much allows us to insert a row at a specific position.
+
+05:02.510 --> 05:09.200
+So I'm just going to say insert your row onto the students table so self but you are students table
+
+05:09.500 --> 05:17.180
+which is the students table that we have in our whole UI which pretty much is this table here is a table
+
+05:17.960 --> 05:21.350
+and there insert a row.
+
+05:21.680 --> 05:24.570
+And where should we inserted add row count.
+
+05:24.650 --> 05:29.520
+Now let's save that and test it once again and see OK there we are.
+
+05:29.570 --> 05:35.450
+So as you can see we have suddenly four additional rows and of course they are empty because we didn't
+
+05:35.480 --> 05:37.560
+tell those rows.
+
+05:37.570 --> 05:45.050
+What an entry should have what content they should have and that's what we are going to add now so in
+
+05:45.050 --> 05:56.150
+here we're just going to say self-taught you find our students table set items and what is the item.
+
+05:56.150 --> 06:01.240
+Well it's our row count comma.
+
+06:01.490 --> 06:02.870
+Then the column.
+
+06:03.290 --> 06:09.440
+And here we are we can specify directly because we know in the column zero we have the first name in
+
+06:09.440 --> 06:13.320
+column 1 we have the last name and then column 2 we have the subject or the major.
+
+06:13.550 --> 06:23.720
+So I'm just going to say cute widgets that cute table widget item because that's the type that we require
+
+06:23.720 --> 06:31.730
+here and in here I can just enter the text so I can enter something like text with just see if that
+
+06:31.730 --> 06:32.280
+works.
+
+06:32.330 --> 06:35.040
+And we should see that here we have text text text text.
+
+06:35.060 --> 06:35.460
+OK.
+
+06:35.480 --> 06:36.890
+So that seems to work.
+
+06:36.890 --> 06:39.750
+Now we can replace it with the actual entry.
+
+06:39.890 --> 06:41.970
+So where do we get the entry from.
+
+06:42.290 --> 06:47.500
+From our row which is pretty much that and 30 here.
+
+06:47.550 --> 06:50.410
+So we see row zero as the first name.
+
+06:50.440 --> 06:54.860
+Row one is dough and row 2 is the subject.
+
+06:55.040 --> 07:04.520
+So what we can just say is row at position zero should be here and now can do the same thing for the
+
+07:04.520 --> 07:09.020
+other two because we also have the last name.
+
+07:09.230 --> 07:15.870
+And we also have the subject so you can just replace those values here.
+
+07:15.890 --> 07:20.070
+This is going to be the last name that line here.
+
+07:20.070 --> 07:24.880
+And this is going to be the subject because as you see row at position zero.
+
+07:24.880 --> 07:29.600
+Look at it as informatics mathematics informatics and mathematics.
+
+07:30.060 --> 07:31.550
+So now let's run it again.
+
+07:31.740 --> 07:40.270
+And there we are so Jondo informatics Michael Moore mathematics Jondo 3 or John 3 3 informatics.
+
+07:40.290 --> 07:47.820
+So now we also have this girl Erica Fisher whose name is or whose subject is mathematics.
+
+07:47.820 --> 07:50.610
+So I would really like to know what mathematics is.
+
+07:50.860 --> 07:54.070
+But mathematics is actually what I wanted to enter there.
+
+07:54.320 --> 07:55.060
+OK.
+
+07:55.200 --> 08:01.800
+So by this point you can see we can very easily read the data from a c v file and we can very easily
+
+08:01.800 --> 08:05.520
+display it in our table here.
+
+08:05.520 --> 08:07.800
+So that's already pretty powerful and very cool.
+
+08:07.800 --> 08:10.060
+Now of course we want to add new entries.
+
+08:10.200 --> 08:12.580
+So we need to implement that functionality.
+
+08:12.750 --> 08:15.430
+And later we need to save the entries as well.
+
+08:15.540 --> 08:20.180
+So I'd say let's have a look at creating a new entry in the next video.
+
+08:20.190 --> 08:21.370
+So see you there.

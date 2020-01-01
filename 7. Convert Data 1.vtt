@@ -1,0 +1,205 @@
+WEBVTT
+
+00:00.250 --> 00:05.760
+And this video we are going to look into data conversion and that's an important thing to understand
+
+00:05.790 --> 00:12.300
+because sometimes you get data in a specific version or in a specific type and you need it in a different
+
+00:12.300 --> 00:18.150
+type to go on with your program and I will make a lot more sense as soon as we get more complex programs.
+
+00:18.150 --> 00:24.450
+But here it already is quite easy to understand because we're going to look into converting a string
+
+00:24.450 --> 00:29.970
+into an integer which is a whole number a string into a floating point number which is going to be a
+
+00:29.970 --> 00:30.460
+float.
+
+00:30.480 --> 00:35.250
+And then how to convert from an integer to a number which we already have seen.
+
+00:35.250 --> 00:38.720
+But just for completion because we're going to cover that.
+
+00:38.940 --> 00:43.770
+So let's go ahead and create a variable called a and that will contain the value of 5.
+
+00:44.010 --> 00:47.190
+And to be to contain the value of 6.
+
+00:47.280 --> 00:52.950
+Let's say we get that as a input from a user because if a user type something with his keyboard for
+
+00:52.950 --> 00:56.230
+example then that will be a string usually.
+
+00:56.280 --> 00:58.840
+User input is usually stored as a string.
+
+00:59.010 --> 01:04.920
+And then if you want to use that as a number in order to calculate correctly you will need to convert
+
+01:04.920 --> 01:05.510
+that.
+
+01:05.520 --> 01:08.010
+So let's have a look at printing that out for us.
+
+01:08.010 --> 01:12.190
+So let's print a plus b first.
+
+01:12.240 --> 01:13.740
+So I'm going to run that.
+
+01:13.740 --> 01:16.980
+And as you can see it's 56.
+
+01:16.980 --> 01:19.110
+So five plus six is 56.
+
+01:19.110 --> 01:20.680
+Very easy math right.
+
+01:20.700 --> 01:21.560
+That's not correct.
+
+01:21.570 --> 01:24.540
+It's just putting those two strings next to each other.
+
+01:24.540 --> 01:31.860
+So we have the two strings and if we add them next or concatenate them they get this 56.
+
+01:31.860 --> 01:38.220
+So if you want to change that if you want to actually get five plus six as a numbers added to each other
+
+01:38.550 --> 01:40.850
+then you need to convert that.
+
+01:40.980 --> 01:49.500
+And in order to convert a string into an integer so into a whole number you need to go ahead and use
+
+01:49.740 --> 01:51.330
+the int function.
+
+01:51.480 --> 01:58.180
+So there is this function called high end to your end which converts an string into an integer.
+
+01:58.380 --> 02:01.950
+So now let's check it out again and we get the result of 11.
+
+02:01.950 --> 02:09.210
+So what happened here is that both of our values which were strings before of are A and B variables
+
+02:09.540 --> 02:14.170
+they were strings before but now we treat them as integers.
+
+02:14.340 --> 02:16.230
+So we convert them into integers.
+
+02:16.230 --> 02:23.580
+And that's why adding them to each other will simply apply the mathematical approach of just summation
+
+02:23.760 --> 02:26.150
+which gives us this resolve of 11.
+
+02:26.160 --> 02:32.610
+Now if we want to do the same thing with protein point numbers because for example if we enter 5.5 and
+
+02:32.610 --> 02:36.890
+6.5 in here and tried to run that then we get this error.
+
+02:37.110 --> 02:44.820
+It says Invalid literal for it with base 10 5.5 so it doesn't understand what is five point five is
+
+02:44.820 --> 02:51.180
+supposed to mean in this context so it's not it doesn't know how to convert that because it can convert
+
+02:51.180 --> 02:55.030
+it into an integer because integers only understand whole numbers.
+
+02:55.080 --> 02:59.160
+So if you want to use that then you need to use a different approach.
+
+02:59.340 --> 03:05.300
+So let's say we have those five point five and B is going to be six point five.
+
+03:05.490 --> 03:07.290
+But again as strings.
+
+03:07.320 --> 03:11.250
+So with the end of quotation marks we can see now they are strings.
+
+03:11.490 --> 03:19.830
+If we print that and we want to have them as float then we want to or we have to use the float function.
+
+03:19.830 --> 03:23.080
+So I'm going to say float a plus float b.
+
+03:23.400 --> 03:30.430
+And what that will do is it will add them next to each other in a mathematical approach.
+
+03:30.480 --> 03:39.870
+If we wouldn't have used that if we just said a plus be a plus b then we get five point five six point
+
+03:39.870 --> 03:43.970
+five because it just concatenates the two strings to each other.
+
+03:44.180 --> 03:48.360
+But then the other approach was with the floats and that's the one.
+
+03:48.360 --> 03:53.280
+And if you use that then you use the correct mathematical calculation here.
+
+03:53.280 --> 04:01.500
+Now if you want to go ahead and use an integer but as a string This is actually a string integer to
+
+04:01.500 --> 04:02.320
+a string.
+
+04:02.430 --> 04:04.630
+Then you can go ahead and do the following.
+
+04:04.650 --> 04:20.220
+So let's say the age is 30 and we want to print something like high speed plus H plus years old something
+
+04:20.240 --> 04:21.080
+like that.
+
+04:21.120 --> 04:22.620
+If we run that we can do it.
+
+04:22.620 --> 04:27.540
+It says must be s are not I.A. so must be a string not an integer.
+
+04:27.540 --> 04:29.010
+We had that before right.
+
+04:29.160 --> 04:31.260
+And you probably know how to solve that.
+
+04:31.440 --> 04:42.210
+And that is by using the as t r or string function which converts the integer h into a string.
+
+04:42.210 --> 04:46.640
+Now if we run that again we see I am 30 years old.
+
+04:47.220 --> 04:50.970
+So now you've seen how to use it with very basic types.
+
+04:51.210 --> 04:52.900
+And I can solve that or there.
+
+04:53.190 --> 04:59.220
+But there is also something to consider when using lists so we can just convert them in the same way
+
+04:59.240 --> 05:04.480
+that we did here we have to use a different approach and that's what we're going to look into and the
+
+05:04.480 --> 05:05.230
+next video.
+
+05:05.260 --> 05:06.720
+So see you there.

@@ -1,0 +1,286 @@
+WEBVTT
+
+00:00.200 --> 00:02.400
+Will come back before you fall asleep.
+
+00:02.400 --> 00:04.430
+Now it's time for a little challenge.
+
+00:04.500 --> 00:08.790
+And in this video I would like to introduce you what that challenge is all about and what you need to
+
+00:08.790 --> 00:13.710
+do in order to be successful in this challenge in order to do what you need to do.
+
+00:13.710 --> 00:19.380
+You already have the knowledge so you have learned everything in the last videos and in this area I'm
+
+00:19.380 --> 00:23.730
+just going to give you some tips in order to get more successful with this.
+
+00:23.730 --> 00:30.960
+And also one thing that is super important so that you don't crash my website and my web hoster or our
+
+00:30.960 --> 00:37.290
+web host is not going to be disappointed about all of the requests that our Web site is getting.
+
+00:37.290 --> 00:41.760
+So there is something that you should import and that is called time.
+
+00:41.760 --> 00:49.040
+So there is a module called time and it contains a pretty cool function which is called sleep and this
+
+00:49.080 --> 00:54.510
+sleep function or sleep method can sleep for a specific period of time.
+
+00:54.510 --> 00:58.870
+So in this case I'm saying acase sleep for one second.
+
+00:59.100 --> 01:07.110
+So after you fetch and after you tried to access a u r l Please wait for one second because otherwise
+
+01:07.140 --> 01:12.450
+what can happen is that you try to access the website like a thousand times per second or stuff like
+
+01:12.450 --> 01:12.920
+that.
+
+01:13.050 --> 01:17.140
+And those requests can really bring down my website so don't do that.
+
+01:17.160 --> 01:20.550
+That's why it's really important to use this approach.
+
+01:20.730 --> 01:23.050
+So what you can do is pretty well.
+
+01:23.190 --> 01:29.010
+And once you run that and you ever run into a problem where you're trying to access a web site which
+
+01:29.010 --> 01:35.400
+is not the one that you want to access you will see it in your console here in Jupiter notebook and
+
+01:35.400 --> 01:41.770
+you can any time stop it so you can any time stop the code by pressing the stop button which will interrupt
+
+01:41.820 --> 01:42.560
+the kernel.
+
+01:42.660 --> 01:48.630
+If you don't see that well you then have to toggle the toolbar so that other toolbar you don't see this
+
+01:48.840 --> 01:54.020
+button here but with it you can easily press it any time.
+
+01:54.030 --> 02:00.010
+So if you access this Web site too many times then that's a good point to stop it.
+
+02:00.250 --> 02:02.100
+All right so this is really important.
+
+02:02.220 --> 02:09.420
+These lines of code have them in your fetcher and then the next thing that you should check out is the
+
+02:09.420 --> 02:10.120
+following.
+
+02:10.260 --> 02:16.170
+So the situation that we currently have is that we have multiple sites so there are articles not just
+
+02:16.170 --> 02:20.860
+on this site but as you can see there are one out of six sites that we are currently accessing.
+
+02:21.000 --> 02:27.960
+And the No this is shown in German but if you want to show it in English you can translated to English
+
+02:27.980 --> 02:29.970
+any time in your browser.
+
+02:29.970 --> 02:36.120
+In my case it just says translate to Deutsche but you can translated to English and then you work with
+
+02:36.120 --> 02:40.580
+Google Chrome you can translate it and then things might be clearer.
+
+02:40.830 --> 02:46.620
+But as you can see there are six pages and you should write your code that it's available or that it's
+
+02:46.620 --> 02:49.580
+ready to go through all of the pages if required.
+
+02:49.590 --> 02:54.930
+So here's just six but let's say it's 20 then just a code it should still work and should still go through
+
+02:54.930 --> 02:56.850
+all of the 20 pages.
+
+02:56.850 --> 02:58.800
+Now how does it get to the next page.
+
+02:58.980 --> 03:00.350
+Well we kept it very simple.
+
+03:00.360 --> 03:06.330
+But here in the bottom you can see a little button which says something like To an extent ident which
+
+03:06.330 --> 03:13.050
+pretty much means go to the next page and that's the one if you press on it as you can see here at the
+
+03:13.050 --> 03:20.200
+left bottom side it goes to index dot ph the question Mark Page 2 or page equal to.
+
+03:20.250 --> 03:30.930
+So let me press on that and then you see you have Page 2 out of 6 and you have a bunch of other articles.
+
+03:31.050 --> 03:34.310
+A lot more articles with some more pictures and stuff like that.
+
+03:34.320 --> 03:40.140
+So how do you even get to the next page because now I'm pressing on the button but how do you write
+
+03:40.140 --> 03:42.620
+code that goes to the next page.
+
+03:42.810 --> 03:47.830
+Well you can check out the website and here inspect it.
+
+03:48.030 --> 03:51.350
+So press inspect and then check out where is the button.
+
+03:51.350 --> 03:52.410
+So let's see.
+
+03:52.410 --> 03:54.900
+All right we have diff class navigation.
+
+03:54.900 --> 04:00.210
+OK so there is a class called navigation and in there we have an A H ref.
+
+04:00.480 --> 04:04.380
+So this is a reference a hyperlink reference.
+
+04:04.380 --> 04:06.180
+So pretty much this is a link.
+
+04:06.210 --> 04:10.810
+And as you can see here we are getting only a relative link again.
+
+04:10.820 --> 04:14.820
+So indexed ph P question mark page equals 3.
+
+04:14.820 --> 04:22.710
+So what you will need to use again is going to be the you r l join function which allows you to join
+
+04:23.250 --> 04:29.720
+the whole you are l with this part partial You are EHLO with this relative link.
+
+04:29.790 --> 04:30.400
+OK.
+
+04:30.600 --> 04:33.330
+And you can of course either check by navigation.
+
+04:33.330 --> 04:40.110
+So the class navigation where you can check by the class Beati and Order class BT and mine is primary.
+
+04:40.110 --> 04:49.120
+So there are two classes so you can check the attributes of your a ref and see where the class is BT
+
+04:49.130 --> 04:57.870
+and and primary then you get the correct link and you use that one in order to check out that link as
+
+04:57.870 --> 04:58.080
+well.
+
+04:58.080 --> 05:05.140
+So you need to create pretty much a code that goes through all the website all the pages so checks page
+
+05:05.140 --> 05:11.500
+number one once it read through all the articles and there is something called Class navigation with
+
+05:11.500 --> 05:17.620
+the button class then check the link and follow that link.
+
+05:18.220 --> 05:21.300
+So go to the next page and so forth.
+
+05:21.310 --> 05:25.510
+So of course you could say OK follow the link or you could just say OK I have this structure and then
+
+05:25.510 --> 05:33.310
+you just take a page one page two page three and so forth until there are no pages left anymore which
+
+05:33.610 --> 05:41.100
+follow the same structure I know this is not an easy one but please go ahead and try to salvage your
+
+05:41.150 --> 05:42.120
+by yourself.
+
+05:42.280 --> 05:43.010
+By the way.
+
+05:43.020 --> 05:48.180
+You can just check where there's no more button so let's go to the last page.
+
+05:48.180 --> 05:58.080
+Let's go to Page Six deaths and there is no further button so there's no button go to next page.
+
+05:58.080 --> 06:03.030
+Once there is no button anymore then your loop should be done working.
+
+06:03.060 --> 06:09.340
+So it just goes from page 1 to the last page which doesn't contain this button anymore.
+
+06:09.390 --> 06:13.970
+So that's how you can check whether you can still go or should go to the next page or not.
+
+06:14.100 --> 06:20.610
+So far which is optional here try to get only the information of the first two pages first if necessary
+
+06:20.620 --> 06:24.510
+based on this you can generalize the program so that it reads all pages.
+
+06:24.510 --> 06:26.310
+So don't try to do all at once.
+
+06:26.310 --> 06:28.440
+Just try to go step by step.
+
+06:28.440 --> 06:29.790
+Start with the easy one.
+
+06:29.850 --> 06:35.070
+Here is H ref attribute is the one that you really want to get from the button from Python.
+
+06:35.070 --> 06:37.180
+So you already know how to do those things.
+
+06:37.230 --> 06:40.700
+You've seen that in the last videos and now you just need to bring everything together.
+
+06:40.950 --> 06:45.150
+And I wish you lots of fun with this because as soon as you're done with it you will know.
+
+06:45.150 --> 06:49.250
+All right you have really done something so you have really learned something and now you can.
+
+06:49.520 --> 06:50.200
+Yeah.
+
+06:50.400 --> 06:54.060
+Apply this knowledge on other websites which you then can cross.
+
+06:54.060 --> 06:57.210
+So it's pretty powerful and I wish you the best of luck.
+
+06:57.210 --> 07:02.240
+So see you in the next video where I will show you my solution.
+
+07:02.300 --> 07:07.690
+And as usual there are multiple possibilities how to get things done.
+
+07:07.710 --> 07:08.220
+All right.
+
+07:08.400 --> 07:10.030
+So see you there.

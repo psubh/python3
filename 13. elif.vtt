@@ -1,0 +1,220 @@
+WEBVTT
+
+00:00.390 --> 00:03.480
+Come back in this video we are going to check out Ellis.
+
+00:03.530 --> 00:09.540
+And Ellis is the short form for else if and if you know any other programming languages you already
+
+00:09.540 --> 00:11.930
+know what else does and what elevates us.
+
+00:12.090 --> 00:19.650
+But if not then I'd be very careful because we're going to use a different approach in using IF statements.
+
+00:19.650 --> 00:22.380
+So let's go ahead and check out this example.
+
+00:22.380 --> 00:28.710
+So we have this example where we have the currency which is for example euros.
+
+00:29.100 --> 00:34.200
+And then I want to check if the currency is double equal.
+
+00:34.240 --> 00:37.230
+I'm comparing is equal to dollar.
+
+00:37.380 --> 00:42.650
+Then I would like to print something like US dollar.
+
+00:43.590 --> 00:46.770
+So for now if I execute that as you can see nothing happens.
+
+00:46.770 --> 00:54.570
+But what if I want to check other currencies as well not just the euro one not just a dollar one I want
+
+00:54.570 --> 00:55.730
+to check out others.
+
+00:56.070 --> 00:58.090
+So I'm going to have an else here.
+
+00:58.350 --> 01:04.470
+So if the currency is not a dollar then I can go ahead and have an else and in here I'm going to check
+
+01:04.470 --> 01:10.560
+again if currency is going to be yen.
+
+01:10.650 --> 01:14.150
+And I have yen prepared here.
+
+01:14.370 --> 01:20.040
+I don't know what combination on the keyboard would be to get yen but I have it prepared here so if
+
+01:20.040 --> 01:26.790
+currency is yen then please write something like Japanese yen
+
+01:29.550 --> 01:34.440
+then I need to check another else if I want to check another currency.
+
+01:34.440 --> 01:38.540
+So let's say I want to check if the currency is for example euros.
+
+01:38.850 --> 01:43.930
+Then please go ahead and write something like print euro.
+
+01:44.770 --> 01:48.060
+Well then there could be another currency that I want to check.
+
+01:48.060 --> 01:58.170
+So let's say I wanted to check if the currency is a tie but and again I'm going to use a prepared sign
+
+01:58.170 --> 02:07.020
+here bought and then I'm going to print something like tie bought and as you can see if I execute that
+
+02:07.050 --> 02:08.600
+it executes euro.
+
+02:08.970 --> 02:11.900
+But there is something to consider here.
+
+02:12.120 --> 02:18.270
+As you can see the more I get the more currencies I'm checking or in general the more things I want
+
+02:18.270 --> 02:22.790
+to check the more indentions I need and the more weird.
+
+02:22.800 --> 02:24.530
+I'd say look my code looks.
+
+02:24.630 --> 02:31.020
+So in this case I have an if statement then in the else I check the next if in the else I check the
+
+02:31.020 --> 02:31.820
+negative.
+
+02:31.860 --> 02:37.680
+And while that is valid code and it totally works and it's totally fine and it might people be people
+
+02:37.680 --> 02:44.020
+who prefer this style it's usually not the best way to do it the better way is to use elif.
+
+02:44.160 --> 02:50.710
+And what else does is it checks if a additional condition is true.
+
+02:50.880 --> 02:57.150
+And let's just see this particular example in an olive example.
+
+02:57.150 --> 03:01.080
+So instead of using ELSE I'M CHECKING L..
+
+03:01.560 --> 03:10.270
+If so Elif currency is un then please go ahead and do that.
+
+03:10.380 --> 03:11.320
+The same here.
+
+03:11.520 --> 03:13.100
+Else if.
+
+03:13.100 --> 03:22.080
+Or if currency is going to be Euro then please print euro and the same here.
+
+03:22.080 --> 03:30.090
+So let me get rid of the in or not required characters and I'm going to go back.
+
+03:30.150 --> 03:32.920
+So that would be the Elif version.
+
+03:33.000 --> 03:36.790
+So it's exactly the same result that we get.
+
+03:37.110 --> 03:41.290
+But that looks a lot cleaner and it's a lot easier to read.
+
+03:41.490 --> 03:47.760
+So we have this if statement checking out currency is equal to dollar.
+
+03:47.790 --> 03:48.780
+And if that's the case.
+
+03:48.780 --> 03:49.900
+Print dollar.
+
+03:49.980 --> 03:50.790
+Else if.
+
+03:50.790 --> 03:51.700
+Or elif.
+
+03:51.720 --> 03:56.430
+So if this is not the case then please go ahead and check that.
+
+03:56.610 --> 03:58.980
+And if it's true then execute this code.
+
+03:59.010 --> 04:04.500
+If it's not true then check the next one and execute the code if it's true or if the next one is true
+
+04:04.800 --> 04:05.720
+and so forth.
+
+04:05.910 --> 04:07.680
+But there is one thing to consider.
+
+04:07.770 --> 04:14.100
+That's really important because if this statement here is true then that statement will never be executed
+
+04:14.100 --> 04:15.710
+neither that no nor that.
+
+04:15.810 --> 04:23.600
+So if one of them is true the following ones within the same statements are within the same connection
+
+04:23.640 --> 04:26.550
+will not be executed at all.
+
+04:26.550 --> 04:37.500
+So in our case let's say I have dollar or euro here and I have another one in between me who run it
+
+04:37.500 --> 04:44.280
+like that and I'm going to say you wrote to here and if I execute that euro two will not be printed
+
+04:44.280 --> 04:44.540
+out.
+
+04:44.550 --> 04:51.090
+Even though this statement is as true as that one and that is because it's getting out of the whole
+
+04:51.120 --> 04:57.660
+if statement as soon as one of the statements is true that is a very very important concept because
+
+04:57.690 --> 05:02.320
+if I do things like this later on.
+
+05:02.330 --> 05:07.830
+I'm going to check for currency here within the if statement and execute that as you can see that works
+
+05:07.950 --> 05:10.170
+easily unify like that.
+
+05:10.170 --> 05:12.280
+Now that works perfectly right.
+
+05:12.300 --> 05:17.430
+Because this is a completely new statement but this one here is completely connected.
+
+05:17.430 --> 05:24.360
+And as you can see you simply use this keyword Elif and it's tense for else if and that's a general
+
+05:24.360 --> 05:27.290
+approach for else.
+
+05:27.720 --> 05:31.250
+So once again what's the advantage of using this approach.
+
+05:31.440 --> 05:35.600
+Over that one here it's mainly the readability.
+
+05:35.670 --> 05:38.060
+And secondly it's the correct style.

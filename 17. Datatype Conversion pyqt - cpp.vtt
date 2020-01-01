@@ -1,0 +1,295 @@
+WEBVTT
+
+00:00.550 --> 00:06.960
+Come back in this video I would like to quickly talk about important data types in C++ or in general
+
+00:07.140 --> 00:10.410
+something that is important and that is data types and C++.
+
+00:10.410 --> 00:15.540
+So let's have a look at this presentation and then go right into the code because we need to check out
+
+00:15.540 --> 00:21.320
+some things so they that types in C++ are a little different than Python.
+
+00:21.360 --> 00:29.670
+So Pike youth and cute PI they automatically convert Python types to C++ types and that is super convenient
+
+00:29.670 --> 00:37.670
+for us because then we don't have to do that but C++ is a little more precise with data types than pythoness.
+
+00:37.920 --> 00:47.070
+And for example queued expects a q string in C++ and Pike you'd automatically convert a python string
+
+00:47.160 --> 00:49.260
+into a q string.
+
+00:49.710 --> 00:56.850
+And as you can see here at the top set window title expects a string and we enter something like student
+
+00:56.910 --> 00:58.390
+manager in there.
+
+00:58.680 --> 00:59.520
+And that's totally fine.
+
+00:59.520 --> 01:00.940
+So that works.
+
+01:00.990 --> 01:09.520
+Now if we look at it then we see that it converged it's automatically and quite reliably as well.
+
+01:09.540 --> 01:11.730
+Occasionally however errors do occur.
+
+01:11.730 --> 01:18.510
+So let's look at an example where cute expects a q string but Python passes a number because we have
+
+01:18.510 --> 01:20.830
+entered a number in there instead of a string.
+
+01:21.090 --> 01:25.860
+And we get a result which is an error number cannot be converted to Q. string.
+
+01:25.860 --> 01:28.070
+So there is a simple solution.
+
+01:28.110 --> 01:35.190
+Convert that number to a string in Python using the SDR method and that pretty much solves the problem.
+
+01:35.190 --> 01:39.130
+So something that occurs in Python as well.
+
+01:39.130 --> 01:47.790
+But sometimes we can just be very loose with our Parminter So arguments that we enter and Python still
+
+01:47.790 --> 01:53.180
+understands what we want but in other programming languages it has to be very specific and very precise.
+
+01:53.280 --> 01:55.970
+And then say we should check this out in code.
+
+01:56.310 --> 01:58.580
+So let's go back to our code example.
+
+01:58.770 --> 02:04.260
+And here we have this set window title student manager by the way if you ran this code you might have
+
+02:04.260 --> 02:09.210
+realized that student managers not even set as the title of so-called main window.
+
+02:09.210 --> 02:10.370
+And you might wonder why is that.
+
+02:10.380 --> 02:17.970
+Well that's because of the order of our code because here we say set window title and then we say self-view
+
+02:17.990 --> 02:19.090
+I set up UI.
+
+02:19.230 --> 02:21.960
+So here it actually resets up the UI.
+
+02:22.110 --> 02:25.750
+So our title that we have said here is going to be ignored.
+
+02:25.770 --> 02:30.800
+So a good spot to actually set the title would be after set up UI.
+
+02:31.200 --> 02:36.810
+So that's pretty important so if we run the code again we will see that suddenly this window with me
+
+02:36.960 --> 02:38.790
+is called studen manager.
+
+02:39.150 --> 02:44.520
+OK so now what if we enter a number in here instead of a string because here we just enter the string.
+
+02:44.510 --> 02:50.930
+So let's say I enter 2:59 in here then I get this error here where it says set window title self as
+
+02:50.960 --> 02:54.240
+the argument one has unexpected type int.
+
+02:54.420 --> 03:02.410
+So when untidily expects a string but receives an integer so we need to enter a string here.
+
+03:02.500 --> 03:05.930
+That's not nothing new we have seen some of that in Python before right.
+
+03:05.940 --> 03:13.200
+But it's there are some other cases where it's a little more precise in C++ than it is in Python.
+
+03:13.200 --> 03:19.380
+And then there is one more thing about the differences that is that are important for us and that is
+
+03:19.500 --> 03:21.000
+how methods are handled.
+
+03:21.000 --> 03:29.430
+So we have this calculate BMI method and we pretty much can create this method only once and it can
+
+03:29.430 --> 03:31.940
+only have one set of parameters.
+
+03:32.010 --> 03:38.970
+But if we look at another example so let's say I will add the size of the bottom or we'll change the
+
+03:38.970 --> 03:43.030
+size of our button that we have to put the following.
+
+03:43.030 --> 03:45.260
+So self-taught you wind or calculate.
+
+03:45.260 --> 03:48.180
+So this is the button or calculate button.
+
+03:48.270 --> 03:52.280
+And now let's say I want to set a fixed size 2.
+
+03:52.590 --> 03:58.030
+So I'm going to set the size to something like I'd say 200 times 200.
+
+03:58.290 --> 04:01.440
+Now if we run that we will see that our button is a lot bigger.
+
+04:01.440 --> 04:05.220
+So this is our 200 times 200 fixed size button.
+
+04:05.430 --> 04:12.680
+So as you can see now it's not really moving with our size of the UI.
+
+04:12.720 --> 04:15.860
+So using a fixed size is not a good idea.
+
+04:15.870 --> 04:21.180
+Most of the cases are in most cases but if you really want to make sure that for example a window is
+
+04:21.180 --> 04:27.060
+not smaller than 200 times 200 then you can set a fixed size but that's not really what I want to talk
+
+04:27.060 --> 04:27.510
+to you about.
+
+04:27.510 --> 04:31.800
+I want to show you that you can actually enter something else in here.
+
+04:31.890 --> 04:38.640
+But if we for example make a little mistake here and yet by accident enter a string in here or we think
+
+04:38.640 --> 04:40.500
+that a string should be fine as well.
+
+04:40.650 --> 04:46.140
+And we run that and we get a problem or an error here where it says type arguments do not match any
+
+04:46.200 --> 04:50.160
+overloaded call and over loaded call.
+
+04:50.160 --> 04:57.900
+What that means is that in C++ there are two methods that are called set fixed size and there is one
+
+04:57.990 --> 05:00.570
+that expects self size.
+
+05:00.710 --> 05:03.520
+And there's one that expect self in it.
+
+05:04.040 --> 05:09.620
+So there are two overloads which pretty much means that there are two methods with the exact same name
+
+05:09.950 --> 05:13.270
+that have two different amounts of arguments.
+
+05:13.280 --> 05:22.130
+So let me just create another one here where I just pass here this one shall pass and here I enter something
+
+05:22.130 --> 05:26.160
+like my name or something like that.
+
+05:26.240 --> 05:31.670
+Then I have this calculate am I method and this is an overload to this method.
+
+05:31.670 --> 05:34.690
+So there are two different methods with the exact same name.
+
+05:34.850 --> 05:40.260
+And this one requires a my name variable or argument.
+
+05:40.280 --> 05:42.620
+When this method is called and this one doesn't.
+
+05:42.800 --> 05:44.000
+So that's the same thing here.
+
+05:44.000 --> 05:49.050
+So there's one that expects an integer and another integer and there is another one would expect ace
+
+05:49.190 --> 05:56.790
+a q size and that is something that is done in C++ and other programming languages quite often.
+
+05:57.020 --> 06:07.760
+And in our case if we can of course say something like 200 200 but we could also use a q size as a argument
+
+06:07.760 --> 06:14.440
+here so we could say something like qued core that Q cites
+
+06:17.070 --> 06:20.560
+and in order to use that we actually need to import those.
+
+06:20.580 --> 06:22.160
+So I need to import.
+
+06:22.170 --> 06:24.160
+Q core this one here.
+
+06:24.500 --> 06:24.830
+OK.
+
+06:24.840 --> 06:30.130
+Q core queue size so you can see there is something called queue size.
+
+06:30.180 --> 06:31.240
+And here I can enter.
+
+06:31.250 --> 06:35.260
+Let's say this has to be 200 or 100 times 100.
+
+06:35.460 --> 06:40.080
+So now make the button a little smaller if I run that again you will see OK this button is a little
+
+06:40.080 --> 06:43.550
+smaller but then I don't need to do like that.
+
+06:43.560 --> 06:49.740
+I can actually create a new variable that I call size for example and this size is going to be this
+
+06:49.770 --> 06:52.250
+cube core Q size.
+
+06:52.290 --> 07:01.370
+And now I can go ahead and use the size here as a argument and you can see that we still get this button.
+
+07:01.380 --> 07:04.620
+So there are two types of handling it.
+
+07:04.620 --> 07:08.940
+In this case because there are two overloads for this set fixed sites.
+
+07:09.210 --> 07:16.080
+And that's just something that I wanted to show you and talk to you about because well that's something
+
+07:16.260 --> 07:18.700
+that can cause problems.
+
+07:19.590 --> 07:20.000
+All right.
+
+07:20.040 --> 07:26.950
+So I'm going to get rid of this as well because I want to go back to the code we had before.
+
+07:27.030 --> 07:27.440
+All right.
+
+07:27.450 --> 07:30.490
+So you say that and see you in the next video.

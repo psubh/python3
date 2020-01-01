@@ -1,0 +1,328 @@
+WEBVTT
+
+00:00.420 --> 00:02.000
+Work I'm back in the studio.
+
+00:02.020 --> 00:06.270
+I'll show you the simple solution for the exercise dictionaries.
+
+00:06.630 --> 00:12.180
+So you needed to read the dotted or the names see as we file and calculate which name was assigned.
+
+00:12.180 --> 00:14.350
+Most of them in the whole USA.
+
+00:14.550 --> 00:18.410
+So let's go ahead and start off by opening up the file.
+
+00:18.780 --> 00:25.460
+And I'm going to open it with data slash names slash.
+
+00:25.470 --> 00:26.550
+C is V.
+
+00:26.580 --> 00:36.570
+And here I have to add another slash so that slash slash name starts his beat and way of opening it
+
+00:36.570 --> 00:37.920
+up is going to be our.
+
+00:37.920 --> 00:43.980
+So I'm reading the file now I need to have a dictionary which contains the names first so I'm going
+
+00:43.980 --> 00:48.280
+to start off by using an empty names dictionary.
+
+00:48.600 --> 00:56.170
+And now I will go through every single one of them and well we'll add it up to this names dictionary.
+
+00:56.250 --> 01:03.360
+So I need a for loop which goes for through the whole file.
+
+01:03.360 --> 01:13.470
+So for line in file I want to split it up first so call it split it again.
+
+01:13.770 --> 01:20.910
+You know I know this word doesn't exist but split it in the terms of it is split where it has been split
+
+01:21.300 --> 01:26.820
+in the past again then line that strip.
+
+01:26.820 --> 01:33.750
+So now I need to strip it first because I don't want to have any empty spaces or any line breaks or
+
+01:33.750 --> 01:34.750
+stuff like that.
+
+01:34.950 --> 01:38.270
+And then I need to split it and I'm going to split it at a comma.
+
+01:39.060 --> 01:48.350
+And now that I have split the line I can go ahead and check if at the position 1.
+
+01:48.390 --> 01:53.780
+So splitted position zero actually does so in the first position.
+
+01:54.360 --> 02:01.860
+If there is ID because if there is then just skip that continue because as you know we have this headline
+
+02:02.220 --> 02:08.250
+of our file and it's ID then it is the name and so forth.
+
+02:08.250 --> 02:15.390
+So these entries if they would just say OK we want to split the very first line of our file and if we
+
+02:15.390 --> 02:18.890
+do that well we just skip it and we go to the next iteration.
+
+02:19.080 --> 02:21.140
+So what else would I like to do in there.
+
+02:21.360 --> 02:26.240
+Well I would like to sign this.
+
+02:26.280 --> 02:34.230
+Split it at position 1 to my name and then I'm going to create a count variable as well which is going
+
+02:34.230 --> 02:40.230
+to be the split it had position 5.
+
+02:40.350 --> 02:42.690
+Now that itself is a string.
+
+02:42.690 --> 02:46.270
+So I need to convert that into an integer.
+
+02:47.170 --> 02:47.840
+All right.
+
+02:48.060 --> 02:51.620
+And now I need to check if name names.
+
+02:51.840 --> 02:57.660
+So the name that I'm currently looking at because as you see so we have this line and split it it's
+
+02:57.660 --> 03:04.290
+just a line in a split way then I'm checking the name and getting the count and the Count as you know
+
+03:04.470 --> 03:08.180
+is a string as well so I need to make an integer out of it.
+
+03:08.200 --> 03:14.850
+Now I can check if the name is already in names because if it is already in names in our dictionary
+
+03:15.150 --> 03:25.620
+then please go ahead and add that two names name plus count.
+
+03:25.680 --> 03:36.750
+So the amount of entries that we have this name in our list already and otherwise go ahead and assign
+
+03:36.930 --> 03:42.120
+count there well why is count important and not just plus one.
+
+03:42.270 --> 03:48.010
+Well it's important because we store a specific value in here.
+
+03:48.090 --> 03:59.680
+So as you can recall we had this line where we have the ID the name then the raw values about the turn
+
+03:59.760 --> 04:06.950
+of gender and which state the person is born and all was born and then also the amount of times that
+
+04:06.970 --> 04:09.180
+name was given and that's the counter we're looking at.
+
+04:09.180 --> 04:14.260
+So we need to have this count in order to add that to the total.
+
+04:14.280 --> 04:20.790
+So now we're just saying with this for loop check through the for all the names and get us the total
+
+04:20.790 --> 04:22.620
+for that name.
+
+04:22.740 --> 04:25.830
+And this is our fault for this task.
+
+04:25.830 --> 04:27.620
+Now let's add another.
+
+04:27.820 --> 04:34.560
+So we're we're just going to check the occurrences in order to compare which name is the one that has
+
+04:34.560 --> 04:36.770
+most occurrences in total.
+
+04:36.930 --> 04:44.120
+So we create another variable here Max occurrences and we set it to zero first.
+
+04:44.130 --> 04:51.030
+Now I need to have this name variable because I would like to show it on the screen because I want to
+
+04:51.030 --> 04:54.920
+know which name was in the end given most times right.
+
+04:55.230 --> 05:03.370
+And then I can go ahead and use my tuple approach here.
+
+05:04.140 --> 05:12.220
+So key value in names dot items so names is our dictionary as you might recall from here.
+
+05:12.280 --> 05:13.770
+Is this a dictionary.
+
+05:13.770 --> 05:21.810
+So we go through all the items in our dictionary and we create a tuple out of it and we check if Max
+
+05:22.110 --> 05:23.590
+underscore occurrences.
+
+05:23.650 --> 05:33.290
+And I have typed that incorrectly Yes I'm just going to copy and paste it now is less than the value.
+
+05:33.930 --> 05:42.450
+And if that's the case then please go ahead and say Max occurrences is going to be value and to name
+
+05:42.510 --> 05:43.980
+is going to be the key.
+
+05:44.010 --> 05:47.880
+And now finally we can go ahead and print the name.
+
+05:47.910 --> 05:51.210
+So why does this four function work.
+
+05:51.240 --> 05:55.130
+Well it goes through all the items it checks.
+
+05:55.140 --> 05:57.950
+Each time is the one that I'm currently looking at.
+
+05:57.950 --> 06:02.070
+So the name that I'm currently looking at is the value that is there.
+
+06:02.430 --> 06:10.680
+So the the amount of times this name was given is higher than our max occurrences.
+
+06:10.740 --> 06:13.290
+And if that's the case well then we have a new winner.
+
+06:13.290 --> 06:16.770
+So then we have a new name that was given most of the times.
+
+06:16.890 --> 06:20.530
+That's why we just said Okay now that's the amount of mix occurrences.
+
+06:20.880 --> 06:29.370
+And then we can print the name because the key of that specific item that we're looking at is the one
+
+06:29.370 --> 06:30.820
+that is our winner right.
+
+06:31.050 --> 06:32.890
+That's a record holder pretty much.
+
+06:33.030 --> 06:38.260
+And now we can go ahead and display the name now.
+
+06:38.460 --> 06:45.130
+The Mexicans as we can them displayed those as well Max on the score of currencies.
+
+06:45.210 --> 06:46.350
+And why do we do that.
+
+06:46.350 --> 06:48.690
+Why do we have these variables outside.
+
+06:48.900 --> 06:57.090
+Well we need them in order to assign the values accordingly and to keep them out of this for loop in
+
+06:57.090 --> 07:05.550
+the sense of they will always be to pretty much to viewers from the outside that they will only be changed
+
+07:05.880 --> 07:12.270
+if it's really necessary and once they are done we can go ahead and print the name.
+
+07:12.270 --> 07:15.390
+So once these Fulop is done only then we want to print.
+
+07:15.390 --> 07:19.710
+Of course we could have printed within the for loop but then it would print us all the time the new
+
+07:19.950 --> 07:28.890
+record holder and of course we could try that but let's first try to run the code like that and I have
+
+07:28.890 --> 07:34.870
+the problem with names and that's because I didn't execute that code so let's execute cell number 1
+
+07:34.890 --> 07:36.730
+and then execute some number 2.
+
+07:36.750 --> 07:41.310
+And as you see it takes a little while because the file is pretty big.
+
+07:43.500 --> 07:44.670
+Get there we are.
+
+07:44.670 --> 07:54.520
+We see James was given four million nine hundred and fifty seven times or fifty seven thousand one hundred
+
+07:54.520 --> 07:55.870
+sixty six times.
+
+07:55.930 --> 07:58.510
+So James is a very loved name.
+
+07:58.510 --> 08:01.820
+People love to call their children James as it seems.
+
+08:02.170 --> 08:06.450
+All right so this name was given five million times in the last century.
+
+08:06.490 --> 08:10.560
+Pretty impressive.
+
+08:10.590 --> 08:19.570
+Now we can of course print something here where we just say OK print value and print.
+
+08:20.180 --> 08:24.880
+And now gives me Mary who is three point seventy four million.
+
+08:24.900 --> 08:31.620
+Then we have John almost 5 million and James also almost 5 million but a little more.
+
+08:31.620 --> 08:32.160
+All right.
+
+08:32.190 --> 08:35.700
+So I hope you managed to get this done if you didn't.
+
+08:35.730 --> 08:36.890
+No worries.
+
+08:36.930 --> 08:41.320
+But now you have another example of what you already can do with your skills.
+
+08:41.340 --> 08:42.860
+So it's pretty cool.
+
+08:42.870 --> 08:45.870
+You can now try to play around with it.
+
+08:45.870 --> 08:51.430
+Of course you could figure out how to show they did best 100 or the highest 100 numbers.
+
+08:51.430 --> 08:52.460
+Stuff like that.
+
+08:52.570 --> 08:53.600
+So yeah.
+
+08:53.610 --> 08:54.890
+Feel free to do so.
+
+08:54.930 --> 09:02.050
+And in the next video we are going to quickly check out how to nest data structures.
+
+09:02.370 --> 09:03.660
+So see you there.

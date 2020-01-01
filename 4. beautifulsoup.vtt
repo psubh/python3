@@ -1,0 +1,448 @@
+WEBVTT
+
+00:00.060 --> 00:06.540
+Well come back in this video we are going to check out how to find elements in HVM L and how to extract
+
+00:06.570 --> 00:14.250
+information from a female file to do this with this the HDMI file with beautiful soup.
+
+00:14.250 --> 00:20.130
+Now you can of course check out this link and you will find beautiful soup and the documentation gives
+
+00:20.130 --> 00:22.350
+us some more information on how to QuickStart.
+
+00:22.350 --> 00:24.220
+So here's an aged him El document.
+
+00:24.210 --> 00:29.190
+It's just an example of an 20:00 document that has some content in it.
+
+00:29.280 --> 00:35.410
+And in order to run it through beautiful soob we can simply go ahead and use.
+
+00:35.760 --> 00:36.040
+Wow.
+
+00:36.090 --> 00:41.820
+Beautiful soup beautiful soup has plenty of cool features which will make it a lot easier for us to
+
+00:41.820 --> 00:45.470
+work with aged female and to use it as we please.
+
+00:45.480 --> 00:53.090
+So I'd say let's go right into it and create our first little beautiful soup object.
+
+00:53.250 --> 00:57.140
+So in order to use beautiful soup we need to use the following.
+
+00:57.140 --> 01:04.870
+B from B S for import view the full soup.
+
+01:04.860 --> 01:11.220
+So in order to use it you have to do that and then you can use an AGM l file and you can even follow
+
+01:11.220 --> 01:15.250
+the same structure that we have here which says female dog.
+
+01:15.420 --> 01:22.590
+Then you have three times two quotations or three quotation marks which open it up and three quotation
+
+01:22.590 --> 01:26.510
+marks which close it up and in between you have all the HVM Alcoa's.
+
+01:26.700 --> 01:31.080
+So what I'm going to do is I'm going to keep it very simple I'm going to create my own age HTML code
+
+01:31.440 --> 01:33.310
+so I'm going to say something like.
+
+01:33.690 --> 01:37.650
+As you can see here page to email and then equals three quotation marks.
+
+01:37.650 --> 01:40.110
+And then here I have my aged him Alcoa's.
+
+01:40.280 --> 01:46.290
+So I'm going to say something like opening H-2A mail tag and closing aged female tech in between.
+
+01:46.530 --> 01:48.840
+I would like to have the body.
+
+01:49.710 --> 01:56.910
+So a closing body tag and a word or an opening and closing body tag and then I would just like to have
+
+01:56.910 --> 01:59.220
+some very basic paragraphs.
+
+01:59.440 --> 02:06.000
+So Huyen Hey paragraph and closing P-TECH.
+
+02:06.240 --> 02:12.860
+And then as well and another P-TECH here which says something like I am.
+
+02:12.860 --> 02:15.550
+And another paragraph.
+
+02:16.350 --> 02:23.280
+So nothing too fancy here very basic email code and you probably remember that from the last video we
+
+02:23.280 --> 02:23.580
+used.
+
+02:23.580 --> 02:25.410
+Very similar page HTML code.
+
+02:25.410 --> 02:32.460
+And now we have this little H-2 email object where does aged team L. var..
+
+02:32.520 --> 02:39.300
+And now we can use that in order to put it into or use beautiful soup in order to put it in a specific
+
+02:39.300 --> 02:49.840
+format so I can just say something like Doc is going to be beautyful soup HVM well thought.
+
+02:49.920 --> 02:57.690
+And then I use XML parser and you can also find that here in beautiful soups so you will find that same
+
+02:57.690 --> 03:04.970
+thing here soup beautiful soup HDMI dark actually more parser's so that you know dog is just is a team
+
+03:05.000 --> 03:11.220
+of document and it could be a whole document it doesn't even have to be some variable that we created
+
+03:11.220 --> 03:11.750
+ourselves.
+
+03:11.760 --> 03:13.650
+It could be a document that we download.
+
+03:13.650 --> 03:19.350
+For example the document that we get from this web site but I want to start with a very simple example
+
+03:19.380 --> 03:19.890
+here.
+
+03:20.130 --> 03:22.080
+And I created a document out of it.
+
+03:22.080 --> 03:29.010
+So a dock and then I can go through this talk in the following way so I can use a for loop for example
+
+03:29.280 --> 03:32.660
+for P and Doc thought find all.
+
+03:32.660 --> 03:36.510
+And there is this cool method here which is called Find all.
+
+03:36.510 --> 03:43.670
+And then I can say OK find all the tags in there and then print the text.
+
+03:43.680 --> 03:49.380
+So if I execute that currently I'm having an error because I didn't execute the code before and now
+
+03:49.380 --> 03:54.600
+I can execute it so execute this cell and then that cell and as you can see I am in paragraph and I
+
+03:54.600 --> 03:55.940
+am another paragraph.
+
+03:56.070 --> 03:57.620
+Why do I get this information.
+
+03:57.660 --> 04:06.150
+Well that's because I have this HMO variable which I have created here then I'm using beautiful soob
+
+04:06.270 --> 04:15.090
+which uses an aged female parser which is just a way of cutting pretty much through our file that we're
+
+04:15.090 --> 04:15.860
+checking here.
+
+04:15.880 --> 04:20.300
+Our variable here in this case it's just an variable that stores it.
+
+04:20.340 --> 04:27.270
+This beautiful soup stores the object and dock and now we can use this for loop in order to go through
+
+04:27.270 --> 04:27.740
+the stock.
+
+04:27.750 --> 04:31.200
+And we want to find all of the paragraphs that's what we're saying here.
+
+04:31.410 --> 04:33.590
+And then we're just printing the p.
+
+04:33.630 --> 04:39.720
+So each and every single paragraph and from that we want to add the text so we printed text from that
+
+04:39.720 --> 04:44.640
+paragraph onto our console here.
+
+04:44.760 --> 04:55.370
+So of course I could have gone ahead and printed Doc taught find all are let's actually print doc as
+
+04:55.370 --> 05:01.560
+you can see it prints me the whole document and a specific format see this Ajram a buddy and so forth
+
+05:02.010 --> 05:09.600
+then I can use find all on to that one and I can search for all peace and as you can see now it gives
+
+05:09.600 --> 05:11.250
+me all the tags.
+
+05:11.550 --> 05:16.280
+P I'm another I'm paragraph and another paragraph and this.
+
+05:16.330 --> 05:18.570
+It went through all of them so I checked.
+
+05:18.580 --> 05:19.250
+OK.
+
+05:19.260 --> 05:24.970
+First paragraph second paragraph and it gave me not the paragraph itself but the actual text of the
+
+05:24.970 --> 05:25.530
+paragraph.
+
+05:25.530 --> 05:28.310
+So the content of this paragraph tag.
+
+05:28.350 --> 05:32.970
+So this doc by the way it's an object of the beautiful super class.
+
+05:32.970 --> 05:36.310
+So with this we're calling the constructor of beautiful soup.
+
+05:36.570 --> 05:45.360
+And we hand over an H T and L and a parser and this female is paid ASTM a box so you can see that if
+
+05:45.360 --> 05:47.210
+you check it out here.
+
+05:47.310 --> 05:49.310
+All right good.
+
+05:49.320 --> 05:51.020
+So that's just the first part.
+
+05:51.030 --> 05:57.150
+And you can read through the documentation of course as you can see a very long documentation containing
+
+05:57.210 --> 06:00.530
+all different kinds of information which can be very relevant.
+
+06:00.660 --> 06:05.790
+And we are going to use some of it in order to get what we need.
+
+06:05.790 --> 06:11.460
+All right so now let's really quickly check out this Web site once again and I want to view the page
+
+06:11.460 --> 06:12.080
+source.
+
+06:12.150 --> 06:18.750
+So the Web site that I provided you with Python or Brushville the program that I O and in here what
+
+06:18.750 --> 06:26.450
+you see is that you have these div tags and so forth and very often you see this class thing.
+
+06:26.460 --> 06:30.150
+So this for example is a class container or a clause.
+
+06:30.160 --> 06:34.730
+There are clear clear fix or class never item and so forth.
+
+06:34.740 --> 06:43.780
+So what these clauses do is they are there in order to change the behavior or the appearance of a specific
+
+06:43.780 --> 06:45.720
+call or aspect of this website.
+
+06:45.720 --> 06:48.820
+So in this case we're talking about a UL.
+
+06:48.960 --> 06:51.740
+This is a UL tag which has a class now.
+
+06:51.760 --> 06:53.050
+Another class Neph pills.
+
+06:53.070 --> 06:54.120
+Another class will flow.
+
+06:54.120 --> 06:54.620
+Right.
+
+06:54.750 --> 07:00.720
+You don't need to understand what those class names do but what the class in general does is there is
+
+07:00.780 --> 07:07.220
+some definition for neth which says what should happen with something that is called Never order that
+
+07:07.320 --> 07:09.130
+that has this class neph.
+
+07:09.240 --> 07:16.380
+So for example it could be a navigation then could be an obligation pills could have some dots or something
+
+07:16.380 --> 07:20.970
+like that and this unordered list has multiple list elements.
+
+07:20.970 --> 07:29.310
+And here it has the class saying Nev. item so Ally stands for list element or one list element within
+
+07:29.330 --> 07:33.370
+the unordered list or list item pretty much Eliason for list item.
+
+07:33.510 --> 07:35.820
+So this class is Neph item.
+
+07:35.880 --> 07:42.080
+So a navigation item so it will look like a navigation item and that's what is defined within this class.
+
+07:42.410 --> 07:49.560
+Ok I'm not going to go too deep into this but for you just to know there are specific classes and those
+
+07:49.560 --> 07:56.340
+classes they define how something looks and if we look at our structure you see that this is defined
+
+07:56.760 --> 07:59.130
+in a specific way so they all look the same.
+
+07:59.130 --> 08:07.770
+So there is this icon or the smiley some header some content and an image and that will be handled by
+
+08:07.770 --> 08:08.850
+colossus as well.
+
+08:08.850 --> 08:18.840
+So if we look at our card block so you see every time that this thing here comes up so we have this
+
+08:18.840 --> 08:25.080
+structured piece of content we have this div class cockblock.
+
+08:25.320 --> 08:30.200
+So there is something called Card block and there is this image of this cat and if you check it out
+
+08:30.210 --> 08:32.280
+that's this image here.
+
+08:33.330 --> 08:39.150
+And that's how you can step by step go through it you can see here it has a span which says something
+
+08:39.150 --> 08:45.280
+like polarized modular conglomerate that's useless text but that's what we have here.
+
+08:45.300 --> 08:53.190
+So now we see arcade that's right there and this whole thing is what we should check out.
+
+08:53.190 --> 08:57.390
+So there's another thing that has the exact same structure and the exact same structure.
+
+08:57.390 --> 09:02.730
+So what we could search for is for the specific class and then we would know that everything until the
+
+09:02.730 --> 09:09.420
+next class will be part or next class with the same name will be part of one little piece of information
+
+09:09.420 --> 09:10.700
+that we want to have.
+
+09:11.160 --> 09:11.610
+OK.
+
+09:11.650 --> 09:16.950
+So why do I tell you that because we are going to add our own class here real quick.
+
+09:16.950 --> 09:20.920
+So you had the class within the opening tag.
+
+09:20.970 --> 09:28.240
+So in here within the P-TECH I can add a little class which I'm going to say or call something.
+
+09:28.530 --> 09:33.960
+So nothing too fancy just called something and it will do something.
+
+09:33.960 --> 09:40.500
+So for example it will look in a specific way that we can define game but we're not going to define
+
+09:40.500 --> 09:46.890
+it it's just for you to see and then we can not only printed text of that tag now but we can also print
+
+09:46.890 --> 09:49.860
+its attributes so we can say something like.
+
+09:49.860 --> 09:54.680
+Print HEG parse which will give us the attributes.
+
+09:54.700 --> 09:59.530
+Now you see this line here may actually get rid of this line.
+
+09:59.720 --> 10:04.980
+So this line here this Peetie attributes gives me this information.
+
+10:04.990 --> 10:06.430
+And that's because it doesn't change.
+
+10:06.430 --> 10:08.450
+So let me run it again now.
+
+10:08.710 --> 10:15.280
+OK so now you can see that the attributes for the first paragraph says there is an attribute which is
+
+10:15.280 --> 10:21.370
+called class and that class attribute has the name something or a list something.
+
+10:21.460 --> 10:29.020
+So there could be multiple pieces in here something and some thing else let's say another class is called
+
+10:29.020 --> 10:30.400
+something else.
+
+10:30.400 --> 10:38.140
+And as you can see now this list is filled with another entry so similar to what we've seen here.
+
+10:38.530 --> 10:41.950
+There can be one class which is for the image.
+
+10:41.950 --> 10:45.750
+For example we have this little image of this cute little cat.
+
+10:45.790 --> 10:49.680
+This image has a class called IMT responsive.
+
+10:49.690 --> 10:52.060
+So this popular image is going to be responsive.
+
+10:52.300 --> 10:55.060
+And this image is going to float towards the right.
+
+10:55.090 --> 11:02.200
+So there are two classes you open and that's the cool thing and what you can do with beautiful soup
+
+11:02.200 --> 11:08.920
+you can very easily filter it by those kind of attributes are filtered by those kind of information
+
+11:09.220 --> 11:15.370
+and that will help us later on in order to catch the website down and only display the information that
+
+11:15.370 --> 11:22.420
+we need and in order to understand what I was just talking about more efficiently I'd say we check it
+
+11:22.410 --> 11:22.820
+out.
+
+11:22.860 --> 11:26.150
+See is as selectors in the next video.
+
+11:26.170 --> 11:33.610
+And in the following video and afterwards we going to go back to that and we will use our little program
+
+11:33.610 --> 11:36.340
+here our little crawler and extend that.
+
+11:36.460 --> 11:38.110
+So I see you in the next video.

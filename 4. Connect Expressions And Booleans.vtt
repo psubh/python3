@@ -1,0 +1,454 @@
+WEBVTT
+
+00:00.080 --> 00:05.730
+Not you know if statements and comparison operators it's important to look at booleans a little closer
+
+00:06.000 --> 00:12.720
+because there is one important thing about balance and also AND and OR logic which we will cover in
+
+00:12.720 --> 00:13.390
+this video.
+
+00:13.560 --> 00:16.270
+So let's go ahead and create a variable called H.
+
+00:16.290 --> 00:27.750
+And let's just set that 35 and then if we check here age greater than equal 30 or greater or equal than
+
+00:27.750 --> 00:33.420
+30 and H lower equal 39.
+
+00:33.720 --> 00:39.510
+So we have this statement which contains of two checks or two comparisons.
+
+00:39.540 --> 00:42.010
+So we have one condition.
+
+00:42.120 --> 00:45.810
+The age has to be greater than or equal 30.
+
+00:46.200 --> 00:53.120
+And at the same time it has to be less than or equal 39.
+
+00:53.130 --> 00:59.280
+So only if that is the case we want to present something onto the console which is going to be this
+
+00:59.370 --> 01:05.010
+person is in its 30s something like that.
+
+01:05.040 --> 01:07.460
+So let's print that or let's execute that.
+
+01:07.480 --> 01:13.770
+And you can see this person is in its 30s it's printed on the console and that is because the person
+
+01:13.770 --> 01:16.760
+is 35 for the age of the person is 35.
+
+01:17.010 --> 01:19.670
+And that's why this condition is true.
+
+01:19.710 --> 01:26.130
+So 35 is greater than equal 30 and it is lower than equal 39.
+
+01:26.160 --> 01:30.720
+So if we enter something like 40 in here as you can see it's not executed.
+
+01:31.040 --> 01:31.560
+All right.
+
+01:31.590 --> 01:40.110
+So you said that back to 35 and it's executed again or it is executed anyways but this code is not executed
+
+01:40.470 --> 01:42.730
+if the condition here is not met.
+
+01:42.730 --> 01:44.810
+Or those two conditions are not met.
+
+01:44.940 --> 01:45.550
+And that's this.
+
+01:45.610 --> 01:54.270
+And what so and means both have to be true or not just both but all conditions if they are connected
+
+01:54.270 --> 01:56.160
+with an end each time.
+
+01:56.160 --> 02:01.030
+All right so now let's check out or what's that change to 45.
+
+02:01.590 --> 02:13.560
+And then if H is lower than 30 or less than 30 or the age is greater equal 40 only then we want to print
+
+02:13.680 --> 02:27.720
+something onto the console saying this person is not in its 30s and I think here that's correct.
+
+02:27.720 --> 02:28.600
+Now let's run again.
+
+02:28.650 --> 02:31.840
+This person is not in its thirties is printed.
+
+02:31.860 --> 02:34.090
+Because now it's 45.
+
+02:34.200 --> 02:41.350
+So we have this other thing where we use or which means either or has to be true.
+
+02:41.460 --> 02:44.110
+Only then this statement will be executed.
+
+02:44.280 --> 02:47.830
+So which means that it doesn't have to be both of them.
+
+02:47.880 --> 02:49.610
+So this condition is false.
+
+02:49.620 --> 02:52.280
+As you can see only that condition is true.
+
+02:52.380 --> 02:53.900
+But one of the two is true.
+
+02:53.910 --> 02:58.680
+That's why the statement here is printed so we can simply check that like this.
+
+02:58.680 --> 03:11.470
+Print age less than 30 and print Page Creator equal 40 foot print that we see it's false and true.
+
+03:11.580 --> 03:15.750
+But as long as one of them is true this will be executed.
+
+03:17.680 --> 03:24.210
+Or we also can do is we can store whether a statement is true or not inside of a variable and we've
+
+03:24.210 --> 03:27.820
+seen that before but now let's check it out in a different version.
+
+03:27.960 --> 03:34.800
+So above below 30 more on a score 30 is going to be the name of my variable and in there I want to store
+
+03:35.220 --> 03:39.950
+H creator equal 30.
+
+03:40.010 --> 03:49.250
+Now I can print that out and it's print above 30 onto our console and you can see it's true here.
+
+03:49.300 --> 03:49.840
+Why is that.
+
+03:49.860 --> 03:57.890
+Well that's because this statement here returns true and the return is stored within this variable.
+
+03:57.900 --> 04:00.740
+That's why we get this true here.
+
+04:02.010 --> 04:02.960
+And why is it true.
+
+04:03.000 --> 04:07.490
+Well because age is 45 as you have seen here.
+
+04:07.680 --> 04:17.090
+So if we set H in this and the line be above page 225 and we execute the code as you can see it's dated
+
+04:17.130 --> 04:19.620
+as follows.
+
+04:19.620 --> 04:26.490
+Now we can of course go ahead and create another variable or assign 25 to age even though we did that
+
+04:26.490 --> 04:26.700
+here.
+
+04:26.710 --> 04:28.820
+But I'm going to just do it in the cell as well.
+
+04:29.010 --> 04:36.600
+And I'm going to say something like above 20 is going to be the name of the variable and it's going
+
+04:36.600 --> 04:47.660
+to state something like age greater equal 20 and we're going to print above 20 onto the console and
+
+04:47.660 --> 04:49.090
+as it concedes that's true.
+
+04:49.110 --> 04:54.560
+Now you could of course argue if somebody is just 20 then he's not going to be above 20 but.
+
+04:54.800 --> 04:57.570
+Well it depends on the point of view here I say.
+
+04:57.890 --> 05:06.990
+So if this condition is true so if H is greater equal 20 I just want to print something on a console
+
+05:07.360 --> 05:11.460
+if statement was executed.
+
+05:11.610 --> 05:18.870
+So as you can see we can still use the same approach as before so I can check something greater equal
+
+05:19.260 --> 05:23.560
+20 and then print something.
+
+05:23.950 --> 05:28.220
+Now why do I show you that because we have seen that quite a lot already right.
+
+05:28.390 --> 05:35.140
+Well there is something about if statements that you can do and that is to just tell them whether they
+
+05:35.140 --> 05:37.190
+are true or false straight away.
+
+05:37.330 --> 05:38.870
+So if true.
+
+05:39.100 --> 05:42.020
+Print Hi there.
+
+05:42.150 --> 05:42.970
+Simple as that.
+
+05:43.180 --> 05:45.490
+As you can see Heidi is printed.
+
+05:45.670 --> 05:48.820
+So you don't even have to have a comparison.
+
+05:48.820 --> 05:52.240
+You can even say straight away it's true or it's false.
+
+05:52.240 --> 05:55.030
+So if false and it's not printed.
+
+05:55.240 --> 06:00.310
+Of course that doesn't make that much sense but in some cases you might want to use this approach.
+
+06:00.820 --> 06:02.610
+So let's look at that a little closer.
+
+06:02.680 --> 06:10.090
+So I'm just going to add some more lines so that I can write in the center of the screen so I'm going
+
+06:10.090 --> 06:14.650
+to use print and just use True and true.
+
+06:14.650 --> 06:17.860
+So guess what it's going to execute well it's going to say true.
+
+06:17.980 --> 06:18.870
+Why is that.
+
+06:18.880 --> 06:21.080
+Because both of them are true.
+
+06:21.130 --> 06:24.540
+So the left hand side is true and the right hand side is true.
+
+06:25.040 --> 06:25.310
+OK.
+
+06:25.320 --> 06:30.780
+What if I have the situation where I have true and false.
+
+06:30.820 --> 06:32.040
+Let's check that out.
+
+06:32.080 --> 06:39.530
+As you can see I get false now print false and true.
+
+06:39.830 --> 06:40.830
+What will that execute.
+
+06:40.870 --> 06:51.670
+Well it will execute falls once again and then the last one print false and false and that one will
+
+06:51.670 --> 06:53.050
+give me false as well.
+
+06:53.050 --> 07:00.340
+So whenever you use and there is only one combination where it actually is returning true and that is
+
+07:00.340 --> 07:04.270
+if both left and right of the end is true.
+
+07:04.270 --> 07:08.870
+So both conditions left and right and in this case we're just using the true key word.
+
+07:09.120 --> 07:09.740
+All right.
+
+07:10.060 --> 07:11.530
+So that's with the end.
+
+07:11.530 --> 07:18.450
+Now let's check it out for the OR or so just use print.
+
+07:18.870 --> 07:27.510
+True or true that will return true of course because either word is true and if both are true then it's
+
+07:27.510 --> 07:28.560
+double true.
+
+07:28.890 --> 07:31.680
+But still it's only returning one true of course.
+
+07:31.890 --> 07:41.280
+And then in the next line print true or false or will that return while it will return true as well
+
+07:42.000 --> 07:52.680
+and print false or true that will return true as well so you can see there is only one combination where
+
+07:52.680 --> 07:54.100
+it actually returns false.
+
+07:54.120 --> 08:02.400
+And that is if false is the case for both sides so left and right or so to shake that out as you can
+
+08:02.400 --> 08:04.280
+see now we get false.
+
+08:04.290 --> 08:09.470
+So that's very important logic that you need to understand if you use or or.
+
+08:09.470 --> 08:13.570
+And now let's look at an example.
+
+08:13.620 --> 08:20.020
+Again let's say we have a variable called country and it's just going to have the county code like us.
+
+08:20.020 --> 08:24.530
+United States of America and a variable called age.
+
+08:24.720 --> 08:29.340
+And now we check something like Kountry equal equal us.
+
+08:29.970 --> 08:31.950
+If that's still true that's the case.
+
+08:31.950 --> 08:50.880
+And the H is greater equal 21 or if the country is not us and the age is created equal 18 because in
+
+08:50.880 --> 08:58.350
+most countries you may do stuff that is only allowed 21 in the U.S. for example.
+
+08:58.920 --> 09:05.090
+This person may drink alcohol.
+
+09:05.960 --> 09:10.720
+So in the U.S. you're only allowed to drink alcohol at the age of 21 and higher.
+
+09:10.800 --> 09:15.930
+And in other countries I'm not going to say in all countries but in most countries you're allowed to
+
+09:15.930 --> 09:20.180
+drink alcohol at the age of 18 or in some countries.
+
+09:20.570 --> 09:25.890
+Not that hard article like beer and wine and stuff like that is allowed to drink at what you're allowed
+
+09:25.890 --> 09:27.390
+to drink at 16.
+
+09:27.390 --> 09:33.900
+So in Germany for example you're allowed to drink beer and wine at the age of 16.
+
+09:34.020 --> 09:41.550
+And yeah you may not drink and drive of course and you also may not drive at the age of 16 which is
+
+09:41.550 --> 09:42.720
+the case in the US.
+
+09:42.780 --> 09:49.020
+So it's pretty interesting how different countries handle those rules differently in the same way of
+
+09:49.050 --> 09:54.570
+weapons so you may have a weapon before you may drink in the U.S. and Germany it's super difficult to
+
+09:54.570 --> 09:55.650
+even get a weapon.
+
+09:55.890 --> 09:59.190
+But it's super easy to get alcohol even if you're just 16.
+
+09:59.430 --> 10:02.420
+So that's very interesting.
+
+10:02.580 --> 10:09.690
+And that's just an example let's just print that out and a console and have an arrow somewhere says
+
+10:09.710 --> 10:14.060
+counter's not defiant and it should be country.
+
+10:14.060 --> 10:15.270
+All right.
+
+10:15.270 --> 10:17.580
+So I wrote counter here.
+
+10:17.580 --> 10:18.680
+Now let's check it out again.
+
+10:18.690 --> 10:20.280
+Let's execute the code.
+
+10:20.400 --> 10:21.870
+And as you can see it doesn't.
+
+10:21.870 --> 10:23.240
+Executed.
+
+10:23.250 --> 10:28.020
+Now let's add an else here and let's print something.
+
+10:28.020 --> 10:31.580
+Actually we need the colon print.
+
+10:31.590 --> 10:36.740
+This person may not drink alcohol.
+
+10:37.650 --> 10:38.510
+That's good that.
+
+10:38.520 --> 10:41.850
+And as you see this person may not drink alcohol is executed.
+
+10:41.850 --> 10:46.000
+That's because the person is from the U.S. that say the person is 25 now.
+
+10:46.020 --> 10:48.420
+And as you can see the person may drink alcohol.
+
+10:48.450 --> 10:56.940
+Now let's say the person is from G-B from Great Britain and is 18 and as you can see this person may
+
+10:56.940 --> 11:04.520
+drink alcohol just because he's from Great Britain and equal or older than 18.
+
+11:05.040 --> 11:08.220
+All right so that was booleans and into or.
+
+11:08.400 --> 11:10.430
+And we will use those quite a lot.
+
+11:10.440 --> 11:16.440
+So make sure that that you have understood quite well and of course there will be exercises where I
+
+11:16.440 --> 11:18.590
+can prove that and prove that to yourself.
+
+11:18.810 --> 11:19.090
+Great.
+
+11:19.090 --> 11:25.050
+So let's check out the sheet in the next video and afterwards you'll see of course and of course the
+
+11:25.050 --> 11:26.100
+solution to that.
+
+11:26.250 --> 11:29.310
+And afterwards we're going to look at the in operator.
+
+11:29.310 --> 11:32.060
+So see you in the next video is.

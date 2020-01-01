@@ -1,0 +1,394 @@
+WEBVTT
+
+00:00.720 --> 00:06.780
+Come back in this video I would like to introduce you a little more to this cute creator or give you
+
+00:06.780 --> 00:09.390
+some more information about the Skewes creator.
+
+00:09.390 --> 00:15.030
+So what I have here are a bunch of layouts and lay outs.
+
+00:15.030 --> 00:19.520
+They can allow you to lay out things in a certain way.
+
+00:19.520 --> 00:25.830
+So let's say I have this vertical lay out things in there new elements will be displayed vertically
+
+00:25.830 --> 00:26.470
+in there.
+
+00:26.730 --> 00:32.160
+OK so if I drag something in there let me make this whole vertical lay out a little bigger and by the
+
+00:32.160 --> 00:39.840
+way if I can't access the vertical layout by clicking on it I can select it from the right hand side.
+
+00:39.840 --> 00:43.350
+So you on the right hand side you can select your elements.
+
+00:43.620 --> 00:47.330
+And I just press on the vertical layout and then I can resize it again.
+
+00:47.550 --> 00:48.820
+So I'm going to resize it.
+
+00:48.840 --> 00:55.590
+OK so you can see very easily I can now change the elements in a vertically vertical way.
+
+00:55.590 --> 01:01.200
+You have the grid lay out where you can position things in a grid form where you position the next to
+
+01:01.200 --> 01:02.370
+each other as well.
+
+01:02.400 --> 01:07.260
+Then you have the horizontal lay up where you can put stuff right next to each other.
+
+01:07.300 --> 01:13.980
+This is year does vertical loudest putting of elements on top of each other and then we have for example
+
+01:14.340 --> 01:17.950
+some spacers which just create some space in between elements.
+
+01:17.960 --> 01:23.580
+And we have buttons and we have seen some of them for example or push button just just a normal button.
+
+01:23.730 --> 01:30.000
+Then you have the tool button which can be used in order to open up some more options for example.
+
+01:30.210 --> 01:32.900
+Then we have the radio button we have used that one.
+
+01:33.150 --> 01:38.050
+So we have just used those radio buttons here on the side.
+
+01:38.070 --> 01:44.900
+Then the check box we've seen that as well then yeah there are plenty of different buttons here.
+
+01:44.910 --> 01:47.220
+Item views and so forth.
+
+01:47.220 --> 01:51.270
+So for example if we check out the containers.
+
+01:51.300 --> 01:56.020
+So there are multiple different containers such as a group box for example.
+
+01:56.020 --> 02:01.620
+So when a group box will do this it will group elements in there within this group box.
+
+02:01.620 --> 02:08.280
+So for example if I want to have a form then I can put all the different elements in here so I can add
+
+02:08.280 --> 02:17.970
+something like a text fields or play like an a line edit where a user can enter his username for example.
+
+02:17.970 --> 02:22.200
+Then another one word can enter his password and so forth.
+
+02:22.200 --> 02:26.250
+So he just put those in here.
+
+02:26.400 --> 02:31.740
+Make it a little bigger than a button.
+
+02:31.820 --> 02:38.540
+The bottom of it is you can see now this is a group box and I can change that to let's say log in for
+
+02:38.540 --> 02:42.440
+him and this push button will say something like the log in.
+
+02:43.050 --> 02:46.080
+And as you can see those two they are not equally high.
+
+02:46.230 --> 02:54.030
+And if he cannot get the right size by dragging and so forth you can always check out your options here
+
+02:54.030 --> 02:54.630
+on the side.
+
+02:54.630 --> 02:59.030
+So for example for this bottom here this should be the password.
+
+02:59.250 --> 03:05.330
+And I have this geometry here which says 161 times 121.
+
+03:05.340 --> 03:10.240
+Now this one in comparison is 161 to 24.
+
+03:10.240 --> 03:13.110
+So I can make this 124 pixels high.
+
+03:13.380 --> 03:14.720
+So let me change it.
+
+03:14.720 --> 03:20.420
+You just opened it up here you can see you can always get more details and it can change to hide to
+
+03:20.430 --> 03:21.790
+let's say 24.
+
+03:22.050 --> 03:24.210
+Now they are the same size.
+
+03:24.240 --> 03:29.550
+You can have of course copy and paste them as well but generally you can see that here on the right
+
+03:29.550 --> 03:32.620
+hand side you have plenty of options that you can choose.
+
+03:32.730 --> 03:38.640
+You can choose the minimum size the base size you can change to fund even and so forth.
+
+03:38.640 --> 03:45.480
+You can get a tool tip something like password could be a good tool too for this element here if somebody
+
+03:45.480 --> 03:51.110
+hovers over this field then he will see the tool tip and so forth.
+
+03:51.120 --> 03:57.580
+So you can see plenty of good stuff and it's pretty easy to adjust it so you can very easily adjust
+
+03:57.580 --> 03:58.920
+the elements in here.
+
+03:58.970 --> 04:05.090
+You can see this cue widget has plenty of properties that you can change any time.
+
+04:05.120 --> 04:13.170
+Now we have something like a scroll area where we can put many different objects when we have too many.
+
+04:13.170 --> 04:15.990
+Then you can scroll in it.
+
+04:15.990 --> 04:24.790
+So this will allow us to scroll inside of it and I'm going to get rid of it because I want to use it.
+
+04:24.810 --> 04:29.200
+You have the tab widget which is a pretty cool one we can create multiple tabs.
+
+04:29.280 --> 04:39.150
+So let's say you have the log in form in the first tab and make this whole screen a little bigger.
+
+04:39.150 --> 04:45.870
+So I will drag this over and this is not about making this whole thing beautiful it's really just about
+
+04:45.870 --> 04:47.970
+showing you the different options that we have.
+
+04:47.970 --> 04:54.570
+So this is going to be Tab 1 and I want to change the name of Tab 1 or the text that it set dates of.
+
+04:54.570 --> 04:58.730
+Tab 1 and I can do that and.
+
+04:58.720 --> 05:02.030
+Q tab widget here to drop.
+
+05:02.100 --> 05:10.140
+Scroll down and here you will find the current tab text and the current tab text is Tab 1 and I could
+
+05:10.140 --> 05:16.080
+say something like the log in and then the second one would be something completely different something
+
+05:16.080 --> 05:18.230
+like Hello.
+
+05:18.420 --> 05:24.660
+And in this low one I just have this button which just doesn't do anything but it's there.
+
+05:24.900 --> 05:31.500
+So you can move around and you have pretty much is a behavior of multiple types so it's pretty cool.
+
+05:31.500 --> 05:33.550
+Then for example a combo box.
+
+05:33.840 --> 05:40.320
+So let's add this little combo box here and this combo box we can easily add some elements in here so
+
+05:40.320 --> 05:45.240
+let's say this combo box will contain something like mathematics.
+
+05:46.110 --> 05:51.360
+Math math takes then informatics
+
+05:53.500 --> 05:56.690
+in English.
+
+05:57.090 --> 06:05.460
+So if somebody is an English major and stuff like that and this will be biology
+
+06:08.790 --> 06:09.470
+and so forth.
+
+06:09.540 --> 06:15.470
+So now if somebody selects this combo box he can choose from those options.
+
+06:15.990 --> 06:17.880
+Then you have a line edit.
+
+06:17.880 --> 06:23.580
+We've seen that one where we can simply add one line but there is also something called a text added
+
+06:24.360 --> 06:28.880
+and something called a plain text and it's going to show you both of them.
+
+06:28.890 --> 06:36.240
+So this text added here here it can actually added text and adjusted so you can see it's up to him all
+
+06:36.240 --> 06:40.850
+that I can write in here with rich text and you can see the source code behind it.
+
+06:40.850 --> 06:47.080
+So those two email source code behind it and it can just say something like hello world and make these
+
+06:47.160 --> 06:50.630
+Hello bold and maybe in a different font size.
+
+06:50.640 --> 06:52.770
+Even so simple as that.
+
+06:52.920 --> 06:59.160
+But this plain text here this plain text and it is really just very basic text which I cannot edit.
+
+06:59.160 --> 07:04.770
+So no adding or editing here.
+
+07:05.290 --> 07:14.070
+OK then you have a very horizontal scroll bar so if somebody should be able to scroll or even a horizontal
+
+07:14.370 --> 07:24.410
+sliders you can at that where somebody can slide back and forth aunt date time so somebody should be
+
+07:24.410 --> 07:34.270
+able to edit his date and his time so they had time edit he or somebody can select the date.
+
+07:34.280 --> 07:39.440
+You have spin boxes or you can just spin around with the values double spin boxes.
+
+07:39.440 --> 07:44.810
+We also have a floating point in there that you can add labels.
+
+07:44.810 --> 07:53.270
+So for example the label here would say something like your major or your subject or something like
+
+07:53.270 --> 07:53.600
+that.
+
+07:53.630 --> 07:56.930
+Your subject.
+
+07:56.930 --> 08:03.680
+So if a student should select something here and so forth so you can see there are a bunch a bunch of
+
+08:03.680 --> 08:06.440
+different widgets and layouts that we can use.
+
+08:06.650 --> 08:13.100
+And that's very powerful because we can pretty much direct stuff in then connected to our code and pretty
+
+08:13.100 --> 08:18.680
+much use it so we could use the user input from this log in screen can use to user input from a text
+
+08:18.680 --> 08:26.870
+editor or a plain text edit or from a date selection here so somebody could select his birth date and
+
+08:26.870 --> 08:27.660
+so forth.
+
+08:28.750 --> 08:36.970
+So I'd say now it's time to check out how his user interface looks like once we pretty much created
+
+08:36.970 --> 08:38.360
+in our pie chart.
+
+08:38.470 --> 08:43.210
+So for now we just created this UI at this UI limits and we cannot interact with them.
+
+08:43.210 --> 08:50.620
+We can only drag around in the UI itself but we cannot pretty much select them and use them as if they
+
+08:50.620 --> 08:52.760
+were standard applications.
+
+08:52.760 --> 08:57.050
+So let's build it again because we need to build that file.
+
+08:57.150 --> 08:57.450
+But.
+
+08:57.460 --> 09:03.730
+You have to save it right so you have to save this file control as then you can go back to pide charm
+
+09:04.030 --> 09:05.410
+and run your bill.
+
+09:05.470 --> 09:09.610
+Why file so run this part built.
+
+09:09.770 --> 09:12.730
+And once that is done our main window.
+
+09:12.760 --> 09:14.630
+P Y will be adjusted.
+
+09:14.630 --> 09:18.670
+So now you will see there are a bunch of new lines of code.
+
+09:18.710 --> 09:26.450
+So we have added a combo box of plain text that added a text added horizontal slider all those kind
+
+09:26.450 --> 09:28.680
+of things we have added all of that in there.
+
+09:28.850 --> 09:34.430
+And now what we can do is we can run our main Y because it still contains the main window that we had
+
+09:34.430 --> 09:35.230
+created.
+
+09:35.450 --> 09:41.160
+And now if we run that's let me select main and run main.
+
+09:41.390 --> 09:48.790
+You will see I have my UI so I like this I have multiple choice here just one choice to then I'm in
+
+09:48.840 --> 09:51.570
+informatics major or my subject is informatics.
+
+09:51.590 --> 09:59.930
+I can slide stuff around here I can change the dates and here I can just play around with pretty much
+
+09:59.930 --> 10:02.290
+all of those forms So here's our tab.
+
+10:02.420 --> 10:04.130
+Log in and hello click me.
+
+10:04.130 --> 10:05.200
+Of course nothing happens.
+
+10:05.200 --> 10:08.560
+Same with log in here I can enter something.
+
+10:08.570 --> 10:10.690
+So you see it's not that difficult.
+
+10:10.790 --> 10:14.150
+It's actually quite easy and you already have all the tools to do so.
+
+10:14.240 --> 10:16.850
+Now of course you might say man I want to direct with it.
+
+10:16.850 --> 10:23.300
+I want to do something in code so for example if somebody clicks this button then I want to have a pop
+
+10:23.300 --> 10:26.660
+up or I want to see some information or something change.
+
+10:26.660 --> 10:28.790
+Well of course we're going to do that later on.
+
+10:28.940 --> 10:34.990
+But for now we are going to look at a little more into the qued creator so see in the next video.

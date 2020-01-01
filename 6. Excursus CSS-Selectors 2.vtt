@@ -1,0 +1,253 @@
+WEBVTT
+
+00:00.370 --> 00:05.910
+We'll come back in this video I would like to talk to you about some other aspects of C as selectors
+
+00:06.000 --> 00:08.700
+and also another tech that we haven't looked at.
+
+00:08.910 --> 00:15.390
+So there is something called a div tech and it's pretty much something like a container so we can contain
+
+00:15.390 --> 00:17.620
+multiple things within a DIV tag.
+
+00:17.790 --> 00:23.940
+So we could say something like OK I've created this this tag and in year I could go ahead and add two
+
+00:24.210 --> 00:26.490
+tags something like that.
+
+00:26.490 --> 00:30.800
+So now this div tag contains those two tags.
+
+00:30.810 --> 00:36.410
+And if I execute that code you will see OK I have just added two more lines in here.
+
+00:36.840 --> 00:39.690
+But now there is an advantage of using this tax.
+
+00:39.690 --> 00:47.060
+For example if we look at our Web site here this little block here that we have is within a div container.
+
+00:47.070 --> 00:53.830
+So if we look at it we can see it's within this container called Card block or with the class card block.
+
+00:54.270 --> 00:59.240
+OK so we have another container with the class card block and so forth.
+
+00:59.520 --> 01:02.160
+So let's have a look at device and how we used them.
+
+01:02.340 --> 01:06.250
+So I have this div and I'm going to give it a class as well.
+
+01:06.390 --> 01:12.460
+I'm going to call it P or part 1.
+
+01:12.550 --> 01:15.990
+There's just going to be my class part 1 and then and there.
+
+01:15.990 --> 01:24.840
+I would like to have a P-TECH which just says something like I am a paragraph but part 1 and I don't
+
+01:24.840 --> 01:26.510
+want to have the second one.
+
+01:26.700 --> 01:29.370
+And also it won't have this class for now.
+
+01:29.820 --> 01:36.470
+OK so now I just have this very basic tag here and let me clean it up a little bit.
+
+01:36.480 --> 01:38.300
+We don't need all of this additional space.
+
+01:38.310 --> 01:38.930
+OK.
+
+01:39.000 --> 01:44.730
+And I'm going to create a different DIV tag just below that and this will be part 2 for example.
+
+01:44.730 --> 01:48.430
+Now in here I have different content which is part 2.
+
+01:48.600 --> 01:55.530
+And now what I can do is for example I can say I would like to change this particular P-TECH without
+
+01:55.560 --> 02:02.300
+even touching the P-TECH where I could even change all the pieces within a specific task.
+
+02:02.340 --> 02:03.490
+And how do I do that.
+
+02:03.690 --> 02:12.660
+Well you can use dot part 1 in order to access this class or modify this class which is called Part
+
+02:12.660 --> 02:17.150
+1 and then you can add something like the P for example.
+
+02:17.490 --> 02:24.730
+So let's have a look at that where we change all the text within a Part 1 class.
+
+02:25.170 --> 02:33.430
+And here I could just say something like font weight should be bold.
+
+02:33.450 --> 02:35.850
+So now it's going to be bold.
+
+02:35.910 --> 02:37.460
+This part here will be written.
+
+02:37.470 --> 02:41.690
+So let's save and refresh and you can see part 1.
+
+02:41.730 --> 02:47.460
+I mean paragraph is bold now part 2 in the paragraph is not bold.
+
+02:47.460 --> 02:51.450
+So only this part here is bold even though I said the font weight.
+
+02:51.450 --> 03:00.810
+Bold but I said that it should only apply to Peter x which are within a C part of one class and that's
+
+03:00.810 --> 03:01.530
+the case here.
+
+03:01.530 --> 03:06.870
+So I created this little container with this div tag and added this paragraph in there.
+
+03:06.870 --> 03:14.390
+So let me create another paragraph in there save it and refresh and you can see now I have part 1.
+
+03:14.380 --> 03:18.300
+I'm a paragraph part one I'm a paragraph so both of them are bold.
+
+03:18.360 --> 03:26.130
+So all the tags within my class part 1 will be bold now because I defined it in here so you can pretty
+
+03:26.130 --> 03:27.910
+much do whatever you want you could.
+
+03:28.050 --> 03:31.240
+Let's say we have this clause important in there as well.
+
+03:31.590 --> 03:42.100
+So if you use important and so only important within the tag of part one will be bold.
+
+03:42.150 --> 03:46.790
+Now of course important is a class so we need to add the dot here as well.
+
+03:47.100 --> 03:52.770
+OK so now if I saved that and I refresh my side you see me paragraph.
+
+03:52.770 --> 03:54.520
+Now is written in bold.
+
+03:54.810 --> 03:57.670
+That's because it is in red and in bold.
+
+03:57.720 --> 04:03.760
+That's because this third paragraph here is within a day that has the class Part 1.
+
+04:03.930 --> 04:07.860
+And at the same time the P-TECH itself has the class.
+
+04:07.860 --> 04:08.750
+Important.
+
+04:08.940 --> 04:14.810
+That's why only this P-TECH here is actually influenced by that.
+
+04:14.820 --> 04:23.580
+All right so quickly to sum it up once again you can create multiple tags in hemo and you can create
+
+04:23.580 --> 04:26.650
+diff tasks which pretty much are containers.
+
+04:26.880 --> 04:33.770
+Then you can have the tags and multiple other types of text like I m g text for images and so forth.
+
+04:33.780 --> 04:38.010
+There are plenty of text if you want to know more about the text you can of course always check out
+
+04:38.040 --> 04:39.810
+aged email text or google it.
+
+04:39.990 --> 04:42.860
+But that's not really what we're talking about here.
+
+04:42.930 --> 04:49.080
+But the idea is that you can use those tasks in order to style them so you can style parts of your website
+
+04:49.680 --> 04:51.330
+by using text.
+
+04:51.450 --> 04:58.980
+So I can use this approach here where I say OK I have the style tag within the head of my website.
+
+04:58.980 --> 05:06.710
+So within the head of my website so I can simply change the style of a specific tag selector.
+
+05:06.830 --> 05:14.210
+For example the piece selector or I can change it of a specific class clauses by using the dot and IDs
+
+05:14.210 --> 05:21.380
+by using the hash at the beginning and then of course I can change span's or other tags straight away.
+
+05:21.590 --> 05:27.620
+And I even can combine that I can combine clauses with clauses so if I say OK I have a container with
+
+05:27.620 --> 05:34.850
+a class part one like this div container and I have something with a clause important and I want to
+
+05:34.850 --> 05:39.130
+change its font weight property to bolt.
+
+05:39.200 --> 05:44.570
+So within the curly brackets you pretty much just say what you want to change and then you ended up
+
+05:44.570 --> 05:45.950
+with a semi colon.
+
+05:46.040 --> 05:54.980
+So every single statement has to end with a semi-colon in C S S and of course let's go back to just
+
+05:54.980 --> 05:56.210
+using a p tag.
+
+05:56.420 --> 06:03.230
+Here you can use that as well where you just say OK all the text within my containers with a Part 1
+
+06:03.230 --> 06:05.330
+class should be influenced.
+
+06:05.330 --> 06:12.140
+So if we check that out again we can see all those three are influenced now and are bold.
+
+06:12.770 --> 06:13.280
+OK.
+
+06:13.310 --> 06:22.160
+So that basic knowledge here of and C is as will help us to find elements that are relevant for us in
+
+06:22.160 --> 06:25.260
+order to cut the website down as we need it.
+
+06:25.460 --> 06:28.090
+And that's really just a little excursus.
+
+06:28.100 --> 06:35.810
+In order to give you an idea of what this whole HDMI LNC is as does in order to understand better how
+
+06:35.810 --> 06:40.990
+we construct or how the website is structured and how we can crawl it correctly.
+
+06:41.000 --> 06:41.310
+All right.
+
+06:41.300 --> 06:45.680
+So I'd say See you in the next video where we are going to find elements.
+
+06:45.710 --> 06:46.490
+So see you there.

@@ -1,0 +1,526 @@
+WEBVTT
+
+00:00.260 --> 00:06.910
+Homework come back and this when you were going to finalise our calculate am I to or BMI calculator.
+
+00:07.050 --> 00:09.120
+And I hope you finalize that by yourself.
+
+00:09.120 --> 00:11.440
+And if you didn't you can of course check out this video.
+
+00:11.610 --> 00:13.830
+And if you did You can skip this video.
+
+00:13.830 --> 00:14.590
+All right.
+
+00:14.760 --> 00:17.640
+So let's go ahead and start.
+
+00:17.640 --> 00:25.900
+So first of all what we need is to take the values from our height and our weight.
+
+00:26.010 --> 00:32.870
+So hungry to do that is instead of having this on button click method which I'm going to get rid of.
+
+00:32.880 --> 00:40.950
+And also all of my other code I'm going to create a new method here which should pretty much be called
+
+00:40.950 --> 00:41.300
+Code.
+
+00:41.300 --> 00:47.690
+Q late underscore BMI because that's exactly what it does.
+
+00:47.760 --> 00:55.080
+And here I'm going to create a new variable called height and that will take the element called height
+
+00:55.260 --> 00:56.910
+and will take its value.
+
+00:56.940 --> 00:59.230
+So what is this UI element called height.
+
+00:59.280 --> 01:02.800
+Let's go to cute and check this out.
+
+01:02.820 --> 01:06.860
+So this one here has the object name height.
+
+01:06.930 --> 01:10.330
+So that's the identifier of that object.
+
+01:10.470 --> 01:11.480
+If I would change that.
+
+01:11.490 --> 01:13.700
+And I would have to change to code as well.
+
+01:13.740 --> 01:15.210
+So that's pretty much this.
+
+01:15.210 --> 01:17.880
+Here where is OK in your UI.
+
+01:17.880 --> 01:22.920
+There is something called height and I want to get the value so somebody presses on the button.
+
+01:22.920 --> 01:24.140
+We get the height.
+
+01:24.150 --> 01:26.180
+Now we need to do the same with the weight.
+
+01:26.640 --> 01:31.810
+So I'm gonna say self-taught.
+
+01:31.860 --> 01:34.700
+Why weight that value.
+
+01:34.740 --> 01:37.290
+So that will give me the value of the weight.
+
+01:37.290 --> 01:40.310
+And now I want to do the calculation.
+
+01:40.380 --> 01:50.100
+So let's say I want to calculate the BMI which will be weighed divided by height and now with the high
+
+01:50.100 --> 01:55.200
+we have to be careful because it's height Square.
+
+01:55.260 --> 02:00.940
+Now if we do that and now we could go ahead and set the text.
+
+02:00.960 --> 02:07.380
+So self-taught you are that real salt that said text.
+
+02:07.380 --> 02:11.760
+And here we can said to be a mine but now of course the BMI is of type float.
+
+02:11.760 --> 02:14.880
+So we need to make a strength from it.
+
+02:14.880 --> 02:15.660
+OK.
+
+02:15.810 --> 02:20.100
+So that's pretty much already the basic functionality right.
+
+02:20.100 --> 02:26.430
+So this function will already do everything that we need to do except for that the button doesn't actually
+
+02:26.430 --> 02:27.950
+call this function yet.
+
+02:28.080 --> 02:31.890
+So we need to connect that to the bottom to the Click event of the button.
+
+02:31.890 --> 02:32.930
+To be precise.
+
+02:33.000 --> 02:36.930
+So we need to go ahead and say self-taught UI to calculate.
+
+02:36.930 --> 02:42.210
+So there is this cut to the button and I want to add this clicked.
+
+02:42.240 --> 02:53.530
+So if somebody clicks on that button I want to connect it to self thought calculate B am I.
+
+02:53.550 --> 02:57.110
+So I just want to execute this calculate BMI method.
+
+02:57.120 --> 02:58.990
+If somebody clicks on that button.
+
+02:59.150 --> 03:01.380
+So that's pretty much what I was saying here.
+
+03:01.920 --> 03:03.170
+OK now we can save.
+
+03:03.180 --> 03:06.260
+That's when we can already run it.
+
+03:06.520 --> 03:09.700
+And as you can see flow to division by zero.
+
+03:09.910 --> 03:10.540
+There we are.
+
+03:10.540 --> 03:16.840
+We already get this area where it says OK it could be zero and it is zero actually when we started it's
+
+03:16.840 --> 03:17.920
+already zero.
+
+03:18.040 --> 03:25.090
+So let's go back here we can see we are trying to divide by the height of zero.
+
+03:25.090 --> 03:31.560
+Now we could of course say we are going to set the value to something that is not zero from the start.
+
+03:31.560 --> 03:36.200
+So press on your element here this double spin box.
+
+03:36.400 --> 03:40.370
+And now we go to minimum value.
+
+03:40.510 --> 03:44.680
+So the double spin box has a property called minimum.
+
+03:44.680 --> 03:48.700
+And in here you could say OK the minimum is going to be point 1.
+
+03:48.700 --> 03:51.810
+So somebody has to be at least 1 centimeter tall.
+
+03:52.060 --> 03:58.360
+So we can save this now and go back to our build UI and execute it.
+
+03:58.570 --> 04:02.640
+Once that is done we go to our main P Y and we execute it again.
+
+04:02.980 --> 04:06.650
+And now we have this problem where we have a non type.
+
+04:06.700 --> 04:14.730
+So we're trying to access calculate BMI and actually here I'm trying to call the method here.
+
+04:14.730 --> 04:19.930
+So that's the problem and it can up can come up very quickly when you just say self-dual calculate BMI
+
+04:19.930 --> 04:25.690
+and because it's a method you already feel automatically inclined to call the method but we actually
+
+04:25.690 --> 04:29.320
+just passing the method here and we're not calling the method itself.
+
+04:29.320 --> 04:30.450
+We're just connecting it.
+
+04:30.640 --> 04:33.640
+So now let me run it again and this arrow should disappear.
+
+04:33.910 --> 04:34.780
+There we are.
+
+04:34.780 --> 04:41.220
+So now if I press calculate BMI I can see my BMI is zero point zero.
+
+04:41.650 --> 04:52.070
+Now if I enter 0 here calculate BMI as you can see I cannot set that to zero any more.
+
+04:52.090 --> 04:59.380
+OK so that's how you can already fix that problem whereas if somebody actually enter 0 then you can
+
+04:59.380 --> 05:00.630
+just change the value.
+
+05:00.820 --> 05:05.740
+But if you really want to make sure that it's never zero you can of course add an if statement here.
+
+05:05.740 --> 05:12.390
+So if height is not equal zero only then I want to do all of this calculation stuff.
+
+05:12.460 --> 05:15.200
+So only then I want to do all of this.
+
+05:15.320 --> 05:20.510
+And now of course the B.M. I could be a very weird value here.
+
+05:20.530 --> 05:21.820
+So we should round it.
+
+05:21.880 --> 05:25.810
+But we're going to do that in a second before we do that.
+
+05:25.840 --> 05:29.160
+So let's add some value.
+
+05:29.160 --> 05:30.880
+So let's actually test values.
+
+05:31.000 --> 05:36.590
+So it's had a height let's say were 2 meters high.
+
+05:36.770 --> 05:40.940
+And we have a weight of 100 kilograms.
+
+05:41.460 --> 05:46.960
+And actually you see I cannot enter weight higher than 99.
+
+05:47.060 --> 05:50.400
+So the minimum is the maximum value of this weight is 99.
+
+05:50.630 --> 05:51.870
+So let me calculate it.
+
+05:51.890 --> 05:53.420
+And it can see that's the BMI here.
+
+05:53.420 --> 05:55.360
+Twenty four point seven five.
+
+05:55.550 --> 05:58.790
+And that's because it perfectly fits with those numbers.
+
+05:59.360 --> 06:07.080
+And what if somebody is 2 meters and 13 then you suddenly see you get this very ugly value here.
+
+06:07.100 --> 06:08.660
+So that's something that we have to fix.
+
+06:08.660 --> 06:15.240
+And also the weight in kilograms should be fixed so its maximum value is 99 and we can change it.
+
+06:15.240 --> 06:21.640
+So weight in kilogramme Let's change the maximum to let's say something like 999 OK.
+
+06:21.830 --> 06:26.620
+So people could add values up to 999 for the weight.
+
+06:27.420 --> 06:33.600
+OK let's save that and rerun are built up twice so change to build.
+
+06:33.710 --> 06:35.850
+Run it and go back to Main again.
+
+06:36.140 --> 06:36.920
+OK.
+
+06:37.370 --> 06:42.440
+Now how do we solve this issue with a ugly number.
+
+06:42.470 --> 06:44.450
+Well we just say please.
+
+06:44.450 --> 06:45.680
+Round two billion.
+
+06:45.820 --> 06:46.550
+OK.
+
+06:46.610 --> 06:47.670
+And how do we rounded.
+
+06:47.690 --> 06:51.220
+Well we just want to round it to two decimal points.
+
+06:51.310 --> 06:53.490
+OK so that's what we do here.
+
+06:53.540 --> 07:01.280
+Now the next thing that we want to do is to actually display or hide the values.
+
+07:01.300 --> 07:05.820
+We don't need or the UI elements that that we don't need to be precise.
+
+07:05.840 --> 07:10.730
+So at the beginning when we start our application we don't need to.
+
+07:11.000 --> 07:17.590
+To have this value here we don't need this label we don't need to be a calculation or the result here
+
+07:17.600 --> 07:18.770
+we don't need those.
+
+07:18.770 --> 07:22.010
+So we can basically get rid of them in the constructor.
+
+07:22.250 --> 07:28.940
+So you can just say self-taught you dot result and hide it.
+
+07:28.940 --> 07:30.740
+So there's this hied method.
+
+07:30.740 --> 07:36.830
+I would just say hide and the same with the result labels self third you Piedad and then you might say
+
+07:36.840 --> 07:41.720
+OK we don't have a result level we'll just have a label 1 2 and 4 and stuff like that.
+
+07:41.960 --> 07:50.020
+OK so what we need to do is we need to find the label.
+
+07:50.040 --> 07:52.620
+It's this one here and change its name.
+
+07:52.670 --> 07:59.310
+So I'm going to change its name to resoled on those core label or actually I could also use and resoled
+
+07:59.360 --> 08:00.550
+label like that.
+
+08:00.740 --> 08:03.100
+Well how do you prefer that's how you can take it.
+
+08:03.110 --> 08:05.210
+I'm just going to say we sold the label.
+
+08:05.560 --> 08:05.990
+OK.
+
+08:06.020 --> 08:16.970
+And then let's go back here we can go ahead and say self-taught UI result label that hide.
+
+08:17.000 --> 08:20.630
+Now this code will crash and you might guess why.
+
+08:20.810 --> 08:25.260
+Because I didn't run my build the way you see has no result label.
+
+08:25.280 --> 08:27.290
+So I need to run the ball why.
+
+08:27.680 --> 08:30.760
+Once again each time I make a change in acute creator.
+
+08:30.920 --> 08:34.960
+I need to run to build why I get.
+
+08:35.160 --> 08:39.080
+And now let me check that or write it correctly.
+
+08:39.730 --> 08:41.650
+Or did I not save my file here.
+
+08:41.670 --> 08:41.920
+Yes.
+
+08:41.950 --> 08:43.620
+I didn't save it in here.
+
+08:43.840 --> 08:45.520
+So let me save it again.
+
+08:45.760 --> 08:50.340
+Run my read my Bill P. Y and then run my main again.
+
+08:50.380 --> 08:52.030
+And now suddenly the error disappears.
+
+08:52.060 --> 08:55.550
+OK so now we want to display those too.
+
+08:55.570 --> 09:02.820
+Once I calculate the BMI because otherwise I don't ever get the right information displayed.
+
+09:02.920 --> 09:11.170
+So what I'm going to say is I'm going to cut those two or copy those two and I'm just going to add them
+
+09:11.170 --> 09:13.220
+in here and instead of hiding.
+
+09:13.240 --> 09:15.280
+I'm just going to show them.
+
+09:15.280 --> 09:19.790
+So those two elements should be shown.
+
+09:19.840 --> 09:22.370
+Now what shall we this play.
+
+09:22.480 --> 09:31.480
+If somebody says or writes a wrong value so somebody just doesn't have a height of at least zero or
+
+09:31.480 --> 09:32.650
+higher than zero.
+
+09:32.830 --> 09:44.930
+Well then we could go ahead and say self thought why we sold and said text said text to please enter
+
+09:45.020 --> 09:51.190
+a weight or a height higher
+
+09:53.980 --> 09:56.230
+than zero.
+
+09:56.490 --> 09:58.870
+And now though they won't see that of course.
+
+09:59.020 --> 10:04.780
+And that is because we don't display the results label at all or the result.
+
+10:05.170 --> 10:13.020
+So what we could do is we could say enter a value higher and so on showed a result.
+
+10:13.240 --> 10:16.510
+So if we stop and run again.
+
+10:16.590 --> 10:18.350
+Now let me enter zero.
+
+10:18.630 --> 10:22.380
+Calculate BMI You should see your BMI is 0 0.
+
+10:22.530 --> 10:25.150
+That's because it never actually takes the value of 0.
+
+10:25.350 --> 10:32.240
+So we will never actually see this else but if we hadn't set the value to zero then that would be fine.
+
+10:32.400 --> 10:40.560
+The problem is that we already take the values of 0 0 and there is already something happening once
+
+10:40.560 --> 10:42.170
+we start our application.
+
+10:42.210 --> 10:52.260
+So let me deactivate the minimum value just to test for testing purposes here is the height.
+
+10:52.290 --> 10:55.190
+Let's change its minimum value to zero.
+
+10:55.260 --> 11:00.560
+Once again let's say fit and run are built again.
+
+11:00.560 --> 11:07.630
+Now run our main and we should see Please enter a height higher than zero.
+
+11:07.630 --> 11:07.960
+All right.
+
+11:07.960 --> 11:08.870
+Perfect.
+
+11:08.890 --> 11:10.240
+So that works already.
+
+11:10.450 --> 11:17.230
+And now we can enter anything you want in here.
+
+11:17.260 --> 11:25.120
+A way to Haiti calculate BMI and you see your BMI is twenty two point one six.
+
+11:25.120 --> 11:25.760
+All right.
+
+11:25.760 --> 11:27.730
+So I'd say that's pretty good.
+
+11:27.740 --> 11:31.920
+We have our own little BMI calculator with a UI.
+
+11:31.940 --> 11:36.250
+It looks damn good and it does everything that we wanted to do.
+
+11:36.260 --> 11:38.930
+I hope you could manage to solve this exercise.
+
+11:39.020 --> 11:41.450
+Maybe you had slightly different code that's totally fine.
+
+11:41.450 --> 11:46.360
+No worries as long as it does what it should do and that's calculating the BMI.
+
+11:46.370 --> 11:50.170
+And as long as it doesn't crash the application then you're good to go.
+
+11:50.420 --> 11:50.810
+OK.
+
+11:50.840 --> 11:54.210
+So I hope you enjoy this exercise and see you in the next video.

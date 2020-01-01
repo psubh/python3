@@ -1,0 +1,292 @@
+WEBVTT
+
+00:00.280 --> 00:05.430
+Come back in this way you are going to look into data conversion with lists.
+
+00:05.430 --> 00:10.180
+So far we have seen how to do that with strings and floats and strings together.
+
+00:10.350 --> 00:14.760
+But this time we're going to use lists to convert them into strings and strings to convert them into
+
+00:14.760 --> 00:15.430
+lists.
+
+00:15.480 --> 00:23.670
+So let's say we have this students list here which is going to contain Max again Max.
+
+00:23.760 --> 00:28.560
+Monica we have Eric.
+
+00:28.620 --> 00:34.850
+And finally Frances So now we have this list of students right.
+
+00:34.920 --> 00:42.300
+And what I want to do is I want to have them as a string so I don't want to have them separately in
+
+00:42.330 --> 00:48.840
+for strings because these are four different strings now within my list of students but I can also go
+
+00:48.840 --> 00:51.500
+ahead and do the following.
+
+00:51.530 --> 01:02.070
+I can just say OK separate them and join them or separate them with a hash but join them together to
+
+01:02.070 --> 01:03.240
+one string.
+
+01:03.450 --> 01:06.420
+And what do I want to join students.
+
+01:06.600 --> 01:10.340
+So there is this function which you can use on strings.
+
+01:10.350 --> 01:11.450
+So this is a string.
+
+01:11.460 --> 01:20.040
+And by using the dot separator and then using the join word key word I'm calling the join function.
+
+01:20.040 --> 01:22.610
+This allows me to run certain code.
+
+01:22.620 --> 01:27.920
+There is a certain code in the background which we don't have to develop ourselves but it's just available
+
+01:27.920 --> 01:36.270
+to us as a function in Python when that will join the list elements together and we'll add a hash in
+
+01:36.300 --> 01:38.850
+between every single of these elements.
+
+01:38.880 --> 01:47.700
+So let's say I want to have a string which looks like this one here so students string is going to be
+
+01:47.700 --> 01:49.320
+Max.
+
+01:49.320 --> 01:55.270
+Monica and Eric and Francisca.
+
+01:55.440 --> 01:56.880
+So that's my goal.
+
+01:56.880 --> 01:58.140
+That's what I would like to have.
+
+01:58.140 --> 01:59.860
+Like the students string.
+
+02:00.170 --> 02:03.510
+And now as you can see this join method already did quite a good job.
+
+02:03.630 --> 02:06.800
+But we have this hash in between this hash tag.
+
+02:06.960 --> 02:14.380
+But I would prefer to have a comma and a space or an empty space just behind that.
+
+02:14.490 --> 02:21.250
+And that is easily achieved by getting rid of this hash tag using the comma and then the empty space.
+
+02:21.300 --> 02:24.640
+And now as you can see we get the string that I want to have.
+
+02:24.780 --> 02:31.980
+So it's simply simply went ahead and said OK I'm going to join every single element within the list
+
+02:31.980 --> 02:33.180
+of students.
+
+02:33.180 --> 02:35.330
+And where do I put in between.
+
+02:35.340 --> 02:39.330
+Well a comma and a empty space.
+
+02:39.750 --> 02:44.430
+So that's how you can make a string out of a list.
+
+02:44.430 --> 02:48.660
+You can of course also go ahead and use the following approach.
+
+02:48.660 --> 02:49.900
+You can store that.
+
+02:49.930 --> 02:53.790
+So students as string
+
+02:56.640 --> 03:01.780
+put it together and I'm going to just say comma empty space.
+
+03:01.950 --> 03:08.630
+Dot joined students and that will create this student string.
+
+03:08.940 --> 03:16.710
+So it's going to be a variable and I can just go ahead and print out that students has a string.
+
+03:16.790 --> 03:19.950
+And as it gets you I get Monica Eric Francisco and so forth.
+
+03:19.950 --> 03:22.790
+So that's exactly what we had here.
+
+03:22.800 --> 03:25.530
+But now we stored it within a string.
+
+03:27.060 --> 03:35.730
+And we could even say something like at our uni study those people
+
+03:39.030 --> 03:45.300
+and then we have students string and as you can see at our uni study those people Mock's Monica Eric
+
+03:45.300 --> 03:46.580
+and Francisco.
+
+03:47.070 --> 03:50.110
+All right so that's the approach to create a string out of a list.
+
+03:50.160 --> 03:54.790
+Now let's go ahead and check out how we can create a list out of a string.
+
+03:54.840 --> 03:56.330
+So I'm going to create a string.
+
+03:56.340 --> 03:57.560
+I'm going to call it.
+
+03:57.600 --> 04:03.790
+And it's going to contain Mxs Monica Eric and Francisca.
+
+04:04.030 --> 04:09.200
+And now what I would like to do is to create a list out of that.
+
+04:09.210 --> 04:16.120
+So out of every single name I would like to create a list and that's easily possible as you can see
+
+04:16.130 --> 04:20.910
+we could just go ahead and type that into words the same here so we could have just typed that string
+
+04:20.910 --> 04:21.740
+as we did.
+
+04:21.930 --> 04:26.130
+And that's totally fine as soon as we only have or as long as we don't have four names in there.
+
+04:26.250 --> 04:30.400
+But imagine you have a student base of multiple thousand people in there.
+
+04:30.450 --> 04:31.790
+Would you still like to type.
+
+04:31.800 --> 04:38.640
+Every single person out I guess not you would like to have them in a list and then if you want to really
+
+04:38.640 --> 04:43.590
+put them in a string then you can just go ahead and use this programmatic approach.
+
+04:43.950 --> 04:48.030
+Now the same goes for converting a string into a list.
+
+04:48.030 --> 04:54.780
+So in order to do that we can use a method called split or a function called split.
+
+04:54.870 --> 05:00.460
+So I'm going to apply this split function onto my string called I.
+
+05:00.720 --> 05:04.340
+And how do I split them up.
+
+05:04.350 --> 05:09.180
+So here I can I have to say which pattern they have to have in order to be split.
+
+05:09.180 --> 05:14.820
+So I'm going to split them at the point where there is a comma and an empty space.
+
+05:14.910 --> 05:17.920
+So that will do is it will create a list for me.
+
+05:18.150 --> 05:22.620
+So I'm just going to print that out and as you can see it create this list with Max.
+
+05:22.620 --> 05:25.170
+Monica Eric and Francisco.
+
+05:25.710 --> 05:32.930
+So that's how you can create a list of a string now you can use this approach to do something else as
+
+05:32.930 --> 05:33.540
+well.
+
+05:33.590 --> 05:36.870
+You can create a sentence I'm just going to call it a.
+
+05:37.130 --> 05:44.590
+And I am a sentence with many words.
+
+05:45.500 --> 05:47.280
+So it's going to be the sentence.
+
+05:47.360 --> 05:49.600
+And now I want to split them.
+
+05:49.740 --> 05:51.050
+Add the empty space.
+
+05:51.050 --> 05:56.570
+So I'm just going to say print and start or this is called a a dog split.
+
+05:56.570 --> 06:01.540
+So this I want to split this string here this ace string.
+
+06:01.700 --> 06:06.350
+And where do I want to split it at the empty space so each time there is an empty space I want to split
+
+06:06.350 --> 06:09.050
+them and put them into a list.
+
+06:09.260 --> 06:15.470
+That by itself is going to create a list of these words so the first element of the list is the second
+
+06:15.470 --> 06:16.820
+one is and so forth.
+
+06:16.970 --> 06:22.670
+But now if I want to know the length of the sentence I just can use this line function.
+
+06:22.670 --> 06:30.000
+So this line function is going to split where it's going to give me the length of this split list.
+
+06:30.170 --> 06:34.760
+So we have two things happening at the same time or actually even three things.
+
+06:34.760 --> 06:36.730
+So going from the inside out.
+
+06:36.830 --> 06:43.030
+This is going to create a list out of the string that we have out of this a string.
+
+06:43.160 --> 06:51.640
+Then this here is going to give us the length of that list and the print statement is simply going to
+
+06:51.910 --> 06:53.740
+print out onto the console.
+
+06:53.980 --> 06:59.980
+So let's run it again and we can see we get the value of 7 because there are 7 words in there high and
+
+07:00.100 --> 07:03.930
+a three four five six seven.
+
+07:03.940 --> 07:06.580
+So seven words in there.
+
+07:06.590 --> 07:11.590
+All right so that's it with a list for now but we're going to check our lists or use lists throughout
+
+07:11.590 --> 07:15.720
+the course of course and the next video we're going to look into comments.
+
+07:15.730 --> 07:16.870
+So see you there.

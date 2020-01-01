@@ -1,0 +1,244 @@
+WEBVTT
+
+00:00.240 --> 00:06.940
+You've seen multiple operators already and the one we are going to look at now is a membership operator.
+
+00:06.950 --> 00:14.070
+When it's called in in Python's membership operator's test for membership in a sequence such as a string
+
+00:14.130 --> 00:18.760
+a list or a tuple and there are two membership operators.
+
+00:18.870 --> 00:24.780
+One is the n and the other one is not in and we're going to look at the two operators in this in the
+
+00:24.780 --> 00:25.590
+next video.
+
+00:25.770 --> 00:28.890
+So let's go ahead and start with the in operator defer.
+
+00:28.890 --> 00:35.790
+I'm going to create a list of students and I'm going to use my standard list with Max.
+
+00:35.880 --> 00:39.920
+Monica then Eric.
+
+00:40.050 --> 00:43.300
+And finally Fran Cisco.
+
+00:43.920 --> 00:44.250
+All right.
+
+00:44.250 --> 00:49.680
+So this is my list and I want to print whether a specific name.
+
+00:49.680 --> 00:57.580
+So let's say Monica is within the list and I'm just going to say in students.
+
+00:57.580 --> 00:59.010
+So let's execute that.
+
+00:59.100 --> 01:01.960
+And as you can see we get the statement through.
+
+01:02.340 --> 01:03.190
+Why is that.
+
+01:03.210 --> 01:10.740
+Because Monica has a string exactly written as I have it here is within my list students and that's
+
+01:10.740 --> 01:12.150
+a pretty cool feature.
+
+01:12.150 --> 01:16.680
+So let's check out another line where we check the same thing for another name.
+
+01:16.680 --> 01:23.520
+Let's say Moe in students and it's executed.
+
+01:23.550 --> 01:29.280
+And as you can see we get the false return because MO is not part of that list.
+
+01:29.400 --> 01:36.910
+Now this of course is a very basic and not that useful functionality in this way.
+
+01:36.930 --> 01:37.850
+In this version.
+
+01:38.070 --> 01:44.490
+But we can use it in a very useful way for example in the if statement so we can just say okay is Monica
+
+01:44.580 --> 01:46.350
+in my list students.
+
+01:46.560 --> 01:50.890
+And if that is true then please print something like yes.
+
+01:50.920 --> 01:54.530
+Monica studies here.
+
+01:54.990 --> 01:56.000
+So let's execute that.
+
+01:56.010 --> 01:57.630
+And as you can see we get this statement.
+
+01:57.630 --> 01:59.160
+Yes Monica studies here.
+
+01:59.340 --> 02:02.560
+Now let's check the same thing with Maurits.
+
+02:02.640 --> 02:06.300
+So I'm going to copy and paste that code.
+
+02:06.450 --> 02:14.370
+So I'm just going to say Mo in students and then I would just say some Valev mo studies you know execute
+
+02:14.370 --> 02:17.510
+that and as you can see this statement here is not true.
+
+02:17.560 --> 02:19.560
+Samoa is not within students.
+
+02:19.680 --> 02:21.750
+And that's what this whole thing doesn't work.
+
+02:22.110 --> 02:26.790
+All right now let's check out else here as well because we can use else of course as well.
+
+02:26.790 --> 02:31.320
+And Prince on for like no Monica does.
+
+02:31.470 --> 02:35.210
+And study here.
+
+02:35.430 --> 02:39.040
+Now let's run that for Monica.
+
+02:39.140 --> 02:42.690
+There's nothing happening but let's check it out for Mo.
+
+02:43.070 --> 02:46.660
+And it's going to say mo doesn't study here no that's printed.
+
+02:46.700 --> 02:50.100
+And as you can see no mold doesn't study here.
+
+02:50.150 --> 02:58.080
+So this statement here is actually executed because this statement is not true.
+
+02:58.160 --> 03:04.800
+So Mo is not within the students and that it by itself is already pretty cool.
+
+03:04.820 --> 03:12.150
+But there is something even cooler and that is that this also works for strengths.
+
+03:12.260 --> 03:15.360
+So let's check out an example with strings.
+
+03:16.190 --> 03:19.400
+Let's write a little sentence sentence.
+
+03:19.450 --> 03:21.160
+I'm just going to say yes.
+
+03:21.190 --> 03:24.330
+Monica I'm just going to copy the code from here.
+
+03:24.620 --> 03:24.980
+Yes.
+
+03:24.990 --> 03:26.170
+Monica studies here.
+
+03:26.210 --> 03:27.360
+Let's do that.
+
+03:27.500 --> 03:31.930
+And let's add an exclamation mark at the end of this very basic sentence.
+
+03:32.420 --> 03:40.170
+And I can not check if a particular string is in sentence.
+
+03:40.310 --> 03:41.630
+So I'm checking.
+
+03:41.660 --> 03:46.270
+Is this sign within the sentence.
+
+03:46.340 --> 03:50.440
+And if that is true then I'm just going to print.
+
+03:51.290 --> 03:52.050
+Yes.
+
+03:52.340 --> 03:55.040
+And actually as a string guess I like that.
+
+03:55.040 --> 03:55.990
+Now let's execute that.
+
+03:56.000 --> 03:58.670
+And as you can see printing is executed.
+
+03:58.670 --> 03:59.270
+Let's check out.
+
+03:59.270 --> 04:00.980
+Else.
+
+04:00.980 --> 04:01.710
+Print.
+
+04:01.970 --> 04:03.210
+No.
+
+04:03.890 --> 04:05.780
+And now let's use a different sign.
+
+04:05.780 --> 04:11.180
+Let's use a something like is a B in there.
+
+04:11.420 --> 04:12.360
+So let's execute.
+
+04:12.410 --> 04:19.190
+And as you can see there is no B in this whole sentence or we can even go as far as I know there's no
+
+04:19.190 --> 04:22.270
+in the sentence and it says no no he's not in the sentence.
+
+04:22.370 --> 04:28.310
+So you can use to add four strings and that is super super useful because now you can simply check if
+
+04:28.310 --> 04:35.780
+a specific character or a specific term is within your string and you could use Ted for example to search
+
+04:35.780 --> 04:39.870
+for documents because documents in the end are also just drinks.
+
+04:40.040 --> 04:44.870
+And it goes for Web sites as well Web sites are usually just documents right.
+
+04:44.930 --> 04:50.720
+Or at least the basic concept of web sites the mail code are just documents which you can read and then
+
+04:50.720 --> 04:56.640
+you can check if a specific term is in there and execute something if you find that term.
+
+04:56.870 --> 04:58.780
+And that will be superpowerful.
+
+04:58.790 --> 05:01.620
+All right so that's the in membership.
+
+05:01.670 --> 05:06.070
+Operator And we're going to check out the not in membership.
+
+05:06.080 --> 05:08.090
+Operator in the next video.
+
+05:08.120 --> 05:09.250
+So see you there.

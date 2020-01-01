@@ -1,0 +1,115 @@
+WEBVTT
+
+00:00.330 --> 00:05.820
+This lesson you will learn how to go through a dictionary entry by entry and why you need to unpack
+
+00:05.820 --> 00:07.300
+tuples for it.
+
+00:07.320 --> 00:07.580
+All right.
+
+00:07.590 --> 00:16.140
+So if you want to go through every single item within your dictionary and by item I mean a pair.
+
+00:16.140 --> 00:23.700
+So this is a paper which is an item unique and you see as example you can go ahead and of course say
+
+00:23.700 --> 00:25.610
+four key in D.
+
+00:25.770 --> 00:27.300
+Print the key.
+
+00:27.360 --> 00:32.980
+So this way we get the key and it can seem unique Budapest and Helsinki.
+
+00:33.180 --> 00:40.430
+But then if you want to have the value well you can simply say value is equal to D.
+
+00:40.860 --> 00:42.760
+And here is key.
+
+00:42.780 --> 00:43.650
+So the.
+
+00:43.770 --> 00:51.000
+And the entry for the key so goes through every single entry and creates the key and then it just uses
+
+00:51.000 --> 00:53.040
+the key in order to find out the value.
+
+00:53.340 --> 00:57.530
+And then we can of course go ahead and print the value as well.
+
+00:57.530 --> 01:02.430
+So let's do that as it can seem unique and you see Europe has the and so forth.
+
+01:03.030 --> 01:05.140
+That is a totally valid approach.
+
+01:05.250 --> 01:12.840
+But then you can do something pretty cool because you can use them as tuples So this can be a tool that
+
+01:12.840 --> 01:13.830
+can be a tuple.
+
+01:13.830 --> 01:16.830
+So every single item can be used as a tuple.
+
+01:16.860 --> 01:26.390
+So if we do is following four key comma value in the dot items and by dealer items Let's check it out.
+
+01:26.430 --> 01:38.430
+Print the dot items and I'm really missing a closing bracket as you can see dict items so you can get
+
+01:38.430 --> 01:40.470
+all the dictionary items in there.
+
+01:40.590 --> 01:47.040
+And as you can see it's actually stored as a tuple so Munich and you see is stored as a tuple.
+
+01:47.040 --> 01:47.830
+How do I know that.
+
+01:47.850 --> 01:55.620
+Well you see that it's come in those brackets and it's separated by a comma and then that is generally
+
+01:55.620 --> 01:59.160
+how we create tuples or how tuples are represented right.
+
+01:59.160 --> 02:05.090
+So for key value in deduct items and dealer items is a set of tuples.
+
+02:05.220 --> 02:09.570
+So it goes through all the tuples and stores the key and value accordingly.
+
+02:09.570 --> 02:11.550
+And now we can just go ahead and print that.
+
+02:11.550 --> 02:23.760
+So print key plus the colon and the space plus value.
+
+02:23.790 --> 02:27.660
+So now we have this beautiful way of presenting the data accordingly.
+
+02:27.720 --> 02:31.770
+And with superdense as you can see just really those two lines of code.
+
+02:32.070 --> 02:37.440
+And that's pretty much what we're using here so this is the unpacking of tuples.
+
+02:37.500 --> 02:42.760
+And we're just using this for loop to go through all the tuples which are within the dictionary.
+
+02:42.990 --> 02:47.130
+So every single item in the dictionary is a tuple.
+
+02:47.220 --> 02:50.990
+So that's really what you should take away from this video.
+
+02:51.210 --> 02:53.480
+And the next video you'll see a little challenge.
+
+02:53.520 --> 02:54.720
+So see you there.

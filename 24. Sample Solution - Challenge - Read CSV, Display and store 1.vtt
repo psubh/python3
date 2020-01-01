@@ -1,0 +1,181 @@
+WEBVTT
+
+00:00.360 --> 00:01.050
+All right.
+
+00:01.050 --> 00:08.340
+So let's check out the simple solution for the challenge and it was to display the name last name and
+
+00:08.820 --> 00:13.590
+then also the subject where the major of the student.
+
+00:13.770 --> 00:17.760
+And then we needed to button so we can put them at the top we can put them at the bottom it doesn't
+
+00:17.760 --> 00:18.700
+really matter.
+
+00:18.770 --> 00:25.830
+But what we will do is first of all I'm going to get rid of all the elements and I will put them in
+
+00:25.830 --> 00:31.170
+one by one again so I'm going to add a table widget and I'm going to add two buttons.
+
+00:31.170 --> 00:36.410
+So first I have this push button and then I have another push button next to it.
+
+00:36.600 --> 00:42.920
+So as you can see now suddenly I have this weird behavior and if I drag it out you can see very easy
+
+00:42.930 --> 00:43.860
+Deemer push buttons.
+
+00:43.860 --> 00:45.960
+They adjust automatically.
+
+00:46.020 --> 00:48.500
+So that's the beauty of cute creator.
+
+00:48.510 --> 00:50.830
+It does that for us automatically.
+
+00:50.850 --> 00:53.870
+Now of course the text of those buttons should be changed.
+
+00:53.910 --> 00:59.970
+So this one will be something like new entry or save button so it depends on what you prefer.
+
+00:59.970 --> 01:05.310
+I would rather say that the left one should be a new entry and the right one should be safe because
+
+01:05.310 --> 01:11.150
+that's normally what you would expect in the exercice where I gave it to you.
+
+01:11.310 --> 01:13.200
+I said that the other way around.
+
+01:13.230 --> 01:15.040
+So it's really not that important.
+
+01:15.060 --> 01:17.900
+In which way you do it at least for this exercise.
+
+01:18.030 --> 01:25.440
+But when you look at user interfaces of other software you usually have the save button more towards
+
+01:25.440 --> 01:26.700
+the right hand side.
+
+01:26.790 --> 01:33.570
+So we are just going to say new entry on the left hand side of the left button and there's going to
+
+01:33.570 --> 01:36.210
+be safe.
+
+01:36.270 --> 01:39.120
+OK now we of course can give them proper names as well.
+
+01:39.120 --> 01:45.420
+So the push button to which is the save button should be called Save button and this new entry button
+
+01:45.420 --> 01:45.870
+I'll give it.
+
+01:45.870 --> 01:53.190
+Also a different name where I'm going to say new entry button so it's more descriptive and it is more
+
+01:53.520 --> 01:56.360
+precise on what it actually does.
+
+01:56.400 --> 02:00.180
+Then we have this table widget and I'm going to rename it.
+
+02:00.180 --> 02:03.830
+I'm going to use college students table.
+
+02:03.840 --> 02:10.380
+Now we also want to add some more entries in here for example more columns so we need one column which
+
+02:10.380 --> 02:13.150
+will be the first name.
+
+02:13.440 --> 02:24.270
+Then another column which would be the last name and a third column which will be the subject line right
+
+02:24.450 --> 02:25.650
+now in terms of rows.
+
+02:25.650 --> 02:33.660
+I'm just going to add some rows and rows you row and row one just so we have some rows for the basic
+
+02:33.780 --> 02:37.510
+entries and this one will be John Doe.
+
+02:37.590 --> 02:41.220
+And he's in for medic's major.
+
+02:41.400 --> 02:49.260
+Then we have let's say Erica Fisher and she's a mathematics student.
+
+02:49.620 --> 02:53.700
+OK you see that they are called new call them you call them you call them that will change as soon as
+
+02:53.700 --> 02:54.660
+we press.
+
+02:54.690 --> 02:56.490
+OK here we are.
+
+02:56.580 --> 03:00.220
+And now what I don't like is that this last one here.
+
+03:00.240 --> 03:08.890
+This last column is not going towards the end of the view or of our window.
+
+03:09.060 --> 03:11.050
+So how do we fix that.
+
+03:11.580 --> 03:13.590
+Well there was something called
+
+03:16.430 --> 03:21.560
+horizontal Hetter stretch last section so I'm going to be dead.
+
+03:21.560 --> 03:26.340
+And as you can see now my subject is moving along.
+
+03:26.370 --> 03:33.860
+Now of course based on the width of your project that you have it could make sense to change also the
+
+03:33.860 --> 03:35.060
+hether with.
+
+03:35.060 --> 03:40.470
+So this one here had a default section size we could change to to let's say 100.
+
+03:40.700 --> 03:44.390
+And that's not as much space maybe for long names.
+
+03:44.390 --> 03:45.660
+It's not a good idea.
+
+03:45.710 --> 03:47.710
+Maybe 120 is a little better.
+
+03:47.870 --> 03:50.990
+So you can just play around with the values and see what works for you.
+
+03:50.990 --> 03:56.230
+So if somebody has a super long name or a double name then maybe one fifth is actually better.
+
+03:56.390 --> 04:01.660
+But then we should make the whole screen a little wider and stuff like that.
+
+04:01.660 --> 04:03.630
+All right so that's it for now.
+
+04:03.770 --> 04:07.470
+In the next video we are going to check out the next step.
+
+04:07.490 --> 04:08.940
+So see you there.

@@ -1,0 +1,73 @@
+WEBVTT
+
+00:00.420 --> 00:01.960
+Work I'm back in this video.
+
+00:01.970 --> 00:03.920
+I have a little challenge for you.
+
+00:03.930 --> 00:12.030
+So for the next few videos you should pretty much create a student manager which contains a bunch of
+
+00:12.030 --> 00:14.270
+students and their names.
+
+00:14.280 --> 00:18.590
+And of course also their major or the subject that they study.
+
+00:18.720 --> 00:24.360
+So pretty much the same thing that we have here you should have a table here table widget.
+
+00:24.420 --> 00:27.060
+Then you should have two buttons here instead of one.
+
+00:27.090 --> 00:31.230
+They should be next to each other and the user interface should be similar to what we have here where
+
+00:31.530 --> 00:39.120
+you can drag it to a certain way and it's still going to look OK or pretty good and the left button
+
+00:39.120 --> 00:44.790
+should be a safe button and the right button should be a real button where you can pretty much add a
+
+00:44.790 --> 00:51.530
+new row to your table here and the table should be populated based on a c v file.
+
+00:51.540 --> 00:57.690
+So you will need this is the module and it should pretty much reach a file which looks similar to what
+
+00:57.690 --> 00:58.400
+we have here.
+
+00:58.410 --> 01:04.260
+John Doe informatics Michael Moore mathematics and those kind of things so should pretty much read that
+
+01:04.510 --> 01:05.750
+populate the table.
+
+01:05.910 --> 01:12.130
+And then once we make a change in the table and pressed save the C's the file should be updated.
+
+01:12.180 --> 01:17.770
+So you will need to figure out how to read data from your table.
+
+01:17.820 --> 01:23.460
+You can of course use the documentation for that but I will also give you some more hints in the next
+
+01:23.460 --> 01:30.400
+video so if you feel like checking out the documentation you can skip the hints or skip the next video.
+
+01:30.570 --> 01:36.090
+And if you want to see that you can of course check out the video for some more hints.
+
+01:36.090 --> 01:36.470
+All right.
+
+01:36.480 --> 01:41.950
+So good luck with this exercise and see you in the simple solution with your.
+
+01:42.000 --> 01:46.100
+Well if you can do it easily then you can of course skip those as well.
+
+01:46.380 --> 01:48.410
+So see you in the next video.

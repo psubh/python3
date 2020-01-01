@@ -1,0 +1,238 @@
+WEBVTT
+
+00:00.060 --> 00:06.900
+Well come back in this video we are going to use another little module that will help us by joining
+
+00:06.900 --> 00:07.730
+you or else.
+
+00:07.740 --> 00:09.170
+And why do we need that.
+
+00:09.390 --> 00:12.930
+Well there is one little problem with our images.
+
+00:12.960 --> 00:17.740
+So let me just print image here real quick and execute the code.
+
+00:17.850 --> 00:24.550
+You will see that we get this link which says dot and then slash and slash one dot EPG.
+
+00:24.570 --> 00:30.510
+What that means is on the route of the website I'm just calling from there on.
+
+00:30.510 --> 00:32.590
+Just add this piece of link.
+
+00:32.880 --> 00:35.680
+So if we take this link here.
+
+00:35.730 --> 00:42.390
+So we have this link and well it's pretty much the link that we have here in order to access this Web
+
+00:42.390 --> 00:43.270
+site.
+
+00:43.320 --> 00:47.790
+So this dot means that we take away this index that ph.
+
+00:48.030 --> 00:51.500
+And then we add this piece here to the link.
+
+00:51.540 --> 00:56.210
+So if we now add that to the link at the end I mean get rid of one slash.
+
+00:56.400 --> 00:58.620
+Then I get this image here.
+
+00:58.650 --> 01:01.620
+So what we're currently having is just the relative link.
+
+01:01.890 --> 01:07.570
+And most of the times you would rather have the complete link which pretty much is what we have here.
+
+01:07.590 --> 01:12.480
+So that's the complete link or the location of this image.
+
+01:12.480 --> 01:19.940
+So in order to get that we need to use something called u r l library or you ad lib.
+
+01:20.190 --> 01:30.210
+So I'm going to import it up here so I'm just going to say from you are l lib that parse import to u
+
+01:30.270 --> 01:31.710
+r l joint.
+
+01:32.000 --> 01:39.710
+Well that will give me is the u r l joint function or method which I then can use in order to join you
+
+01:39.710 --> 01:40.350
+or else.
+
+01:40.590 --> 01:41.490
+And how do I do that.
+
+01:41.490 --> 01:44.550
+Well I can simply use the following approach.
+
+01:44.550 --> 01:51.980
+I can just say you are l join and then here I need to add the two things that I would like to join.
+
+01:52.140 --> 01:53.820
+So let's say I have this link here.
+
+01:53.820 --> 01:58.440
+So that's going to be the complete link of the Web sites that I'm calling.
+
+01:58.440 --> 02:05.310
+So let's say I have my u r l which is going to be that piece here which just needs to be a string OK.
+
+02:05.550 --> 02:09.020
+So I have this Eurail and I'm going to join that.
+
+02:09.030 --> 02:17.720
+You are now with my relative link which is this piece here so this slash I'm just Lesch one cheap.
+
+02:17.940 --> 02:24.780
+Because if you look at it from here we can see that it's opened up a card BLOCK And let's look at the
+
+02:24.780 --> 02:25.080
+image.
+
+02:25.080 --> 02:26.450
+So this is the image.
+
+02:26.610 --> 02:33.990
+And it just gives me this relative links so this slash slash one that JP g it doesn't give me the whole
+
+02:34.000 --> 02:37.510
+link and that's what we have gotten and we would now like to join it.
+
+02:37.530 --> 02:42.210
+And well pretty much that's what this whole you are I'll join is for.
+
+02:42.360 --> 02:45.200
+So here we need to give the relative link.
+
+02:45.330 --> 02:50.130
+So let's just for testing purposes copy this here.
+
+02:50.160 --> 02:57.230
+This piece of link and just added in there I can.
+
+02:57.270 --> 03:01.030
+So now let's print this.
+
+03:01.030 --> 03:02.210
+You are out.
+
+03:02.340 --> 03:08.070
+So Joyent you were all going to be your I'll join.
+
+03:08.460 --> 03:09.690
+And let me print that out.
+
+03:09.690 --> 03:12.460
+So let me execute the code.
+
+03:12.950 --> 03:14.810
+And as you can see that's the whole thing.
+
+03:14.810 --> 03:17.060
+So I'm getting the complete link here.
+
+03:17.490 --> 03:22.830
+That's exactly what I would like to store within my Crawl article object.
+
+03:22.830 --> 03:28.390
+So I wouldn't like to store the relative length of the image I would like to store the complete link.
+
+03:28.530 --> 03:30.200
+So the absolute link pretty much.
+
+03:30.210 --> 03:30.810
+OK.
+
+03:31.020 --> 03:36.990
+So what we need to do now is instead of putting it up pop here we need to find a good position where
+
+03:36.990 --> 03:38.260
+we want to use that.
+
+03:38.490 --> 03:44.310
+And a good position where we want to have the URL for example would be in our article fetcher right
+
+03:44.310 --> 03:50.220
+here because this Eurail now we can use it and just added in here.
+
+03:50.220 --> 03:56.910
+So that this request that get method will just take this Eurail So nothing has changed pretty much except
+
+03:56.910 --> 04:03.420
+that we are saying OK take the variable that contains the same value that we were using before and now
+
+04:03.690 --> 04:05.330
+where do we want to join.
+
+04:05.340 --> 04:09.230
+So we're not going to need the print statement anymore but we want to join it.
+
+04:09.240 --> 04:10.520
+And where is that.
+
+04:10.530 --> 04:19.950
+Well we want to join it at this image area and in order to join it correctly we can use multiple ways.
+
+04:19.950 --> 04:29.130
+But the best way will be to use this URL join here with the user L and this piece here because that
+
+04:29.130 --> 04:35.980
+piece here that is marked right now is actually giving me this relative link that we have.
+
+04:36.180 --> 04:38.920
+So it gives me this one and that one and so forth.
+
+04:39.090 --> 04:44.430
+So now I can just say OK use it like so.
+
+04:45.180 --> 04:50.720
+So joinder you IRL with the relative link and then store that within image.
+
+04:50.760 --> 04:57.870
+And now if we execute the code once again we will have all of the actual links so the absolute links
+
+04:57.870 --> 05:00.380
+instead of the relative links.
+
+05:00.410 --> 05:04.830
+Now you can open them in the new tab and you can see OK that's image number two.
+
+05:05.040 --> 05:05.710
+So let's see.
+
+05:05.710 --> 05:07.330
+All right that's image number.
+
+05:07.560 --> 05:08.720
+Perfect.
+
+05:08.760 --> 05:09.770
+So there we are.
+
+05:09.930 --> 05:17.790
+That's what this you were l library Parr's import you are join gives us and I'm going to cut this line
+
+05:17.790 --> 05:21.430
+out there where that was pretty much it.
+
+05:21.450 --> 05:32.090
+I just wanted to show you another pretty cool feature that we can use from Python by using a other module.
+
+05:32.100 --> 05:34.240
+So there you see the power of modules.
+
+05:34.260 --> 05:39.360
+So we don't need to write all of this stuff because it already knows it by itself and we can just go
+
+05:39.360 --> 05:41.010
+ahead and use it.

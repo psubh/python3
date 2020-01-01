@@ -1,0 +1,163 @@
+WEBVTT
+
+00:00.100 --> 00:04.770
+Come back in this video I would like to quickly go through the answers of the last quiz.
+
+00:04.920 --> 00:11.610
+So the first Tasco question was How do you integrate Pender's module and you have a which says import
+
+00:11.610 --> 00:19.740
+Pender's penetrate import import Pena's from zoo and import pandas but with plenty of underscores surrounding
+
+00:19.740 --> 00:20.130
+it.
+
+00:20.340 --> 00:21.820
+So the correct answer is A.
+
+00:21.840 --> 00:23.220
+Import pandas.
+
+00:23.340 --> 00:29.790
+And if we look at the other possible answers so Panoz that import that we're called the import function
+
+00:29.850 --> 00:38.340
+from the pondus module then import Ponder's from zoo that would import the Pender's module which is
+
+00:38.340 --> 00:40.480
+a part module from the zoo.
+
+00:40.560 --> 00:47.420
+So that's not specifically what we want and I want is a chance some jibberish doesn't make sense.
+
+00:47.640 --> 00:49.500
+So let's have a look at tusked too.
+
+00:49.530 --> 00:55.240
+How do you call the readout or root underscores C is the function from the pandas module.
+
+00:55.350 --> 01:00.120
+After you have included the whole module with the import function.
+
+01:00.420 --> 01:05.840
+Ok so we have the whole module that contains this Ponder's read C as we find.
+
+01:05.850 --> 01:12.390
+Now the first one is incorrect because that's calling the read to read underscores is the function.
+
+01:12.390 --> 01:19.380
+But the problem here is that it's just having a parameter here and we don't specifically say that we
+
+01:19.380 --> 01:29.640
+call the read underscores is the function from the Pender's import for Pandamonium then B is also Penner's
+
+01:29.640 --> 01:30.310
+that Penders.
+
+01:30.330 --> 01:36.330
+Well there would be a module called Penders which has another module in it called Pender's which then
+
+01:36.390 --> 01:41.080
+has this function called read on the Scorsese be so incorrect as well.
+
+01:41.160 --> 01:43.620
+C is completely incorrect.
+
+01:43.620 --> 01:50.280
+So the correct answer is the way you just use the module name and then the function that we would like
+
+01:50.280 --> 01:51.010
+to use.
+
+01:51.120 --> 01:55.770
+So we can go ahead and say the right solution is D.
+
+01:55.950 --> 02:01.680
+So now which command do you need to include the panel's module to use to read on the Scorsese V and
+
+02:01.680 --> 02:09.430
+read underscore ex-SO functions directly from the module like any function in standard python can call.
+
+02:09.450 --> 02:15.570
+So there are multiple different approaches here and only one of them is correct so the first one says
+
+02:15.570 --> 02:21.090
+from Pandurs import with underscores VI and then also the brackets.
+
+02:21.090 --> 02:22.930
+Same for the Exel.
+
+02:22.950 --> 02:24.440
+Then we have to be without it.
+
+02:24.480 --> 02:26.460
+And B is actually the correct answer.
+
+02:26.460 --> 02:30.240
+So in this case we will try to call this function.
+
+02:30.240 --> 02:37.250
+Same here in this case we actually import only those functions from that particular module.
+
+02:37.470 --> 02:40.410
+So this one here is not working at all.
+
+02:40.560 --> 02:44.840
+So C is completely incorrect and the same goes for D where we just say ok.
+
+02:44.940 --> 02:50.650
+Import Penasco routines we come to import panels to create an axle.
+
+02:50.670 --> 02:54.730
+So the correct one is B.
+
+02:54.810 --> 03:02.370
+Now let's have a look at the last task how can you include the more your Ponder's and renamed handle
+
+03:02.370 --> 03:08.390
+names so that you can use an abbreviation for example PD instead of the module.
+
+03:08.580 --> 03:10.920
+So import pand us and then PD.
+
+03:11.070 --> 03:14.760
+Well that would be a call of a function.
+
+03:14.760 --> 03:18.480
+So that's incorrect with this PD paramita or argument.
+
+03:18.480 --> 03:19.370
+In this case.
+
+03:19.410 --> 03:21.150
+So that's definitely incorrect.
+
+03:21.150 --> 03:22.560
+Then the next one.
+
+03:22.950 --> 03:24.950
+Well that is incorrect as well.
+
+03:25.110 --> 03:31.260
+So the correct answer is C where we are actually saying OK I want to import Pandurs and I would like
+
+03:31.260 --> 03:38.070
+to use it as PD So I want to whenever I need to call it I want to state something like Piddy my function
+
+03:39.250 --> 03:40.190
+something like that.
+
+03:40.260 --> 03:42.480
+So I could call it like this.
+
+03:42.480 --> 03:46.330
+So the correct answer is C..
+
+03:46.920 --> 03:47.390
+All right.
+
+03:47.430 --> 03:54.150
+So I hope you manage to get all the answers correctly in the next video we're going to check out.
+
+03:54.150 --> 03:56.970
+Another example for the modules so see you there.

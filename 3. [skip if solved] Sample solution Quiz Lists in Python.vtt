@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00.170 --> 00:05.330
+We'll come back and this video we are going to look through the worst that we just had.
+
+00:05.340 --> 00:11.370
+And if you managed to answer all the questions correctly with confidence then you can simply can skip
+
+00:11.370 --> 00:13.010
+this video and go to the next one.
+
+00:13.320 --> 00:15.110
+Otherwise just follow along.
+
+00:15.360 --> 00:15.700
+All right.
+
+00:15.700 --> 00:17.850
+So let's go out with the first question.
+
+00:17.850 --> 00:20.490
+How can you define a list in Python.
+
+00:20.490 --> 00:23.520
+And as you can see there are four different answers.
+
+00:23.520 --> 00:25.890
+The first one uses curly brackets.
+
+00:25.890 --> 00:28.730
+The second one uses square brackets.
+
+00:28.800 --> 00:33.900
+The third one to use the square brackets as well but the difference here is that it separates the values
+
+00:33.900 --> 00:36.470
+with a semi-colon and the fourth.
+
+00:36.480 --> 00:41.330
+And so here or possibility is using rounded brackets.
+
+00:41.370 --> 00:47.910
+Now you might know that B is the correct answer because if you want to create a list in Python you need
+
+00:47.910 --> 00:53.440
+to use to square brackets and you need to separate the values with a comma.
+
+00:53.700 --> 00:54.950
+That's exactly what it does.
+
+00:54.950 --> 00:56.180
+Be answered us.
+
+00:56.190 --> 00:59.120
+So the correct answer here is B.
+
+00:59.670 --> 01:03.390
+Now the second question how do you access the third element.
+
+01:03.450 --> 01:09.450
+And as you can see we have a list here which is called first names and there are four first names in
+
+01:09.480 --> 01:09.810
+here.
+
+01:09.810 --> 01:19.720
+Ivanka Donald Ivanna and Baron and you can see here that we have the zero index the one index index
+
+01:19.770 --> 01:21.450
+2 and index 3.
+
+01:21.660 --> 01:26.850
+And now we want to access the third element so first Ivanka second Donald.
+
+01:26.850 --> 01:28.440
+And third will be Ivanna.
+
+01:28.450 --> 01:29.670
+And how do we get Ivanna.
+
+01:29.820 --> 01:37.480
+Well we'll get her by getting the first names at index 2 because index starts with zero.
+
+01:37.500 --> 01:38.790
+Ivanka is in zero.
+
+01:38.790 --> 01:43.290
+Donald in next one and Ivanna is index too.
+
+01:43.440 --> 01:47.540
+That's why c is the correct answer.
+
+01:47.550 --> 01:50.040
+Now let's check out the third question.
+
+01:50.040 --> 01:53.320
+How do you extend to list wars with a third element.
+
+01:53.400 --> 01:58.950
+And I hope we never do that in real life but we have this little list of force or the was the first
+
+01:59.040 --> 02:00.940
+war and the second war.
+
+02:00.960 --> 02:06.710
+And you could say World War or you could even think of other wars and then we have three answers here
+
+02:06.730 --> 02:15.590
+wars and then wars had index three is going to be three wars apply three and then wars at Penn three.
+
+02:15.780 --> 02:18.060
+So which of those is the correct answer.
+
+02:18.060 --> 02:21.960
+And actually here no question marks like that.
+
+02:22.140 --> 02:26.640
+Which of those is the correct answer and the correct answer is spend.
+
+02:26.670 --> 02:32.090
+Because in order to add an element to our list we use the append function.
+
+02:32.280 --> 02:33.190
+As you can see here.
+
+02:33.210 --> 02:36.410
+So the correct answer will be the.
+
+02:36.600 --> 02:37.280
+All right.
+
+02:37.380 --> 02:41.760
+I hope you could follow along and understand everything that's going on because we're going to work
+
+02:41.760 --> 02:43.510
+with lists quite a lot.
+
+02:43.750 --> 02:50.550
+And the next video we're going to check out how to use the pop function in order to get rid of an element
+
+02:50.610 --> 02:53.970
+in our list and specifically the last element of the list.
+
+02:54.030 --> 02:56.570
+So see you in the next video.

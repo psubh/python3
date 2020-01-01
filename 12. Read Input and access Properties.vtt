@@ -1,0 +1,349 @@
+WEBVTT
+
+00:00.480 --> 00:06.080
+We'll come back and this video we are going to extend our main window class in order to add functionality.
+
+00:06.240 --> 00:15.330
+So what I want to do is I want to instead of having checkboxes here to have a simple text field or edit
+
+00:15.330 --> 00:20.390
+text it's called text edit and line at it.
+
+00:20.400 --> 00:25.200
+I want to use the line edit because I just want to enter some text and there's line edit and one some
+
+00:25.200 --> 00:30.570
+body press this button the text that is entered here should just be printed onto the console.
+
+00:30.570 --> 00:36.900
+Nothing too fancy but that's what will help you to understand how you can get values from your UI elements.
+
+00:36.900 --> 00:42.770
+So this push button has the name my button and I would like to change the name of it.
+
+00:42.780 --> 00:52.560
+So in order to do so I press on the push button and then I go to dequeue abstract button and I'm changing
+
+00:52.560 --> 00:53.490
+the text here.
+
+00:53.730 --> 00:59.300
+So I'm going to change the text to something like safe.
+
+00:59.450 --> 01:03.390
+So it's just going to save the data whatever we enter here as text will be saved.
+
+01:03.570 --> 01:09.570
+And in our case it will just be printed onto the console but we could save that somewhere in the file
+
+01:09.570 --> 01:11.070
+or something like that.
+
+01:11.070 --> 01:14.410
+OK so I'm going to save this save this main window UI.
+
+01:14.610 --> 01:18.530
+I go back to my pie charm in here.
+
+01:18.570 --> 01:24.300
+I run my build wife file in order to recompile my UI.
+
+01:24.600 --> 01:27.600
+And once that is done I can see the changes have been made.
+
+01:27.600 --> 01:31.420
+Well I can see directly but we will see it in a second.
+
+01:31.500 --> 01:38.920
+And what I want to happen now is instead of using my CB toggle because there should be no Sebille check.
+
+01:39.120 --> 01:43.110
+C B C B.
+
+01:43.140 --> 01:45.210
+So you see there's no checkbox anymore.
+
+01:45.210 --> 01:47.730
+I had it called check box or c.b.
+
+01:47.740 --> 01:49.830
+You can see no checkbox either.
+
+01:49.830 --> 01:54.630
+So actually I should not be able to access the CB anymore if I run this code.
+
+01:54.720 --> 01:58.590
+And actually I'm running the code once again by far on the main code.
+
+01:58.590 --> 02:00.300
+You can see I'm getting an error here.
+
+02:00.380 --> 02:04.980
+It says you main window object has no attributes Sibi so it cannot access this anymore.
+
+02:05.070 --> 02:10.470
+Ok so I'm going to get rid of this but what I want to do instead is I want to call a method that will
+
+02:10.470 --> 02:15.630
+take care of button clicks and that's the beauty about having a class because now you can create methods
+
+02:15.650 --> 02:22.290
+in here and I'm just going to say OK on button click.
+
+02:22.290 --> 02:29.910
+I want to call something where I execute some code and then here I'm just going for now press or write
+
+02:29.910 --> 02:35.930
+something like On button on Osco click OK.
+
+02:35.940 --> 02:38.280
+So that's it for now.
+
+02:38.280 --> 02:45.000
+Now in here I need to of course tell it now to connect with this on button click.
+
+02:45.270 --> 02:46.840
+Because otherwise it won't work.
+
+02:47.010 --> 02:51.530
+But now it doesn't know where it is on button click is coming from so I need to tell it it's in your
+
+02:51.530 --> 02:54.410
+self so it's self dot on button click.
+
+02:54.420 --> 03:00.870
+In this case because the on button click method is in the same class and it's in the same main window
+
+03:00.870 --> 03:02.220
+class pretty much.
+
+03:02.670 --> 03:04.210
+OK so now it's connected.
+
+03:04.470 --> 03:10.500
+And now what we should see is if we press on the button then it should write something like On button
+
+03:10.500 --> 03:11.090
+click.
+
+03:11.250 --> 03:18.060
+So let me run that press safe and you see on button click post saved or was pressed.
+
+03:18.060 --> 03:24.450
+Now what I want to happen is that if I enter some code in here or some text my text or whatever and
+
+03:24.450 --> 03:28.460
+I perceive that the text is displayed next to it.
+
+03:28.470 --> 03:29.750
+So how do I do that.
+
+03:29.910 --> 03:39.450
+Well I need to read the data from that text and in order to do so I need to get the input from that
+
+03:39.450 --> 03:40.650
+text.
+
+03:40.650 --> 03:45.980
+Now let's go back to cute to see how this element is called.
+
+03:46.020 --> 03:47.770
+And it's called line edits.
+
+03:47.910 --> 03:50.590
+So let me change the name of the line at it.
+
+03:50.850 --> 03:55.420
+So once I press on it and I go to the object name here I can change it.
+
+03:55.440 --> 03:58.770
+So let's say I change it to input very basic.
+
+03:58.800 --> 03:59.750
+Now it's called input.
+
+03:59.760 --> 04:03.260
+And if I save this now and I go back here I run my build.
+
+04:03.390 --> 04:09.450
+I don't need to open it but I run my build here and I recompile pretty much my UI.
+
+04:09.450 --> 04:14.140
+Now go back to Maine where I can do now is I can access.
+
+04:14.180 --> 04:16.050
+Self-taught Why Dot.
+
+04:16.350 --> 04:19.490
+And here we created this thing called input.
+
+04:20.070 --> 04:27.450
+So let's use inputs and we want to get something from it.
+
+04:27.620 --> 04:30.790
+But before we do that we're just going to set something to it.
+
+04:30.900 --> 04:36.850
+So I'm just going to say OK set the text to exclamation mark exclamation mark exclamation mark.
+
+04:36.990 --> 04:42.570
+So this way I can actually set the text in the constructor so if I run this again you can see that there
+
+04:42.570 --> 04:47.700
+are three exclamation marks in here because within the constructors so pretty much when this object
+
+04:47.700 --> 04:48.480
+is created.
+
+04:48.510 --> 04:51.100
+And in this case the whole window is created.
+
+04:51.150 --> 04:54.650
+I said the UI input.
+
+04:55.110 --> 04:59.670
+I said its text attribute two exclamation marks.
+
+04:59.670 --> 05:05.790
+So if I check out what this text attribute is it's pretty much in here.
+
+05:07.280 --> 05:09.240
+Is this attribute here.
+
+05:09.370 --> 05:16.000
+So currently it's empty but after initialization there are three exclamation marks in here.
+
+05:16.000 --> 05:29.510
+So even if I write something here like I know what's up and safe this recompile my built and I go to
+
+05:29.510 --> 05:30.680
+my main again.
+
+05:30.680 --> 05:36.800
+You will see that it still has three exclamation marks and that is because this here overwrites pretty
+
+05:36.800 --> 05:42.120
+much anything that we needed in cutesie or in the qued editor or creator.
+
+05:42.380 --> 05:47.340
+So let's look here and here we should search for highwater.
+
+05:47.420 --> 05:48.950
+They were thinsulate UI.
+
+05:48.950 --> 05:53.570
+So that's the method that is called and that takes in the changes that we have made.
+
+05:53.570 --> 06:00.620
+So for example to my button I've changed the name to save button or to text of it the same for the import
+
+06:00.950 --> 06:02.570
+text is said to.
+
+06:02.570 --> 06:03.630
+Hi what's up.
+
+06:03.890 --> 06:05.910
+So we translated that here.
+
+06:06.020 --> 06:13.790
+But this translates to why is called before this constructor is called so the constructor pretty much
+
+06:13.820 --> 06:16.290
+overrides whatever was written in there.
+
+06:16.380 --> 06:21.080
+And that's exactly what the beauty about it is because now we can pretty much adjust it our way as we
+
+06:21.080 --> 06:21.760
+please.
+
+06:21.970 --> 06:22.530
+OK.
+
+06:22.640 --> 06:24.570
+So that's how we can set the text.
+
+06:24.650 --> 06:26.970
+But how do we get the text.
+
+06:27.230 --> 06:29.510
+Well very similar.
+
+06:29.600 --> 06:35.850
+So let's create a new variable called text and we'll just say self-taught UI data input.
+
+06:36.200 --> 06:45.980
+And here there is a method called text and that will pretty much give us the text from the UI input
+
+06:46.310 --> 06:49.870
+which is our line edit.
+
+06:50.000 --> 06:52.380
+So this thing here.
+
+06:52.520 --> 06:53.460
+OK.
+
+06:54.080 --> 07:02.860
+Now what we can do is we can display this text or print that text onto our console.
+
+07:02.870 --> 07:04.260
+So let me save it again.
+
+07:04.280 --> 07:10.040
+Let's run it and you will see what's up is here so let me press the save button and you can see an button
+
+07:10.040 --> 07:10.630
+click.
+
+07:10.760 --> 07:12.040
+Hi what's up.
+
+07:12.040 --> 07:21.790
+Or I changed the text and I pressed the save button and you see I changed the text is printed here.
+
+07:21.950 --> 07:26.600
+So now you can pretty much get the text from it and use it for whatever.
+
+07:26.630 --> 07:34.370
+You could also get the state of your checkbox and of pretty much any other object that you have.
+
+07:34.550 --> 07:40.260
+So if we take our check box once again real quick I just drag it in here.
+
+07:40.280 --> 07:43.820
+But there is something called it's state.
+
+07:43.850 --> 07:45.690
+So is it checked or not.
+
+07:45.830 --> 07:47.340
+And here it's called checked.
+
+07:47.450 --> 07:53.690
+So I could get the checked state and read it and then based on whether the user has checked it or not.
+
+07:53.690 --> 07:55.070
+I could run some code.
+
+07:55.070 --> 08:00.980
+So if the user has checked the code and I press save then I could save it if the user doesn't check
+
+08:01.040 --> 08:06.890
+check box and I press save and I would just ignore the save button for example so I could only executed
+
+08:06.890 --> 08:12.350
+if checked is actually checked or this checkbox is checked because otherwise the user for example hasn't
+
+08:12.350 --> 08:16.130
+accepted our terms of use or something like that.
+
+08:16.250 --> 08:20.900
+So I'm going to get rid of this checkbox and I'm going to save this hand in the next video we are going
+
+08:20.900 --> 08:28.960
+to create our little B.M. I calculator and this time not with just a console but actually with a UI.
+
+08:29.090 --> 08:30.760
+So see you in the next video.

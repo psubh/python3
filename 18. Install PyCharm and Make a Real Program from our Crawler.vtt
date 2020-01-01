@@ -1,0 +1,256 @@
+WEBVTT
+
+00:00.070 --> 00:07.140
+We'll come back in this video we are going to install pite charm and PI charm is an IEEE which stands
+
+00:07.140 --> 00:14.070
+for Integrated Development Environment and it allows us to develop with Python in a slightly different
+
+00:14.070 --> 00:15.860
+way than Jupiter notebooks to us.
+
+00:15.990 --> 00:20.070
+So so far we have used chip in our notebooks because it's very awesome.
+
+00:20.070 --> 00:26.880
+In order to learn Python and display stuff straight away and also have all of these very beautiful text
+
+00:28.380 --> 00:33.590
+messages just below and above a code bracket or code piece.
+
+00:33.690 --> 00:39.990
+And now we're going to go ahead and use pi charms so you can just check out more Google PI and download
+
+00:40.020 --> 00:44.040
+or just get used to the link that I provide in this lecture.
+
+00:44.160 --> 00:47.760
+So what you need to do is you need to download the community version.
+
+00:47.760 --> 00:55.890
+Of course you could use a professional version if you want to go ahead and really use D-y charm professionally
+
+00:55.920 --> 00:59.900
+but it will cost you something so you need to apply for it and stuff like that.
+
+01:00.030 --> 01:04.860
+So the one that we're going to use is the community one so just press download and download the file.
+
+01:04.980 --> 01:12.180
+And as you can see now getting this DNG file this disk image and once that download is done I'm going
+
+01:12.180 --> 01:19.440
+to start the installation by the way you can also give them some information about you and while you
+
+01:19.440 --> 01:23.340
+can get some information via e-mail by Giedd brains.
+
+01:23.580 --> 01:29.340
+So they're pretty pro and they can give you some advice maybe or at least they can send you some information
+
+01:29.400 --> 01:31.020
+which could be interesting to you.
+
+01:31.020 --> 01:35.880
+All right so I'm just going to agree with Jed brains to using cookies.
+
+01:35.910 --> 01:39.100
+And once that is done here I'm going to start.
+
+01:39.240 --> 01:39.650
+All right.
+
+01:39.660 --> 01:44.370
+So now it's done and in my case I'm going to download DDM or install the DMG file.
+
+01:44.370 --> 01:51.030
+If you are the windows of course you must have downloaded the X file and install that right and there
+
+01:51.030 --> 01:51.450
+we are.
+
+01:51.450 --> 01:59.800
+So now I have the white charm here I go to select it and it will start the installation process.
+
+01:59.820 --> 02:03.090
+Now it says it's downloaded from the internet and I'm going to.
+
+02:03.360 --> 02:04.930
+Well trust Brandt's.
+
+02:04.980 --> 02:08.920
+So I'm going to press a pen now.
+
+02:08.940 --> 02:12.260
+Ask me whether I would like to import something.
+
+02:12.300 --> 02:17.310
+So if you have any configuration files from another installation that you ever used then you can of
+
+02:17.310 --> 02:22.080
+course use that or you can just say computer do not import settings.
+
+02:22.350 --> 02:25.190
+Then we need to read through the license agreement.
+
+02:25.200 --> 02:32.460
+And once you're done with that you can accept it and you can decide whether you want to share data or
+
+02:32.460 --> 02:32.880
+not.
+
+02:32.880 --> 02:35.420
+I'm a German are going to share data at all.
+
+02:35.490 --> 02:40.740
+Of course you would help those guys out so if something goes wrong and they will be able to help you
+
+02:40.740 --> 02:48.000
+out so you can use to keep them scheme in my case I can choose between the one for Mac OS or the one
+
+02:48.270 --> 02:52.500
+that is default for all platforms and I'm just going to use that one.
+
+02:52.500 --> 02:59.050
+So if I use other versions like the Windows version then stuff will be a little different.
+
+02:59.070 --> 03:01.140
+So then I can choose the UI theme.
+
+03:01.170 --> 03:03.030
+So the light one and dark one.
+
+03:03.030 --> 03:08.500
+So you can choose whether you want to have the bright and light one or the Dark One.
+
+03:08.520 --> 03:11.150
+So I have seen multiple preferences.
+
+03:11.160 --> 03:13.290
+Some of my students prefer dark.
+
+03:13.290 --> 03:18.930
+Others prefer the light version and I've heard that some people have problems with a dark version so
+
+03:18.990 --> 03:20.340
+we're viewing that version.
+
+03:20.340 --> 03:22.950
+I'm just going to use the light version here.
+
+03:22.990 --> 03:24.380
+All right so the next.
+
+03:24.510 --> 03:28.490
+And here you can you create a launcher script.
+
+03:29.010 --> 03:32.080
+And I'm just going to say next feature plug ins.
+
+03:32.280 --> 03:40.380
+And here you can add other languages support and there as you can see idea of them Mark downburst support
+
+03:40.380 --> 03:41.600
+and Arling support.
+
+03:41.670 --> 03:46.440
+And we're going to need neither of them so we're just going to say start using pi charm and that will
+
+03:46.440 --> 03:52.440
+then finally open up part charme where we see this welcome screen where we can go ahead and create a
+
+03:52.440 --> 03:57.470
+new project and that's what I'm going to say create new project.
+
+03:57.810 --> 04:02.360
+And here I can decide where I would like to store the files.
+
+04:02.490 --> 04:07.300
+So under in my case then is Python projects and untied.
+
+04:07.410 --> 04:16.240
+So this will be the name of my file and I'm going to call that Petrum crawler PI charm crawler.
+
+04:16.440 --> 04:23.430
+And here I want to click on this project interpretor or you should click on it and you can choose which
+
+04:23.430 --> 04:28.340
+environment you want to use or which pretty much which interpreter you want to use.
+
+04:28.560 --> 04:32.710
+And you could of course go ahead and use the new environment use using.
+
+04:32.720 --> 04:39.480
+So you could use to the virtual environment or you use an existing interpreter and there you need to
+
+04:39.480 --> 04:44.450
+choose an icon the end here and can choose Konda environment.
+
+04:44.760 --> 04:50.430
+And there I need to select Anaconda so I need to find a folder where I had Anaconda installed.
+
+04:51.000 --> 04:53.640
+And here I select users.
+
+04:53.640 --> 04:56.480
+Then my username and an account or three.
+
+04:56.550 --> 05:06.550
+So that's where the condos installed then been you will find the and folder or the python file that
+
+05:06.550 --> 05:07.480
+we want to use.
+
+05:07.510 --> 05:12.630
+So just scroll down to the point where you have a hyphen.
+
+05:12.880 --> 05:16.590
+So just select the python app here and then press OK.
+
+05:17.010 --> 05:19.930
+And now we can press ok again.
+
+05:19.940 --> 05:24.110
+And as you can see the interpreter will now be Python 3.6.
+
+05:24.130 --> 05:29.280
+So our Anaconda 3 then python app and now compressed create.
+
+05:29.410 --> 05:35.130
+So that will do is it will create my new project and here I'll have plenty of tips of the day.
+
+05:35.230 --> 05:41.020
+You can of course show them and they will constantly give you good tips on how to use a tool or you
+
+05:41.020 --> 05:42.810
+can deactivate them.
+
+05:42.970 --> 05:43.230
+All right.
+
+05:43.240 --> 05:48.440
+And then it will take a little while because it's going to scan the installed packages and I'm going
+
+05:48.440 --> 05:52.840
+to say don't give me any tips and close it and then just wait until it's done.
+
+05:52.840 --> 05:57.550
+So as you can see there's a little bar here and it is indexing currently.
+
+05:57.670 --> 06:01.060
+And once that is done you can go ahead and use pie charm.
+
+06:01.120 --> 06:01.500
+All right.
+
+06:01.510 --> 06:07.740
+Now that my installation is done and the preparation is done we have the whole project now.
+
+06:07.750 --> 06:10.960
+So you can see this is my project here charme crawler.
+
+06:11.050 --> 06:16.640
+And currently there are no files in there and that's what we are going to check out in the next video.
+
+06:16.750 --> 06:18.170
+So see you there.

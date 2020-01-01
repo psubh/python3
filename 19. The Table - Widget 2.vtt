@@ -1,0 +1,295 @@
+WEBVTT
+
+00:00.320 --> 00:01.380
+Work come back.
+
+00:01.380 --> 00:05.340
+We have our little program which is a table program.
+
+00:05.340 --> 00:07.390
+It's almost as good as axil.
+
+00:07.560 --> 00:15.270
+Well not barely or not not even close but what we will add in this video is how to pretty much add a
+
+00:15.270 --> 00:22.380
+row in here by pressing this button and we will check out how to do that correctly so let's go ahead
+
+00:22.410 --> 00:26.370
+and start with just creating it in general.
+
+00:26.370 --> 00:31.560
+So let's just say we want to add a road to our table widget.
+
+00:31.580 --> 00:36.550
+And the cool thing is there is a very simple method here called insert row.
+
+00:36.690 --> 00:39.310
+And as you can see there's also something called insert column.
+
+00:39.450 --> 00:43.760
+But let's just start with insert row as you can see it expects an int.
+
+00:43.770 --> 00:47.890
+So let's just say OK well if you expect and then I'm just going to give you zero.
+
+00:48.000 --> 00:52.240
+So let's save this file and run it again and push the button.
+
+00:52.320 --> 00:58.880
+And as you can see suddenly we have this additional entry and actually with me comment those two out
+
+00:58.890 --> 01:05.310
+because it's confusing a little bit and it's wrong and again I press a button and as you can see now
+
+01:05.310 --> 01:08.770
+it has added a row and I press it again.
+
+01:08.790 --> 01:11.910
+And as you can see it's adding rows all the time.
+
+01:12.090 --> 01:18.990
+So each time I press a button it adds a row can add some text high and some number.
+
+01:19.170 --> 01:24.680
+And as you can see it always adds it below it can.
+
+01:24.720 --> 01:27.450
+So now we have this little issue.
+
+01:27.450 --> 01:30.490
+How do we enter the proper value.
+
+01:30.570 --> 01:34.510
+So we're adding value to because we have two entries right.
+
+01:34.560 --> 01:37.690
+So why don't we say insert ero after the second one.
+
+01:37.700 --> 01:38.590
+All right perfect.
+
+01:38.820 --> 01:40.450
+That's exactly what I wanted.
+
+01:40.470 --> 01:42.250
+So let me add some text in here.
+
+01:42.250 --> 01:47.470
+Let's say New York and it has a gazillion inhabitants.
+
+01:47.670 --> 01:51.630
+And then I want to add another row sort of impressive again on them.
+
+01:51.750 --> 01:53.070
+That's not what I wanted.
+
+01:53.070 --> 01:54.780
+Why is it like that.
+
+01:54.810 --> 01:59.070
+Why is there a you in here I want to test it in the bottom of it.
+
+01:59.280 --> 02:02.860
+Well let's add some text in here again.
+
+02:03.090 --> 02:05.060
+Press the button and again.
+
+02:05.180 --> 02:05.530
+So.
+
+02:05.610 --> 02:09.960
+Always putting it adds value to and as you know it starts with zero.
+
+02:09.980 --> 02:13.690
+So 0 1 and then to it inserts the rope.
+
+02:13.710 --> 02:18.540
+So that's why it's always going to be inserted here off to Berlin in this case.
+
+02:18.580 --> 02:25.880
+Now if I want to make sure that it always is at the end I need to create a workaround.
+
+02:26.130 --> 02:29.290
+So let's say I just want to see how many rows there are.
+
+02:29.550 --> 02:37.840
+Well there is a variable Actually there is a property but we can get that property by using the method.
+
+02:38.070 --> 02:41.450
+And that is called RHO count.
+
+02:41.700 --> 02:47.650
+So RHO count will give us the value of how many rows there are in our table widget.
+
+02:48.360 --> 02:51.690
+So let me run that again and run it.
+
+02:51.690 --> 02:54.960
+We can see we get two as the result.
+
+02:54.960 --> 02:59.650
+So let me press the button again get three at four.
+
+02:59.670 --> 03:05.680
+So it's telling us the value just before it inserts the row OK.
+
+03:06.020 --> 03:14.360
+So what we could do is pretty much say OK check out how many rows there are and then just put it below
+
+03:14.480 --> 03:16.170
+the amount of rows that we have.
+
+03:16.400 --> 03:18.750
+All right so how would we do that.
+
+03:18.890 --> 03:22.070
+So I could just say use the rockhound here.
+
+03:22.890 --> 03:31.040
+For answered Rob so I'm just going to copy this code here and I'm going to replace the two with it.
+
+03:31.090 --> 03:32.920
+So let's test this again.
+
+03:33.020 --> 03:33.810
+Stop the code.
+
+03:33.820 --> 03:35.410
+Run it again.
+
+03:35.470 --> 03:36.650
+Now let's see what happens.
+
+03:36.670 --> 03:39.930
+OK so now we have this new line that looks good.
+
+03:39.930 --> 03:49.350
+I'm going to answer something here like New York and it has an a big amount of number or values or inhabitants.
+
+03:49.450 --> 03:51.720
+Each inhabitant is a value now.
+
+03:51.970 --> 03:59.680
+So we have this very cryptic number which is a city somewhere on a different planet and it has this
+
+03:59.680 --> 04:01.080
+amount of inhabitants.
+
+04:01.210 --> 04:04.880
+But as you can see now it adds a row just below.
+
+04:05.020 --> 04:06.900
+And that's exactly what we would expect.
+
+04:06.910 --> 04:11.760
+And what we would want right now as can see now I can scroll here.
+
+04:11.980 --> 04:19.420
+So it's taken care of already so scrolling is already perfectly taken care of our cute table widget
+
+04:19.510 --> 04:25.360
+as it can see the tail widget has a scroll button or scroll bar once there are too many rows to display
+
+04:25.390 --> 04:28.680
+on the size of the window that we have here.
+
+04:29.080 --> 04:34.570
+So what if I would like to have values in there so I don't want it to be an empty entry each time I
+
+04:34.570 --> 04:35.020
+press.
+
+04:35.020 --> 04:37.470
+But I want there to be some values.
+
+04:37.690 --> 04:49.390
+Well I can for example very easily say OK Ed Budapest at road 2 and column 0 and the inhabitants amount
+
+04:49.550 --> 04:52.390
+at the same row and column 1.
+
+04:52.390 --> 04:57.490
+So let's run that again and let's press the button and while perfect that's exactly what I wanted.
+
+04:57.490 --> 05:01.140
+But what happens if I press again call them doesn't work.
+
+05:01.300 --> 05:07.770
+So I would like to have let's say a default value here or a random value or something like that then.
+
+05:08.010 --> 05:10.310
+Well this approach doesn't seem to work.
+
+05:10.630 --> 05:12.030
+But how do we fix that.
+
+05:12.280 --> 05:19.000
+Well the problem is that I'm using a fixed value here so I'm using a value of two but I actually should
+
+05:19.000 --> 05:21.160
+use a different value in here.
+
+05:21.160 --> 05:27.960
+Now of course I could say OK added the same row that you have added this new row.
+
+05:27.970 --> 05:30.820
+So we know that it's at row count right.
+
+05:30.970 --> 05:36.790
+So we could of course go ahead and copy and paste this rockhound in there but that's a little bit difficult
+
+05:36.790 --> 05:43.090
+to read afterwards so the better choice would be to say OK I want to store that in a variable called
+
+05:43.090 --> 05:45.540
+row count or just row.
+
+05:45.670 --> 05:52.380
+We could call the roll we could roll call the road count and instead of using this whole text in here
+
+05:52.420 --> 06:01.270
+I'm just going to use the row because it's the same value right and the same for this row and the same
+
+06:01.270 --> 06:03.440
+for the road down here.
+
+06:03.790 --> 06:10.720
+So now it's just going to add Budapest's with a value for each new entry that we've created.
+
+06:10.720 --> 06:12.090
+So let me test that.
+
+06:12.370 --> 06:18.240
+And as you can see we get Budapest's oppress again we get Budapest and so forth.
+
+06:18.280 --> 06:26.260
+So each time we press the button we add any row and that new row is being added at the bottom and it
+
+06:26.290 --> 06:32.870
+automatically gets a specific text that we have defined for column 0 and column 1.
+
+06:33.100 --> 06:40.120
+And in general we have to be very careful here again because as you know Python and any programming
+
+06:40.120 --> 06:42.640
+language in general they start counting at zero.
+
+06:42.700 --> 06:44.080
+Not like we humans.
+
+06:44.380 --> 06:46.520
+We start with one.
+
+06:46.600 --> 06:49.940
+But what programming languages and computers start with zero.
+
+06:50.050 --> 06:54.040
+So that's something that we have to be very careful and very wary about.
+
+06:54.040 --> 07:01.840
+All right so now you know how to add additional rows how to enter values into those rows in a whole
+
+07:01.840 --> 07:08.030
+table widget and so forth and yet say that's it for this video and see you in the next one.

@@ -1,0 +1,277 @@
+WEBVTT
+
+00:00.070 --> 00:06.450
+We'll come back in this video we are going to check out matplotlib p y plot which we already have used
+
+00:06.720 --> 00:08.960
+but I just wanted to show you something with it.
+
+00:09.090 --> 00:17.840
+So first of all I'm going to add this month plod who lived in line which allows us to show this play
+
+00:17.850 --> 00:21.820
+or display graphs straight away in our Jupiter notebook.
+
+00:22.020 --> 00:23.900
+And now I'm going to import something.
+
+00:23.900 --> 00:33.210
+So we have used that already where we said implored Matt plod lead that p y plot and there we said something
+
+00:33.210 --> 00:35.060
+like S P L T.
+
+00:35.250 --> 00:41.370
+And then we used this approach right where we just said OK now I'm gonna use it as POTUS I'm going to
+
+00:41.370 --> 00:43.220
+make it easier for myself.
+
+00:43.260 --> 00:49.770
+So we just said he does show where I actually plot first plot and then we had the values that we would
+
+00:49.770 --> 00:50.510
+like to plot.
+
+00:50.640 --> 00:55.380
+So we had access and wise but we can also of course just add lists in here.
+
+00:55.380 --> 01:02.130
+So one to three and another lists five four or five something like that.
+
+01:02.210 --> 01:07.820
+And now I can use the LTE show function in order to show it.
+
+01:07.830 --> 01:10.350
+And as you can see now this graph is displayed here.
+
+01:10.380 --> 01:11.900
+So what is happening here.
+
+01:12.060 --> 01:16.180
+Well we are importing something that is called met plot.
+
+01:16.560 --> 01:24.510
+And in the air there is an aspect or a part of it which is called y plot and we say OK we want to import
+
+01:24.510 --> 01:32.810
+that whole thing but we want to call it Alte because we don't want to constantly use this whole name.
+
+01:32.820 --> 01:36.160
+So let me just show you another example of how this could look like.
+
+01:36.180 --> 01:40.290
+So in other in another line we could go ahead and use it.
+
+01:40.290 --> 01:48.360
+And in this way where we just say okay import met plot live thought y plot and then you will have to
+
+01:48.360 --> 01:50.200
+go ahead and use it like that.
+
+01:50.370 --> 01:58.730
+So you'd have to say okay from that plot lib thought y plot could call the plot function for format
+
+01:58.770 --> 02:02.120
+plot Lipp thought of plot use the show function.
+
+02:02.160 --> 02:06.480
+So of course this is going to work as well as you can see now displaying it correctly as well.
+
+02:06.810 --> 02:13.740
+But with this as we just say OK we want to rename this whole thing and we want to use it with a shorter
+
+02:13.740 --> 02:17.100
+version or a more descriptive way or whatever.
+
+02:17.110 --> 02:20.490
+In this case we just want to use a very short version of it.
+
+02:20.490 --> 02:23.790
+PLDT is descriptive enough so we know what it's about.
+
+02:23.790 --> 02:27.670
+And at the same time with a very short time we can type very easily.
+
+02:28.200 --> 02:32.130
+But of course this is the exact same result pretty much what we get.
+
+02:32.340 --> 02:36.240
+But this well that's really more convenient.
+
+02:36.540 --> 02:39.860
+So there isn't a disadvantage by using this though.
+
+02:40.020 --> 02:46.020
+So here it's very obvious as we are saying capital-T is coming from this part here.
+
+02:46.140 --> 02:53.190
+But if somebody is checking our code for the first time and we have a bunch of code very complex code
+
+02:53.190 --> 02:59.940
+with lots of lines and so forth and somebody checks it out and looks at this PLDT and doesn't find a
+
+02:59.940 --> 03:02.640
+class it is called purity or something like that.
+
+03:02.730 --> 03:04.300
+Then you might be confused.
+
+03:04.650 --> 03:09.840
+So he would have then to check the imports as well and the imports are at the very first line.
+
+03:09.840 --> 03:15.540
+So usually somebody doesn't really look at the imports at first so he just checks out the whole code
+
+03:15.570 --> 03:20.360
+and then later on he checks out ok that there are at the top there is this import.
+
+03:20.440 --> 03:27.090
+So he of course can use the search functionality and so forth but on an obvious way if you want to make
+
+03:27.090 --> 03:30.270
+it super obvious then you would have of course the whole name here.
+
+03:30.270 --> 03:34.810
+So we're just saying Mackler lead that p y plot dot plot.
+
+03:34.860 --> 03:37.020
+So this is how we of course.
+
+03:37.020 --> 03:40.330
+And what also more can also use it now.
+
+03:41.330 --> 03:43.240
+This here says there.
+
+03:43.340 --> 03:48.290
+We want to use these Mettler live but only the p y plot part.
+
+03:48.290 --> 03:52.230
+We can also use it like that where we just import the map plot lib.
+
+03:52.430 --> 03:58.120
+So let me restart my kernel so that I can show you because now everything is already imported.
+
+03:58.130 --> 04:04.820
+Now if I run this code again I'm not on getting an error it doesn't have an attribute called p y plot
+
+04:05.150 --> 04:10.730
+so we can say something where we have to add this plot here for it to work.
+
+04:10.730 --> 04:19.150
+Or alternatively we can say from that plot the lid import p y plot.
+
+04:19.250 --> 04:21.490
+So that's another way of doing it.
+
+04:21.710 --> 04:28.940
+And now it shows me something where it says OK figure size 640 times for 80 with one x.
+
+04:28.940 --> 04:35.950
+So it doesn't actually display it well it calls the show function but because this line of code here
+
+04:35.960 --> 04:37.400
+is not executed.
+
+04:37.490 --> 04:39.320
+We don't get to see any graph.
+
+04:39.330 --> 04:44.150
+So let me run that code at the top and then run and run that code at the bottom and as you can see now
+
+04:44.480 --> 04:45.920
+it actually shows the graph.
+
+04:46.050 --> 04:50.010
+And now you saw what this line stands for what it actually does.
+
+04:50.030 --> 04:58.910
+So it allows us to show graphs in line our Jupiter notebook there there is one more thing about this
+
+04:58.910 --> 04:59.890
+approach here.
+
+05:00.050 --> 05:07.600
+Now still using the whole name but of course now I could go ahead and just say OK use plot that plot
+
+05:07.750 --> 05:09.440
+or P-word plot that show.
+
+05:09.590 --> 05:13.820
+So if I run that code you see it's still working correctly.
+
+05:14.060 --> 05:16.900
+So as you can see there are multiple different ways.
+
+05:16.910 --> 05:23.900
+And if you see code in a way in one of those ways don't be confused you will see that some people use
+
+05:23.900 --> 05:27.060
+this approach other people use another approach and so forth.
+
+05:27.110 --> 05:30.930
+So now you know that all of them are fine and all of them are valid.
+
+05:30.980 --> 05:34.020
+And whenever you come across one of those you'll be fine.
+
+05:35.510 --> 05:40.240
+There is one more reason for renaming your import.
+
+05:40.520 --> 05:44.380
+So let's say we would use this approach that we have here.
+
+05:44.510 --> 05:54.110
+So let me show you real quick so we have it twice from Matt love Matt Plaut lib import by the plot.
+
+05:54.140 --> 06:00.910
+Now there could be something called matplotlib 1 2 3 and it also has something called y plot.
+
+06:01.110 --> 06:06.000
+And now if I use this word plot then it will be confused.
+
+06:06.000 --> 06:11.870
+So our program will be confused and it will try to access plot in that plot live and maybe it doesn't
+
+06:11.870 --> 06:17.350
+have a plot or a show function and then suddenly our code doesn't work anymore.
+
+06:17.720 --> 06:23.440
+And then this approach here really comes into play where it really makes sense where we just say Okay
+
+06:23.660 --> 06:25.170
+use it as Piel tea.
+
+06:25.280 --> 06:33.020
+And now if somebody goes ahead and has something like mad plot live 2:59 that pre-wire plot then we
+
+06:33.020 --> 06:37.700
+can just call it PLG 2:59 or you can call it whatever he likes.
+
+06:37.820 --> 06:44.420
+So now he can have a shortcut which really indicates that we're explicitly talking about this module
+
+06:44.420 --> 06:46.690
+here and not the one there.
+
+06:47.050 --> 06:50.310
+OK that's just a little side note here.
+
+06:50.510 --> 06:56.600
+But usually you won't run into these problems very often so just for you to know that this is a possibility
+
+06:56.690 --> 06:58.790
+and that's how you can solve this problem.
+
+06:58.910 --> 07:03.140
+But as I said you won't usually come across as problem very often.
+
+07:03.140 --> 07:08.100
+All right so now you've seen how you can use modules and what the different approaches are.
+
+07:08.570 --> 07:11.870
+And in the next video we're going to create a module in a folder.
+
+07:11.870 --> 07:12.970
+So see you there.

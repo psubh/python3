@@ -1,0 +1,373 @@
+WEBVTT
+
+00:00.610 --> 00:05.610
+Come back in this video I would like to talk about table widgets and show you how you can use the table
+
+00:05.610 --> 00:08.910
+widget and pretty much create a table in here.
+
+00:08.910 --> 00:12.380
+So first of all let's get rid of all the code we don't need here.
+
+00:12.390 --> 00:21.430
+So I want to be am I any more and I'm going to get rid of the slipcase.
+
+00:21.510 --> 00:28.890
+So the only thing I actually want to have is what we have here and I don't need this button click anymore.
+
+00:28.890 --> 00:32.910
+So we're going to create a very different application this time.
+
+00:32.940 --> 00:38.480
+So let me save that and go back to cute creator because now I would like to use tables.
+
+00:38.730 --> 00:46.590
+So instead of having all of these elements that I have in here I want only to have 8 tables so I will
+
+00:46.590 --> 00:52.960
+get rid of this whole form lay out what we had and suddenly all of the buttons are gone as well.
+
+00:53.220 --> 00:55.600
+And all of the labels and stuff.
+
+00:55.860 --> 01:03.060
+And then I drag in the table widget so that we are table would do this and here and now if I double
+
+01:03.060 --> 01:08.680
+click on it you can see it can change the columns or add columns I can add rows and I can add items.
+
+01:09.000 --> 01:11.420
+But what I'm going to start with is columns.
+
+01:11.430 --> 01:21.180
+So let's say I have these two columns and one is the city name and the other one is the inhabitants
+
+01:21.670 --> 01:23.780
+hand be tense.
+
+01:24.140 --> 01:26.930
+And now for the rows I'm going to create a new row.
+
+01:27.150 --> 01:32.900
+And I'm just going to call this row zero and then I go to items such as you can see this is what I get.
+
+01:32.910 --> 01:34.590
+And you call them you call them you roll.
+
+01:34.580 --> 01:40.260
+So it didn't take the names that I had before but it at least has the structure that I had.
+
+01:40.260 --> 01:49.200
+So let's say I enter Munich here and let's say Munich has one point nine million inhabitants might be
+
+01:49.200 --> 01:50.750
+precise or not.
+
+01:50.850 --> 01:56.060
+Then I want to add another row so I go back to Rose and this one will be my roll one.
+
+01:56.070 --> 02:03.930
+Now I go back to iTunes and here for example and to Berlin which has roughly 4 million inhabitants and
+
+02:04.470 --> 02:05.160
+that's pretty much it.
+
+02:05.160 --> 02:11.430
+So if I press OK you see that the data is displayed here in my table.
+
+02:11.460 --> 02:16.560
+So I'm going to make this table a little smaller or this whole view because I don't need any more than
+
+02:16.560 --> 02:17.120
+that.
+
+02:17.300 --> 02:17.630
+OK.
+
+02:17.630 --> 02:19.560
+Now what I want to add is a button.
+
+02:19.560 --> 02:27.930
+So I'm going to add a push button and top of it and just going to say Python action because what I want
+
+02:27.930 --> 02:32.760
+to happen is when I press this button and I want to change something in my table.
+
+02:32.980 --> 02:39.000
+All right now once we're done with this let's save it and now let's go back to PI charme where we need
+
+02:39.000 --> 02:44.000
+to run the built in order to reproduce our UI.
+
+02:44.190 --> 02:45.510
+And then we can run main.
+
+02:45.510 --> 02:52.620
+So let's just do that real quick that we are solving We have Munich and with 1.9 million inhabitants
+
+02:52.620 --> 03:00.210
+so as we enter a different value in here and suddenly it has six million five hundred and it's 46000
+
+03:00.280 --> 03:01.100
+and so forth.
+
+03:01.110 --> 03:08.070
+So I changed it and I can change it any time soon as you can see it could change that to being New York
+
+03:08.070 --> 03:14.580
+for example and New York has something like I don't know 10 million inhabitants based on what you're
+
+03:14.580 --> 03:16.520
+looking at and.
+
+03:16.760 --> 03:16.990
+Yeah.
+
+03:16.990 --> 03:23.990
+Now what I want to happen is when I press this button I want to change stuff in this table widget.
+
+03:24.240 --> 03:25.250
+How do I do that.
+
+03:25.470 --> 03:29.230
+Well first of all I need to have a method for that.
+
+03:29.280 --> 03:36.420
+So I'm going to create a new method and this time I'm going to use the naming of heute because I'm really
+
+03:36.420 --> 03:43.890
+just using cute anti-fun so I don't need any other imports so I'm just going to use the same naming
+
+03:43.890 --> 03:44.640
+convention here.
+
+03:44.640 --> 03:47.940
+So on push button click.
+
+03:47.940 --> 03:53.140
+So once somebody press this button I want to execute something.
+
+03:53.310 --> 03:59.910
+And for now I'm just going to say Button was clicked and now that by itself is not enough because we
+
+03:59.910 --> 04:02.170
+need to connect that to the push button.
+
+04:02.310 --> 04:08.250
+And if you remember how we did that it was pretty long texts but not that difficult.
+
+04:08.250 --> 04:14.230
+So we just access the UI and from the UI the element that we want to connect.
+
+04:14.670 --> 04:17.800
+And here we say which event it should be.
+
+04:17.850 --> 04:26.350
+So when the click event comes up we want to connect that to self-taught on push button click.
+
+04:26.370 --> 04:32.730
+So in this case it's important that we don't call this method but we just pass the method name because
+
+04:32.730 --> 04:38.370
+if we actually call the method and here we get an error sort of we stop the application run it again
+
+04:38.880 --> 04:44.280
+and you will see that we get an error here because one argument has unexpected type Monotype.
+
+04:44.400 --> 04:47.840
+So I'm going to get rid of this and run it again.
+
+04:48.000 --> 04:53.890
+And now you see that if I press this button button was clicked is displayed in my console.
+
+04:54.210 --> 04:54.620
+OK.
+
+04:54.630 --> 04:55.670
+So that's good.
+
+04:55.740 --> 05:00.900
+But how do I actually change the value of my table.
+
+05:01.270 --> 05:03.730
+Well I can do the following.
+
+05:03.730 --> 05:10.060
+I can go in my method here and use self-taught.
+
+05:10.160 --> 05:14.330
+You buy that table widget so I can access the table widget.
+
+05:14.350 --> 05:17.760
+And here I need to set an item.
+
+05:17.830 --> 05:25.280
+So as you can see there is a method called said item which me needs a row column and an item.
+
+05:25.450 --> 05:27.670
+OK so let me enter those.
+
+05:27.760 --> 05:31.260
+I'd say the roll should be zero the column should be zero.
+
+05:31.270 --> 05:35.140
+And then just going to add something like Budapest's in here.
+
+05:36.070 --> 05:39.760
+And that won't work because I'm entering a string here.
+
+05:39.910 --> 05:46.110
+But what is actually expecting is in a queue table which food item.
+
+05:46.120 --> 05:52.770
+So if I run that code and I press the button I should get a crash.
+
+05:54.070 --> 05:59.120
+And actually I do get a crash but it somehow doesn't show me the error.
+
+05:59.320 --> 06:02.620
+So it doesn't even show me what the problem was.
+
+06:03.280 --> 06:08.550
+That is the worst of behaviors when the program just crashes and doesn't even give you the problem here.
+
+06:08.800 --> 06:14.770
+But in order to understand a little more what's going on we could check out the said item method in
+
+06:14.770 --> 06:16.510
+order to understand more what's going on.
+
+06:16.510 --> 06:24.700
+So here is set to method requires a q t.
+
+06:24.700 --> 06:30.620
+Widgets are cute widgets dot cue table widget item.
+
+06:30.700 --> 06:32.250
+So this one right here.
+
+06:32.470 --> 06:35.980
+And as I created this method actually told me that it needs that.
+
+06:35.980 --> 06:45.270
+So let me create it again said I turn it can see it says self roll call them item.
+
+06:45.440 --> 06:52.810
+And once I entered values here so let's say I want to enter the second value as you can see here displays
+
+06:52.930 --> 06:56.180
+item should be of type q table widget item.
+
+06:56.200 --> 06:57.550
+So that's exactly what we have here.
+
+06:57.580 --> 06:58.370
+Cute.
+
+06:58.570 --> 07:00.780
+The table would you add item.
+
+07:00.900 --> 07:03.730
+But of course it needs to have a entry.
+
+07:04.000 --> 07:07.000
+And here I'm going to say Budapest for example.
+
+07:07.570 --> 07:12.890
+And now once somebody presses the button I also want to changed number that is displayed in there.
+
+07:13.000 --> 07:21.640
+So here I I again need to use qued widgets that queue table widget item and then enter the value.
+
+07:21.640 --> 07:29.680
+Now the value that it expects as it can see queue table widget item and string queue icon or queue table
+
+07:29.680 --> 07:35.590
+widget items so you can enter multiple different versions in here so I'm just going to say something
+
+07:35.710 --> 07:37.150
+like a number.
+
+07:37.180 --> 07:41.800
+So I'm just going to enter a string as a number or a number as a string.
+
+07:41.800 --> 07:44.040
+That's pretty much the way around.
+
+07:44.260 --> 07:51.890
+OK so if I run that now and I execute my partner you can see now changed the value.
+
+07:52.200 --> 08:00.710
+So now we went to Budapest and it changed the value of the inhabitants as well as easy as that.
+
+08:00.710 --> 08:06.390
+So now you know how you can actually change values based on a button click.
+
+08:06.390 --> 08:08.830
+So what does the said item do in general.
+
+08:08.850 --> 08:14.550
+Well we want to change the table widget that we have and we want to set a particular item that we need
+
+08:14.550 --> 08:19.510
+to tell and which row and which column we want to change something.
+
+08:19.560 --> 08:25.950
+And if you want to know which order it is then you can always just call the method and it will help
+
+08:25.950 --> 08:26.370
+you out.
+
+08:26.370 --> 08:32.230
+So said Eitan entered something and you can see it starts with the row.
+
+08:32.430 --> 08:35.020
+So zeroed the comma zero.
+
+08:35.040 --> 08:42.100
+So row column and then it needs to Q2 which are at or Q table widget item here.
+
+08:42.450 --> 08:43.150
+OK.
+
+08:43.440 --> 08:48.890
+So we have the row then the column then we have the items so pretty much the entry of it.
+
+08:48.900 --> 08:54.890
+And then you saw that these can be either numbered can be a string or can be and I can something like
+
+08:54.900 --> 09:02.600
+that in order to in general even get a click button to do something or a button to do something.
+
+09:02.790 --> 09:04.650
+We need to connect it.
+
+09:04.710 --> 09:09.570
+So you see we had this button that we wanted to connect to something.
+
+09:09.780 --> 09:15.380
+Then we said which event that should be so the click events are when somebody clicks on it and we connected
+
+09:15.380 --> 09:22.140
+it to a specific method and we need to only pass the method name and not a method call in here.
+
+09:22.300 --> 09:27.720
+And then we can just define whatever should happen once this button is pressed or once this method is
+
+09:27.720 --> 09:28.240
+called.
+
+09:28.410 --> 09:30.390
+And he will just change our table.
+
+09:30.780 --> 09:40.590
+All right so I'd say we check out how to add an additional row here in the next video when pressing
+
+09:40.590 --> 09:44.600
+the button we want to add a row and then we want to be able to enter data in there.
+
+09:44.610 --> 09:46.620
+So that's what we're going to check out in the next video.
+
+09:46.680 --> 09:47.800
+So see you there.
